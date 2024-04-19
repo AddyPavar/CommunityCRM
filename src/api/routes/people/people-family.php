@@ -1,18 +1,18 @@
 <?php
 
-use ChurchCRM\dto\ChurchMetaData;
-use ChurchCRM\dto\Photo;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\Family;
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\model\ChurchCRM\Token;
-use ChurchCRM\model\ChurchCRM\TokenQuery;
-use ChurchCRM\Slim\Middleware\Request\Auth\EditRecordsRoleAuthMiddleware;
-use ChurchCRM\Slim\Middleware\Request\FamilyAPIMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
-use ChurchCRM\Utils\GeoUtils;
-use ChurchCRM\Utils\LoggerUtils;
-use ChurchCRM\Utils\MiscUtils;
+use CommunityCRM\dto\CommunityMetaData;
+use CommunityCRM\dto\Photo;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\Family;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\model\CommunityCRM\Token;
+use CommunityCRM\model\CommunityCRM\TokenQuery;
+use CommunityCRM\Slim\Middleware\Request\Auth\EditRecordsRoleAuthMiddleware;
+use CommunityCRM\Slim\Middleware\Request\FamilyAPIMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Utils\GeoUtils;
+use CommunityCRM\Utils\LoggerUtils;
+use CommunityCRM\Utils\MiscUtils;
 use Propel\Runtime\ActiveQuery\Criteria;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
@@ -75,7 +75,7 @@ $app->group('/family/{familyId:[0-9]+}', function (RouteCollectorProxy $group): 
         $familyLatLong = GeoUtils::getLatLong($familyAddress);
         $familyDrivingInfo = GeoUtils::drivingDistanceMatrix(
             $familyAddress,
-            ChurchMetaData::getChurchAddress()
+            CommunityMetaData::getCommunityAddress()
         );
         $geoLocationInfo = array_merge($familyDrivingInfo, $familyLatLong);
 

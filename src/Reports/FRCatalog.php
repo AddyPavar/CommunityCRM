@@ -9,18 +9,18 @@
 
 ******************************************************************************/
 
-namespace ChurchCRM\Reports;
+namespace CommunityCRM\Reports;
 
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemConfig;
 
 $iCurrentFundraiser = $_GET['CurrentFundraiser'];
 
 $curY = 0;
 
-class PdfFRCatalogReport extends ChurchInfoReport
+class PdfFRCatalogReport extends CommunityInfoReport
 {
     // Constructor
     public function __construct()

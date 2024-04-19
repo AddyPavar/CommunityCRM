@@ -73,9 +73,9 @@ $("document").ready(function () {
             contentType: "application/json; charset=utf-8",
             dataType: "json",
         }).done(function (data) {
-            if (data.groupType === i18next.t("Sunday School")) {
+            if (data.groupType === i18next.t("Education Initiative")) {
                 window.location.href =
-                    CRM.root + "/sundayschool/SundaySchoolDashboard.php";
+                    CRM.root + "/educationinitiative/EducationInitiativeDashboard.php";
             } else {
                 window.location.href = CRM.root + "/GroupList.php";
             }

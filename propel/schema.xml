@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<database name="default" defaultIdMethod="native" defaultPhpNamingMethod="underscore" nameSpace="ChurchCRM\model\ChurchCRM">
+<database name="default" defaultIdMethod="native" defaultPhpNamingMethod="underscore" nameSpace="CommunityCRM\model\CommunityCRM">
 
     <table name="version_ver" idMethod="native" phpName="Version" description="History of all version upgrades applied to this database">
         <column name="ver_ID" phpName="Id" type="SMALLINT" size="9" sqlType="mediumint(9) unsigned" primaryKey="true"
@@ -506,7 +506,7 @@
         <column name="inactive" phpName="InActive" type="INTEGER" size="1" required="true" defaultValue="0"/>
         <!--
             event_typename is deprecated, and should be removed with 4.1.0.
-            https://github.com/ChurchCRM/CRM/issues/5149
+            https://github.com/CommunityCRM/CRM/issues/5149
             This field denormalizes the event type data by storing a string representation of the event type name
             represented by the field in the event_types table having a foreign key relationship with this table's
             event_type property.  This denormalized event type name storage is unnecessary.
@@ -595,7 +595,7 @@
         </vendor>
     </table>
 
-    <table name="list_lst" idMethod="native" phpName="ListOption" description="This table stores the options for most of the drop down lists in churchCRM, including person classifications, family roles, group types, group roles, group-specific property types, and custom field value lists.">
+    <table name="list_lst" idMethod="native" phpName="ListOption" description="This table stores the options for most of the drop down lists in communityCRM, including person classifications, family roles, group types, group roles, group-specific property types, and custom field value lists.">
         <column name="lst_ID" phpName="Id" type="SMALLINT" size="8" sqlType="mediumint(8) unsigned" required="true" defaultValue="0" primaryKey="true" description="The ID of the list.  Since this is a composite primary key, there may be multiple List IDs"/>
         <column name="lst_OptionID" phpName="OptionId" type="SMALLINT" size="8" sqlType="mediumint(8) unsigned" required="true" defaultValue="0" primaryKey="true" description="The ID of the option in this list.  ***List ID + List Option ID must be unique***"/>
         <column name="lst_OptionSequence" phpName="OptionSequence" type="TINYINT" size="3" sqlType="tinyint(3) unsigned" required="true" defaultValue="0" description="The order in which to display items in this list" />
@@ -605,7 +605,7 @@
         </vendor>
     </table>
 
-    <table name="user_usr" idMethod="native" phpName="User" description="This contains the login information and specific settings for each ChurchCRM user">
+    <table name="user_usr" idMethod="native" phpName="User" description="This contains the login information and specific settings for each CommunityCRM user">
         <column name="usr_per_ID" phpName="PersonId" type="SMALLINT" size="9" sqlType="mediumint(9) unsigned" primaryKey="true" required="true" defaultValue="0"/>
         <column name="usr_Password" phpName="Password" type="VARCHAR" size="500" required="true" defaultValue=""/>
         <column name="usr_NeedPasswordChange" phpName="NeedPasswordChange" type="BOOLEAN" size="1" sqlType="tinyint(3) unsigned" required="true" defaultValue="1"/>
@@ -862,7 +862,7 @@
         </vendor>
     </table>
 
-    <table name="locations" idMethod="native" phpName="Location"  description="This is a table for storing all physical locations (Church Offices, Events, etc) ">
+    <table name="locations" idMethod="native" phpName="Location"  description="This is a table for storing all physical locations (Community Offices, Events, etc) ">
         <column name="location_id" phpName="LocationId" type="SMALLINT" size="8" sqlType="mediumint(8) unsigned" required="true"  primaryKey="true"/>
         <column name="location_typeID" phpName="LocationType" type="SMALLINT" size="8" sqlType="mediumint(8) unsigned" required="true"/>
         <column name="location_name" type="VARCHAR" size="256" required="true" defaultValue="" description="Location Name (e.g 'Main Campus')"/>

@@ -11,7 +11,7 @@ assignees: ''
 
 A clear and concise description of what the reported bug is:
 
-- ChurchCRM version: [e.g. 5.4.3]
+- CommunityCRM version: [e.g. 5.4.3]
 - PHP version the server running: [e.g. PHP 8.2.13]
 - DB Server and Version the server is running: [e.g. MariaDB 11.4, MySQL 8.2]
 
@@ -28,7 +28,7 @@ Steps to reproduce the behavior:
 
 ⚠️ If you cannot do this for some reason, please document the steps to reproduce below.
 
-_(note: this flow is not recommend and will make it more difficult on the maintainers of ChurchCRM)_
+_(note: this flow is not recommend and will make it more difficult on the maintainers of CommunityCRM)_
 
 1. Go to '...' (if possible, please provide the URL path e.g. `/v2/dashboard`)
 2. Click on '....'
@@ -54,7 +54,7 @@ If applicable, please include screenshots or share logs to assist in explaining 
 
 **Debugging Steps**
 
-ℹ️ If you need help debugging, please refer to  the wiki for guidance: https://github.com/ChurchCRM/CRM/wiki/Logging-and-Diagnostics.
+ℹ️ If you need help debugging, please refer to  the wiki for guidance: https://github.com/CommunityCRM/CRM/wiki/Logging-and-Diagnostics.
 
 * What has been done to debug the issue so far?
 * Have you looked at the browser's developer tools to see if an error is thrown / network request failed?

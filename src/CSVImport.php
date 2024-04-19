@@ -6,28 +6,28 @@
  *  last change : 2003-10-02
  *  description : Tool for importing CSV person data into InfoCentral
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2003 Chris Gebhardt
  *
  ******************************************************************************/
 
-namespace ChurchCRM;
+namespace CommunityCRM;
 
 // Include the function library
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\FamilyCustom;
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\model\ChurchCRM\Note;
-use ChurchCRM\model\ChurchCRM\PersonCustom;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
-use ChurchCRM\Utils\LoggerUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\FamilyCustom;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\model\CommunityCRM\Note;
+use CommunityCRM\model\CommunityCRM\PersonCustom;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
+use CommunityCRM\Utils\LoggerUtils;
 
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isAdmin());
 
@@ -620,7 +620,7 @@ if (isset($_POST['DoImport'])) {
                     }
                 } else {
                     $logger->debug("No new family found -make one");
-                    $family = new \ChurchCRM\model\ChurchCRM\Family();
+                    $family = new \CommunityCRM\model\CommunityCRM\Family();
                     $family
                         ->setName($per_LastName)
                         ->setAddress1($sAddress1)

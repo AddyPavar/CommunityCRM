@@ -1,12 +1,12 @@
 <?php
 
-use ChurchCRM\dto\FullCalendarEvent;
-use ChurchCRM\dto\SystemCalendars;
-use ChurchCRM\model\ChurchCRM\Calendar;
-use ChurchCRM\model\ChurchCRM\CalendarQuery;
-use ChurchCRM\model\ChurchCRM\EventQuery;
-use ChurchCRM\Slim\Middleware\Request\Auth\AddEventsRoleAuthMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\dto\FullCalendarEvent;
+use CommunityCRM\dto\SystemCalendars;
+use CommunityCRM\model\CommunityCRM\Calendar;
+use CommunityCRM\model\CommunityCRM\CalendarQuery;
+use CommunityCRM\model\CommunityCRM\EventQuery;
+use CommunityCRM\Slim\Middleware\Request\Auth\AddEventsRoleAuthMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Propel\Runtime\Collection\ObjectCollection;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
@@ -158,7 +158,7 @@ function NewAccessToken(Request $request, Response $response, array $args): Resp
     if (!$Calendar) {
         throw new HttpBadRequestException($request, gettext('Not Found: Unknown calendar id') . ': ' . $args['id']);
     }
-    $Calendar->setAccessToken(ChurchCRM\Utils\MiscUtils::randomToken());
+    $Calendar->setAccessToken(CommunityCRM\Utils\MiscUtils::randomToken());
     $Calendar->save();
 
     return SlimUtils::renderJSON($response, $Calendar->toArray());

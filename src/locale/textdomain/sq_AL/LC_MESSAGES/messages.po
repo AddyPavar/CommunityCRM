@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: sq\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -816,7 +816,7 @@ msgid "Use Title Page"
 msgstr "Përdorni titull në faqe"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "Emri Kisha"
 
 #: 
@@ -896,7 +896,7 @@ msgid "Add New Fund"
 msgstr "Shto fond të ri"
 
 #: 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr "Kisha Event Editor"
 
 #: 
@@ -1501,7 +1501,7 @@ msgid "Graphic"
 msgstr "Grafik"
 
 #: 
-msgid "Church Address"
+msgid "Community Address"
 msgstr "Kisha Adresa"
 
 #: 
@@ -1891,7 +1891,7 @@ msgid "Confirm data labels"
 msgstr "Konfirmo etiketat të dhënave"
 
 #: 
-msgid "Listing All Church Events"
+msgid "Listing All Community Events"
 msgstr "Listing të gjitha ngjarjet e Kishës"
 
 #: 
@@ -2783,7 +2783,7 @@ msgid "Add New Opportunity"
 msgstr "Shto mundësi e re"
 
 #: 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr "Pse keni ardhur në kishë?"
 
 #: 
@@ -2795,7 +2795,7 @@ msgid "Do you have any suggestions for us?"
 msgstr "A keni ndonjë sugjerim për ne?"
 
 #: 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr "Si keni mësuar për kishën?"
 
 #: 
@@ -3057,8 +3057,8 @@ msgid "Member/Friend"
 msgstr "Anëtar / Shoqëri"
 
 #: 
-msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
-msgstr "Ky opsion kërkon të paktën versionin 3.22 të MySQL! Shfletuesi goditi përsëri button për t'u kthyer në ChurchCRM."
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM."
+msgstr "Ky opsion kërkon të paktën versionin 3.22 të MySQL! Shfletuesi goditi përsëri button për t'u kthyer në CommunityCRM."
 
 #: 
 msgid "Work"
@@ -3177,7 +3177,7 @@ msgid "Gift Designation:"
 msgstr "Përcaktimi Dhuratë:"
 
 #: 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr "Raportet e diela Shkolla"
 
 #: 
@@ -3193,7 +3193,7 @@ msgid "Last Sunday"
 msgstr "Të dielën e kaluar"
 
 #: 
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr "No Shkolla e së Dielës"
 
 #: 
@@ -3248,4 +3248,3 @@ msgstr "Familja:"
 #: 
 msgid "item"
 msgstr "artikull"
-

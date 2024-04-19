@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: th\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -255,4 +255,3 @@ msgstr "ชื่อผู้ใช้"
 #: 
 msgid "Last Login"
 msgstr "เข้าสู่ระบบครั้งล่าสุด"
-

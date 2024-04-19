@@ -4,7 +4,7 @@
  *
  *  filename    : PersonCustomFieldsRowOps.php
  *  last change : 2003-03-30
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2003 Chris Gebhardt (http://www.openserve.org)
  *
  *  function    : Row operations for the person custom fields form
@@ -13,9 +13,9 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security: user must be administrator to use this page.
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isAdmin());

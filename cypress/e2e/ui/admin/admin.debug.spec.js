@@ -3,7 +3,7 @@
 context("Admin Debug", () => {
     it("View system debug", () => {
         cy.loginAdmin("v2/admin/debug");
-        cy.contains("ChurchCRM Installation Information");
+        cy.contains("CommunityCRM Installation Information");
         cy.contains("Database");
     });
 

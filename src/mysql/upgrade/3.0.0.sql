@@ -32,7 +32,7 @@ CREATE TABLE `calendar_events` (
 ) ENGINE=InnoDB CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 DROP TABLE IF EXISTS `locations`;
-RENAME TABLE church_location TO locations;
+RENAME TABLE community_location TO locations;
 
 ALTER TABLE user_usr
   ADD COLUMN usr_apiKey VARCHAR(255) AFTER usr_UserName,

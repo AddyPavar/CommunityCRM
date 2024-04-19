@@ -1,8 +1,8 @@
 <?php
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\Family;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\Family;
 
 //Set the page title
 $sPageTitle = gettext(ucfirst($sMode)) . ' ' . gettext('Family List');

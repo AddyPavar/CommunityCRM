@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -73,8 +73,8 @@ msgid "Cell"
 msgstr "Mobile"
 
 #: 
-msgid "Church Zip"
-msgstr "Church Post Code"
+msgid "Community Zip"
+msgstr "Community Post Code"
 
 #: 
 msgid "Zip Code"
@@ -95,4 +95,3 @@ msgstr "Foreground Colour"
 #: 
 msgid "Background Color"
 msgstr "Background Colour"
-

@@ -1,7 +1,7 @@
 <?php
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Slim\Middleware\VersionMiddleware;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Slim\Middleware\VersionMiddleware;
 use Slim\Factory\AppFactory;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 

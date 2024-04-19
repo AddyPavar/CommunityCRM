@@ -24,7 +24,7 @@ $("#submitIssue").click(function () {
         var bugMsg = "**Describe the issue** \n\n\n\n";
         var systemInfo = encodeURIComponent(bugMsg + data["issueBody"]);
         var gitHubURL =
-            "https://github.com/ChurchCRM/CRM/issues/new?assignees=&labels=Web%20Report&body=" +
+            "https://github.com/CommunityCRM/CRM/issues/new?assignees=&labels=Web%20Report&body=" +
             systemInfo;
         window.open(gitHubURL, `github`);
         $("#IssueReportModal").modal("toggle");

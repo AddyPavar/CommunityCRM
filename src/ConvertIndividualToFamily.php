@@ -3,17 +3,17 @@
 /*******************************************************************************
 *
 *  filename    : ConvertIndividualToFamily.php
-*  website     : https://churchcrm.io
+*  website     : https://communitycrm.io
 *  description : utility to convert individuals to families
 *
 *  Must be run manually by an administrator.  Type this URL.
-*    http://www.mydomain.com/churchcrm/ConvertIndividualToFamily.php
+*    http://www.mydomain.com/communitycrm/ConvertIndividualToFamily.php
 *
 *  By default this script does one at a time.  To do all entries
 *  at once use this URL
-*    http://www.mydomain.com/churchcrm/ConvertIndividualToFamily.php?all=true
+*    http://www.mydomain.com/communitycrm/ConvertIndividualToFamily.php?all=true
 *
-*  Your URL may vary.  Replace "churchcrm" with $sRootPath
+*  Your URL may vary.  Replace "communitycrm" with $sRootPath
 *
 *  Contributors:
 *  2007 Ed Davis
@@ -24,10 +24,10 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\model\ChurchCRM\Family;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\model\CommunityCRM\Family;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isAdmin());

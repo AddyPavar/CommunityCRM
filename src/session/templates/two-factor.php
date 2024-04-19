@@ -1,7 +1,7 @@
 <?php
 
-use ChurchCRM\dto\ChurchMetaData;
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\CommunityMetaData;
+use CommunityCRM\dto\SystemURLs;
 
 // Set the page title and include HTML header
 $sPageTitle = gettext('Login');
@@ -10,13 +10,13 @@ require SystemURLs::getDocumentRoot() . '/Include/HeaderNotLoggedIn.php';
 ?>
 <div class="login-box" id="Login">
     <div class="login-logo">
-        Church<b>CRM</b>
+        Community<b>CRM</b>
     </div>
 
     <!-- /.login-logo -->
     <div class="login-box-body">
         <p class="login-box-msg">
-            <b><?= ChurchMetaData::getChurchName() ?></b><br/>
+            <b><?= CommunityMetaData::getCommunityName() ?></b><br/>
             <?= gettext('Please enter 2FA code') ?>
         </p>
 

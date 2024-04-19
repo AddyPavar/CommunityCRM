@@ -12,10 +12,10 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isFinanceEnabled());
@@ -287,7 +287,7 @@ if ($sReportType == '') {
     if (in_array($sReportType, ['Giving Report', 'Zero Givers'])) {
         echo '<tr><td class=LabelColumn>' . gettext('Report Heading:') . '</td>'
             . "<td class=TextColumnWithBottomBorder><input name=letterhead type=radio value='graphic'>" . gettext('Graphic')
-            . " <input name=letterhead type=radio value='address' checked>" . gettext('Church Address')
+            . " <input name=letterhead type=radio value='address' checked>" . gettext('Community Address')
             . " <input name=letterhead type=radio value='none'>" . gettext('Blank') . '</td></tr>';
         echo '<tr><td class=LabelColumn>' . gettext('Remittance Slip:') . '</td>'
             . "<td class=TextColumnWithBottomBorder><input name=remittance type=radio value='yes'>" . gettext('Yes')

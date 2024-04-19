@@ -4,7 +4,7 @@
  *
  *  filename    : WhyCameEditor.php
  *  last change : 2004-6-12
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2001, 2002, 2003 Deane Barker, Chris Gebhardt, Michael Wilt
  *
 
@@ -18,10 +18,10 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\model\ChurchCRM\WhyCame;
-use ChurchCRM\model\ChurchCRM\WhyCameQuery;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\model\CommunityCRM\WhyCame;
+use CommunityCRM\model\CommunityCRM\WhyCameQuery;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 $linkBack = InputUtils::legacyFilterInput($_GET['linkBack']);
 $iPerson = InputUtils::legacyFilterInput($_GET['PersonID']);
@@ -95,7 +95,7 @@ require 'Include/Header.php';
     <form method="post" action="WhyCameEditor.php?<?= 'PersonID=' . $iPerson . '&WhyCameID=' . $iWhyCameID . '&linkBack=' . $linkBack ?>" name="WhyCameEditor">
       <table class="table table-simple-padding">
         <tr>
-          <td class="LabelColumn"><?= gettext('Why did you come to the church?') ?></td>
+          <td class="LabelColumn"><?= gettext('Why did you come to the community?') ?></td>
           <td><textarea name="Join" rows="3" cols="90"><?= $tJoin ?></textarea></td>
         </tr>
         <tr>
@@ -107,7 +107,7 @@ require 'Include/Header.php';
           <td><textarea name="Suggest" rows="3" cols="90"><?= $tSuggest ?></textarea></td>
         </tr>
         <tr>
-          <td class="LabelColumn"><?= gettext('How did you learn of the church?') ?></td>
+          <td class="LabelColumn"><?= gettext('How did you learn of the community?') ?></td>
           <td><textarea name="HearOfUs" rows="3" cols="90"><?= $tHearOfUs ?></textarea></td>
         </tr>
         <tr>

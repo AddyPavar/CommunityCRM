@@ -4,7 +4,7 @@
  *
  *  filename    : DonatedItemReplicate.php
  *  last change : 2015-01-01
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2015 Michael Wilt
   *
  ******************************************************************************/
@@ -13,9 +13,9 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 $iFundRaiserID = $_SESSION['iCurrentFundraiser'];
 $iDonatedItemID = InputUtils::legacyFilterInputArr($_GET, 'DonatedItemID', 'int');

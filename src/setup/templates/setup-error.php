@@ -1,7 +1,7 @@
 <?php
 
 
-$sPageTitle = 'ChurchCRM – Setup Error';
+$sPageTitle = 'CommunityCRM – Setup Error';
 require '../Include/HeaderNotLoggedIn.php';
 ?>
 <style>
@@ -13,7 +13,7 @@ require '../Include/HeaderNotLoggedIn.php';
     }
 
 </style>
-<h1 class="text-center">Welcome to ChurchCRM Setup Error</h1>
+<h1 class="text-center">Welcome to CommunityCRM Setup Error</h1>
 <p/><br/>
 
   <div class="error-page">

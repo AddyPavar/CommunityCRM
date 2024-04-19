@@ -2,7 +2,7 @@
 
 global $sCountry;
 
-use ChurchCRM\data\Countries;
+use CommunityCRM\data\Countries;
 
 $optionTags = [
     '<option value="">' . gettext('Unassigned') . '</option>',

@@ -4,7 +4,7 @@
  *
  *  filename    : BatchWinnerEntry.php
  *  last change : 2011-04-01
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2011 Michael Wilt
   *
  ******************************************************************************/
@@ -13,9 +13,9 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\model\ChurchCRM\DonatedItemQuery;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\model\CommunityCRM\DonatedItemQuery;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 $linkBack = InputUtils::legacyFilterInput($_GET['linkBack']);
 $iCurrentFundraiser = InputUtils::legacyFilterInput($_GET['CurrentFundraiser']);

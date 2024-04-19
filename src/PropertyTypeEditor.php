@@ -4,7 +4,7 @@
  *
  *  filename    : PropertyTypeEditor.php
  *  last change : 2003-01-07
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2001, 2002 Deane Barker
   *
  ******************************************************************************/
@@ -13,9 +13,9 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security: User must have property and classification editing permission
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isMenuOptionsEnabled());

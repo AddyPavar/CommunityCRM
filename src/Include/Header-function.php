@@ -3,7 +3,7 @@
 /*******************************************************************************
  *
  *  filename    : Include/Header-functions.php
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  description : page header used for most pages
  *
  *  Copyright 2001-2004 Phillip Hullquist, Deane Barker, Chris Gebhardt, Michael Wilt
@@ -14,13 +14,13 @@
 
 require_once 'Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Bootstrapper;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\MenuConfigQuery;
-use ChurchCRM\Service\SystemService;
-use ChurchCRM\Utils\PHPToMomentJSConverter;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Bootstrapper;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\MenuConfigQuery;
+use CommunityCRM\Service\SystemService;
+use CommunityCRM\Utils\PHPToMomentJSConverter;
 
 function Header_modals(): void
 {
@@ -81,7 +81,7 @@ function Header_body_scripts(): void
             maxUploadSize: "<?= SystemService::getMaxUploadFileSize(true) ?>",
             maxUploadSizeBytes: "<?= SystemService::getMaxUploadFileSize(false) ?>",
             datePickerformat:"<?= SystemConfig::getValue('sDatePickerPlaceHolder') ?>",
-            churchWebSite:"<?= SystemConfig::getValue('sChurchWebSite') ?>",
+            communityWebSite:"<?= SystemConfig::getValue('sCommunityWebSite') ?>",
             systemConfigs: {
               sDateTimeFormat: "<?= PHPToMomentJSConverter::convertFormatString(SystemConfig::getValue('sDateTimeFormat'))?>",
             },

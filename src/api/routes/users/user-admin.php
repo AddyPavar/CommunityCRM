@@ -1,15 +1,15 @@
 <?php
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Emails\AccountDeletedEmail;
-use ChurchCRM\Emails\ResetPasswordEmail;
-use ChurchCRM\Emails\UnlockedEmail;
-use ChurchCRM\model\ChurchCRM\UserConfigQuery;
-use ChurchCRM\model\ChurchCRM\UserQuery;
-use ChurchCRM\Slim\Middleware\Request\Auth\AdminRoleAuthMiddleware;
-use ChurchCRM\Slim\Middleware\Request\UserAPIMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
-use ChurchCRM\Utils\LoggerUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Emails\AccountDeletedEmail;
+use CommunityCRM\Emails\ResetPasswordEmail;
+use CommunityCRM\Emails\UnlockedEmail;
+use CommunityCRM\model\CommunityCRM\UserConfigQuery;
+use CommunityCRM\model\CommunityCRM\UserQuery;
+use CommunityCRM\Slim\Middleware\Request\Auth\AdminRoleAuthMiddleware;
+use CommunityCRM\Slim\Middleware\Request\UserAPIMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Utils\LoggerUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Routing\RouteCollectorProxy;

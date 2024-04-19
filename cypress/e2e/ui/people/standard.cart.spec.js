@@ -12,7 +12,7 @@ context("Standard Cart", () => {
         cy.wait("@getNewCart");
         cy.visit("v2/cart");
         cy.contains("Cart Functions");
-        cy.contains("Church Admin");
+        cy.contains("Community Admin");
         cy.get("#emptyCart").click();
         cy.contains("You have no items in your cart");
     });

@@ -1,11 +1,11 @@
 {
   "id": "5af62899-4300-552a-5d25-fbebaa9cc779",
-  "name": "demo.churchcrm.io",
+  "name": "demo.communitycrm.io",
   "values": [
     {
       "enabled": true,
       "key": "host",
-      "value": "demo.churchcrm.io/master",
+      "value": "demo.communitycrm.io/master",
       "type": "text"
     }
   ],

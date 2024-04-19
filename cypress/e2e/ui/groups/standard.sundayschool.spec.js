@@ -1,10 +1,10 @@
 /// <reference types="cypress" />
 
-context("Standard Sunday School", () => {
-    it("View Sunday School dashboard", () => {
-        cy.loginStandard("sundayschool/SundaySchoolDashboard.php");
-        cy.contains("Sunday School Dashboard");
-        cy.contains("Sunday School Classes");
-        cy.contains("Students not in a Sunday School Class");
+context("Standard Education Initiative", () => {
+    it("View Education Initiative dashboard", () => {
+        cy.loginStandard("educationinitiative/EducationInitiativeDashboard.php");
+        cy.contains("Education Initiative Dashboard");
+        cy.contains("Education Initiative Classes");
+        cy.contains("Students not in a Education Initiative Class");
     });
 });

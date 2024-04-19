@@ -3,7 +3,7 @@
 /*******************************************************************************
 *
 *  filename    : Reports/PDFLabel.php
-*  website     : https://churchcrm.io
+*  website     : https://communitycrm.io
 *  description : Creates a PDF document containing the addresses of
 *                The people in the Cart
 *
@@ -22,9 +22,9 @@
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Reports\PdfLabel;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Reports\PdfLabel;
+use CommunityCRM\Utils\InputUtils;
 
 function GroupBySalutation(string $famID, $aAdultRole, $aChildRole)
 {
@@ -37,8 +37,8 @@ function GroupBySalutation(string $famID, $aAdultRole, $aChildRole)
     // different names (e.g. "Doug Philbrook & Karen Andrews")
     // When there are zero adults or more than two adults in the family just
     // use the family name.  This is helpful for sending newsletters to places
-    // such as "All Souls Church"
-    // Similar logic is applied if mailing to Sunday School children.
+    // such as "All Souls Community"
+    // Similar logic is applied if mailing to Education Initiative children.
 
     $sSQL = 'SELECT * FROM family_fam WHERE fam_ID=' . $famID;
     $rsFamInfo = RunQuery($sSQL);
@@ -96,7 +96,7 @@ function GroupBySalutation(string $famID, $aAdultRole, $aChildRole)
         }
 
         // If this is not an adult or a child it must be something else.  Maybe it's
-        // another church or the landscape company that mows the lawn.
+        // another community or the landscape company that mows the lawn.
         if (!$bAdult && !$bChild) {
             $aOther[$numOther++] = $member;
         }
@@ -629,7 +629,7 @@ function GenerateLabels(&$pdf, $mode, $iBulkMailPresort, $bToParents, $bOnlyComp
         // family even when they are grouped.
         // At most one label for all adults
         // At most one label for all children
-        // At most one label for all others (for example, another church or a landscape
+        // At most one label for all others (for example, another community or a landscape
         // company)
 
         $sRowClass = AlternateRowStyle($sRowClass);

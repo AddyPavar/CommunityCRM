@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -61,8 +61,8 @@ msgid "Backup Database"
 msgstr "バックアップデータベース"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "このツールは、手動でChurchCRMデータベースをバックアップする際に役立ちます"
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "このツールは、手動でCommunityCRMデータベースをバックアップする際に役立ちます"
 
 #: 
 msgid "You should make a manual backup at least once a week unless you already have a regular backup procedure for your systems."
@@ -73,8 +73,8 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "バックアップ ファイルをダウンロードしたら、コピーを 2 つ作成する必要があります　そのうちの 1 つをサイト内の耐火金庫に置き、もう 1 つをサイト外の安全な場所に置きます"
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
-msgstr "ChurchCRM データベースに保存されているデータの機密性が心配な場合は、他の人がアクセスできる可能性のある場所にバックアップ データを保存する場合は、バックアップ データを暗号化する必要があります"
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgstr "CommunityCRM データベースに保存されているデータの機密性が心配な場合は、他の人がアクセスできる可能性のある場所にバックアップ データを保存する場合は、バックアップ データを暗号化する必要があります"
 
 #: 
 msgid "Select archive type"
@@ -385,7 +385,7 @@ msgid "Use Title Page"
 msgstr "タイトルページを使う"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "教会名"
 
 #: 
@@ -645,7 +645,7 @@ msgid "Next"
 msgstr "次"
 
 #: 
-msgid "Church Address"
+msgid "Community Address"
 msgstr "教会住所"
 
 #: 
@@ -837,8 +837,8 @@ msgid "Enter new user password. Administratively set passwords are not subject t
 msgstr "新しいユーザーパスワードを入力します　管理者が設定したパスワードには、長さや複雑さの要件は適用されません"
 
 #: 
-msgid "ChurchCRM Installation Information"
-msgstr "ChurchCRMのインストール情報"
+msgid "CommunityCRM Installation Information"
+msgstr "CommunityCRMのインストール情報"
 
 #: 
 msgid "Web Server"
@@ -951,4 +951,3 @@ msgstr "これが機能しない場合は、次のリンクをコピーしてブ
 #: 
 msgid "You received this email because we received a request for activity on your account. If you didn't request this you can safely delete this email."
 msgstr "このメールは、あなたのアカウントに対するアクティビティのリクエストを受け取ったために受信しました　リクエストしていない場合は、このメールを削除しても安全です"
-

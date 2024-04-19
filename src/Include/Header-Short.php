@@ -1,6 +1,6 @@
 <?php
 
-use ChurchCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemConfig;
 
 require_once 'Header-function.php';
 if (SystemConfig::debugEnabled()) {

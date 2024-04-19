@@ -1,11 +1,11 @@
 <?php
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\model\ChurchCRM\Deposit;
-use ChurchCRM\model\ChurchCRM\DepositQuery;
-use ChurchCRM\model\ChurchCRM\PledgeQuery;
-use ChurchCRM\Slim\Middleware\Request\Auth\FinanceRoleAuthMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\model\CommunityCRM\Deposit;
+use CommunityCRM\model\CommunityCRM\DepositQuery;
+use CommunityCRM\model\CommunityCRM\PledgeQuery;
+use CommunityCRM\Slim\Middleware\Request\Auth\FinanceRoleAuthMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Routing\RouteCollectorProxy;
@@ -73,7 +73,7 @@ $app->group('/deposits', function (RouteCollectorProxy $group): void {
     $group->get('/{id:[0-9]+}/csv', function (Request $request, Response $response, array $args): Response {
         $id = (int) $args['id'];
 
-        $filename = 'ChurchCRM-Deposit-' . $id . '-' . date(SystemConfig::getValue('sDateFilenameFormat')) . '.csv';
+        $filename = 'CommunityCRM-Deposit-' . $id . '-' . date(SystemConfig::getValue('sDateFilenameFormat')) . '.csv';
         $csvData = PledgeQuery::create()->filterByDepId($id)
             ->joinDonationFund()->useDonationFundQuery()
             ->withColumn('DonationFund.Name', 'DonationFundName')

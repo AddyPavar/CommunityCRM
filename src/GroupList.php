@@ -3,7 +3,7 @@
 /*******************************************************************************
 *
 *  filename    : GroupList.php
-*  website     : https://churchcrm.io
+*  website     : https://communitycrm.io
 *  copyright   : Copyright 2001, 2002 Deane Barker
 *  update      : 2017-11-02, Philippe Logel
 *
@@ -22,9 +22,9 @@ require 'Include/Functions.php';
 $sPageTitle = gettext('Group Listing');
 require 'Include/Header.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\ListOptionQuery;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\ListOptionQuery;
 
 $rsGroupTypes = ListOptionQuery::create()->filterById('3')->find();
 

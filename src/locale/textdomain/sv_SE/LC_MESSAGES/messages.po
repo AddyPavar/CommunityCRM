@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -61,8 +61,8 @@ msgid "Backup Database"
 msgstr "Säkerhetskopiera databasen"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "Detta verktyg hjälper dig att manuellt säkerhetskopiera ChurchCRM-databasen."
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "Detta verktyg hjälper dig att manuellt säkerhetskopiera CommunityCRM-databasen."
 
 #: 
 #, fuzzy
@@ -74,8 +74,8 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "Äfter nerladdningen av säkerhetskopian,  gör en till kopia. Spara en kopia i en brandsäkert kassaskåp på plats och en brandsäkert kassaskåp någonannanstans"
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
-msgstr "Om du är orolig för sekretess för data som lagras i ChurchCRM-databasen, bör du kryptera säkerhetskopieringsdata om de kommer att lagras någonstans som kan komma åt andra"
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgstr "Om du är orolig för sekretess för data som lagras i CommunityCRM-databasen, bör du kryptera säkerhetskopieringsdata om de kommer att lagras någonstans som kan komma åt andra"
 
 #: 
 #, fuzzy
@@ -918,7 +918,7 @@ msgid "Use Title Page"
 msgstr "Använd titel sida"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "Kyrkans namn"
 
 #: 
@@ -1015,7 +1015,7 @@ msgid "Add New Fund"
 msgstr "Lägg till ny fond"
 
 #: 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr "Kyrkans evenemang redigeringsverktyg"
 
 #: 
@@ -1768,7 +1768,7 @@ msgid "Graphic"
 msgstr "Grafisk"
 
 #: 
-msgid "Church Address"
+msgid "Community Address"
 msgstr "Kyrkans adress"
 
 #: 
@@ -2293,7 +2293,7 @@ msgid "Listing Events of Type = "
 msgstr "Lista händelser av typ ="
 
 #: 
-msgid "Listing All Church Events"
+msgid "Listing All Community Events"
 msgstr "Lista över alla evenamang"
 
 #: 
@@ -2379,7 +2379,7 @@ msgid "Assign starting at #"
 msgstr "Tilldelning:"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
+msgid "Unable to display map due to missing Community Latitude or Longitude. Please update the community Address in the settings menu."
 msgstr "Det gick inte att visa karta på grund av saknad kyrka Latitude eller Longitud. Uppdatera kyrkans adress i inställningsmenyn."
 
 #: 
@@ -2449,7 +2449,7 @@ msgid "See All People"
 msgstr "Se alla personer"
 
 #: 
-msgid "Sunday School Kids"
+msgid "Education Initiative Kids"
 msgstr "Söndagsskolungarn"
 
 #: 
@@ -2501,7 +2501,7 @@ msgid "Girls"
 msgstr "Flickor"
 
 #: 
-msgid "Sunday School Classes"
+msgid "Education Initiative Classes"
 msgstr "Söndagsskolakurser"
 
 #: 
@@ -3469,7 +3469,7 @@ msgid "\"Why Came\" notes for "
 msgstr "\"Varför kom\" anteckningar för "
 
 #: 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr "Varför kom du till kyrkan?"
 
 #: 
@@ -3481,7 +3481,7 @@ msgid "Do you have any suggestions for us?"
 msgstr "Har du några förslag för oss?"
 
 #: 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr "Hur fick du reda på kyrkan?"
 
 #: 
@@ -3591,8 +3591,8 @@ msgid "Custom Drop-Down List"
 msgstr "Fritt anpassade 'drop down' lista"
 
 #: 
-msgid "Thank you for registering your ChurchCRM installation."
-msgstr "Tack för att du registrerade din ChurchCRM-installation."
+msgid "Thank you for registering your CommunityCRM installation."
+msgstr "Tack för att du registrerade din CommunityCRM-installation."
 
 #: 
 msgid "PDFs successfully emailed "
@@ -3844,8 +3844,8 @@ msgid "Member/Friend"
 msgstr "Medlemmar/vän"
 
 #: 
-msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
-msgstr "Denna val krävs att minst version 3.22 av MySql! Slå på din webbrowsers tillbaka knapp för att återgå till ChurchCRM."
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM."
+msgstr "Denna val krävs att minst version 3.22 av MySql! Slå på din webbrowsers tillbaka knapp för att återgå till CommunityCRM."
 
 #: 
 msgid "Work"
@@ -3966,11 +3966,11 @@ msgid "Gift Designation:"
 msgstr "Bidrag till:"
 
 #: 
-msgid "Sunday School"
+msgid "Education Initiative"
 msgstr "Söndagsskola"
 
 #: 
-msgid "Sunday School Class Functions"
+msgid "Education Initiative Class Functions"
 msgstr "Söndagsskolas klassfunktioner"
 
 #: 
@@ -4062,7 +4062,7 @@ msgid "Discard"
 msgstr "Kassera"
 
 #: 
-msgid "Sunday School Dashboard"
+msgid "Education Initiative Dashboard"
 msgstr "Söndagskola instrumentbräda"
 
 #: 
@@ -4070,7 +4070,7 @@ msgid "Classes"
 msgstr "Klasser"
 
 #: 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr "Söndagskola rapporter"
 
 #: 
@@ -4082,7 +4082,7 @@ msgid "Export All Classes, Kids, and Parent to CSV file"
 msgstr "Exportera alla klasser, barn och förälder till CSV-fil"
 
 #: 
-msgid "Students not in a Sunday School Class"
+msgid "Students not in a Education Initiative Class"
 msgstr "Elever som inte är i en söndagsskoleklass"
 
 #: 
@@ -4119,7 +4119,7 @@ msgstr "Sista söndag"
 
 #: 
 #, fuzzy
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr "Inga söndagskola"
 
 #: 
@@ -4262,8 +4262,8 @@ msgid "CAUTION: This will completely erase the existing database, and replace it
 msgstr "VARNING: Detta raderar den befintliga databasen helt och ersätter den med säkerhetskopian"
 
 #: 
-msgid "If you upload a backup from ChurchInfo, or a previous version of ChurchCRM, it will be automatically upgraded to the current database schema"
-msgstr "Om du laddar upp en säkerhetskopia från ChurchInfo eller en tidigare version av ChurchCRM kommer den att uppgraderas automatiskt till det aktuella databasschemat"
+msgid "If you upload a backup from CommunityInfo, or a previous version of CommunityCRM, it will be automatically upgraded to the current database schema"
+msgstr "Om du laddar upp en säkerhetskopia från CommunityInfo eller en tidigare version av CommunityCRM kommer den att uppgraderas automatiskt till det aktuella databasschemat"
 
 #: 
 msgid "Upload Files"
@@ -4286,7 +4286,7 @@ msgid "Restore Error."
 msgstr "Återställningsfel."
 
 #: 
-msgid "Church Information"
+msgid "Community Information"
 msgstr "Kyrklig information"
 
 #: 
@@ -4335,8 +4335,8 @@ msgid "Edit Settings"
 msgstr "Ändra inställningar"
 
 #: 
-msgid "Upgrade ChurchCRM"
-msgstr "Uppgradera ChurchCRM"
+msgid "Upgrade CommunityCRM"
+msgstr "Uppgradera CommunityCRM"
 
 #: 
 msgid "Step 1: Backup Database"
@@ -4355,8 +4355,8 @@ msgid "Step 2: Fetch Update Package on Server"
 msgstr "Steg 2: Hämta uppdateringspaket på servern"
 
 #: 
-msgid "Fetch the latest files from the ChurchCRM GitHub release page"
-msgstr "Hämta de senaste filerna från ChurchCRM GitHub-släppsidan"
+msgid "Fetch the latest files from the CommunityCRM GitHub release page"
+msgstr "Hämta de senaste filerna från CommunityCRM GitHub-släppsidan"
 
 #: 
 msgid "Fetch Update Files"
@@ -4443,11 +4443,11 @@ msgid "Enter Name"
 msgstr "Skriv namn"
 
 #: 
-msgid "Update Church Info"
+msgid "Update Community Info"
 msgstr "Uppdatera kyrkinfo"
 
 #: 
-msgid "Set Church Address"
+msgid "Set Community Address"
 msgstr "Ställ in kyrkans adress"
 
 #: 
@@ -4787,7 +4787,7 @@ msgid "with this Property..."
 msgstr "med den här fastigheten ..."
 
 #: 
-msgid "Church Email"
+msgid "Community Email"
 msgstr "Kyrkans e-post"
 
 #: 
@@ -4861,11 +4861,11 @@ msgid "First month of the fiscal year"
 msgstr "Första månaden av räkenskapsåret"
 
 #: 
-msgid "Latitude of the church, used to center the Google map"
+msgid "Latitude of the community, used to center the Google map"
 msgstr "Kyrkans bredd, används för att centrera Google-kartan"
 
 #: 
-msgid "Longitude of the church, used to center the Google map"
+msgid "Longitude of the community, used to center the Google map"
 msgstr "Kyrkans longitud, används för att centrera Google-kartan"
 
 #: 
@@ -4921,8 +4921,8 @@ msgid "Set true to enable family self registration."
 msgstr "Ställ in sant för att möjliggöra familjeregistrering."
 
 #: 
-msgid "ChurchCRM has been registered.  The ChurchCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
-msgstr "ChurchCRM har registrerats. ChurchCRM-teamet använder registreringsinformation för att spåra användningen. Denna information hålls konfidentiell och släpps eller säljs aldrig. Om detta fält är sant ändras registreringsalternativet i admin-menyn för att uppdatera registreringen."
+msgid "CommunityCRM has been registered.  The CommunityCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
+msgstr "CommunityCRM har registrerats. CommunityCRM-teamet använder registreringsinformation för att spåra användningen. Denna information hålls konfidentiell och släpps eller säljs aldrig. Om detta fält är sant ändras registreringsalternativet i admin-menyn för att uppdatera registreringen."
 
 #: 
 msgid "Left Margin (1 = 1/100th inch)"
@@ -4933,23 +4933,23 @@ msgid "Line Thickness (1 = 1/100th inch"
 msgstr "Linjetjocklek (1 = 1 / 100th inch)"
 
 #: 
-msgid "Church City"
-msgstr "Church City"
+msgid "Community City"
+msgstr "Community City"
 
 #: 
-msgid "Church State"
-msgstr "Church State"
+msgid "Community State"
+msgstr "Community State"
 
 #: 
-msgid "Church Zip"
-msgstr "Church Zip"
+msgid "Community Zip"
+msgstr "Community Zip"
 
 #: 
-msgid "Church Phone"
+msgid "Community Phone"
 msgstr "Kyrktelefon"
 
 #: 
-msgid "Home area code of the church"
+msgid "Home area code of the community"
 msgstr "Kyrkans hemnummer"
 
 #: 
@@ -4997,7 +4997,7 @@ msgid "Verbage for the directory report"
 msgstr "Verbage för katalograpporten"
 
 #: 
-msgid "Church Letterhead path and file"
+msgid "Community Letterhead path and file"
 msgstr "Kyrkans brevpappersväg och fil"
 
 #: 
@@ -5049,11 +5049,11 @@ msgid "List Groups"
 msgstr "Lista grupper"
 
 #: 
-msgid "List Church Events"
+msgid "List Community Events"
 msgstr "Lista kyrkans evenemang"
 
 #: 
-msgid "Add Church Event"
+msgid "Add Community Event"
 msgstr "Lägg till kyrkans evenemang"
 
 #: 
@@ -5258,7 +5258,7 @@ msgid "The birthday month for which you would like records returned."
 msgstr "Födelsedagsmånaden som du vill ha poster tillbaka för."
 
 #: 
-msgid "The sunday school class for which you would like records returned."
+msgid "The education initiative class for which you would like records returned."
 msgstr "Söndagsskoleklassen som du vill ha poster tillbaka för."
 
 #: 
@@ -6738,11 +6738,11 @@ msgid "Please verify your family's information"
 msgstr "Kontrollera din familjs information"
 
 #: 
-msgid "Church Address is not Set."
+msgid "Community Address is not Set."
 msgstr "Kyrkans adress är inte inställd."
 
 #: 
-msgid "Church Name is set to default value"
+msgid "Community Name is set to default value"
 msgstr "Kyrkans namn är inställt på standardvärde"
 
 #: 
@@ -6966,7 +6966,7 @@ msgid "The previous integrity check passed.  All system file hashes match the ex
 msgstr "Den föregående integritetskontrollen passerade. Alla systemfil hascher matchar de förväntade värdena."
 
 #: 
-msgid "Church Checking Account Number"
+msgid "Community Checking Account Number"
 msgstr "Kyrkan kontrollerar kontonummer"
 
 #: 
@@ -7146,16 +7146,16 @@ msgid "Display bill counts on deposit slip"
 msgstr "Visa räkningar räknas på insättningsslipp"
 
 #: 
-msgid "ChurchCRM Cloud Access URL"
-msgstr "ChurchCRM Cloud Access URL"
+msgid "CommunityCRM Cloud Access URL"
+msgstr "CommunityCRM Cloud Access URL"
 
 #: 
 msgid "Your Account was Deleted"
 msgstr "Ditt konto raderades"
 
 #: 
-msgid "Your ChurchCRM Account was Deleted."
-msgstr "Ditt ChurchCRM-konto raderades."
+msgid "Your CommunityCRM Account was Deleted."
+msgstr "Ditt CommunityCRM-konto raderades."
 
 #: 
 msgid "Account Locked"
@@ -7302,24 +7302,24 @@ msgid "Select GeoCoder Provider"
 msgstr "Välj GeoCoder-leverantör"
 
 #: 
-msgid "Your ChurchCRM account was locked."
-msgstr "Ditt ChurchCRM-konto var låst."
+msgid "Your CommunityCRM account was locked."
+msgstr "Ditt CommunityCRM-konto var låst."
 
 #: 
-msgid "A ChurchCRM account was created for you"
-msgstr "Ett ChurchCRM-konto skapades för dig"
+msgid "A CommunityCRM account was created for you"
+msgstr "Ett CommunityCRM-konto skapades för dig"
 
 #: 
-msgid "Your ChurchCRM password was changed"
-msgstr "Ditt ChurchCRM-lösenord ändrades"
+msgid "Your CommunityCRM password was changed"
+msgstr "Ditt CommunityCRM-lösenord ändrades"
 
 #: 
-msgid "You can reset your ChurchCRM password by clicking this link"
-msgstr "Du kan återställa ditt ChurchCRM-lösenord genom att klicka på den här länken"
+msgid "You can reset your CommunityCRM password by clicking this link"
+msgstr "Du kan återställa ditt CommunityCRM-lösenord genom att klicka på den här länken"
 
 #: 
-msgid "Your ChurchCRM account was unlocked."
-msgstr "Ditt ChurchCRM-konto låstes upp."
+msgid "Your CommunityCRM account was unlocked."
+msgstr "Ditt CommunityCRM-konto låstes upp."
 
 #: 
 msgid "system user created"
@@ -7486,8 +7486,8 @@ msgid "Please go to this location"
 msgstr "Gå till den här platsen"
 
 #: 
-msgid "You ChurchCRM updated password has been changed"
-msgstr "Ditt ChurchCRM-uppdaterade lösenord har ändrats"
+msgid "You CommunityCRM updated password has been changed"
+msgstr "Ditt CommunityCRM-uppdaterade lösenord har ändrats"
 
 #: 
 msgid "Password Reset Link"
@@ -7550,7 +7550,7 @@ msgid "Text Cart"
 msgstr "Textvagn"
 
 #: 
-msgid "Your Church's Website"
+msgid "Your Community's Website"
 msgstr "Din kyrkas webbplats"
 
 #: 
@@ -7658,12 +7658,12 @@ msgid "Thai"
 msgstr "Thai"
 
 #: 
-msgid "Your Church's Facebook Page"
+msgid "Your Community's Facebook Page"
 msgstr "Din kyrkas Facebook-sida"
 
 #: 
 #, fuzzy
-msgid "Your Church's X Page"
+msgid "Your Community's X Page"
 msgstr "Din kyrkas X-sida"
 
 #: 
@@ -7731,23 +7731,23 @@ msgid "New Family Added"
 msgstr "Ny familj tillagd"
 
 #: 
-msgid "Church Greeter"
-msgstr "Church Greeter"
+msgid "Community Greeter"
+msgstr "Community Greeter"
 
 #: 
 msgid "External Calendar API is disabled"
 msgstr "Extern kalender-API är inaktiverad"
 
 #: 
-msgid "Special Group Settings : Sunday School Type"
+msgid "Special Group Settings : Education Initiative Type"
 msgstr "Särskilda gruppinställningar: söndagsskolatyp"
 
 #: 
-msgid "Sunday School group can't be modified, only in this two cases :"
+msgid "Education Initiative group can't be modified, only in this two cases :"
 msgstr "Söndagsskolegruppen kan inte ändras, bara i dessa två fall:"
 
 #: 
-msgid "You can create/delete sunday school group. "
+msgid "You can create/delete education initiative group. "
 msgstr "Du kan skapa / ta bort söndagsskolegruppen."
 
 #: 
@@ -8047,15 +8047,15 @@ msgid "Field where last Confession is stored, must be a date type"
 msgstr "Fältet där den senaste konfessionen lagras, måste vara en datumtyp"
 
 #: 
-msgid "Require that this ChurchCRM Database is accessed over HTTPS"
-msgstr "Kräv att denna ChurchCRM-databas nås via HTTPS"
+msgid "Require that this CommunityCRM Database is accessed over HTTPS"
+msgstr "Kräv att denna CommunityCRM-databas nås via HTTPS"
 
 #: 
 msgid "People Setup"
 msgstr "Personinställningar"
 
 #: 
-msgid "Church Services"
+msgid "Community Services"
 msgstr "Kyrkotjänster"
 
 #: 
@@ -8356,7 +8356,7 @@ msgid "Show custom links on the left menu."
 msgstr "Visa anpassade länkar på vänster meny."
 
 #: 
-msgid "Enable Sunday School left menu."
+msgid "Enable Education Initiative left menu."
 msgstr "Aktivera söndagsskolans vänstermeny."
 
 #: 
@@ -8428,8 +8428,8 @@ msgid "User must have Delete Records permission"
 msgstr "Användaren måste ha tillåtelse att ta bort poster"
 
 #: 
-msgid "ChurchCRM Central Notifications URL"
-msgstr "ChurchCRM Central Notifications URL"
+msgid "CommunityCRM Central Notifications URL"
+msgstr "CommunityCRM Central Notifications URL"
 
 #: 
 #, fuzzy
@@ -8577,11 +8577,11 @@ msgid "Person Name"
 msgstr "Personnamn"
 
 #: 
-msgid "Custom message for church greeter email 1, max 255 characters"
+msgid "Custom message for community greeter email 1, max 255 characters"
 msgstr "Anpassat meddelande för kyrkans greeter e-post 1, max 255 tecken"
 
 #: 
-msgid "Custom message for church greeter email 2, max 255 characters"
+msgid "Custom message for community greeter email 2, max 255 characters"
 msgstr "Anpassat meddelande för kyrkans greeter e-post 2, max 255 tecken"
 
 #: 
@@ -8649,8 +8649,8 @@ msgid "Warning: Signature mismatch"
 msgstr "Varning: Missanpassning av signatur"
 
 #: 
-msgid "Some ChurchCRM system files may have been modified since the last installation."
-msgstr "Vissa ChurchCRM-systemfiler kan ha ändrats sedan den senaste installationen."
+msgid "Some CommunityCRM system files may have been modified since the last installation."
+msgstr "Vissa CommunityCRM-systemfiler kan ha ändrats sedan den senaste installationen."
 
 #: 
 msgid "This upgrade will completely destroy any customizations made to the following files by reverting the files to the official version."
@@ -8936,8 +8936,8 @@ msgid "Requires users to self-enroll in 2 factor authentication"
 msgstr "Kräver att användare registrerar sig i tvåfaktorautentisering"
 
 #: 
-msgid "ChurchCRM"
-msgstr "ChurchCRM"
+msgid "CommunityCRM"
+msgstr "CommunityCRM"
 
 #: 
 msgid "Specify the application name to be displayed in authenticator app"
@@ -9012,8 +9012,8 @@ msgid "Unable To Begin Two Factor Authentication Enrollment"
 msgstr "Det går inte att påbörja registrering av tvåfaktorautentisering"
 
 #: 
-msgid "Two factor authentication requires ChurchCRM administrators to configure a few parameters"
-msgstr "Tvåfaktorautentisering kräver att ChurchCRM-administratörer konfigurerar några parametrar"
+msgid "Two factor authentication requires CommunityCRM administrators to configure a few parameters"
+msgstr "Tvåfaktorautentisering kräver att CommunityCRM-administratörer konfigurerar några parametrar"
 
 #: 
 msgid "System configuration "
@@ -9101,12 +9101,12 @@ msgid "Invalid List id"
 msgstr "Ogiltig lista-id"
 
 #: 
-msgid "Audience not in the ChurchCRM"
-msgstr "Publiken inte i ChurchCRM"
+msgid "Audience not in the CommunityCRM"
+msgstr "Publiken inte i CommunityCRM"
 
 #: 
-msgid "ChurchCRM Installation Information"
-msgstr "ChurchCRM installationsinformation"
+msgid "CommunityCRM Installation Information"
+msgstr "CommunityCRM installationsinformation"
 
 #: 
 msgid "Database Server Version"
@@ -9265,16 +9265,16 @@ msgid "Event Description"
 msgstr "Händelsebeskrivning"
 
 #: 
-msgid "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
-msgstr "Registrering av ditt ChurchCRM-användarkonto i Two Factor Authention ger ytterligare ett försvar mot dåliga aktörer som försöker komma åt ditt konto."
+msgid "Enrolling your CommunityCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
+msgstr "Registrering av ditt CommunityCRM-användarkonto i Two Factor Authention ger ytterligare ett försvar mot dåliga aktörer som försöker komma åt ditt konto."
 
 #: 
-msgid "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
-msgstr "ChurchCRM Two factor stöder alla TOTP-autentiseringsappar, så du kan välja mellan Microsoft Authenticator, Google Authenticator, Authy, LastPass och andra"
+msgid "CommunityCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
+msgstr "CommunityCRM Two factor stöder alla TOTP-autentiseringsappar, så du kan välja mellan Microsoft Authenticator, Google Authenticator, Authy, LastPass och andra"
 
 #: 
-msgid "When you sign in to ChurchCRM, you'll still enter your username and password like normal"
-msgstr "När du loggar in på ChurchCRM anger du fortfarande ditt användarnamn och lösenord som vanligt"
+msgid "When you sign in to CommunityCRM, you'll still enter your username and password like normal"
+msgstr "När du loggar in på CommunityCRM anger du fortfarande ditt användarnamn och lösenord som vanligt"
 
 #: 
 msgid "However, you'll also need to supply a one-time code from your authenticator device to complete your login"
@@ -9285,8 +9285,8 @@ msgid "After successfully entering both your credentials, and the one-time code,
 msgstr "När du har angett både dina autentiseringsuppgifter och engångskoden är du inloggad som vanligt"
 
 #: 
-msgid "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
-msgstr "För att förhindra att du låses ut ur ditt ChurchCRM-konto, se till att du är redo att slutföra tvåfaktorsregistrering innan du klickar på"
+msgid "To prevent being locked out of your CommunityCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
+msgstr "För att förhindra att du låses ut ur ditt CommunityCRM-konto, se till att du är redo att slutföra tvåfaktorsregistrering innan du klickar på"
 
 #: 
 msgid "Beginning enrollment will invalidate any previously enrolled 2 factor devices and recovery codes."
@@ -9409,4 +9409,3 @@ msgstr "Api Nyckel"
 #: 
 msgid "Regen API Key"
 msgstr "Regen API-nyckel"
-

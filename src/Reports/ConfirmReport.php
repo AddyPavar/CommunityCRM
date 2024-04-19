@@ -9,15 +9,15 @@
 *
 ******************************************************************************/
 
-namespace ChurchCRM\Reports;
+namespace CommunityCRM\Reports;
 
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Utils\MiscUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Utils\MiscUtils;
 
-class PdfConfirmReport extends ChurchInfoReport
+class PdfConfirmReport extends CommunityInfoReport
 {
     // Constructor
     public function __construct()

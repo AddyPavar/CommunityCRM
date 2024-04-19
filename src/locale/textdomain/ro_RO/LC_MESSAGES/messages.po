@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
 
@@ -61,8 +61,8 @@ msgid "Backup Database"
 msgstr "Baza de date de rezervă"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "Această unealtă vă va ajuta în crearea manuală a unei copii de rezervă pentru baza de date ChurchCRM."
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "Această unealtă vă va ajuta în crearea manuală a unei copii de rezervă pentru baza de date CommunityCRM."
 
 #: 
 #, fuzzy
@@ -74,8 +74,8 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "După ce descărcați fișierul copie de rezervă, ar trebui să faceți două copii. Pune una dintre acestea într-un seif ignifug la fața locului, iar celălaltă într-un loc sigur în afara amplasamentului."
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
-msgstr "Dacă aveți îngrijorări vis-a-vis de confidențialitatea datelor stocate în baza de date ChurchCRM ar trebui să criptați copia de rezervă, mai ales dacă ele sunt stocate într-un loc în care și alții le-ar putea accesa."
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgstr "Dacă aveți îngrijorări vis-a-vis de confidențialitatea datelor stocate în baza de date CommunityCRM ar trebui să criptați copia de rezervă, mai ales dacă ele sunt stocate într-un loc în care și alții le-ar putea accesa."
 
 #: 
 #, fuzzy
@@ -915,7 +915,7 @@ msgid "Use Title Page"
 msgstr "Utilizați titlu Pagină"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "Numele Bisericii"
 
 #: 
@@ -1011,7 +1011,7 @@ msgid "Add New Fund"
 msgstr "Adăugați un nou fond"
 
 #: 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr "Editor de evenimente bisericești"
 
 #: 
@@ -1762,7 +1762,7 @@ msgid "Graphic"
 msgstr "Grafic"
 
 #: 
-msgid "Church Address"
+msgid "Community Address"
 msgstr "Adresa bisericii"
 
 #: 
@@ -2281,7 +2281,7 @@ msgid "Listing Events of Type = "
 msgstr "Listarea evenimentelor de tip = "
 
 #: 
-msgid "Listing All Church Events"
+msgid "Listing All Community Events"
 msgstr "Listarea Tuturor Evenimentelor Bisericii"
 
 #: 
@@ -2362,7 +2362,7 @@ msgid "Assign starting at #"
 msgstr "Atribuirea incepand de la #"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
+msgid "Unable to display map due to missing Community Latitude or Longitude. Please update the community Address in the settings menu."
 msgstr "Imposibil de afișat harta din cauza lipsei latitudinii sau longitudinii Bisericii. Vă rugăm să actualizați adresa Bisericii în meniul de setări"
 
 #: 
@@ -2432,7 +2432,7 @@ msgid "See All People"
 msgstr "Vezi toți membrii"
 
 #: 
-msgid "Sunday School Kids"
+msgid "Education Initiative Kids"
 msgstr "Copii școala duminicală"
 
 #: 
@@ -2484,7 +2484,7 @@ msgid "Girls"
 msgstr "Fete"
 
 #: 
-msgid "Sunday School Classes"
+msgid "Education Initiative Classes"
 msgstr "Clase școală duminicală"
 
 #: 
@@ -3431,7 +3431,7 @@ msgid "\"Why Came\" notes for "
 msgstr "\"De ce a venit\" note de"
 
 #: 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr "De ce ai venit la biserică?"
 
 #: 
@@ -3443,7 +3443,7 @@ msgid "Do you have any suggestions for us?"
 msgstr "Ai vreo sugestie pentru noi?"
 
 #: 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr "Cum ați aflat de biserica?"
 
 #: 
@@ -3551,8 +3551,8 @@ msgid "Custom Drop-Down List"
 msgstr "Personalizat din lista drop-down"
 
 #: 
-msgid "Thank you for registering your ChurchCRM installation."
-msgstr "Mulțumim că ați înregistrat instalarea ce ChurchCRM"
+msgid "Thank you for registering your CommunityCRM installation."
+msgstr "Mulțumim că ați înregistrat instalarea ce CommunityCRM"
 
 #: 
 msgid "PDFs successfully emailed "
@@ -3803,8 +3803,8 @@ msgid "Member/Friend"
 msgstr "Membru / Prieten"
 
 #: 
-msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
-msgstr "Această opțiune solicită cel puțin versiunea 3.22 a MySQL! Hit butonul back al browser pentru a reveni la ChurchCRM."
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM."
+msgstr "Această opțiune solicită cel puțin versiunea 3.22 a MySQL! Hit butonul back al browser pentru a reveni la CommunityCRM."
 
 #: 
 msgid "Work"
@@ -3923,11 +3923,11 @@ msgid "Gift Designation:"
 msgstr "Cadou Denumire:"
 
 #: 
-msgid "Sunday School"
+msgid "Education Initiative"
 msgstr "Școală duminicală"
 
 #: 
-msgid "Sunday School Class Functions"
+msgid "Education Initiative Class Functions"
 msgstr "Funcții școală duminicală"
 
 #: 
@@ -4019,7 +4019,7 @@ msgid "Discard"
 msgstr "Renunță"
 
 #: 
-msgid "Sunday School Dashboard"
+msgid "Education Initiative Dashboard"
 msgstr "Panou școala Duminicală"
 
 #: 
@@ -4027,7 +4027,7 @@ msgid "Classes"
 msgstr "Clase"
 
 #: 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr "Rapoarte de Școală Duminicală"
 
 #: 
@@ -4039,7 +4039,7 @@ msgid "Export All Classes, Kids, and Parent to CSV file"
 msgstr "Exportă toate clasele, copii și părinții către CSV"
 
 #: 
-msgid "Students not in a Sunday School Class"
+msgid "Students not in a Education Initiative Class"
 msgstr "Studenți care nu sunt în școala Dumincală"
 
 #: 
@@ -4075,7 +4075,7 @@ msgstr "Duminica trecută"
 
 #: 
 #, fuzzy
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr "Nu Școală Duminicală"
 
 #: 
@@ -4218,8 +4218,8 @@ msgid "CAUTION: This will completely erase the existing database, and replace it
 msgstr "ATENȚIE: Aceasta va suprascrie baza de date existăntă cu datele din back-up"
 
 #: 
-msgid "If you upload a backup from ChurchInfo, or a previous version of ChurchCRM, it will be automatically upgraded to the current database schema"
-msgstr "Dacă încărcați o copie de rezervă de la ChurchInfo sau o versiune anterioară a ChurchCRM, aceasta va fi actualizată automat la schema bazei de date curente"
+msgid "If you upload a backup from CommunityInfo, or a previous version of CommunityCRM, it will be automatically upgraded to the current database schema"
+msgstr "Dacă încărcați o copie de rezervă de la CommunityInfo sau o versiune anterioară a CommunityCRM, aceasta va fi actualizată automat la schema bazei de date curente"
 
 #: 
 msgid "Upload Files"
@@ -4242,7 +4242,7 @@ msgid "Restore Error."
 msgstr "Eroare la restaurare"
 
 #: 
-msgid "Church Information"
+msgid "Community Information"
 msgstr "Informații biserică"
 
 #: 
@@ -4291,8 +4291,8 @@ msgid "Edit Settings"
 msgstr "Editeaza setarile"
 
 #: 
-msgid "Upgrade ChurchCRM"
-msgstr "Actualizeaza ChurchCRM"
+msgid "Upgrade CommunityCRM"
+msgstr "Actualizeaza CommunityCRM"
 
 #: 
 msgid "Step 1: Backup Database"
@@ -4311,8 +4311,8 @@ msgid "Step 2: Fetch Update Package on Server"
 msgstr "Pasul 2: Pachetul de actualizare pe Server"
 
 #: 
-msgid "Fetch the latest files from the ChurchCRM GitHub release page"
-msgstr "Preia ultimile fișiere de pe ChurchCRM GitHub "
+msgid "Fetch the latest files from the CommunityCRM GitHub release page"
+msgstr "Preia ultimile fișiere de pe CommunityCRM GitHub "
 
 #: 
 msgid "Fetch Update Files"
@@ -4399,11 +4399,11 @@ msgid "Enter Name"
 msgstr "Introdu nume"
 
 #: 
-msgid "Update Church Info"
+msgid "Update Community Info"
 msgstr "Actualizează informații biserică"
 
 #: 
-msgid "Set Church Address"
+msgid "Set Community Address"
 msgstr "Alege adresă biserică"
 
 #: 
@@ -4743,7 +4743,7 @@ msgid "with this Property..."
 msgstr "cu această Proprietate.."
 
 #: 
-msgid "Church Email"
+msgid "Community Email"
 msgstr "Email biserică"
 
 #: 
@@ -4817,11 +4817,11 @@ msgid "First month of the fiscal year"
 msgstr "Prima luna a anului fiscal"
 
 #: 
-msgid "Latitude of the church, used to center the Google map"
+msgid "Latitude of the community, used to center the Google map"
 msgstr "Latitudinea bisericii, folosită pentru centrarea hărții"
 
 #: 
-msgid "Longitude of the church, used to center the Google map"
+msgid "Longitude of the community, used to center the Google map"
 msgstr "Longitudinea bisericii, folosită pentru centrarea hărții"
 
 #: 
@@ -4877,8 +4877,8 @@ msgid "Set true to enable family self registration."
 msgstr "Setați true pentru a permite auto înregistrarea"
 
 #: 
-msgid "ChurchCRM has been registered.  The ChurchCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
-msgstr "ChurchCRM a fost înregistrată. Echipa ChurchCRM folosește informații de înregistrare pentru a urmări utilizarea. Aceste informații sunt păstrate confidențial și nu sunt niciodată eliberate sau vândute. Dacă acest câmp este adevărat, opțiunea de înregistrare din meniul admin se modifică pentru a actualiza înregistrarea."
+msgid "CommunityCRM has been registered.  The CommunityCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
+msgstr "CommunityCRM a fost înregistrată. Echipa CommunityCRM folosește informații de înregistrare pentru a urmări utilizarea. Aceste informații sunt păstrate confidențial și nu sunt niciodată eliberate sau vândute. Dacă acest câmp este adevărat, opțiunea de înregistrare din meniul admin se modifică pentru a actualiza înregistrarea."
 
 #: 
 msgid "Left Margin (1 = 1/100th inch)"
@@ -4889,23 +4889,23 @@ msgid "Line Thickness (1 = 1/100th inch"
 msgstr "Grosime linie (1 = 1/100th inci)"
 
 #: 
-msgid "Church City"
+msgid "Community City"
 msgstr "Orașul bisericii"
 
 #: 
-msgid "Church State"
+msgid "Community State"
 msgstr "Județul bisericii"
 
 #: 
-msgid "Church Zip"
+msgid "Community Zip"
 msgstr "Cod poștal biserică"
 
 #: 
-msgid "Church Phone"
+msgid "Community Phone"
 msgstr "Telefon biserică"
 
 #: 
-msgid "Home area code of the church"
+msgid "Home area code of the community"
 msgstr "Cod telefonic biserică"
 
 #: 
@@ -4953,7 +4953,7 @@ msgid "Verbage for the directory report"
 msgstr "Verbalizare pentru raportul directorului"
 
 #: 
-msgid "Church Letterhead path and file"
+msgid "Community Letterhead path and file"
 msgstr "Calea și fișierul cu antetul Bisericii"
 
 #: 
@@ -5005,11 +5005,11 @@ msgid "List Groups"
 msgstr "Listează grupurile"
 
 #: 
-msgid "List Church Events"
+msgid "List Community Events"
 msgstr "Listează evenimentele Bisericii"
 
 #: 
-msgid "Add Church Event"
+msgid "Add Community Event"
 msgstr "Adaugă event al Bisericii"
 
 #: 
@@ -5214,7 +5214,7 @@ msgid "The birthday month for which you would like records returned."
 msgstr "Luna de naștere pentru care doriți să se vedeți înregistrările."
 
 #: 
-msgid "The sunday school class for which you would like records returned."
+msgid "The education initiative class for which you would like records returned."
 msgstr "Clasa duminicală pentru care doriți să vedeți înregistrările"
 
 #: 
@@ -6695,11 +6695,11 @@ msgid "Please verify your family's information"
 msgstr "Vă rugăm verificați informațiile legat de familie"
 
 #: 
-msgid "Church Address is not Set."
+msgid "Community Address is not Set."
 msgstr "Adresa biserica nu este stabilită"
 
 #: 
-msgid "Church Name is set to default value"
+msgid "Community Name is set to default value"
 msgstr "Numele bisericii este stabilit la valoarea implicită"
 
 #: 
@@ -6923,7 +6923,7 @@ msgid "The previous integrity check passed.  All system file hashes match the ex
 msgstr "Verificarea anterioară a integrității a trecut. Toate hashurile fișierelor de sistem se potrivesc valorilor așteptate."
 
 #: 
-msgid "Church Checking Account Number"
+msgid "Community Checking Account Number"
 msgstr "Numărul contului de verificare al Bisericii"
 
 #: 
@@ -7103,15 +7103,15 @@ msgid "Display bill counts on deposit slip"
 msgstr "Afișarea numărului de facturi pe bonul de depozit"
 
 #: 
-msgid "ChurchCRM Cloud Access URL"
-msgstr "Adresa URL de acces la ChurchCRM Cloud"
+msgid "CommunityCRM Cloud Access URL"
+msgstr "Adresa URL de acces la CommunityCRM Cloud"
 
 #: 
 msgid "Your Account was Deleted"
 msgstr "Contul tău a fost șters"
 
 #: 
-msgid "Your ChurchCRM Account was Deleted."
+msgid "Your CommunityCRM Account was Deleted."
 msgstr "Contul tău CurchCRM a fost șters"
 
 #: 
@@ -7259,23 +7259,23 @@ msgid "Select GeoCoder Provider"
 msgstr "Selectați furnizor GeoCode"
 
 #: 
-msgid "Your ChurchCRM account was locked."
-msgstr "Contul tău ChurchCRM a fost blocat."
+msgid "Your CommunityCRM account was locked."
+msgstr "Contul tău CommunityCRM a fost blocat."
 
 #: 
-msgid "A ChurchCRM account was created for you"
+msgid "A CommunityCRM account was created for you"
 msgstr "Un cont CurchCRM a fost creat pentru tine"
 
 #: 
-msgid "Your ChurchCRM password was changed"
+msgid "Your CommunityCRM password was changed"
 msgstr "Parola pentru contul CurchCRM a fost schimbată"
 
 #: 
-msgid "You can reset your ChurchCRM password by clicking this link"
+msgid "You can reset your CommunityCRM password by clicking this link"
 msgstr "Poți reseta parola contului CurchCRM folosind acest link"
 
 #: 
-msgid "Your ChurchCRM account was unlocked."
+msgid "Your CommunityCRM account was unlocked."
 msgstr "Contul tău CurchCRM a fost deblocat."
 
 #: 
@@ -7443,7 +7443,7 @@ msgid "Please go to this location"
 msgstr "Navigați la această locație"
 
 #: 
-msgid "You ChurchCRM updated password has been changed"
+msgid "You CommunityCRM updated password has been changed"
 msgstr "Parola ta actualizată pentru CurchCRM a fost schimbată"
 
 #: 
@@ -7507,7 +7507,7 @@ msgid "Text Cart"
 msgstr "Text coș"
 
 #: 
-msgid "Your Church's Website"
+msgid "Your Community's Website"
 msgstr "Adresă web biserică"
 
 #: 
@@ -7615,12 +7615,12 @@ msgid "Thai"
 msgstr "Tailandez"
 
 #: 
-msgid "Your Church's Facebook Page"
+msgid "Your Community's Facebook Page"
 msgstr "Pargina de Facebook a bisericii"
 
 #: 
 #, fuzzy
-msgid "Your Church's X Page"
+msgid "Your Community's X Page"
 msgstr "Pargina de X a bisericii"
 
 #: 
@@ -7688,7 +7688,7 @@ msgid "New Family Added"
 msgstr "Familie nouă adăugată"
 
 #: 
-msgid "Church Greeter"
+msgid "Community Greeter"
 msgstr "Salut biserică"
 
 #: 
@@ -7696,15 +7696,15 @@ msgid "External Calendar API is disabled"
 msgstr "Api calendar dezactivat"
 
 #: 
-msgid "Special Group Settings : Sunday School Type"
+msgid "Special Group Settings : Education Initiative Type"
 msgstr "Setări speciale de grup: tipul școlii duminicale"
 
 #: 
-msgid "Sunday School group can't be modified, only in this two cases :"
+msgid "Education Initiative group can't be modified, only in this two cases :"
 msgstr "Grupul Școlii duminicale nu poate fi modificat, doar în aceste două cazuri:"
 
 #: 
-msgid "You can create/delete sunday school group. "
+msgid "You can create/delete education initiative group. "
 msgstr "Puteți crea / șterge grupul școlii duminicale."
 
 #: 
@@ -8004,15 +8004,15 @@ msgid "Field where last Confession is stored, must be a date type"
 msgstr "Câmpul în care este stocată ultima Spovedanie trebuie să fie de tip dată"
 
 #: 
-msgid "Require that this ChurchCRM Database is accessed over HTTPS"
-msgstr "Solicitați accesul acestei baze de date ChurchCRM prin HTTPS"
+msgid "Require that this CommunityCRM Database is accessed over HTTPS"
+msgstr "Solicitați accesul acestei baze de date CommunityCRM prin HTTPS"
 
 #: 
 msgid "People Setup"
 msgstr "Setări persoane"
 
 #: 
-msgid "Church Services"
+msgid "Community Services"
 msgstr "Servicii biserică"
 
 #: 
@@ -8313,7 +8313,7 @@ msgid "Show custom links on the left menu."
 msgstr "Arată link-urile personalizate în meniul din stânga"
 
 #: 
-msgid "Enable Sunday School left menu."
+msgid "Enable Education Initiative left menu."
 msgstr "Activați meniul Școală Duminicală "
 
 #: 
@@ -8385,8 +8385,8 @@ msgid "User must have Delete Records permission"
 msgstr "Utilizatorul trebuie să aibă permisiuni pentru ștergerea înregistrărilor"
 
 #: 
-msgid "ChurchCRM Central Notifications URL"
-msgstr "URL-ul pentru Notificări Centrale ChurchCRM"
+msgid "CommunityCRM Central Notifications URL"
+msgstr "URL-ul pentru Notificări Centrale CommunityCRM"
 
 #: 
 #, fuzzy
@@ -8534,11 +8534,11 @@ msgid "Person Name"
 msgstr "Nume persoană"
 
 #: 
-msgid "Custom message for church greeter email 1, max 255 characters"
+msgid "Custom message for community greeter email 1, max 255 characters"
 msgstr "Mesaj personalizat pentru e-mailul de bun venit în biserică 1, maxim 255 de caractere"
 
 #: 
-msgid "Custom message for church greeter email 2, max 255 characters"
+msgid "Custom message for community greeter email 2, max 255 characters"
 msgstr "Mesaj personalizat pentru e-mailul de bun venit în biserică 2, maxim 255 de caractere"
 
 #: 
@@ -8606,8 +8606,8 @@ msgid "Warning: Signature mismatch"
 msgstr "Avertisment: Incompatibilitate de semnătură"
 
 #: 
-msgid "Some ChurchCRM system files may have been modified since the last installation."
-msgstr "Este posibil ca unele fișiere de sistem ChurchCRM să fi fost modificate de la ultima instalare"
+msgid "Some CommunityCRM system files may have been modified since the last installation."
+msgstr "Este posibil ca unele fișiere de sistem CommunityCRM să fi fost modificate de la ultima instalare"
 
 #: 
 msgid "This upgrade will completely destroy any customizations made to the following files by reverting the files to the official version."
@@ -8890,7 +8890,7 @@ msgid "Requires users to self-enroll in 2 factor authentication"
 msgstr "Cere utilizatorilor să se înregistreze singuri în autentificarea cu doi factori"
 
 #: 
-msgid "ChurchCRM"
+msgid "CommunityCRM"
 msgstr "BisericaCRM"
 
 #: 
@@ -8966,8 +8966,8 @@ msgid "Unable To Begin Two Factor Authentication Enrollment"
 msgstr "Imposibil de început înregistrarea autentificării în 2 pași"
 
 #: 
-msgid "Two factor authentication requires ChurchCRM administrators to configure a few parameters"
-msgstr "Autentificarea în 2 pași necesită ca administratorii ChurchCRM să configureze câțiva parametri"
+msgid "Two factor authentication requires CommunityCRM administrators to configure a few parameters"
+msgstr "Autentificarea în 2 pași necesită ca administratorii CommunityCRM să configureze câțiva parametri"
 
 #: 
 msgid "System configuration "
@@ -9054,12 +9054,12 @@ msgid "Invalid List id"
 msgstr "Id listă invalid"
 
 #: 
-msgid "Audience not in the ChurchCRM"
-msgstr "Publicul care nu este în ChurchCRM"
+msgid "Audience not in the CommunityCRM"
+msgstr "Publicul care nu este în CommunityCRM"
 
 #: 
-msgid "ChurchCRM Installation Information"
-msgstr "Informații de instalarea a sistemului ChurchCRM"
+msgid "CommunityCRM Installation Information"
+msgstr "Informații de instalarea a sistemului CommunityCRM"
 
 #: 
 msgid "Database Server Version"
@@ -9218,16 +9218,16 @@ msgid "Event Description"
 msgstr "Descriere eveniment"
 
 #: 
-msgid "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
-msgstr "Înregistrarea contului dvs. de utilizator ChurchCRM în Autentificarea în Doi Pași oferă un strat suplimentar de protecție împotriva utilizatorilor rău voitori care încearcă să acceseze contul dvs"
+msgid "Enrolling your CommunityCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
+msgstr "Înregistrarea contului dvs. de utilizator CommunityCRM în Autentificarea în Doi Pași oferă un strat suplimentar de protecție împotriva utilizatorilor rău voitori care încearcă să acceseze contul dvs"
 
 #: 
-msgid "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
-msgstr "Autentificarea în doi pași din ChurchCRM suportă orice aplicație autentificatoare TOTP, așa că aveți libertatea să alegeți între Microsoft Authenticator, Google Authenticator, Authy, LastPass și altele"
+msgid "CommunityCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
+msgstr "Autentificarea în doi pași din CommunityCRM suportă orice aplicație autentificatoare TOTP, așa că aveți libertatea să alegeți între Microsoft Authenticator, Google Authenticator, Authy, LastPass și altele"
 
 #: 
-msgid "When you sign in to ChurchCRM, you'll still enter your username and password like normal"
-msgstr "Când vă conectați la ChurchCRM, veți introduce în continuare numele de utilizator și parola ca de obicei"
+msgid "When you sign in to CommunityCRM, you'll still enter your username and password like normal"
+msgstr "Când vă conectați la CommunityCRM, veți introduce în continuare numele de utilizator și parola ca de obicei"
 
 #: 
 msgid "However, you'll also need to supply a one-time code from your authenticator device to complete your login"
@@ -9238,8 +9238,8 @@ msgid "After successfully entering both your credentials, and the one-time code,
 msgstr "După ce ați introdus cu succes atât datele de autentificare, cât și codul unic, veți fi conectat ca de obicei"
 
 #: 
-msgid "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
-msgstr "Pentru a evita să fiți blocat din contul dvs ChurchCRM, vă rugăm să vă asigurați că sunteți pregătit să finalizați înregistrarea în două pași înainte de a face clic pe începere"
+msgid "To prevent being locked out of your CommunityCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
+msgstr "Pentru a evita să fiți blocat din contul dvs CommunityCRM, vă rugăm să vă asigurați că sunteți pregătit să finalizați înregistrarea în două pași înainte de a face clic pe începere"
 
 #: 
 msgid "Beginning enrollment will invalidate any previously enrolled 2 factor devices and recovery codes."
@@ -9488,4 +9488,3 @@ msgstr "Total depozit"
 #: 
 msgid "Group Cart Status"
 msgstr "Stare coș grup"
-

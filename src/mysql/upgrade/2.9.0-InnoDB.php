@@ -1,6 +1,6 @@
 <?php
 
-use ChurchCRM\Utils\LoggerUtils;
+use CommunityCRM\Utils\LoggerUtils;
 use Propel\Runtime\Propel;
 
 $connection = Propel::getConnection();

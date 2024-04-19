@@ -4,7 +4,7 @@
  *
  *  filename    : GroupEditor.php
  *  last change : 2003-04-15
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2001, 2002, 2003 Deane Barker, Chris Gebhardt
  *                Copyright 2004-2012 Michael Wilt
  *
@@ -14,13 +14,13 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\GroupQuery;
-use ChurchCRM\model\ChurchCRM\ListOptionQuery;
-use ChurchCRM\Service\GroupService;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\GroupQuery;
+use CommunityCRM\model\CommunityCRM\ListOptionQuery;
+use CommunityCRM\Service\GroupService;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security: User must have Manage Groups permission
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isManageGroupsEnabled());
@@ -62,7 +62,7 @@ require 'Include/Header.php';
 
 <div class="card">
   <div class="card-header">
-    <h3 class="card-title"><?= (($thisGroup->isSundaySchool()) ? gettext("Special Group Settings : Sunday School Type") : gettext('Group Settings')) ?></h3>
+    <h3 class="card-title"><?= (($thisGroup->isEducationInitiative()) ? gettext("Special Group Settings : Education Initiative Type") : gettext('Group Settings')) ?></h3>
   </div>
   <div class="card-body">
     <form name="groupEditForm" id="groupEditForm">
@@ -83,7 +83,7 @@ require 'Include/Header.php';
           <div class="col-sm-3">
             <label for="GroupType"><?= gettext('Type of Group') ?>:</label>
             <?php
-            if ($thisGroup->isSundaySchool()) {
+            if ($thisGroup->isEducationInitiative()) {
                 $hide = "style=\"display:none;\"";
             } else {
                 $hide = "";
@@ -102,13 +102,13 @@ require 'Include/Header.php';
                 } ?>
             </select>
             <?php
-            if ($thisGroup->isSundaySchool()) {
+            if ($thisGroup->isEducationInitiative()) {
                 ?>
-                <b><?= gettext("Sunday School") ?></b>
-                <p><?= gettext("Sunday School group can't be modified, only in this two cases :")?></p>
+                <b><?= gettext("Education Initiative") ?></b>
+                <p><?= gettext("Education Initiative group can't be modified, only in this two cases :")?></p>
                 <ul>
                                 <li>
-                                    <?= gettext("You can create/delete sunday school group. ")?>
+                                    <?= gettext("You can create/delete education initiative group. ")?>
                                 </li>
                                 <li>
                                     <?= gettext("Add new roles, but not modify or rename the Student and the Teacher roles.")?>

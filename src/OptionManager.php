@@ -4,7 +4,7 @@
  *
  *  filename    : OptionsManager.php
  *  last change : 2003-04-16
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2003 Chris Gebhardt
  *
  *  OptionName : Interface for editing simple selection options such as those
@@ -16,10 +16,10 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\model\ChurchCRM\ListOption;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\model\CommunityCRM\ListOption;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 $mode = trim($_GET['mode']);
 

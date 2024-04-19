@@ -1,9 +1,9 @@
 <?php
 
-use ChurchCRM\Service\FinancialService;
-use ChurchCRM\Service\GroupService;
-use ChurchCRM\Service\PersonService;
-use ChurchCRM\Service\SystemService;
+use CommunityCRM\Service\FinancialService;
+use CommunityCRM\Service\GroupService;
+use CommunityCRM\Service\PersonService;
+use CommunityCRM\Service\SystemService;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 // DIC configuration

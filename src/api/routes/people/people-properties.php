@@ -1,15 +1,15 @@
 <?php
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\model\ChurchCRM\PropertyQuery;
-use ChurchCRM\model\ChurchCRM\RecordProperty;
-use ChurchCRM\model\ChurchCRM\RecordPropertyQuery;
-use ChurchCRM\Slim\Middleware\Request\Auth\MenuOptionsRoleAuthMiddleware;
-use ChurchCRM\Slim\Middleware\Request\FamilyAPIMiddleware;
-use ChurchCRM\Slim\Middleware\Request\PersonAPIMiddleware;
-use ChurchCRM\Slim\Middleware\Request\PropertyAPIMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
-use ChurchCRM\Utils\LoggerUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\model\CommunityCRM\PropertyQuery;
+use CommunityCRM\model\CommunityCRM\RecordProperty;
+use CommunityCRM\model\CommunityCRM\RecordPropertyQuery;
+use CommunityCRM\Slim\Middleware\Request\Auth\MenuOptionsRoleAuthMiddleware;
+use CommunityCRM\Slim\Middleware\Request\FamilyAPIMiddleware;
+use CommunityCRM\Slim\Middleware\Request\PersonAPIMiddleware;
+use CommunityCRM\Slim\Middleware\Request\PropertyAPIMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Utils\LoggerUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Exception\HttpNotFoundException;

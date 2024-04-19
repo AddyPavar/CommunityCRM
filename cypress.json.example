@@ -1,5 +1,5 @@
 {
-    "baseUrl": "https://churchcrm:8890",
+    "baseUrl": "https://communitycrm:8890",
     "pageLoadTimeout": 100000,
     "viewportHeight": 1080,
     "viewportWidth": 1920,

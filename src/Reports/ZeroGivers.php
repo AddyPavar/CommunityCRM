@@ -9,15 +9,15 @@
 *
 ******************************************************************************/
 
-namespace ChurchCRM\Reports;
+namespace CommunityCRM\Reports;
 
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isFinanceEnabled());
@@ -79,7 +79,7 @@ if ($output === 'pdf') {
         $bottom_border2 = 250;
     }
 
-    class PdfZeroGivers extends ChurchInfoReport
+    class PdfZeroGivers extends CommunityInfoReport
     {
         // Constructor
         public function __construct()
@@ -169,7 +169,7 @@ if ($output === 'pdf') {
 
     // Export file
     header('Content-type: text/x-csv');
-    header('Content-Disposition: attachment; filename=ChurchCRM-' . date(SystemConfig::getValue('sDateFilenameFormat')) . '.csv');
+    header('Content-Disposition: attachment; filename=CommunityCRM-' . date(SystemConfig::getValue('sDateFilenameFormat')) . '.csv');
     echo $buffer;
 } else {
     echo '[' . $output . '] output selected, but is not known';

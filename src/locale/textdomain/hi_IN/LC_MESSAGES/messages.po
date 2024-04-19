@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -62,8 +62,8 @@ msgid "Backup Database"
 msgstr "बैकअप डेटाबेस"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "यह टूल ChurchCRM डेटाबेस का मैन्युअल रूप से बैकअप लेने में आपकी सहायता करेगा।"
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "यह टूल CommunityCRM डेटाबेस का मैन्युअल रूप से बैकअप लेने में आपकी सहायता करेगा।"
 
 #: 
 msgid "You should make a manual backup at least once a week unless you already have a regular backup procedure for your systems."
@@ -74,7 +74,7 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "बैकअप फ़ाइल डाउनलोड करने के बाद, आपको दो प्रतियां बनानी चाहिए। उनमें से एक को साइट पर अग्निरोधक तिजोरी में रखें और दूसरे को साइट से बाहर किसी सुरक्षित स्थान पर रखें।"
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
 msgstr "यदि आप चर्चसीआरएम डेटाबेस में संग्रहीत डेटा की गोपनीयता के बारे में चिंतित हैं, तो आपको बैकअप डेटा को एन्क्रिप्ट करना चाहिए यदि इसे किसी ऐसे स्थान पर संग्रहीत किया जाएगा जो संभावित रूप से दूसरों के लिए सुलभ हो।"
 
 #: 
@@ -478,4 +478,3 @@ msgstr "एक पीडीएफ तैयार करें जिसमे�
 #: 
 msgid " Canvass Input for the "
 msgstr "␣के लिए कैनवस इनपुट"
-

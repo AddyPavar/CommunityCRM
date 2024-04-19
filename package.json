@@ -1,22 +1,22 @@
 {
-    "name": "churchcrm",
+    "name": "communitycrm",
     "version": "5.7.0",
-    "description": "Free Church CRM Software",
+    "description": "Free Community CRM Software",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ChurchCRM/CRM.git"
+        "url": "https://github.com/CommunityCRM/CRM.git"
     },
     "keywords": [
-        "Church",
+        "Community",
         "CRM",
         "LAMP",
         "Free"
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/ChurchCRM/CRM/issues"
+        "url": "https://github.com/CommunityCRM/CRM/issues"
     },
-    "homepage": "https://churchcrm.io",
+    "homepage": "https://communitycrm.io",
     "scripts": {
         "clean": "rm -rf node_modules/ src/vendor/ src/skin/external",
         "preinstall": "grunt clean",

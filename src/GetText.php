@@ -4,10 +4,10 @@
  *
  *  filename    : GetText.php
  *  last change : 2005-09-08
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2005 Todd Pillars
  *
- *  function    : Get Text from Church Events Table in popup window
+ *  function    : Get Text from Community Events Table in popup window
   *
  ******************************************************************************/
 

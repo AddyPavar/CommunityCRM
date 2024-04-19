@@ -5,7 +5,7 @@
  *  filename    : PrintView.php
  *  last change : 2003-01-29
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2001-2003 Phillip Hullquist, Deane Barker, Chris Gebhardt
  *  update 2017 : Philippe Logel
  *
@@ -15,11 +15,11 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\MiscUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\MiscUtils;
 
 ;
 

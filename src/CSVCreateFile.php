@@ -4,7 +4,7 @@
  *
  *  filename    : CSVCreateFile.php
  *  last change : 2003-06-11
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2001-2003 Deane Barker, Chris Gebhardt, Michael Wilt
   *
  ******************************************************************************/
@@ -13,14 +13,14 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\dto\Cart;
-use ChurchCRM\dto\Classification;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\model\ChurchCRM\Base\PersonQuery;
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\MiscUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\dto\Cart;
+use CommunityCRM\dto\Classification;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\model\CommunityCRM\Base\PersonQuery;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\MiscUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 $delimiter = SystemConfig::getValue('sCSVExportDelimiter');
 
@@ -351,7 +351,7 @@ if ($sFormat === 'addtocart') {
     $headerString .= "\n";
 
     header('Content-type: text/x-csv;charset=' . SystemConfig::getValue('sCSVExportCharset'));
-    header('Content-Disposition: attachment; filename=churchcrm-export-' . date(SystemConfig::getValue('sDateFilenameFormat')) . '.csv');
+    header('Content-Disposition: attachment; filename=communitycrm-export-' . date(SystemConfig::getValue('sDateFilenameFormat')) . '.csv');
 
     //add BOM to fix UTF-8 in Excel 2016 but not under, so the problem is solved with the sCSVExportCharset variable
     if (SystemConfig::getValue('sCSVExportCharset') === 'UTF-8') {

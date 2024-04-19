@@ -2,13 +2,13 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\dto\ChurchMetaData;
-use ChurchCRM\dto\Classification;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\Base\FamilyQuery;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\dto\CommunityMetaData;
+use CommunityCRM\dto\Classification;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\Base\FamilyQuery;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Utils\InputUtils;
 use Propel\Runtime\ActiveQuery\Criteria;
 
 //Set the page title
@@ -24,10 +24,10 @@ $iGroupID = InputUtils::legacyFilterInput($_GET['GroupID'], 'int');
     <?= gettext('Missing Families? Update Family Latitude or Longitude now.') ?>
 </div>
 
-<?php if (ChurchMetaData::getChurchLatitude() === '') {
+<?php if (CommunityMetaData::getCommunityLatitude() === '') {
     ?>
     <div class="callout callout-danger">
-        <?= gettext('Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu.') ?>
+        <?= gettext('Unable to display map due to missing Community Latitude or Longitude. Please update the community Address in the settings menu.') ?>
     </div>
     <?php
 } else {
@@ -163,9 +163,9 @@ $iGroupID = InputUtils::legacyFilterInput($_GET['GroupID'], 'int');
                 }
             }
         };
-        var churchloc = {
-            lat: <?= ChurchMetaData::getChurchLatitude() ?>,
-            lng: <?= ChurchMetaData::getChurchLongitude() ?>};
+        var communityloc = {
+            lat: <?= CommunityMetaData::getCommunityLatitude() ?>,
+            lng: <?= CommunityMetaData::getCommunityLongitude() ?>};
 
 
         var markerIcons = <?= json_encode($markerIcons) ?>;
@@ -198,14 +198,14 @@ $iGroupID = InputUtils::legacyFilterInput($_GET['GroupID'], 'int');
             // init map
             map = new google.maps.Map(document.getElementById('map'), {
                 zoom: <?= SystemConfig::getValue("iMapZoom")?>,
-                center: churchloc
+                center: communityloc
 
             });
 
-            //Churchmark
-            var churchMark = new google.maps.Marker({
-                icon: window.CRM.root + "/skin/icons/church.png",
-                position: new google.maps.LatLng(churchloc),
+            //Communitymark
+            var communityMark = new google.maps.Marker({
+                icon: window.CRM.root + "/skin/icons/community.png",
+                position: new google.maps.LatLng(communityloc),
                 map: map
             });
 

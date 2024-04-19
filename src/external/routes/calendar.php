@@ -1,8 +1,8 @@
 <?php
 
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Slim\Middleware\Request\PublicCalendarAPIMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Slim\Middleware\Request\PublicCalendarAPIMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Slim\Routing\RouteCollectorProxy;
 use Slim\Views\PhpRenderer;
 use Psr\Http\Message\ResponseInterface as Response;

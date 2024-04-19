@@ -21,7 +21,7 @@ context("Standard Groups", () => {
 
     it("View Group ", () => {
         cy.loginStandard("GroupView.php?GroupID=9");
-        cy.contains("Group View : Church Board");
+        cy.contains("Group View : Community Board");
         cy.get("#deleteSelectedRows").should("be.visible");
     });
 

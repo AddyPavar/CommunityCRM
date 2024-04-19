@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: en-au\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -106,8 +106,8 @@ msgid "Internationalization (I18n) support"
 msgstr "Internationalisation (I18n) support"
 
 #: 
-msgid "Church Zip"
-msgstr "Church Postcode"
+msgid "Community Zip"
+msgstr "Community Postcode"
 
 #: 
 msgid "Zip Code"
@@ -128,4 +128,3 @@ msgstr "Make user-entered postcodes UPPERCASE when saving to the database."
 #: 
 msgid "This upgrade will completely destroy any customizations made to the following files by reverting the files to the official version."
 msgstr "This upgrade will completely destroy any customisations made to the following files by reverting the files to the official version."
-

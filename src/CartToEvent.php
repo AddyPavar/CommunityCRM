@@ -6,7 +6,7 @@
  *  last change : 2005-09-09
  *  description : Add cart records to an event
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2001-2003 Phillip Hullquist, Deane Barker, Chris Gebhardt
  *  Copyright 2005 Todd Pillars
  *  Copyright 2012 Michael Wilt
@@ -17,12 +17,12 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\Cart;
-use ChurchCRM\model\ChurchCRM\EventAttend;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\LoggerUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\Cart;
+use CommunityCRM\model\CommunityCRM\EventAttend;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\LoggerUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security: User must have Manage Groups & Roles permission
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isManageGroupsEnabled());

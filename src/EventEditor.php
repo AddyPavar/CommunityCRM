@@ -4,11 +4,11 @@
  *
  *  filename    : EventEditor.php
  *  last change : 2005-09-10
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2005 Todd Pillars
  *                Copyright 2012 Michael Wilt
  *
- *  function    : Editor for Church Events
+ *  function    : Editor for Community Events
  *
  ******************************************************************************/
 
@@ -25,14 +25,14 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\Event;
-use ChurchCRM\model\ChurchCRM\EventQuery;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\Event;
+use CommunityCRM\model\CommunityCRM\EventQuery;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
-$sPageTitle = gettext('Church Event Editor');
+$sPageTitle = gettext('Community Event Editor');
 
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isAddEvent());
 

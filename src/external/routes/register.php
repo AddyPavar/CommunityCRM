@@ -1,8 +1,8 @@
 <?php
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\ListOptionQuery;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\ListOptionQuery;
 use Slim\Routing\RouteCollectorProxy;
 use Slim\Views\PhpRenderer;
 use Psr\Http\Message\ResponseInterface as Response;

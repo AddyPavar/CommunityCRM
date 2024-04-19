@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -61,8 +61,8 @@ msgid "Backup Database"
 msgstr "Varmista tietokanta"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "Tämä työkalu auttaa sinua varmuuskopioimaan ChurchCRM-tietokannan manuaalisesti."
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "Tämä työkalu auttaa sinua varmuuskopioimaan CommunityCRM-tietokannan manuaalisesti."
 
 #: 
 msgid "You should make a manual backup at least once a week unless you already have a regular backup procedure for your systems."
@@ -74,8 +74,8 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "Kun olet ladannut varmuuskopiotiedoston, sinun tulee tehdä kaksi kopiota. Aseta yksi niistä paloturvalliseen kassakaappiin paikan päällä ja toinen turvalliseen paikkaan paikan päällä."
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
-msgstr "Jos olet huolissasi ChurchCRM-tietokantaan tallennettujen tietojen luottamuksellisuudesta, sinun tulee salata varmuuskopiotiedot, jos ne tallennetaan jonnekin, johon muut mahdollisesti voivat päästä."
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgstr "Jos olet huolissasi CommunityCRM-tietokantaan tallennettujen tietojen luottamuksellisuudesta, sinun tulee salata varmuuskopiotiedot, jos ne tallennetaan jonnekin, johon muut mahdollisesti voivat päästä."
 
 #: 
 msgid "Select archive type"
@@ -801,4 +801,3 @@ msgstr "Hakemistoraportit"
 #: 
 msgid "Select classifications to include"
 msgstr "Valitse sisällytettävät luokitukset"
-

@@ -2,11 +2,11 @@
 
 require '../Include/Config.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Authentication\Requests\LocalTwoFactorTokenRequest;
-use ChurchCRM\Authentication\Requests\LocalUsernamePasswordRequest;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Slim\Middleware\VersionMiddleware;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Authentication\Requests\LocalTwoFactorTokenRequest;
+use CommunityCRM\Authentication\Requests\LocalUsernamePasswordRequest;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Slim\Middleware\VersionMiddleware;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Factory\AppFactory;

@@ -1,14 +1,14 @@
 <?php
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Emails\ResetPasswordEmail;
-use ChurchCRM\Emails\ResetPasswordTokenEmail;
-use ChurchCRM\model\ChurchCRM\Token;
-use ChurchCRM\model\ChurchCRM\TokenQuery;
-use ChurchCRM\model\ChurchCRM\UserQuery;
-use ChurchCRM\Utils\LoggerUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Emails\ResetPasswordEmail;
+use CommunityCRM\Emails\ResetPasswordTokenEmail;
+use CommunityCRM\model\CommunityCRM\Token;
+use CommunityCRM\model\CommunityCRM\TokenQuery;
+use CommunityCRM\model\CommunityCRM\UserQuery;
+use CommunityCRM\Utils\LoggerUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Exception\HttpBadRequestException;

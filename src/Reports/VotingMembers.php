@@ -8,13 +8,13 @@
 
 ******************************************************************************/
 
-namespace ChurchCRM\Reports;
+namespace CommunityCRM\Reports;
 
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Utils\InputUtils;
 
 //Get the Fiscal Year ID out of the querystring
 $iFYID = InputUtils::legacyFilterInput($_POST['FYID'], 'int');
@@ -25,7 +25,7 @@ $_SESSION['idefaultFY'] = $iFYID; // Remember the chosen FYID
 $iRequireDonationYears = InputUtils::legacyFilterInput($_POST['RequireDonationYears'], 'int');
 $output = InputUtils::legacyFilterInput($_POST['output']);
 
-class PdfVotingMembers extends ChurchInfoReport
+class PdfVotingMembers extends CommunityInfoReport
 {
     // Constructor
     public function __construct()

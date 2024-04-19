@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: zh-TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -61,8 +61,8 @@ msgid "Backup Database"
 msgstr "資料庫備份"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "這工具將會協助您手動備份ChurchCRM資料庫"
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "這工具將會協助您手動備份CommunityCRM資料庫"
 
 #: 
 #, fuzzy
@@ -75,8 +75,8 @@ msgstr "在您下載的備份文件，你應該一式兩份。其中一人在一
 
 #: 
 #, fuzzy
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
-msgstr "如果您擔心ChurchCRM資料庫存儲的數據的機密性，那當它被存儲在他人可能訪問的位置時，您應該加密備份數據"
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgstr "如果您擔心CommunityCRM資料庫存儲的數據的機密性，那當它被存儲在他人可能訪問的位置時，您應該加密備份數據"
 
 #: 
 #, fuzzy
@@ -922,7 +922,7 @@ msgid "Use Title Page"
 msgstr "使用標題頁"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "教會名稱"
 
 #: 
@@ -1018,7 +1018,7 @@ msgid "Add New Fund"
 msgstr "添加新基金"
 
 #: 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr "教會活動編輯器"
 
 #: 
@@ -1772,7 +1772,7 @@ msgid "Graphic"
 msgstr "圖形"
 
 #: 
-msgid "Church Address"
+msgid "Community Address"
 msgstr "教會地址"
 
 #: 
@@ -2291,7 +2291,7 @@ msgid "Listing Events of Type = "
 msgstr "列出活動類型="
 
 #: 
-msgid "Listing All Church Events"
+msgid "Listing All Community Events"
 msgstr "列出所有教會活動"
 
 #: 
@@ -2372,7 +2372,7 @@ msgid "Assign starting at #"
 msgstr "指定在＃"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
+msgid "Unable to display map due to missing Community Latitude or Longitude. Please update the community Address in the settings menu."
 msgstr "由於缺少教堂緯度或經度，無法顯示地圖。 請在設置菜單中更新教堂地址。"
 
 #: 
@@ -2443,7 +2443,7 @@ msgid "See All People"
 msgstr "查看所有人員"
 
 #: 
-msgid "Sunday School Kids"
+msgid "Education Initiative Kids"
 msgstr "主日學校的孩子"
 
 #: 
@@ -2496,7 +2496,7 @@ msgid "Girls"
 msgstr "女孩"
 
 #: 
-msgid "Sunday School Classes"
+msgid "Education Initiative Classes"
 msgstr "主日學校的課程"
 
 #: 
@@ -3449,7 +3449,7 @@ msgid "\"Why Came\" notes for "
 msgstr "“為什麼來了”的注意事項"
 
 #: 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr "你為什麼要來教會？"
 
 #: 
@@ -3461,7 +3461,7 @@ msgid "Do you have any suggestions for us?"
 msgstr "你對我們有什麼建議嗎？"
 
 #: 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr "你是怎麼學習的教會嗎？"
 
 #: 
@@ -3570,8 +3570,8 @@ msgid "Custom Drop-Down List"
 msgstr "自定義下拉列表"
 
 #: 
-msgid "Thank you for registering your ChurchCRM installation."
-msgstr "謝謝您登記安裝ChurchRam"
+msgid "Thank you for registering your CommunityCRM installation."
+msgstr "謝謝您登記安裝CommunityRam"
 
 #: 
 msgid "PDFs successfully emailed "
@@ -3823,8 +3823,8 @@ msgid "Member/Friend"
 msgstr "會員/朋友"
 
 #: 
-msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
-msgstr "此選項需要至少3.22版本的MySQL！命中瀏覽器的“後退”按鈕返回到ChurchCRM的。"
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM."
+msgstr "此選項需要至少3.22版本的MySQL！命中瀏覽器的“後退”按鈕返回到CommunityCRM的。"
 
 #: 
 msgid "Work"
@@ -3943,11 +3943,11 @@ msgid "Gift Designation:"
 msgstr "商品名稱："
 
 #: 
-msgid "Sunday School"
+msgid "Education Initiative"
 msgstr "主日學校"
 
 #: 
-msgid "Sunday School Class Functions"
+msgid "Education Initiative Class Functions"
 msgstr "主日學校課程功能"
 
 #: 
@@ -4041,7 +4041,7 @@ msgid "Discard"
 msgstr "放棄"
 
 #: 
-msgid "Sunday School Dashboard"
+msgid "Education Initiative Dashboard"
 msgstr "主日學校儀錶板"
 
 #: 
@@ -4049,7 +4049,7 @@ msgid "Classes"
 msgstr "科室"
 
 #: 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr "主日學報告"
 
 #: 
@@ -4061,7 +4061,7 @@ msgid "Export All Classes, Kids, and Parent to CSV file"
 msgstr "將所有課室，子項和父項導出到CSV文件"
 
 #: 
-msgid "Students not in a Sunday School Class"
+msgid "Students not in a Education Initiative Class"
 msgstr "學生不在主日課程"
 
 #: 
@@ -4098,7 +4098,7 @@ msgstr "上週日"
 
 #: 
 #, fuzzy
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr "無主日學"
 
 #: 
@@ -4244,8 +4244,8 @@ msgid "CAUTION: This will completely erase the existing database, and replace it
 msgstr "注意：這將完全刪除現有資料庫，並將其替換為備份"
 
 #: 
-msgid "If you upload a backup from ChurchInfo, or a previous version of ChurchCRM, it will be automatically upgraded to the current database schema"
-msgstr "如果您從ChurchInfo或以前版本的ChurchCRM上載備份，它將自動升級到當前資料庫架構"
+msgid "If you upload a backup from CommunityInfo, or a previous version of CommunityCRM, it will be automatically upgraded to the current database schema"
+msgstr "如果您從CommunityInfo或以前版本的CommunityCRM上載備份，它將自動升級到當前資料庫架構"
 
 #: 
 msgid "Upload Files"
@@ -4269,7 +4269,7 @@ msgid "Restore Error."
 msgstr "恢復錯誤。"
 
 #: 
-msgid "Church Information"
+msgid "Community Information"
 msgstr "教會信息"
 
 #: 
@@ -4318,8 +4318,8 @@ msgid "Edit Settings"
 msgstr "編輯設置"
 
 #: 
-msgid "Upgrade ChurchCRM"
-msgstr "升級ChurchCRM"
+msgid "Upgrade CommunityCRM"
+msgstr "升級CommunityCRM"
 
 #: 
 #, fuzzy
@@ -4341,8 +4341,8 @@ msgid "Step 2: Fetch Update Package on Server"
 msgstr "第2步：在服務器上獲取更新包"
 
 #: 
-msgid "Fetch the latest files from the ChurchCRM GitHub release page"
-msgstr "從ChurchCRM GitHub發布頁面獲取最新文件"
+msgid "Fetch the latest files from the CommunityCRM GitHub release page"
+msgstr "從CommunityCRM GitHub發布頁面獲取最新文件"
 
 #: 
 msgid "Fetch Update Files"
@@ -4429,11 +4429,11 @@ msgid "Enter Name"
 msgstr "輸入名稱"
 
 #: 
-msgid "Update Church Info"
+msgid "Update Community Info"
 msgstr "更新教堂信息"
 
 #: 
-msgid "Set Church Address"
+msgid "Set Community Address"
 msgstr "設置教堂地址"
 
 #: 
@@ -4773,7 +4773,7 @@ msgid "with this Property..."
 msgstr "有這個屬性.."
 
 #: 
-msgid "Church Email"
+msgid "Community Email"
 msgstr "教會電郵"
 
 #: 
@@ -4847,11 +4847,11 @@ msgid "First month of the fiscal year"
 msgstr "財政年度的第一個月"
 
 #: 
-msgid "Latitude of the church, used to center the Google map"
+msgid "Latitude of the community, used to center the Google map"
 msgstr "教堂的緯度，用於居中谷歌地圖"
 
 #: 
-msgid "Longitude of the church, used to center the Google map"
+msgid "Longitude of the community, used to center the Google map"
 msgstr "教堂的經度，用於居中谷歌地圖"
 
 #: 
@@ -4907,8 +4907,8 @@ msgid "Set true to enable family self registration."
 msgstr "設置為true(是)以啟用家庭自助註冊。"
 
 #: 
-msgid "ChurchCRM has been registered.  The ChurchCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
-msgstr "ChurchCRM已經註冊。 ChurchCRM團隊使用註冊信息來跟踪使用情況。信息將得到保密處理，絕不發布或出售。如果此字段為true(是)，則管理菜單中的註冊選項將更改為更新註冊。"
+msgid "CommunityCRM has been registered.  The CommunityCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
+msgstr "CommunityCRM已經註冊。 CommunityCRM團隊使用註冊信息來跟踪使用情況。信息將得到保密處理，絕不發布或出售。如果此字段為true(是)，則管理菜單中的註冊選項將更改為更新註冊。"
 
 #: 
 msgid "Left Margin (1 = 1/100th inch)"
@@ -4919,23 +4919,23 @@ msgid "Line Thickness (1 = 1/100th inch"
 msgstr "線厚度（1 = 1/100英寸"
 
 #: 
-msgid "Church City"
+msgid "Community City"
 msgstr "教會城市"
 
 #: 
-msgid "Church State"
+msgid "Community State"
 msgstr "教會州"
 
 #: 
-msgid "Church Zip"
+msgid "Community Zip"
 msgstr "教會郵編"
 
 #: 
-msgid "Church Phone"
+msgid "Community Phone"
 msgstr "教會電話"
 
 #: 
-msgid "Home area code of the church"
+msgid "Home area code of the community"
 msgstr "教會的區號"
 
 #: 
@@ -4991,7 +4991,7 @@ msgid "Verbage for the directory report"
 msgstr "用於目錄報告的用語"
 
 #: 
-msgid "Church Letterhead path and file"
+msgid "Community Letterhead path and file"
 msgstr "教會信頭路徑和文件"
 
 #: 
@@ -5043,11 +5043,11 @@ msgid "List Groups"
 msgstr "清單組"
 
 #: 
-msgid "List Church Events"
+msgid "List Community Events"
 msgstr "列出教會活動"
 
 #: 
-msgid "Add Church Event"
+msgid "Add Community Event"
 msgstr "增加教會活動"
 
 #: 
@@ -5257,7 +5257,7 @@ msgid "The birthday month for which you would like records returned."
 msgstr "返回您想要記錄的生日月份。"
 
 #: 
-msgid "The sunday school class for which you would like records returned."
+msgid "The education initiative class for which you would like records returned."
 msgstr "返回您想要記錄的主日學校課程。"
 
 #: 
@@ -6743,11 +6743,11 @@ msgid "Please verify your family's information"
 msgstr "請驗證您的家人的信息"
 
 #: 
-msgid "Church Address is not Set."
+msgid "Community Address is not Set."
 msgstr "未設置教堂地址。"
 
 #: 
-msgid "Church Name is set to default value"
+msgid "Community Name is set to default value"
 msgstr "教會名稱設置為默認值"
 
 #: 
@@ -6974,7 +6974,7 @@ msgid "The previous integrity check passed.  All system file hashes match the ex
 msgstr "已通過完整性檢查。所有系統文件都與預期值哈希匹配。"
 
 #: 
-msgid "Church Checking Account Number"
+msgid "Community Checking Account Number"
 msgstr "教堂檢查帳號"
 
 #: 
@@ -7156,16 +7156,16 @@ msgid "Display bill counts on deposit slip"
 msgstr "在存款單上顯示賬單計數"
 
 #: 
-msgid "ChurchCRM Cloud Access URL"
-msgstr "ChurchCRM雲訪問網址"
+msgid "CommunityCRM Cloud Access URL"
+msgstr "CommunityCRM雲訪問網址"
 
 #: 
 msgid "Your Account was Deleted"
 msgstr "您的帳戶已被刪除"
 
 #: 
-msgid "Your ChurchCRM Account was Deleted."
-msgstr "您的ChurchCRM帳戶已被刪除"
+msgid "Your CommunityCRM Account was Deleted."
+msgstr "您的CommunityCRM帳戶已被刪除"
 
 #: 
 msgid "Account Locked"
@@ -7313,24 +7313,24 @@ msgid "Select GeoCoder Provider"
 msgstr "選擇GeoCoder Provider"
 
 #: 
-msgid "Your ChurchCRM account was locked."
-msgstr "您的ChurchCRM帳戶已被鎖定。"
+msgid "Your CommunityCRM account was locked."
+msgstr "您的CommunityCRM帳戶已被鎖定。"
 
 #: 
-msgid "A ChurchCRM account was created for you"
-msgstr "為您創建了一個ChurchCRM帳戶"
+msgid "A CommunityCRM account was created for you"
+msgstr "為您創建了一個CommunityCRM帳戶"
 
 #: 
-msgid "Your ChurchCRM password was changed"
-msgstr "您的ChurchCRM密碼已更改"
+msgid "Your CommunityCRM password was changed"
+msgstr "您的CommunityCRM密碼已更改"
 
 #: 
-msgid "You can reset your ChurchCRM password by clicking this link"
-msgstr "您可以通過單擊此鏈接重置您的ChurchCRM密碼"
+msgid "You can reset your CommunityCRM password by clicking this link"
+msgstr "您可以通過單擊此鏈接重置您的CommunityCRM密碼"
 
 #: 
-msgid "Your ChurchCRM account was unlocked."
-msgstr "您的ChurchCRM帳戶已解鎖。"
+msgid "Your CommunityCRM account was unlocked."
+msgstr "您的CommunityCRM帳戶已解鎖。"
 
 #: 
 msgid "system user created"
@@ -7497,8 +7497,8 @@ msgid "Please go to this location"
 msgstr "請到這個位置"
 
 #: 
-msgid "You ChurchCRM updated password has been changed"
-msgstr "您的ChurchCRM密碼更新已成功"
+msgid "You CommunityCRM updated password has been changed"
+msgstr "您的CommunityCRM密碼更新已成功"
 
 #: 
 msgid "Password Reset Link"
@@ -7563,7 +7563,7 @@ msgid "Text Cart"
 msgstr "Text Cart"
 
 #: 
-msgid "Your Church's Website"
+msgid "Your Community's Website"
 msgstr "您教會的網站"
 
 #: 
@@ -7671,12 +7671,12 @@ msgid "Thai"
 msgstr "泰語"
 
 #: 
-msgid "Your Church's Facebook Page"
+msgid "Your Community's Facebook Page"
 msgstr "您的教會的Facebook頁面"
 
 #: 
 #, fuzzy
-msgid "Your Church's X Page"
+msgid "Your Community's X Page"
 msgstr "您的教會的X頁面"
 
 #: 
@@ -7744,7 +7744,7 @@ msgid "New Family Added"
 msgstr "新增家庭"
 
 #: 
-msgid "Church Greeter"
+msgid "Community Greeter"
 msgstr "教會迎賓員"
 
 #: 
@@ -7752,16 +7752,16 @@ msgid "External Calendar API is disabled"
 msgstr "外部日曆API已禁用"
 
 #: 
-msgid "Special Group Settings : Sunday School Type"
+msgid "Special Group Settings : Education Initiative Type"
 msgstr "\n"
 "特定組設置：主日學校類型"
 
 #: 
-msgid "Sunday School group can't be modified, only in this two cases :"
+msgid "Education Initiative group can't be modified, only in this two cases :"
 msgstr "主日學校小組不能修改，僅在這兩種情況下："
 
 #: 
-msgid "You can create/delete sunday school group. "
+msgid "You can create/delete education initiative group. "
 msgstr "你可以創建/刪除主日學校組。"
 
 #: 
@@ -8066,8 +8066,8 @@ msgstr "Confession最後字段的存儲，必須是一個數據類型"
 
 #: 
 #, fuzzy
-msgid "Require that this ChurchCRM Database is accessed over HTTPS"
-msgstr "要求通過HTTPS訪問此ChurchCRM資料庫"
+msgid "Require that this CommunityCRM Database is accessed over HTTPS"
+msgstr "要求通過HTTPS訪問此CommunityCRM資料庫"
 
 #: 
 #, fuzzy
@@ -8075,7 +8075,7 @@ msgid "People Setup"
 msgstr "人員設定"
 
 #: 
-msgid "Church Services"
+msgid "Community Services"
 msgstr "教堂服務"
 
 #: 
@@ -8380,7 +8380,7 @@ msgid "Show custom links on the left menu."
 msgstr "在左側菜單中顯示自定義鏈接。"
 
 #: 
-msgid "Enable Sunday School left menu."
+msgid "Enable Education Initiative left menu."
 msgstr "啟用主日學校左側菜單。"
 
 #: 
@@ -8453,8 +8453,8 @@ msgid "User must have Delete Records permission"
 msgstr "用戶必須具有刪除記錄權限"
 
 #: 
-msgid "ChurchCRM Central Notifications URL"
-msgstr "ChurchCRM中央通知URL"
+msgid "CommunityCRM Central Notifications URL"
+msgstr "CommunityCRM中央通知URL"
 
 #: 
 #, fuzzy
@@ -8605,12 +8605,12 @@ msgstr "人名"
 
 #: 
 #, fuzzy
-msgid "Custom message for church greeter email 1, max 255 characters"
+msgid "Custom message for community greeter email 1, max 255 characters"
 msgstr "教會歡迎郵件自訂訊息1, 最多255字符"
 
 #: 
 #, fuzzy
-msgid "Custom message for church greeter email 2, max 255 characters"
+msgid "Custom message for community greeter email 2, max 255 characters"
 msgstr "教會歡迎郵件自訂訊息2, 最多255字符"
 
 #: 
@@ -8692,8 +8692,8 @@ msgstr "警告：簽名不匹配"
 
 #: 
 #, fuzzy
-msgid "Some ChurchCRM system files may have been modified since the last installation."
-msgstr "自上次安裝以來，某些ChurchCRM系統文件可能已被修改。"
+msgid "Some CommunityCRM system files may have been modified since the last installation."
+msgstr "自上次安裝以來，某些CommunityCRM系統文件可能已被修改。"
 
 #: 
 #, fuzzy
@@ -9035,8 +9035,8 @@ msgstr "要求用戶自行註冊兩因素身份驗證"
 
 #: 
 #, fuzzy
-msgid "ChurchCRM"
-msgstr "ChurchCRM"
+msgid "CommunityCRM"
+msgstr "CommunityCRM"
 
 #: 
 #, fuzzy
@@ -9117,8 +9117,8 @@ msgid "Unable To Begin Two Factor Authentication Enrollment"
 msgstr "無法開始雙重認證註冊"
 
 #: 
-msgid "Two factor authentication requires ChurchCRM administrators to configure a few parameters"
-msgstr "雙重認證要求ChurchCRM管理員配置一些參數"
+msgid "Two factor authentication requires CommunityCRM administrators to configure a few parameters"
+msgstr "雙重認證要求CommunityCRM管理員配置一些參數"
 
 #: 
 msgid "System configuration "
@@ -9214,12 +9214,12 @@ msgid "Invalid List id"
 msgstr "無效的清單代碼"
 
 #: 
-msgid "Audience not in the ChurchCRM"
-msgstr "ChurchCRM沒有Audience"
+msgid "Audience not in the CommunityCRM"
+msgstr "CommunityCRM沒有Audience"
 
 #: 
-msgid "ChurchCRM Installation Information"
-msgstr "ChurchCRM安裝資訊"
+msgid "CommunityCRM Installation Information"
+msgstr "CommunityCRM安裝資訊"
 
 #: 
 msgid "Database Server Version"
@@ -9408,17 +9408,17 @@ msgid "Event Description"
 msgstr "活動說明"
 
 #: 
-msgid "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
-msgstr "將ChurchCRM用戶帳戶註冊為雙重認證可為試圖訪問您的帳戶的不良行為者提供額外的防禦。"
+msgid "Enrolling your CommunityCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
+msgstr "將CommunityCRM用戶帳戶註冊為雙重認證可為試圖訪問您的帳戶的不良行為者提供額外的防禦。"
 
 #: 
-msgid "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
-msgstr "ChurchCRM 雙重認證支持任何TOTP身份驗證器應用程序，因此您可以自由選擇Microsoft Authenticator，Google Authenticator，Authy，LastPass和其他"
+msgid "CommunityCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
+msgstr "CommunityCRM 雙重認證支持任何TOTP身份驗證器應用程序，因此您可以自由選擇Microsoft Authenticator，Google Authenticator，Authy，LastPass和其他"
 
 #: 
 #, fuzzy
-msgid "When you sign in to ChurchCRM, you'll still enter your username and password like normal"
-msgstr "登錄ChurchCRM時，您仍然會像平常一樣輸入用戶名和密碼"
+msgid "When you sign in to CommunityCRM, you'll still enter your username and password like normal"
+msgstr "登錄CommunityCRM時，您仍然會像平常一樣輸入用戶名和密碼"
 
 #: 
 #, fuzzy
@@ -9432,8 +9432,8 @@ msgstr "成功輸入憑據和一次性代碼後，您將照常登錄"
 
 #: 
 #, fuzzy
-msgid "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
-msgstr "為防止您的ChurchCRM帳戶被鎖定，請確保您已準備好完成雙重驗證註冊，然後再單擊開始。"
+msgid "To prevent being locked out of your CommunityCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
+msgstr "為防止您的CommunityCRM帳戶被鎖定，請確保您已準備好完成雙重驗證註冊，然後再單擊開始。"
 
 #: 
 #, fuzzy
@@ -9740,4 +9740,3 @@ msgstr "存款總額"
 #, fuzzy
 msgid "Group Cart Status"
 msgstr "群組購物車狀態"
-

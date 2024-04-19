@@ -9,13 +9,13 @@
 
 ******************************************************************************/
 
-namespace ChurchCRM\Reports;
+namespace CommunityCRM\Reports;
 
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Utils\InputUtils;
 
 $iPaddleNumID = InputUtils::legacyFilterInputArr($_GET, 'PaddleNumID', 'int');
 $iFundRaiserID = $_SESSION['iCurrentFundraiser'];
@@ -36,7 +36,7 @@ $sSQL = 'SELECT pn_ID, pn_fr_ID, pn_Num, pn_per_ID,
          WHERE pn_FR_ID =' . $iFundRaiserID . $selectOneCrit . ' ORDER BY pn_Num';
 $rsPaddleNums = RunQuery($sSQL);
 
-class PdfFundRaiserStatement extends ChurchInfoReport
+class PdfFundRaiserStatement extends CommunityInfoReport
 {
     // Constructor
     public function __construct()

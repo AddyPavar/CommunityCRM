@@ -6,7 +6,7 @@
  *  last change : 2003-10-09
  *  description : Add cart records to a family
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2003 Chris Gebhardt
   *
  ******************************************************************************/
@@ -15,11 +15,11 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security: User must have add records permission
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isAddRecordsEnabled());

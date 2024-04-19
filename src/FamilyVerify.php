@@ -3,8 +3,8 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\Utils\InputUtils;
 
 //Get the FamilyID out of the querystring
 $iFamilyID = InputUtils::legacyFilterInput($_GET['FamilyID'], 'int');

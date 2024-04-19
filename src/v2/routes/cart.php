@@ -1,7 +1,7 @@
 <?php
 
-use ChurchCRM\dto\Cart;
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\Cart;
+use CommunityCRM\dto\SystemURLs;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Routing\RouteCollectorProxy;

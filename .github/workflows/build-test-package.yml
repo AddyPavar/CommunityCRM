@@ -84,5 +84,5 @@ jobs:
     - name: Upload zip file
       uses: actions/upload-artifact@v3
       with:
-        name: ChurchCRM-${{ steps.package-version.outputs.current-version}}-files
-        path: target/ChurchCRM-*.*
+        name: CommunityCRM-${{ steps.package-version.outputs.current-version}}-files
+        path: target/CommunityCRM-*.*

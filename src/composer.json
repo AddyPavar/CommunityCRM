@@ -1,12 +1,12 @@
 {
-    "name": "churchcrm/crm",
+    "name": "communitycrm/crm",
     "version": "5.7.0",
     "type": "project",
     "keywords": [
-        "church",
+        "community",
         "crm"
     ],
-    "homepage": "https://churchcrm.io",
+    "homepage": "https://communitycrm.io",
     "license": "MIT",
     "authors": [
         {
@@ -16,11 +16,11 @@
         }
     ],
     "support": {
-        "email": "info@churchcrm.io",
-        "issues": "https://github.com/ChurchCRM/CRM/issues",
-        "irc": "https://gitter.im/ChurchCRM/CRM",
-        "source": "https://github.com/ChurchCRM/CRM",
-        "docs": "https://github.com/ChurchCRM/CRM/wiki"
+        "email": "info@communitycrm.io",
+        "issues": "https://github.com/CommunityCRM/CRM/issues",
+        "irc": "https://gitter.im/CommunityCRM/CRM",
+        "source": "https://github.com/CommunityCRM/CRM",
+        "docs": "https://github.com/CommunityCRM/CRM/wiki"
     },
     "config": {
         "platform": {
@@ -72,11 +72,11 @@
     },
     "autoload": {
         "classmap": [
-            "ChurchCRM/"
+            "CommunityCRM/"
         ],
         "psr-4": {
             "\\": "bin/",
-            "ChurchCRM\\": "ChurchCRM/"
+            "CommunityCRM\\": "CommunityCRM/"
         }
     },
     "repositories": {

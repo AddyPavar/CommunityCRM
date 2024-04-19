@@ -8,15 +8,15 @@
 
 ******************************************************************************/
 
-namespace ChurchCRM\Reports;
+namespace CommunityCRM\Reports;
 
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isFinanceEnabled());
@@ -92,7 +92,7 @@ $rsPledges = RunQuery($sSQL);
 // Create PDF Report
 // *****************
 if ($output === 'pdf') {
-    class PdfPledgeSummaryReport extends ChurchInfoReport
+    class PdfPledgeSummaryReport extends CommunityInfoReport
     {
         // Constructor
         public function __construct()
@@ -203,13 +203,13 @@ if ($output === 'pdf') {
     $overpaidX = 170;
     $curY = 20;
 
-    $pdf->writeAt(SystemConfig::getValue('leftX'), $curY, SystemConfig::getValue('sChurchName'));
+    $pdf->writeAt(SystemConfig::getValue('leftX'), $curY, SystemConfig::getValue('sCommunityName'));
     $curY += SystemConfig::getValue('incrementY');
-    $pdf->writeAt(SystemConfig::getValue('leftX'), $curY, SystemConfig::getValue('sChurchAddress'));
+    $pdf->writeAt(SystemConfig::getValue('leftX'), $curY, SystemConfig::getValue('sCommunityAddress'));
     $curY += SystemConfig::getValue('incrementY');
-    $pdf->writeAt(SystemConfig::getValue('leftX'), $curY, SystemConfig::getValue('sChurchCity') . ', ' . SystemConfig::getValue('sChurchState') . '  ' . SystemConfig::getValue('sChurchZip'));
+    $pdf->writeAt(SystemConfig::getValue('leftX'), $curY, SystemConfig::getValue('sCommunityCity') . ', ' . SystemConfig::getValue('sCommunityState') . '  ' . SystemConfig::getValue('sCommunityZip'));
     $curY += SystemConfig::getValue('incrementY');
-    $pdf->writeAt(SystemConfig::getValue('leftX'), $curY, SystemConfig::getValue('sChurchPhone') . '  ' . SystemConfig::getValue('sChurchEmail'));
+    $pdf->writeAt(SystemConfig::getValue('leftX'), $curY, SystemConfig::getValue('sCommunityPhone') . '  ' . SystemConfig::getValue('sCommunityEmail'));
     $curY += 2 * SystemConfig::getValue('incrementY');
 
     $blurb = SystemConfig::getValue('sPledgeSummary1') . ' ';
@@ -302,6 +302,6 @@ if ($output === 'pdf') {
 
     // Export file
     header('Content-type: text/x-csv');
-    header('Content-Disposition: attachment; filename=ChurchInfo-' . date(SystemConfig::getValue('sDateFilenameFormat')) . '.csv');
+    header('Content-Disposition: attachment; filename=CommunityInfo-' . date(SystemConfig::getValue('sDateFilenameFormat')) . '.csv');
     echo $buffer;
 }

@@ -1,7 +1,7 @@
 <?php
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
 
 if (SystemConfig::debugEnabled()) {
     require_once 'Header-Security.php';
@@ -15,14 +15,14 @@ if (SystemConfig::debugEnabled()) {
     <meta http-equiv="Content-Type" content="text/html">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Custom ChurchCRM styles -->
-    <link rel="stylesheet" href="<?= SystemURLs::getRootPath() ?>/skin/churchcrm.min.css">
+    <!-- Custom CommunityCRM styles -->
+    <link rel="stylesheet" href="<?= SystemURLs::getRootPath() ?>/skin/communitycrm.min.css">
     <link rel="stylesheet" href="<?= SystemURLs::getRootPath() ?>/skin/external/fontawesome/css/all.css">
 
     <!-- jQuery JS -->
     <script src="<?= SystemURLs::getRootPath() ?>/skin/external/jquery/jquery.min.js"></script>
 
-    <title>ChurchCRM: <?= $sPageTitle ?></title>
+    <title>CommunityCRM: <?= $sPageTitle ?></title>
 
 </head>
 <body class="hold-transition login-page">
@@ -30,6 +30,6 @@ if (SystemConfig::debugEnabled()) {
   <script nonce="<?= SystemURLs::getCSPNonce() ?>"  >
     window.CRM = {
       root: "<?= SystemURLs::getRootPath() ?>",
-      churchWebSite:"<?= SystemConfig::getValue('sChurchWebSite') ?>"
+      communityWebSite:"<?= SystemConfig::getValue('sCommunityWebSite') ?>"
     };
   </script>

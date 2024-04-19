@@ -1,9 +1,9 @@
 <?php
 
-use ChurchCRM\dto\ChurchMetaData;
-use ChurchCRM\dto\iCal;
-use ChurchCRM\Slim\Middleware\Request\PublicCalendarAPIMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\dto\CommunityMetaData;
+use CommunityCRM\dto\iCal;
+use CommunityCRM\Slim\Middleware\Request\PublicCalendarAPIMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Routing\RouteCollectorProxy;
@@ -25,7 +25,7 @@ function getICal($request, $response)
 {
     $calendar = $request->getAttribute('calendar');
     $events = $request->getAttribute('events');
-    $calendarName = $calendar->getName() . ': ' . ChurchMetaData::getChurchName();
+    $calendarName = $calendar->getName() . ': ' . CommunityMetaData::getCommunityName();
     $CalendarICS = new iCal($events, $calendarName);
     $body = $response->getBody();
     $body->write($CalendarICS->toString());

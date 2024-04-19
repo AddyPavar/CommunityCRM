@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
@@ -61,8 +61,8 @@ msgid "Backup Database"
 msgstr "Zálohovat databázi"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "Tento nástroj vám pomůže při ručním zálohování databáze ChurchCRM."
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "Tento nástroj vám pomůže při ručním zálohování databáze CommunityCRM."
 
 #: 
 msgid "You should make a manual backup at least once a week unless you already have a regular backup procedure for your systems."
@@ -73,8 +73,8 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "Po stažení záložního souboru byste měli vytvořit dvě kopie. Jednu z nich uložte do ohnivzdorného trezoru na pracovišti a druhou na bezpečné místo mimo pracoviště."
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
-msgstr "Pokud máte obavy o důvěrnost dat uložených v databázi ChurchCRM, měli byste záložní data šifrovat, pokud budou uložena na místě potenciálně přístupném jiným osobám"
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgstr "Pokud máte obavy o důvěrnost dat uložených v databázi CommunityCRM, měli byste záložní data šifrovat, pokud budou uložena na místě potenciálně přístupném jiným osobám"
 
 #: 
 msgid "Select archive type"
@@ -525,7 +525,7 @@ msgid "Use Title Page"
 msgstr "Použij titulní stranu"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "Název církve"
 
 #: 
@@ -679,4 +679,3 @@ msgstr "Přidat vše"
 #: 
 msgid "Add Menu"
 msgstr "Přidat menu"
-

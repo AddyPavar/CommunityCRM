@@ -6,7 +6,7 @@
 *  last change : 2003-08-30
 *  description : Creates a Member directory
 *
-*  https://churchcrm.io/
+*  https://communitycrm.io/
 *  Copyright 2003  Jason York, 2004-2005 Michael Wilt, Richard Bondi
 
 ******************************************************************************/
@@ -14,12 +14,12 @@
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Reports\PdfDirectory;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\MiscUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Reports\PdfDirectory;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\MiscUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Check for Create Directory user permission.
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isCreateDirectoryEnabled());
@@ -69,13 +69,13 @@ $bDirPersonalEmail = isset($_POST['bDirPersonalEmail']);
 $bDirPersonalWorkEmail = isset($_POST['bDirPersonalWorkEmail']);
 $bDirPhoto = isset($_POST['bDirPhoto']);
 
-$sChurchName = InputUtils::legacyFilterInput($_POST['sChurchName']);
+$sCommunityName = InputUtils::legacyFilterInput($_POST['sCommunityName']);
 $sDirectoryDisclaimer = InputUtils::legacyFilterInput($_POST['sDirectoryDisclaimer']);
-$sChurchAddress = InputUtils::legacyFilterInput($_POST['sChurchAddress']);
-$sChurchCity = InputUtils::legacyFilterInput($_POST['sChurchCity']);
-$sChurchState = InputUtils::legacyFilterInput($_POST['sChurchState']);
-$sChurchZip = InputUtils::legacyFilterInput($_POST['sChurchZip']);
-$sChurchPhone = InputUtils::legacyFilterInput($_POST['sChurchPhone']);
+$sCommunityAddress = InputUtils::legacyFilterInput($_POST['sCommunityAddress']);
+$sCommunityCity = InputUtils::legacyFilterInput($_POST['sCommunityCity']);
+$sCommunityState = InputUtils::legacyFilterInput($_POST['sCommunityState']);
+$sCommunityZip = InputUtils::legacyFilterInput($_POST['sCommunityZip']);
+$sCommunityPhone = InputUtils::legacyFilterInput($_POST['sCommunityPhone']);
 
 $bDirUseTitlePage = isset($_POST['bDirUseTitlePage']);
 
@@ -176,7 +176,7 @@ if ($mysqlversion >= 4) {
     $rsRecords = mysqli_query($cnInfoCentral, $sSQL) || exit(mysqli_error($cnInfoCentral));
     $sSQL = 'SELECT DISTINCT * FROM tmp ORDER BY SortMe';
 } else {
-    exit(gettext('This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM.'));
+    exit(gettext('This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM.'));
 }
 
 $rsRecords = RunQuery($sSQL);

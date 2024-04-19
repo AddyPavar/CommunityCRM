@@ -58,11 +58,11 @@ select DISTINCT qrp_Description term, "" as translation, "queryparameters_qrp" a
         }
 
         $stringFile = $stringsDir.DIRECTORY_SEPARATOR.'settings-countries.php';
-        require '../src/ChurchCRM/data/Countries.php';
-        require '../src/ChurchCRM/data/Country.php';
+        require '../src/CommunityCRM/data/Countries.php';
+        require '../src/CommunityCRM/data/Country.php';
         file_put_contents($stringFile, "<?php\r\n", FILE_APPEND);
 
-        foreach (ChurchCRM\data\Countries::getNames() as $country) {
+        foreach (CommunityCRM\data\Countries::getNames() as $country) {
             file_put_contents($stringFile, 'gettext("'.addslashes($country)."\");\r\n", FILE_APPEND);
         }
         file_put_contents($stringFile, "\r\n?>", FILE_APPEND);

@@ -1,12 +1,12 @@
 <?php
 
-use ChurchCRM\Bootstrapper;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Service\SystemService;
+use CommunityCRM\Bootstrapper;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Service\SystemService;
 
 ?>
     <div style="background-color: white; padding-top: 5px; padding-bottom: 5px; text-align: center; position: fixed; bottom: 0; width: 100%">
-      <strong><?= gettext('Copyright') ?> &copy; <?= SystemService::getCopyrightDate() ?> <a href="https://churchcrm.io" target="_blank"><b>Church</b>CRM</a>.</strong> <?= gettext('All rights reserved')?>.
+      <strong><?= gettext('Copyright') ?> &copy; <?= SystemService::getCopyrightDate() ?> <a href="https://communitycrm.io" target="_blank"><b>Community</b>CRM</a>.</strong> <?= gettext('All rights reserved')?>.
     </div>
 
 

@@ -4,7 +4,7 @@
  *
  *  filename    : CanvassEditor.php
  *  last change : 2013-02-22
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2001, 2002, 2003, 2013 Deane Barker, Chris Gebhardt, Michael Wilt
   *
  ******************************************************************************/
@@ -13,11 +13,11 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\model\ChurchCRM\CanvassData;
-use ChurchCRM\model\ChurchCRM\CanvassDataQuery;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\model\CommunityCRM\CanvassData;
+use CommunityCRM\model\CommunityCRM\CanvassDataQuery;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security: User must have canvasser permission to use this form
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isCanvasserEnabled());

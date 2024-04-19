@@ -6,14 +6,14 @@ $bSuppressSessionTests = true;
 require 'Include/Functions.php';
 require_once 'Include/Header-function.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Service\AppIntegrityService;
-use ChurchCRM\Service\TaskService;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Service\AppIntegrityService;
+use CommunityCRM\Service\TaskService;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Set the page title and include HTML header
-$sPageTitle = gettext('Upgrade ChurchCRM');
+$sPageTitle = gettext('Upgrade CommunityCRM');
 
 if (!AuthenticationManager::validateUserSessionIsActive(false) || !AuthenticationManager::getCurrentUser()->isAdmin()) {
     RedirectUtils::redirect('index.php');
@@ -32,7 +32,7 @@ Header_body_scripts();
 <div class="col-lg-8 col-lg-offset-2" style="margin-top: 10px">
   <div class="timeline">
       <div class="time-label">
-          <span class="bg-red"><?= gettext('Upgrade ChurchCRM') ?></span>
+          <span class="bg-red"><?= gettext('Upgrade CommunityCRM') ?></span>
       </div>
 
     <?php
@@ -75,7 +75,7 @@ Header_body_scripts();
       <div class="timeline-item" >
         <h3 class="timeline-header"><?= gettext('Warning: Signature mismatch') ?> <span id="status1"></span></h3>
         <div class="timeline-body" id="integrityCheckWarning" <?= count($preUpgradeTasks) > 0 ? 'style="display:none"' : '' ?>>
-          <p><?= gettext("Some ChurchCRM system files may have been modified since the last installation.")?><b><?= gettext("This upgrade will completely destroy any customizations made to the following files by reverting the files to the official version.")?></b></p>
+          <p><?= gettext("Some CommunityCRM system files may have been modified since the last installation.")?><b><?= gettext("This upgrade will completely destroy any customizations made to the following files by reverting the files to the official version.")?></b></p>
           <p><?= gettext("If you wish to maintain your changes to these files, please take a manual backup of these files before proceeding with this upgrade, and then manually restore the files after the upgrade is complete.")?></p>
           <div>
               <p><?= gettext('Integrity Check Details:')?> <?=  AppIntegrityService::getIntegrityCheckMessage() ?></p>
@@ -135,7 +135,7 @@ Header_body_scripts();
       <div class="timeline-item" >
         <h3 class="timeline-header"><?= gettext('Step 2: Fetch Update Package on Server') ?> <span id="status2"></span></h3>
         <div class="timeline-body" id="fetchPhase" <?= $expertMode ? '' : 'style="display: none"' ?>>
-          <p><?= gettext('Fetch the latest files from the ChurchCRM GitHub release page')?></p>
+          <p><?= gettext('Fetch the latest files from the CommunityCRM GitHub release page')?></p>
           <input type="button" class="btn btn-primary" id="fetchUpdate" <?= 'value="' . gettext('Fetch Update Files') . '"' ?> >
         </div>
       </div>

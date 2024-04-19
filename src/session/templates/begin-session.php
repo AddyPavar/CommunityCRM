@@ -1,8 +1,8 @@
 <?php
 
-use ChurchCRM\dto\ChurchMetaData;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\CommunityMetaData;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
 
 // Set the page title and include HTML header
 $sPageTitle = gettext('Login');
@@ -15,10 +15,10 @@ require SystemURLs::getDocumentRoot() . '/Include/HeaderNotLoggedIn.php';
         <!-- /.login-logo -->
         <div class="card card-outline card-primary">
             <div class="card-header text-center">
-                <a href="<?= SystemURLs::getRootPath() ?>" class="h1">Church<b>CRM</b></a>
+                <a href="<?= SystemURLs::getRootPath() ?>" class="h1">Community<b>CRM</b></a>
             </div>
             <div class="card-body">
-                <p class="login-box-msg"> <b><?= ChurchMetaData::getChurchName() ?></b><br/>
+                <p class="login-box-msg"> <b><?= CommunityMetaData::getCommunityName() ?></b><br/>
                     <?= gettext('Please Login') ?>
                 </p>
 

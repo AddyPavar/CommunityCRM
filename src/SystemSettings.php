@@ -5,7 +5,7 @@
  *  filename    : SystemSettings.php
  *  description : setup de systema settings
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2001-2002 Phillip Hullquist, Deane Barker
  *
  ******************************************************************************/
@@ -14,13 +14,13 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Bootstrapper;
-use ChurchCRM\dto\LocaleInfo;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Bootstrapper;
+use CommunityCRM\dto\LocaleInfo;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isAdmin());
@@ -113,7 +113,7 @@ require 'Include/Header.php';
       <?php foreach (SystemConfig::getCategories() as $category => $settings) {
             $navItemId = str_replace(" ", '', $category);
             $shouldBeSelected = false;
-            if ($category == 'Church Information') {
+            if ($category == 'Community Information') {
                 $shouldBeSelected = true;
             } ?>
         <a class="nav-link <?= $shouldBeSelected ? "active" : "" ?>" id="<?= $navItemId ?>-tab" data-toggle="pill" href="#<?= $navItemId ?>" role="tab" aria-controls="vert-tabs-profile" aria-selected="<?= $shouldBeSelected ?>"><?= gettext($category) ?></a>
@@ -129,7 +129,7 @@ require 'Include/Header.php';
       <?php foreach (SystemConfig::getCategories() as $category => $settings) {
             $navItemId = str_replace(" ", '', $category);
             $shouldBeSelected = false;
-            if ($category == 'Church Information') {
+            if ($category == 'Community Information') {
                 $shouldBeSelected = true;
             } ?>
         <div class="tab-pane fade <?= $shouldBeSelected ? "show active" : "" ?>" id="<?= $navItemId ?>" role="tabpanel" aria-labelledby="<?= $navItemId ?>-tab">

@@ -1,11 +1,11 @@
 <?php
 
-use ChurchCRM\model\ChurchCRM\Family;
-use ChurchCRM\model\ChurchCRM\Person;
-use ChurchCRM\Slim\Middleware\Request\Setting\PublicRegistrationAuthMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
-use ChurchCRM\Utils\LoggerUtils;
-use ChurchCRM\Utils\ORMUtils;
+use CommunityCRM\model\CommunityCRM\Family;
+use CommunityCRM\model\CommunityCRM\Person;
+use CommunityCRM\Slim\Middleware\Request\Setting\PublicRegistrationAuthMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Utils\LoggerUtils;
+use CommunityCRM\Utils\ORMUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Routing\RouteCollectorProxy;

@@ -1,9 +1,9 @@
 <?php
 
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\model\ChurchCRM\Note;
-use ChurchCRM\model\ChurchCRM\Person;
-use ChurchCRM\model\ChurchCRM\TokenQuery;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\model\CommunityCRM\Note;
+use CommunityCRM\model\CommunityCRM\Person;
+use CommunityCRM\model\CommunityCRM\TokenQuery;
 use Slim\Routing\RouteCollectorProxy;
 use Slim\Views\PhpRenderer;
 use Psr\Http\Message\ResponseInterface as Response;

@@ -1,7 +1,7 @@
 <?php
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
 
 //Set the page title
 $sPageTitle = gettext("Change Password") . ": " . $user->getFullName();

@@ -6,6 +6,6 @@ context("Standard Dashboard", () => {
         cy.contains("Welcome to");
         cy.contains("See all Families");
         cy.contains("See All People");
-        cy.contains("Sunday School Classes");
+        cy.contains("Education Initiative Classes");
     });
 });

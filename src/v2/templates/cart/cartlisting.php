@@ -1,6 +1,6 @@
 <?php
 
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemURLs;
 
 $ListTitleText = gettext('Your cart contains') . ' ' . count($cartPeople) . ' ' . gettext('persons from') . ' ' . $iNumFamilies . ' ' . gettext('families');
 ?>
@@ -23,7 +23,7 @@ $ListTitleText = gettext('Your cart contains') . ' ' . count($cartPeople) . ' ' 
       </thead>
       <tbody>
         <?php
-        /* @var $Person ChurchCRM\Person */
+        /* @var $Person CommunityCRM\Person */
         foreach ($cartPeople as $Person) {
             ?>
           <tr>

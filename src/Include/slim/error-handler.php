@@ -1,6 +1,6 @@
 <?php
 
-use ChurchCRM\Utils\LoggerUtils;
+use CommunityCRM\Utils\LoggerUtils;
 
 error_reporting(E_ERROR);
 ini_set('display_errors', true);

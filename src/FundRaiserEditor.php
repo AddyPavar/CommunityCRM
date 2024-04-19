@@ -4,7 +4,7 @@
  *
  *  filename    : FundRaiserEditor.php
  *  last change : 2009-04-15
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2009 Michael Wilt
   *
  ******************************************************************************/
@@ -13,11 +13,11 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\model\ChurchCRM\FundRaiser;
-use ChurchCRM\model\ChurchCRM\FundRaiserQuery;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\model\CommunityCRM\FundRaiser;
+use CommunityCRM\model\CommunityCRM\FundRaiserQuery;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 $linkBack = InputUtils::legacyFilterInputArr($_GET, 'linkBack');
 $iFundRaiserID = InputUtils::legacyFilterInputArr($_GET, 'FundRaiserID');

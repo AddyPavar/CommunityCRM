@@ -1,11 +1,11 @@
 <?php
 
-use ChurchCRM\model\ChurchCRM\PredefinedReportsQuery;
-use ChurchCRM\model\ChurchCRM\QueryParameterOptionsQuery;
-use ChurchCRM\model\ChurchCRM\QueryParametersQuery;
-use ChurchCRM\model\ChurchCRM\UserConfigQuery;
-use ChurchCRM\Slim\Middleware\Request\Auth\AdminRoleAuthMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\model\CommunityCRM\PredefinedReportsQuery;
+use CommunityCRM\model\CommunityCRM\QueryParameterOptionsQuery;
+use CommunityCRM\model\CommunityCRM\QueryParametersQuery;
+use CommunityCRM\model\CommunityCRM\UserConfigQuery;
+use CommunityCRM\Slim\Middleware\Request\Auth\AdminRoleAuthMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Routing\RouteCollectorProxy;

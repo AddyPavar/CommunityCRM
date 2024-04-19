@@ -4,7 +4,7 @@
  *
  *  filename    : QueryList.php
  *  last change : 2003-01-07
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2001, 2002 Deane Barker
   *
  ******************************************************************************/
@@ -13,7 +13,7 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Authentication\AuthenticationManager;
 
 //Set the page title
 $sPageTitle = gettext('Query Listing');

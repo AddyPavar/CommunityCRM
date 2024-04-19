@@ -4,7 +4,7 @@
  *
  *  filename    : QuerySQL.php
  *  last change : 2003-01-04
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2001, 2002, 2003 Deane Barker, Chris Gebhardt
   *
  ******************************************************************************/
@@ -13,9 +13,9 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Utils\RedirectUtils;
 
 //Set the page title
 $sPageTitle = gettext('Free-Text Query');

@@ -3,11 +3,11 @@
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\model\ChurchCRM\GroupQuery;
-use ChurchCRM\Service\SundaySchoolService;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\model\CommunityCRM\GroupQuery;
+use CommunityCRM\Service\EducationInitiativeService;
 
-$sundaySchoolService = new SundaySchoolService();
+$sundaySchoolService = new EducationInitiativeService();
 $groups = GroupQuery::create()->filterByActive(true)->filterByIncludeInEmailExport(true)->find();
 
 $colNames = [];
@@ -21,7 +21,7 @@ foreach ($groups as $group) {
 
 $sundaySchoolsParents = [];
 foreach ($groups as $group) {
-    if ($group->isSundaySchool()) {
+    if ($group->isEducationInitiative()) {
         $sundaySchoolParents = [];
         $kids = $sundaySchoolService->getKidsFullDetails($group->getId());
         $parentIds = [];
@@ -54,7 +54,7 @@ foreach ($personService->getPeopleEmailsAndGroups() as $person) {
 
     foreach ($groups as $group) {
         $groupRole = $person[$group->getName()];
-        if ($groupRole == '' && $group->isSundaySchool()) {
+        if ($groupRole == '' && $group->isEducationInitiative()) {
             if (in_array($person['id'], $sundaySchoolsParents[$group->getId()])) {
                 $groupRole = 'Parent';
             }

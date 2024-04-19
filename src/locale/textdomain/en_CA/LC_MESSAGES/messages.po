@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: en-ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -45,12 +45,12 @@ msgid "Default State - Must be 2-letter abbreviation!"
 msgstr "Default Province - Must be 2-letter abbreviation!"
 
 #: 
-msgid "Church State"
-msgstr "Church Province"
+msgid "Community State"
+msgstr "Community Province"
 
 #: 
-msgid "Church Zip"
-msgstr "Church Postal Code"
+msgid "Community Zip"
+msgstr "Community Postal Code"
 
 #: 
 msgid "Zip Code"
@@ -75,4 +75,3 @@ msgstr "Foreground Colour"
 #: 
 msgid "Background Color"
 msgstr "Background Colour"
-

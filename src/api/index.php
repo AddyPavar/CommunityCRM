@@ -5,8 +5,8 @@ require '../Include/Config.php';
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $rootPath = str_replace('/api/index.php', '', $_SERVER['SCRIPT_NAME']);
-use ChurchCRM\Slim\Middleware\AuthMiddleware;
-use ChurchCRM\Slim\Middleware\VersionMiddleware;
+use CommunityCRM\Slim\Middleware\AuthMiddleware;
+use CommunityCRM\Slim\Middleware\VersionMiddleware;
 use Slim\Factory\AppFactory;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 

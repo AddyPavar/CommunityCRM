@@ -6,8 +6,8 @@
  * and open the template in the editor.
  */
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
 
 $csp = [
     "default-src 'self'",

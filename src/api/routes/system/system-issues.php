@@ -1,7 +1,7 @@
 <?php
 
-use ChurchCRM\Service\SystemService;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Service\SystemService;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 
@@ -18,7 +18,7 @@ $app->post('/issues', function (Request $request, Response $response, array $arg
         'Platform Information | ' . php_uname($mode = 'a') . "\r\n" .
         'PHP Version | ' . phpversion() . "\r\n" .
         'SQL Version | ' . SystemService::getDBServerVersion() . "\r\n" .
-        'ChurchCRM Version |' . $_SESSION['sSoftwareInstalledVersion'] . "\r\n" .
+        'CommunityCRM Version |' . $_SESSION['sSoftwareInstalledVersion'] . "\r\n" .
         'Reporting Browser |' . $_SERVER['HTTP_USER_AGENT'] . "\r\n" .
         'Prerequisite Status |' . SystemService::getPrerequisiteStatus() . "\r\n";
 

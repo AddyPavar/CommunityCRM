@@ -1,10 +1,10 @@
 <?php
 
-use ChurchCRM\dto\Notification\UiNotification;
-use ChurchCRM\Service\NotificationService;
-use ChurchCRM\Service\TaskService;
-use ChurchCRM\Slim\Request\SlimUtils;
-use ChurchCRM\Utils\LoggerUtils;
+use CommunityCRM\dto\Notification\UiNotification;
+use CommunityCRM\Service\NotificationService;
+use CommunityCRM\Service\TaskService;
+use CommunityCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Utils\LoggerUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Routing\RouteCollectorProxy;

@@ -3,7 +3,7 @@
 /*******************************************************************************
  *
  *  filename    : Include/LoadConfigs.php
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  description : global configuration
  *                   The code in this file used to be part of part of Config.php
  *
@@ -14,8 +14,8 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use ChurchCRM\Bootstrapper;
-use ChurchCRM\KeyManager;
+use CommunityCRM\Bootstrapper;
+use CommunityCRM\KeyManager;
 
 // enable this line to debug the bootstrapper process (database connections, etc).
 // this makes a lot of log noise, so don't leave it on for normal production use.

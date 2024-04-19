@@ -1,7 +1,7 @@
 <?php
 
-use ChurchCRM\Slim\Request\SlimUtils;
-use ChurchCRM\Utils\GeoUtils;
+use CommunityCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Utils\GeoUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Exception\HttpBadRequestException;

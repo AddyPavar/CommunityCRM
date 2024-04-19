@@ -7,14 +7,14 @@
 
 ******************************************************************************/
 
-namespace ChurchCRM\Reports;
+namespace CommunityCRM\Reports;
 
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Utils\RedirectUtils;
 
 // If CSVAdminOnly option is enabled and user is not admin, redirect to the menu.
 if (!AuthenticationManager::getCurrentUser()->isAdmin() && SystemConfig::getValue('bCSVAdminOnly')) {
@@ -22,7 +22,7 @@ if (!AuthenticationManager::getCurrentUser()->isAdmin() && SystemConfig::getValu
     exit;
 }
 
-class PdfEnvelopeReport extends ChurchInfoReport
+class PdfEnvelopeReport extends CommunityInfoReport
 {
     // Private properties
     public $_Margin_Left = 12;         // Left Margin

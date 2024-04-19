@@ -4,7 +4,7 @@
  *
  *  filename    : FamilyEditor.php
  *  last change : 2003-01-04
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2001, 2002, 2003 Deane Barker, Chris Gebhardt
   *
  ******************************************************************************/
@@ -14,18 +14,18 @@ require 'Include/Config.php';
 require 'Include/Functions.php';
 require 'Include/CanvassUtilities.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Bootstrapper;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Emails\NewPersonOrFamilyEmail;
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\model\ChurchCRM\Note;
-use ChurchCRM\model\ChurchCRM\Person;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\MiscUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Bootstrapper;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Emails\NewPersonOrFamilyEmail;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\model\CommunityCRM\Note;
+use CommunityCRM\model\CommunityCRM\Person;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\MiscUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 //Set the page title
 $sPageTitle = gettext('Family Editor');
@@ -275,7 +275,7 @@ if (isset($_POST['FamilySubmit']) || isset($_POST['FamilySubmitAndAdd'])) {
         $bSendNewsLetterString = $bSendNewsLetter ? 'TRUE' : 'FALSE';
         $bOkToCanvassString = $bOkToCanvass ? 'TRUE' : 'FALSE';
 
-        $family = new \ChurchCRM\model\ChurchCRM\Family();
+        $family = new \CommunityCRM\model\CommunityCRM\Family();
         if ($iFamilyID >= 1) {
             $family = FamilyQuery::create()->findPk($iFamilyID);
         }

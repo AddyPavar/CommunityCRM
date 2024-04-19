@@ -6,7 +6,7 @@
  *  last change : 2003-09-03
  *  description : Detailed reports on group members
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2003 Federico Nebiolo, Chris Gebhardt
  *  Copyright 2004-2012 Michael Wilt
   *
@@ -16,7 +16,7 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\Utils\InputUtils;
 
 // Get all the groups
 $sSQL = 'SELECT * FROM group_grp ORDER BY grp_Name';

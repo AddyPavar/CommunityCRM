@@ -1,14 +1,14 @@
 <?php
 
-use ChurchCRM\model\ChurchCRM\Base\EventQuery;
-use ChurchCRM\model\ChurchCRM\Base\EventTypeQuery;
-use ChurchCRM\model\ChurchCRM\CalendarQuery;
-use ChurchCRM\model\ChurchCRM\Event;
-use ChurchCRM\model\ChurchCRM\EventCounts;
-use ChurchCRM\Slim\Middleware\EventsMiddleware;
-use ChurchCRM\Slim\Middleware\Request\Auth\AddEventsRoleAuthMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\model\CommunityCRM\Base\EventQuery;
+use CommunityCRM\model\CommunityCRM\Base\EventTypeQuery;
+use CommunityCRM\model\CommunityCRM\CalendarQuery;
+use CommunityCRM\model\CommunityCRM\Event;
+use CommunityCRM\model\CommunityCRM\EventCounts;
+use CommunityCRM\Slim\Middleware\EventsMiddleware;
+use CommunityCRM\Slim\Middleware\Request\Auth\AddEventsRoleAuthMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Utils\InputUtils;
 use Propel\Runtime\ActiveQuery\Criteria;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;

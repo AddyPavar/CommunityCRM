@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -61,7 +61,7 @@ msgid "Backup Database"
 msgstr "Backup da Base de Dados"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
 msgstr "Esta ferramenta vai te ajudar a fazer o backup manual da base de dados."
 
 #: 
@@ -74,7 +74,7 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "Depois do download do arquivo de backup, você deve fazer duas cópias. Guarde-as em locais separados à prova de fogo, água e etc."
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
 msgstr "Se for armazenar backup da base de dados do CRM em algum lugar potencialmente acessível por outras pessoas, é altamente recomendável  criptografar os dados."
 
 #: 
@@ -914,7 +914,7 @@ msgid "Use Title Page"
 msgstr "Use título na página"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "Nome da igreja"
 
 #: 
@@ -1011,7 +1011,7 @@ msgid "Add New Fund"
 msgstr "Adicionar novo fundo"
 
 #: 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr "Editor de Eventos da Igreja"
 
 #: 
@@ -1768,7 +1768,7 @@ msgid "Graphic"
 msgstr "Gráfico"
 
 #: 
-msgid "Church Address"
+msgid "Community Address"
 msgstr "Endereço da igreja"
 
 #: 
@@ -2295,7 +2295,7 @@ msgid "Listing Events of Type = "
 msgstr "Listando Eventos por Tipo = "
 
 #: 
-msgid "Listing All Church Events"
+msgid "Listing All Community Events"
 msgstr "Listar todos os eventos da igreja"
 
 #: 
@@ -2381,7 +2381,7 @@ msgid "Assign starting at #"
 msgstr "Assinalada por:"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
+msgid "Unable to display map due to missing Community Latitude or Longitude. Please update the community Address in the settings menu."
 msgstr "Não é possível exibir o mapa devido à falta da Latitude ou Longitude da Igreja . Por favor, atualize o endereço da igreja no menu de configurações."
 
 #: 
@@ -2451,7 +2451,7 @@ msgid "See All People"
 msgstr "Ver Todos os Pessoas"
 
 #: 
-msgid "Sunday School Kids"
+msgid "Education Initiative Kids"
 msgstr "Escola Bíblica Dominical Infantil"
 
 #: 
@@ -2504,7 +2504,7 @@ msgid "Girls"
 msgstr "Meninas"
 
 #: 
-msgid "Sunday School Classes"
+msgid "Education Initiative Classes"
 msgstr "Classes de Escola Bíblica Dominical"
 
 #: 
@@ -3473,7 +3473,7 @@ msgid "\"Why Came\" notes for "
 msgstr "Por que veio "
 
 #: 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr "Por que você veio para a igreja?"
 
 #: 
@@ -3485,7 +3485,7 @@ msgid "Do you have any suggestions for us?"
 msgstr "Você tem alguma sugestão para nós?"
 
 #: 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr "Como você ficou sabendo da igreja?"
 
 #: 
@@ -3597,8 +3597,8 @@ msgid "Custom Drop-Down List"
 msgstr "Lista Suspensa Personalizado"
 
 #: 
-msgid "Thank you for registering your ChurchCRM installation."
-msgstr "Obrigado por registar a sua instalação do ChurchCRM."
+msgid "Thank you for registering your CommunityCRM installation."
+msgstr "Obrigado por registar a sua instalação do CommunityCRM."
 
 #: 
 msgid "PDFs successfully emailed "
@@ -3856,8 +3856,8 @@ msgid "Member/Friend"
 msgstr "Membro/Participante"
 
 #: 
-msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
-msgstr "Esta opção requer pelo menos a versão 3.22 do MySQL! Aperto o botão Voltar do navegador para retornar ao ChurchCRM."
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM."
+msgstr "Esta opção requer pelo menos a versão 3.22 do MySQL! Aperto o botão Voltar do navegador para retornar ao CommunityCRM."
 
 #: 
 msgid "Work"
@@ -3979,11 +3979,11 @@ msgstr "Designação de presente:"
 
 #: 
 #, fuzzy
-msgid "Sunday School"
+msgid "Education Initiative"
 msgstr "Escola Bíblica Dominical"
 
 #: 
-msgid "Sunday School Class Functions"
+msgid "Education Initiative Class Functions"
 msgstr "Funções na Classe de Escola Bíblica Dominical"
 
 #: 
@@ -4075,7 +4075,7 @@ msgid "Discard"
 msgstr "Descartar"
 
 #: 
-msgid "Sunday School Dashboard"
+msgid "Education Initiative Dashboard"
 msgstr "Painel da Escola Bíblica Dominical"
 
 #: 
@@ -4083,7 +4083,7 @@ msgid "Classes"
 msgstr "Classes"
 
 #: 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr "Relatório da Escola Bíblica Dominical"
 
 #: 
@@ -4095,7 +4095,7 @@ msgid "Export All Classes, Kids, and Parent to CSV file"
 msgstr "Exportar Todas as Classes, Crianças e Pais para um arquivo CSV"
 
 #: 
-msgid "Students not in a Sunday School Class"
+msgid "Students not in a Education Initiative Class"
 msgstr "Alunos sem Classe na Escola Bíblica Dominical"
 
 #: 
@@ -4132,7 +4132,7 @@ msgstr "Último domingo"
 
 #: 
 #, fuzzy
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr "Nenhuma Escola Bíblica Dominical"
 
 #: 
@@ -4277,8 +4277,8 @@ msgid "CAUTION: This will completely erase the existing database, and replace it
 msgstr "CUIDADO: Esta ação irá apagar completamente os dados existentes na base de dados e reescrevê-las com os dados do backup"
 
 #: 
-msgid "If you upload a backup from ChurchInfo, or a previous version of ChurchCRM, it will be automatically upgraded to the current database schema"
-msgstr "Se você carregar um backup do ChurchInfo ou uma versão anterior do ChurchCRM, ela será automaticamente atualizada para o esquema da base de dados atual"
+msgid "If you upload a backup from CommunityInfo, or a previous version of CommunityCRM, it will be automatically upgraded to the current database schema"
+msgstr "Se você carregar um backup do CommunityInfo ou uma versão anterior do CommunityCRM, ela será automaticamente atualizada para o esquema da base de dados atual"
 
 #: 
 msgid "Upload Files"
@@ -4301,7 +4301,7 @@ msgid "Restore Error."
 msgstr "Erro de Restauração"
 
 #: 
-msgid "Church Information"
+msgid "Community Information"
 msgstr "Informações da Igreja"
 
 #: 
@@ -4350,8 +4350,8 @@ msgid "Edit Settings"
 msgstr "Configurações"
 
 #: 
-msgid "Upgrade ChurchCRM"
-msgstr "Atualizar o churchCRM"
+msgid "Upgrade CommunityCRM"
+msgstr "Atualizar o communityCRM"
 
 #: 
 msgid "Step 1: Backup Database"
@@ -4370,8 +4370,8 @@ msgid "Step 2: Fetch Update Package on Server"
 msgstr "Passo 2: Obter o Pacote de atualização no servidor"
 
 #: 
-msgid "Fetch the latest files from the ChurchCRM GitHub release page"
-msgstr "Obter os últimos ficheiros do ChurchCRM na página de versões no GitHub"
+msgid "Fetch the latest files from the CommunityCRM GitHub release page"
+msgstr "Obter os últimos ficheiros do CommunityCRM na página de versões no GitHub"
 
 #: 
 msgid "Fetch Update Files"
@@ -4458,11 +4458,11 @@ msgid "Enter Name"
 msgstr "Inserir o Nome"
 
 #: 
-msgid "Update Church Info"
+msgid "Update Community Info"
 msgstr "Atualizar Informações da Igreja"
 
 #: 
-msgid "Set Church Address"
+msgid "Set Community Address"
 msgstr "Endereço da Igreja"
 
 #: 
@@ -4808,7 +4808,7 @@ msgid "with this Property..."
 msgstr "com esta propriedade..."
 
 #: 
-msgid "Church Email"
+msgid "Community Email"
 msgstr "E-mail da Igreja"
 
 #: 
@@ -4883,11 +4883,11 @@ msgid "First month of the fiscal year"
 msgstr "Primeiro mês do ano fiscal"
 
 #: 
-msgid "Latitude of the church, used to center the Google map"
+msgid "Latitude of the community, used to center the Google map"
 msgstr "Latitude da igreja, usada para centralizar o mapa do Google "
 
 #: 
-msgid "Longitude of the church, used to center the Google map"
+msgid "Longitude of the community, used to center the Google map"
 msgstr "Longitude da igreja, usada para centralizar o mapa do Google"
 
 #: 
@@ -4943,8 +4943,8 @@ msgid "Set true to enable family self registration."
 msgstr "Defina verdadeiro para habilitar o auto-registo de família."
 
 #: 
-msgid "ChurchCRM has been registered.  The ChurchCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
-msgstr "ChurchCRM foi registado. A equipe ChurchCRM usa informações de registo para rastrear o uso. Esta informação é mantida confidencial e nunca revelada ou vendida. Se este campo for assinalado verdadeiro a opção de registo no menu administrador muda para actualizar o registo."
+msgid "CommunityCRM has been registered.  The CommunityCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
+msgstr "CommunityCRM foi registado. A equipe CommunityCRM usa informações de registo para rastrear o uso. Esta informação é mantida confidencial e nunca revelada ou vendida. Se este campo for assinalado verdadeiro a opção de registo no menu administrador muda para actualizar o registo."
 
 #: 
 msgid "Left Margin (1 = 1/100th inch)"
@@ -4955,23 +4955,23 @@ msgid "Line Thickness (1 = 1/100th inch"
 msgstr "Espessura da Linha (1 = 1/100da polegada"
 
 #: 
-msgid "Church City"
+msgid "Community City"
 msgstr "Cidade da Igreja"
 
 #: 
-msgid "Church State"
+msgid "Community State"
 msgstr "Estado  da Igreja"
 
 #: 
-msgid "Church Zip"
+msgid "Community Zip"
 msgstr "CEP  da Igreja"
 
 #: 
-msgid "Church Phone"
+msgid "Community Phone"
 msgstr "Telefone  da Igreja"
 
 #: 
-msgid "Home area code of the church"
+msgid "Home area code of the community"
 msgstr "Código de área  da Igreja"
 
 #: 
@@ -5019,7 +5019,7 @@ msgid "Verbage for the directory report"
 msgstr "Termo para um relatório de diretório"
 
 #: 
-msgid "Church Letterhead path and file"
+msgid "Community Letterhead path and file"
 msgstr "Caminho do Arquivo de Cabeçalho de Carta da Igreja"
 
 #: 
@@ -5071,11 +5071,11 @@ msgid "List Groups"
 msgstr "Listar Grupos"
 
 #: 
-msgid "List Church Events"
+msgid "List Community Events"
 msgstr "Listar Eventos da Igreja"
 
 #: 
-msgid "Add Church Event"
+msgid "Add Community Event"
 msgstr "Adicionar Evento da Igreja"
 
 #: 
@@ -5280,7 +5280,7 @@ msgid "The birthday month for which you would like records returned."
 msgstr "O mês de aniversário para o qual você deseja obter registos. "
 
 #: 
-msgid "The sunday school class for which you would like records returned."
+msgid "The education initiative class for which you would like records returned."
 msgstr "A classe da CD/UV da qual você gostaria de obter os registos."
 
 #: 
@@ -6760,11 +6760,11 @@ msgid "Please verify your family's information"
 msgstr "Por favor, verifique a informação da sua família"
 
 #: 
-msgid "Church Address is not Set."
+msgid "Community Address is not Set."
 msgstr "O endereço da igreja não está configurado"
 
 #: 
-msgid "Church Name is set to default value"
+msgid "Community Name is set to default value"
 msgstr "O nome da Igreja está configurado com o valor padrão"
 
 #: 
@@ -7012,7 +7012,7 @@ msgid "The previous integrity check passed.  All system file hashes match the ex
 msgstr "A verificação de integridade anterior passou. Todos os hashes de ficheiros de sistema correspondem aos valores esperados."
 
 #: 
-msgid "Church Checking Account Number"
+msgid "Community Checking Account Number"
 msgstr "Número da Conta de Verificação da Igreja"
 
 #: 
@@ -7192,16 +7192,16 @@ msgid "Display bill counts on deposit slip"
 msgstr "Exibir conta conta no comprovante de depósito"
 
 #: 
-msgid "ChurchCRM Cloud Access URL"
-msgstr "URL de Acesso à Nuvem ChurchCRM"
+msgid "CommunityCRM Cloud Access URL"
+msgstr "URL de Acesso à Nuvem CommunityCRM"
 
 #: 
 msgid "Your Account was Deleted"
 msgstr "Sua conta foi Deletada."
 
 #: 
-msgid "Your ChurchCRM Account was Deleted."
-msgstr "A sua conta ChurchCRM foi deletada."
+msgid "Your CommunityCRM Account was Deleted."
+msgstr "A sua conta CommunityCRM foi deletada."
 
 #: 
 msgid "Account Locked"
@@ -7348,24 +7348,24 @@ msgid "Select GeoCoder Provider"
 msgstr "Selecione o ser provedor de GeoCode"
 
 #: 
-msgid "Your ChurchCRM account was locked."
-msgstr "A sua conta do churchCRM foi bloqueada."
+msgid "Your CommunityCRM account was locked."
+msgstr "A sua conta do communityCRM foi bloqueada."
 
 #: 
-msgid "A ChurchCRM account was created for you"
-msgstr "Um conta do ChurchCRM foi criada para você"
+msgid "A CommunityCRM account was created for you"
+msgstr "Um conta do CommunityCRM foi criada para você"
 
 #: 
-msgid "Your ChurchCRM password was changed"
-msgstr "A sua senha do ChurchCRM foi alterada"
+msgid "Your CommunityCRM password was changed"
+msgstr "A sua senha do CommunityCRM foi alterada"
 
 #: 
-msgid "You can reset your ChurchCRM password by clicking this link"
-msgstr "Você pode reinicializar a sua senha do churchCRM clicando neste link."
+msgid "You can reset your CommunityCRM password by clicking this link"
+msgstr "Você pode reinicializar a sua senha do communityCRM clicando neste link."
 
 #: 
-msgid "Your ChurchCRM account was unlocked."
-msgstr "A sua conta do churchCRM foi desbloqueada."
+msgid "Your CommunityCRM account was unlocked."
+msgstr "A sua conta do communityCRM foi desbloqueada."
 
 #: 
 msgid "system user created"
@@ -7532,8 +7532,8 @@ msgid "Please go to this location"
 msgstr "Por favor, vá para esta localização"
 
 #: 
-msgid "You ChurchCRM updated password has been changed"
-msgstr "A sua senha do ChurchCRM foi mudada."
+msgid "You CommunityCRM updated password has been changed"
+msgstr "A sua senha do CommunityCRM foi mudada."
 
 #: 
 msgid "Password Reset Link"
@@ -7596,7 +7596,7 @@ msgid "Text Cart"
 msgstr "Texto do Carrinho"
 
 #: 
-msgid "Your Church's Website"
+msgid "Your Community's Website"
 msgstr "O Website da Sua Igreja"
 
 #: 
@@ -7706,12 +7706,12 @@ msgid "Thai"
 msgstr "Tailandês"
 
 #: 
-msgid "Your Church's Facebook Page"
+msgid "Your Community's Facebook Page"
 msgstr "Página do Facebook da sua igreja"
 
 #: 
 #, fuzzy
-msgid "Your Church's X Page"
+msgid "Your Community's X Page"
 msgstr "Página do X da sua igreja"
 
 #: 
@@ -7779,7 +7779,7 @@ msgid "New Family Added"
 msgstr "Nova família adicionada"
 
 #: 
-msgid "Church Greeter"
+msgid "Community Greeter"
 msgstr "Boas Vindas da Igreja"
 
 #: 
@@ -7787,15 +7787,15 @@ msgid "External Calendar API is disabled"
 msgstr "API de Calendário Externo está desabilitada."
 
 #: 
-msgid "Special Group Settings : Sunday School Type"
+msgid "Special Group Settings : Education Initiative Type"
 msgstr "Configurações de Grupos Especiais: Tipo Escola Dominical"
 
 #: 
-msgid "Sunday School group can't be modified, only in this two cases :"
+msgid "Education Initiative group can't be modified, only in this two cases :"
 msgstr "Grupo de Escola Bíblica Dominical não pode ser modificado, somente nesses dois casos:"
 
 #: 
-msgid "You can create/delete sunday school group. "
+msgid "You can create/delete education initiative group. "
 msgstr "Você pode criar/deletar grupo da escola bíblica dominical. "
 
 #: 
@@ -8095,15 +8095,15 @@ msgid "Field where last Confession is stored, must be a date type"
 msgstr "Campo onde a última Confissão foi armazenada deve ser do tipo data."
 
 #: 
-msgid "Require that this ChurchCRM Database is accessed over HTTPS"
-msgstr "Exigir que esta base de dados ChurchCRM seja acessada através de HTTPS"
+msgid "Require that this CommunityCRM Database is accessed over HTTPS"
+msgstr "Exigir que esta base de dados CommunityCRM seja acessada através de HTTPS"
 
 #: 
 msgid "People Setup"
 msgstr "Pessoas"
 
 #: 
-msgid "Church Services"
+msgid "Community Services"
 msgstr "Atividades da Igreja"
 
 #: 
@@ -8404,7 +8404,7 @@ msgid "Show custom links on the left menu."
 msgstr "Mostrar links personalizados no menu à esquerda."
 
 #: 
-msgid "Enable Sunday School left menu."
+msgid "Enable Education Initiative left menu."
 msgstr "Ative o menu esquerdo da Escola Dominical."
 
 #: 
@@ -8476,8 +8476,8 @@ msgid "User must have Delete Records permission"
 msgstr "O utilizador deve ter permissão para excluir registos"
 
 #: 
-msgid "ChurchCRM Central Notifications URL"
-msgstr "URL de notificações da ChurchCRM Central"
+msgid "CommunityCRM Central Notifications URL"
+msgstr "URL de notificações da CommunityCRM Central"
 
 #: 
 #, fuzzy
@@ -8625,11 +8625,11 @@ msgid "Person Name"
 msgstr "Nome da Pessoa"
 
 #: 
-msgid "Custom message for church greeter email 1, max 255 characters"
+msgid "Custom message for community greeter email 1, max 255 characters"
 msgstr "Mensagem personalizada para o e-mail da Igreja 1, máximo 255 caracteres"
 
 #: 
-msgid "Custom message for church greeter email 2, max 255 characters"
+msgid "Custom message for community greeter email 2, max 255 characters"
 msgstr "Mensagem personalizada para o e-mail da Igreja 2, máximo 255 caracteres"
 
 #: 
@@ -8698,8 +8698,8 @@ msgid "Warning: Signature mismatch"
 msgstr "Aviso: Incompatibilidade de Assinatura"
 
 #: 
-msgid "Some ChurchCRM system files may have been modified since the last installation."
-msgstr "Alguns ficheiros do sistema ChurchCRM podem ter sido modificados desde a última instalação."
+msgid "Some CommunityCRM system files may have been modified since the last installation."
+msgstr "Alguns ficheiros do sistema CommunityCRM podem ter sido modificados desde a última instalação."
 
 #: 
 msgid "This upgrade will completely destroy any customizations made to the following files by reverting the files to the official version."
@@ -8984,8 +8984,8 @@ msgid "Requires users to self-enroll in 2 factor authentication"
 msgstr "Requer que os utilizadores se inscrevam automaticamente na autenticação por dois fatores"
 
 #: 
-msgid "ChurchCRM"
-msgstr "ChurchCRM"
+msgid "CommunityCRM"
+msgstr "CommunityCRM"
 
 #: 
 msgid "Specify the application name to be displayed in authenticator app"
@@ -9060,8 +9060,8 @@ msgid "Unable To Begin Two Factor Authentication Enrollment"
 msgstr "Não é possível iniciar a inscrição de autenticação por dois factores"
 
 #: 
-msgid "Two factor authentication requires ChurchCRM administrators to configure a few parameters"
-msgstr "A autenticação por dois factores requer que os administradores do ChurchCRM configurem alguns parâmetros"
+msgid "Two factor authentication requires CommunityCRM administrators to configure a few parameters"
+msgstr "A autenticação por dois factores requer que os administradores do CommunityCRM configurem alguns parâmetros"
 
 #: 
 msgid "System configuration "
@@ -9207,4 +9207,3 @@ msgstr "Turco"
 #: 
 msgid "2020/2021"
 msgstr "2020"
-

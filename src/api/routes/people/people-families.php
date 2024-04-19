@@ -1,18 +1,18 @@
 <?php
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\MenuEventsCount;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\model\ChurchCRM\Map\FamilyTableMap;
-use ChurchCRM\model\ChurchCRM\Map\TokenTableMap;
-use ChurchCRM\model\ChurchCRM\Note;
-use ChurchCRM\model\ChurchCRM\NoteQuery;
-use ChurchCRM\model\ChurchCRM\Person;
-use ChurchCRM\model\ChurchCRM\Token;
-use ChurchCRM\model\ChurchCRM\TokenQuery;
-use ChurchCRM\Service\FinancialService;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\MenuEventsCount;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\model\CommunityCRM\Map\FamilyTableMap;
+use CommunityCRM\model\CommunityCRM\Map\TokenTableMap;
+use CommunityCRM\model\CommunityCRM\Note;
+use CommunityCRM\model\CommunityCRM\NoteQuery;
+use CommunityCRM\model\CommunityCRM\Person;
+use CommunityCRM\model\CommunityCRM\Token;
+use CommunityCRM\model\CommunityCRM\TokenQuery;
+use CommunityCRM\Service\FinancialService;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Propel\Runtime\ActiveQuery\Criteria;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;

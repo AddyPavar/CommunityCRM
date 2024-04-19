@@ -4,7 +4,7 @@
  *
  *  filename    : PaddleNumList.php
  *  last change : 2009-04-15
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2009 Michael Wilt
   *
  ******************************************************************************/
@@ -13,7 +13,7 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\Utils\InputUtils;
 
 $linkBack = InputUtils::legacyFilterInputArr($_GET, 'linkBack');
 

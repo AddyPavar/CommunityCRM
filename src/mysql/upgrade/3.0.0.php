@@ -1,7 +1,7 @@
 <?php
 
-use ChurchCRM\model\ChurchCRM\Calendar;
-use ChurchCRM\model\ChurchCRM\EventQuery;
+use CommunityCRM\model\CommunityCRM\Calendar;
+use CommunityCRM\model\CommunityCRM\EventQuery;
 
 $EventsQuery = 'SELECT * FROM events_event';
 

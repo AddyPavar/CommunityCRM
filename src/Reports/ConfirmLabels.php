@@ -11,10 +11,10 @@
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\Reports\PdfLabel;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\Reports\PdfLabel;
+use CommunityCRM\Utils\InputUtils;
 
 $sLabelFormat = InputUtils::legacyFilterInput($_GET['labeltype']);
 $bRecipientNamingMethod = $_GET['recipientnamingmethod'];

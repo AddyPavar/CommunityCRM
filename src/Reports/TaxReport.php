@@ -8,15 +8,15 @@
 
 ******************************************************************************/
 
-namespace ChurchCRM\Reports;
+namespace CommunityCRM\Reports;
 
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isFinanceEnabled());
@@ -176,7 +176,7 @@ if ($output === 'pdf') {
         $bottom_border2 = 250;
     }
 
-    class PdfTaxReport extends ChurchInfoReport
+    class PdfTaxReport extends CommunityInfoReport
     {
         // Constructor
         public function __construct()
@@ -235,11 +235,11 @@ if ($output === 'pdf') {
                 $curX = 60;
                 $this->writeAt($curX, $curY, gettext('Please detach this slip and mail with your next gift.'));
                 $curY += (1.5 * SystemConfig::getValue('incrementY'));
-                $church_mailing = gettext('Please mail you next gift to ') . SystemConfig::getValue('sChurchName') . ', '
-                    . SystemConfig::getValue('sChurchAddress') . ', ' . SystemConfig::getValue('sChurchCity') . ', ' . SystemConfig::getValue('sChurchState') . '  '
-                    . SystemConfig::getValue('sChurchZip') . gettext(', Phone: ') . SystemConfig::getValue('sChurchPhone');
+                $community_mailing = gettext('Please mail you next gift to ') . SystemConfig::getValue('sCommunityName') . ', '
+                    . SystemConfig::getValue('sCommunityAddress') . ', ' . SystemConfig::getValue('sCommunityCity') . ', ' . SystemConfig::getValue('sCommunityState') . '  '
+                    . SystemConfig::getValue('sCommunityZip') . gettext(', Phone: ') . SystemConfig::getValue('sCommunityPhone');
                 $this->SetFont('Times', 'I', 10);
-                $this->writeAt(SystemConfig::getValue('leftX'), $curY, $church_mailing);
+                $this->writeAt(SystemConfig::getValue('leftX'), $curY, $community_mailing);
                 $this->SetFont('Times', '', 10);
                 $curY = 215;
                 $this->writeAt(SystemConfig::getValue('leftX'), $curY, $this->makeSalutation($fam_ID));
@@ -260,13 +260,13 @@ if ($output === 'pdf') {
                 }
                 $curX = 30;
                 $curY = 246;
-                $this->writeAt(SystemConfig::getValue('leftX') + 5, $curY, SystemConfig::getValue('sChurchName'));
+                $this->writeAt(SystemConfig::getValue('leftX') + 5, $curY, SystemConfig::getValue('sCommunityName'));
                 $curY += SystemConfig::getValue('incrementY');
-                if (SystemConfig::getValue('sChurchAddress') != '') {
-                    $this->writeAt(SystemConfig::getValue('leftX') + 5, $curY, SystemConfig::getValue('sChurchAddress'));
+                if (SystemConfig::getValue('sCommunityAddress') != '') {
+                    $this->writeAt(SystemConfig::getValue('leftX') + 5, $curY, SystemConfig::getValue('sCommunityAddress'));
                     $curY += SystemConfig::getValue('incrementY');
                 }
-                $this->writeAt(SystemConfig::getValue('leftX') + 5, $curY, SystemConfig::getValue('sChurchCity') . ', ' . SystemConfig::getValue('sChurchState') . '  ' . SystemConfig::getValue('sChurchZip'));
+                $this->writeAt(SystemConfig::getValue('leftX') + 5, $curY, SystemConfig::getValue('sCommunityCity') . ', ' . SystemConfig::getValue('sCommunityState') . '  ' . SystemConfig::getValue('sCommunityZip'));
                 $curY += SystemConfig::getValue('incrementY');
                 if ($fam_Country != '' && $fam_Country != 'USA' && $fam_Country != 'United States') {
                     $this->writeAt(SystemConfig::getValue('leftX') + 5, $curY, $fam_Country);
@@ -508,6 +508,6 @@ if ($output === 'pdf') {
 
     // Export file
     header('Content-type: text/x-csv');
-    header('Content-Disposition: attachment; filename=ChurchCRM-' . date(SystemConfig::getValue('sDateFilenameFormat')) . '.csv');
+    header('Content-Disposition: attachment; filename=CommunityCRM-' . date(SystemConfig::getValue('sDateFilenameFormat')) . '.csv');
     echo $buffer;
 }

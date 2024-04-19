@@ -3,7 +3,7 @@
 /*******************************************************************************
  *
  *  filename    : FamilyCustomFieldsRowOps.php
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2003 Chris Gebhardt (http://www.openserve.org)
  *                Copyright 2004-2012 Michael Wilt
  *  Cloned from PersonCustomFieldsRowOps.php
@@ -14,9 +14,9 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security: user must be administrator to use this page.
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isAdmin());

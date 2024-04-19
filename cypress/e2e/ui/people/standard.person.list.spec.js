@@ -4,7 +4,7 @@ context("Standard People", () => {
     it("Listing all persons", () => {
         cy.loginStandard("v2/people");
         cy.contains("Admin");
-        cy.contains("Church");
+        cy.contains("Community");
         cy.contains("Joel");
         cy.contains("Emma");
     });
@@ -12,7 +12,7 @@ context("Standard People", () => {
     it("Listing all persons with gender filter", () => {
         cy.loginStandard("v2/people?Gender=0");
         cy.contains("Admin");
-        cy.contains("Church");
+        cy.contains("Community");
         cy.contains("Kennedy");
         cy.contains("Judith");
         cy.contains("Emma").should("not.exist");

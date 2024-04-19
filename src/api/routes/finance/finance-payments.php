@@ -1,14 +1,14 @@
 <?php
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\model\ChurchCRM\PledgeQuery;
-use ChurchCRM\Slim\Middleware\Request\Auth\FinanceRoleAuthMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\model\CommunityCRM\PledgeQuery;
+use CommunityCRM\Slim\Middleware\Request\Auth\FinanceRoleAuthMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Propel\Runtime\ActiveQuery\Criteria;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Routing\RouteCollectorProxy;
-use ChurchCRM\Service\FinancialService;
+use CommunityCRM\Service\FinancialService;
 
 $app->group('/payments', function (RouteCollectorProxy $group): void {
     $group->get('/', function (Request $request, Response $response, array $args): Response {

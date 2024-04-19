@@ -1,10 +1,10 @@
 <?php
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Authentication\Exceptions\PasswordChangeException;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\UserQuery;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Authentication\Exceptions\PasswordChangeException;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\UserQuery;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Exception\HttpForbiddenException;

@@ -1,9 +1,9 @@
 <?php
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\model\ChurchCRM\KioskDeviceQuery;
-use ChurchCRM\Slim\Request\SlimUtils;
-use ChurchCRM\Utils\LoggerUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\model\CommunityCRM\KioskDeviceQuery;
+use CommunityCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Utils\LoggerUtils;
 use Propel\Runtime\ActiveQuery\Criteria;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;

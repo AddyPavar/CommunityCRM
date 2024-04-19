@@ -6,7 +6,7 @@
  *  last change : 2002-04-22
  *  description : footer that appear on the bottom of all pages
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2001-2002 Phillip Hullquist, Deane Barker
   *
  ******************************************************************************/

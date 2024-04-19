@@ -1,7 +1,7 @@
 <?php
 
-use ChurchCRM\dto\Cart;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\dto\Cart;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Exception\HttpBadRequestException;

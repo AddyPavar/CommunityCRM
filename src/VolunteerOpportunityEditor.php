@@ -3,7 +3,7 @@
 /*******************************************************************************
  *
  *  filename    : VolunteerOpportunityEditor.php
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2005 Michael Wilt
  *
  ******************************************************************************/
@@ -11,11 +11,11 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\model\ChurchCRM\VolunteerOpportunity;
-use ChurchCRM\model\ChurchCRM\VolunteerOpportunityQuery;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\model\CommunityCRM\VolunteerOpportunity;
+use CommunityCRM\model\CommunityCRM\VolunteerOpportunityQuery;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security: User must have proper permission
 // For now ... require $bAdmin

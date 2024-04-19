@@ -1,7 +1,7 @@
 <?php
 
-use ChurchCRM\dto\ChurchMetaData;
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\CommunityMetaData;
+use CommunityCRM\dto\SystemURLs;
 
 // Set the page title and include HTML header
 $sPageTitle = $calendarName;
@@ -11,7 +11,7 @@ require(SystemURLs::getDocumentRoot() . "/Include/HeaderNotLoggedIn.php");
 <script src="<?= SystemURLs::getRootPath() ?>/skin/external/fullcalendar/index.global.min.js"></script>
 <div class="register-box" style="width: 100%; margin-top:5px;">
     <div class="register-logo">
-      <a href="<?= SystemURLs::getRootPath() ?>/"><?=  ChurchMetaData::getChurchName() ?></a>: <?= $calendarName ?></h1>
+      <a href="<?= SystemURLs::getRootPath() ?>/"><?=  CommunityMetaData::getCommunityName() ?></a>: <?= $calendarName ?></h1>
       <p></p>
     </div>
     <div class="row">

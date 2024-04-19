@@ -1,6 +1,6 @@
 <?php
 
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemURLs;
 
 require SystemURLs::getDocumentRoot() . '/Include/Header.php';
 

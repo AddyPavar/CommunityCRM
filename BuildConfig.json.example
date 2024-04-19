@@ -13,8 +13,8 @@
                 "database": {
                     "server": "localhost",
                     "port" : "3306",
-                    "database": "churchcrm",
-                    "user":"churchcrm",
+                    "database": "communitycrm",
+                    "user":"communitycrm",
                     "password": "changeme"
                 },
                 "admin-api-key": ""

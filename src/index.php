@@ -12,9 +12,9 @@ if (version_compare($phpVersion, '8.1.0', '<=')) {
     exit;
 }
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Utils\MiscUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Utils\MiscUtils;
 
 header('CRM: would redirect');
 

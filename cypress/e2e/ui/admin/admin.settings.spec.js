@@ -6,7 +6,7 @@ context("Admin Settings", () => {
     });
 
     it("View system settings", () => {
-        cy.contains("Church Information");
+        cy.contains("Community Information");
         cy.contains("User Setup");
         cy.contains("Email Setup");
         cy.contains("People Setup");
@@ -21,8 +21,8 @@ context("Admin Settings", () => {
 
     /*  TODO For some reason this resets the user session
 
-        it('Update Church Name', () => {
-        let newValue = "New Church -  " + Cypress._.random(0, 1e6)
+        it('Update Community Name', () => {
+        let newValue = "New Community -  " + Cypress._.random(0, 1e6)
         cy.get("input[name='new_value[1003]']").clear().type(newValue);
         cy.get("form[name='SystemSettingsForm']").submit();
         cy.location('pathname').should('include', "/SystemSettings.php");

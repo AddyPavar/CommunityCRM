@@ -3,7 +3,7 @@
 /*******************************************************************************
 *
 *  filename    : SettingsIndividual.php
-*  website     : https://churchcrm.io
+*  website     : https://communitycrm.io
 *  description : Page where users can modify their own settings
 *                   File copied from SettingsUser.php with minor edits.
 *
@@ -16,10 +16,10 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\model\ChurchCRM\UserConfig;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\model\CommunityCRM\UserConfig;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 $iPersonID = AuthenticationManager::getCurrentUser()->getId();
 

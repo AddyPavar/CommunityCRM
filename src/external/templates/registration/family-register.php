@@ -1,20 +1,20 @@
 <?php
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
 
 // Set the page title and include HTML header
 $sPageTitle = gettext("Family Registration");
 require(SystemURLs::getDocumentRoot() . "/Include/HeaderNotLoggedIn.php");
 
 
-$headerHTML = '<b>Church</b>CRM';
+$headerHTML = '<b>Community</b>CRM';
 $sHeader = SystemConfig::getValue("sHeader");
-$sChurchName = SystemConfig::getValue("sChurchName");
+$sCommunityName = SystemConfig::getValue("sCommunityName");
 if (!empty($sHeader)) {
     $headerHTML = html_entity_decode($sHeader, ENT_QUOTES);
-} else if (!empty($sChurchName)) {
-    $headerHTML = $sChurchName;
+} else if (!empty($sCommunityName)) {
+    $headerHTML = $sCommunityName;
 }
 
 ?>

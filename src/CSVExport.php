@@ -5,7 +5,7 @@
  *  filename    : CSVExport.php
  *  description : options for creating csv file
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2001-2002 Phillip Hullquist, Deane Barker
  *
  ******************************************************************************/
@@ -14,8 +14,8 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Utils\RedirectUtils;
 
 // If user does not have CSV Export permission, redirect to the menu.
 if (!AuthenticationManager::getCurrentUser()->isCSVExport()) {

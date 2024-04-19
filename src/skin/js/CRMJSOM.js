@@ -1,5 +1,5 @@
 /*
- * ChurchCRM JavaScript Object Model Initailizaion Script
+ * CommunityCRM JavaScript Object Model Initailizaion Script
  */
 
 window.CRM.APIRequest = function (options) {

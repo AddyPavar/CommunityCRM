@@ -3,7 +3,7 @@
 /*******************************************************************************
  *
  *  filename    : /Include/EnvelopeFunctions.php
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2006 Michael Wilt
   *
  ******************************************************************************/

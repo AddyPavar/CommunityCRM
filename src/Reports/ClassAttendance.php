@@ -4,7 +4,7 @@
 *
 *  filename    : Reports/ClassAttendance.php
 *  last change : 2013-02-22
-*  description : Creates a PDF for a Sunday School Class Attendance List
+*  description : Creates a PDF for a Education Initiative Class Attendance List
 *  Udpdated    : 2017-10-23
 *                Philippe Logel
 ******************************************************************************/
@@ -12,14 +12,14 @@
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\Base\ListOptionQuery;
-use ChurchCRM\model\ChurchCRM\Base\Person2group2roleP2g2rQuery;
-use ChurchCRM\model\ChurchCRM\GroupQuery;
-use ChurchCRM\model\ChurchCRM\Map\PersonTableMap;
-use ChurchCRM\Reports\PdfAttendance;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\Base\ListOptionQuery;
+use CommunityCRM\model\CommunityCRM\Base\Person2group2roleP2g2rQuery;
+use CommunityCRM\model\CommunityCRM\GroupQuery;
+use CommunityCRM\model\CommunityCRM\Map\PersonTableMap;
+use CommunityCRM\Reports\PdfAttendance;
+use CommunityCRM\Utils\InputUtils;
 
 $iGroupID = InputUtils::legacyFilterInput($_GET['GroupID']);
 $aGrp = explode(',', $iGroupID);

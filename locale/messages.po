@@ -33,7 +33,7 @@ msgid "Backup Database"
 msgstr ""
 
 msgid ""
-"This tool will assist you in manually backing up the ChurchCRM database."
+"This tool will assist you in manually backing up the CommunityCRM database."
 msgstr ""
 
 msgid ""
@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If you are concerned about confidentiality of data stored in the ChurchCRM "
+"If you are concerned about confidentiality of data stored in the CommunityCRM "
 "database, you should encrypt the backup data if it will be stored somewhere "
 "potentially accessible to others"
 msgstr ""
@@ -710,7 +710,7 @@ msgstr ""
 msgid "Group Types"
 msgstr ""
 
-msgid "Sunday School"
+msgid "Education Initiative"
 msgstr ""
 
 msgid "Classes"
@@ -719,10 +719,10 @@ msgstr ""
 msgid "Events"
 msgstr ""
 
-msgid "Add Church Event"
+msgid "Add Community Event"
 msgstr ""
 
-msgid "List Church Events"
+msgid "List Community Events"
 msgstr ""
 
 msgid "List Event Types"
@@ -823,7 +823,7 @@ msgstr ""
 msgid "New Family Added"
 msgstr ""
 
-msgid "Church Greeter"
+msgid "Community Greeter"
 msgstr ""
 
 msgid "Person Name"
@@ -850,7 +850,7 @@ msgstr ""
 msgid "Your Account was Deleted"
 msgstr ""
 
-msgid "Your ChurchCRM Account was Deleted."
+msgid "Your CommunityCRM Account was Deleted."
 msgstr ""
 
 msgid "Email/Username"
@@ -859,13 +859,13 @@ msgstr ""
 msgid "Account Locked"
 msgstr ""
 
-msgid "Your ChurchCRM account was locked."
+msgid "Your CommunityCRM account was locked."
 msgstr ""
 
 msgid "Your New Account"
 msgstr ""
 
-msgid "A ChurchCRM account was created for you"
+msgid "A CommunityCRM account was created for you"
 msgstr ""
 
 msgid "New Password"
@@ -874,19 +874,19 @@ msgstr ""
 msgid "Password Changed"
 msgstr ""
 
-msgid "Your ChurchCRM password was changed"
+msgid "Your CommunityCRM password was changed"
 msgstr ""
 
 msgid "Password Reset"
 msgstr ""
 
-msgid "You ChurchCRM updated password has been changed"
+msgid "You CommunityCRM updated password has been changed"
 msgstr ""
 
 msgid "Password Reset Link"
 msgstr ""
 
-msgid "You can reset your ChurchCRM password by clicking this link"
+msgid "You can reset your CommunityCRM password by clicking this link"
 msgstr ""
 
 msgid "Reset Password"
@@ -895,7 +895,7 @@ msgstr ""
 msgid "Account Unlocked"
 msgstr ""
 
-msgid "Your ChurchCRM account was unlocked."
+msgid "Your CommunityCRM account was unlocked."
 msgstr ""
 
 msgid "Please verify your family's information"
@@ -1238,10 +1238,10 @@ msgstr ""
 msgid "Google Maps Zoom"
 msgstr ""
 
-msgid "Latitude of the church, used to center the Google map"
+msgid "Latitude of the community, used to center the Google map"
 msgstr ""
 
-msgid "Longitude of the church, used to center the Google map"
+msgid "Longitude of the community, used to center the Google map"
 msgstr ""
 
 msgid ""
@@ -1331,7 +1331,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"ChurchCRM has been registered.  The ChurchCRM team uses registration "
+"CommunityCRM has been registered.  The CommunityCRM team uses registration "
 "information to track usage.  This information is kept confidential and never "
 "released or sold.  If this field is true the registration option in the "
 "admin menu changes to update registration."
@@ -1343,28 +1343,28 @@ msgstr ""
 msgid "Line Thickness (1 = 1/100th inch"
 msgstr ""
 
-msgid "Church Name"
+msgid "Community Name"
 msgstr ""
 
-msgid "Church Address"
+msgid "Community Address"
 msgstr ""
 
-msgid "Church City"
+msgid "Community City"
 msgstr ""
 
-msgid "Church State"
+msgid "Community State"
 msgstr ""
 
-msgid "Church Zip"
+msgid "Community Zip"
 msgstr ""
 
-msgid "Church Phone"
+msgid "Community Phone"
 msgstr ""
 
-msgid "Church Email"
+msgid "Community Email"
 msgstr ""
 
-msgid "Home area code of the church"
+msgid "Home area code of the community"
 msgstr ""
 
 msgid ""
@@ -1402,10 +1402,10 @@ msgstr ""
 msgid "Verbage for the directory report"
 msgstr ""
 
-msgid "Church Letterhead path and file"
+msgid "Community Letterhead path and file"
 msgstr ""
 
-msgid "Church Checking Account Number"
+msgid "Community Checking Account Number"
 msgstr ""
 
 msgid "lookup user images on Gravatar when no local image is present"
@@ -1470,7 +1470,7 @@ msgstr ""
 msgid "Display bill counts on deposit slip"
 msgstr ""
 
-msgid "ChurchCRM Cloud Access URL"
+msgid "CommunityCRM Cloud Access URL"
 msgstr ""
 
 msgid "Nexmo SMS API Key"
@@ -1497,13 +1497,13 @@ msgstr ""
 msgid "Show/Hide Lost Password Link on the login screen"
 msgstr ""
 
-msgid "Your Church's Website"
+msgid "Your Community's Website"
 msgstr ""
 
-msgid "Your Church's Facebook Page"
+msgid "Your Community's Facebook Page"
 msgstr ""
 
-msgid "Your Church's X Page"
+msgid "Your Community's X Page"
 msgstr ""
 
 msgid "lookup user images on Google when no local image is present"
@@ -1584,7 +1584,7 @@ msgstr ""
 msgid "Field where last Confession is stored, must be a date type"
 msgstr ""
 
-msgid "Require that this ChurchCRM Database is accessed over HTTPS"
+msgid "Require that this CommunityCRM Database is accessed over HTTPS"
 msgstr ""
 
 msgid "Show Birthdates Anniversaries on start up of the CRM"
@@ -1613,7 +1613,7 @@ msgstr ""
 msgid "Show custom links on the left menu."
 msgstr ""
 
-msgid "Enable Sunday School left menu."
+msgid "Enable Education Initiative left menu."
 msgstr ""
 
 msgid "Enable Finance menu"
@@ -1631,13 +1631,13 @@ msgstr ""
 msgid "Enable Email menu."
 msgstr ""
 
-msgid "ChurchCRM Central Notifications URL"
+msgid "CommunityCRM Central Notifications URL"
 msgstr ""
 
-msgid "Custom message for church greeter email 1, max 255 characters"
+msgid "Custom message for community greeter email 1, max 255 characters"
 msgstr ""
 
-msgid "Custom message for church greeter email 2, max 255 characters"
+msgid "Custom message for community greeter email 2, max 255 characters"
 msgstr ""
 
 msgid ""
@@ -1675,7 +1675,7 @@ msgstr ""
 msgid "Requires users to self-enroll in 2 factor authentication"
 msgstr ""
 
-msgid "ChurchCRM"
+msgid "CommunityCRM"
 msgstr ""
 
 msgid "Specify the application name to be displayed in authenticator app"
@@ -1687,7 +1687,7 @@ msgstr ""
 msgid "Google Maps API Key used for rendering maps in browser"
 msgstr ""
 
-msgid "Church Information"
+msgid "Community Information"
 msgstr ""
 
 msgid "User Setup"
@@ -1720,7 +1720,7 @@ msgstr ""
 msgid "Integration"
 msgstr ""
 
-msgid "Church Services"
+msgid "Community Services"
 msgstr ""
 
 msgid "Backup"
@@ -1836,16 +1836,16 @@ msgid ""
 "restore."
 msgstr ""
 
-msgid "Set Church Address"
+msgid "Set Community Address"
 msgstr ""
 
-msgid "Church Address is not Set."
+msgid "Community Address is not Set."
 msgstr ""
 
-msgid "Update Church Info"
+msgid "Update Community Info"
 msgstr ""
 
-msgid "Church Name is set to default value"
+msgid "Community Name is set to default value"
 msgstr ""
 
 msgid "Set Email Settings"
@@ -2185,7 +2185,7 @@ msgstr ""
 msgid "Add New Fund"
 msgstr ""
 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr ""
 
 msgid "Attendees for Event ID:"
@@ -2937,7 +2937,7 @@ msgstr ""
 msgid "Group Editor"
 msgstr ""
 
-msgid "Special Group Settings : Sunday School Type"
+msgid "Special Group Settings : Education Initiative Type"
 msgstr ""
 
 msgid "Group Settings"
@@ -2946,10 +2946,10 @@ msgstr ""
 msgid "Type of Group"
 msgstr ""
 
-msgid "Sunday School group can't be modified, only in this two cases :"
+msgid "Education Initiative group can't be modified, only in this two cases :"
 msgstr ""
 
-msgid "You can create/delete sunday school group. "
+msgid "You can create/delete education initiative group. "
 msgstr ""
 
 msgid ""
@@ -3257,7 +3257,7 @@ msgstr ""
 msgid "Custom Drop-Down List"
 msgstr ""
 
-msgid "Thank you for registering your ChurchCRM installation."
+msgid "Thank you for registering your CommunityCRM installation."
 msgstr ""
 
 msgid "PDF successfully emailed to family members."
@@ -3450,7 +3450,7 @@ msgstr ""
 msgid "Listing Events of Type = "
 msgstr ""
 
-msgid "Listing All Church Events"
+msgid "Listing All Community Events"
 msgstr ""
 
 msgid "Select Event Types To Display"
@@ -3510,8 +3510,8 @@ msgid "Missing Families? Update Family Latitude or Longitude now."
 msgstr ""
 
 msgid ""
-"Unable to display map due to missing Church Latitude or Longitude. Please "
-"update the church Address in the settings menu."
+"Unable to display map due to missing Community Latitude or Longitude. Please "
+"update the community Address in the settings menu."
 msgstr ""
 
 msgid ""
@@ -3722,7 +3722,7 @@ msgstr ""
 msgid "See All People"
 msgstr ""
 
-msgid "Sunday School Kids"
+msgid "Education Initiative Kids"
 msgstr ""
 
 msgid "More info"
@@ -4315,7 +4315,7 @@ msgstr ""
 
 msgid ""
 "This option requires at least version 3.22 of MySQL!  Hit browser back "
-"button to return to ChurchCRM."
+"button to return to CommunityCRM."
 msgstr ""
 
 msgid "Estimated value "
@@ -4427,7 +4427,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"If you upload a backup from ChurchInfo, or a previous version of ChurchCRM, "
+"If you upload a backup from CommunityInfo, or a previous version of CommunityCRM, "
 "it will be automatically upgraded to the current database schema"
 msgstr ""
 
@@ -4591,7 +4591,7 @@ msgstr ""
 msgid "No coordinates found"
 msgstr ""
 
-msgid "Upgrade ChurchCRM"
+msgid "Upgrade CommunityCRM"
 msgstr ""
 
 msgid "Warning: Pre-Upgrade Tasks Detected"
@@ -4612,7 +4612,7 @@ msgid "Warning: Signature mismatch"
 msgstr ""
 
 msgid ""
-"Some ChurchCRM system files may have been modified since the last "
+"Some CommunityCRM system files may have been modified since the last "
 "installation."
 msgstr ""
 
@@ -4648,7 +4648,7 @@ msgstr ""
 msgid "Step 2: Fetch Update Package on Server"
 msgstr ""
 
-msgid "Fetch the latest files from the ChurchCRM GitHub release page"
+msgid "Fetch the latest files from the CommunityCRM GitHub release page"
 msgstr ""
 
 msgid "Fetch Update Files"
@@ -4841,7 +4841,7 @@ msgstr ""
 msgid "\"Why Came\" notes for "
 msgstr ""
 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr ""
 
 msgid "Why do you keep coming?"
@@ -4850,7 +4850,7 @@ msgstr ""
 msgid "Do you have any suggestions for us?"
 msgstr ""
 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr ""
 
 msgid "Invalid request: Missing calendar id"
@@ -5120,7 +5120,7 @@ msgstr ""
 msgid "2FA Code"
 msgstr ""
 
-msgid "Sunday School Class Functions"
+msgid "Education Initiative Class Functions"
 msgstr ""
 
 msgid "Toggle Dropdown"
@@ -5186,7 +5186,7 @@ msgstr ""
 msgid "Discard"
 msgstr ""
 
-msgid "Sunday School Dashboard"
+msgid "Education Initiative Dashboard"
 msgstr ""
 
 msgid "Functions"
@@ -5204,10 +5204,10 @@ msgstr ""
 msgid "Export to CSV"
 msgstr ""
 
-msgid "Sunday School Classes"
+msgid "Education Initiative Classes"
 msgstr ""
 
-msgid "Students not in a Sunday School Class"
+msgid "Students not in a Education Initiative Class"
 msgstr ""
 
 msgid "Add"
@@ -5216,7 +5216,7 @@ msgstr ""
 msgid "Enter Name"
 msgstr ""
 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr ""
 
 msgid ""
@@ -5241,7 +5241,7 @@ msgstr ""
 msgid "Last Sunday"
 msgstr ""
 
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr ""
 
 msgid "Extra Students"
@@ -5286,7 +5286,7 @@ msgstr ""
 msgid "People not in"
 msgstr ""
 
-msgid "Audience not in the ChurchCRM"
+msgid "Audience not in the CommunityCRM"
 msgstr ""
 
 msgid "PDFs successfully emailed "
@@ -5324,7 +5324,7 @@ msgid ""
 "This will reset the system data and will restart the system as a new install."
 msgstr ""
 
-msgid "ChurchCRM Installation Information"
+msgid "CommunityCRM Installation Information"
 msgstr ""
 
 msgid "Software Version"
@@ -5667,7 +5667,7 @@ msgid "Unable To Begin Two Factor Authentication Enrollment"
 msgstr ""
 
 msgid ""
-"Two factor authentication requires ChurchCRM administrators to configure a "
+"Two factor authentication requires CommunityCRM administrators to configure a "
 "few parameters"
 msgstr ""
 
@@ -5983,7 +5983,7 @@ msgstr ""
 msgid "The birthday month for which you would like records returned."
 msgstr ""
 
-msgid "The sunday school class for which you would like records returned."
+msgid "The education initiative class for which you would like records returned."
 msgstr ""
 
 msgid "Group of registered students"
@@ -6999,7 +6999,7 @@ msgid "Checking Cart Status"
 msgstr ""
 
 msgid ""
-"ChurchCRM Two factor supports any TOTP authenticator app, so you're free to "
+"CommunityCRM Two factor supports any TOTP authenticator app, so you're free to "
 "choose between Microsoft Authenticator, Google Authenticator, Authy, "
 "LastPass, and others"
 msgstr ""
@@ -7056,7 +7056,7 @@ msgid "End Date"
 msgstr ""
 
 msgid ""
-"Enrolling your ChurchCRM user account in Two Factor Authention provides an "
+"Enrolling your CommunityCRM user account in Two Factor Authention provides an "
 "additional layer of defense against bad actors trying to access your account."
 msgstr ""
 
@@ -7284,7 +7284,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"To prevent being locked out of your ChurchCRM account, please ensure you're "
+"To prevent being locked out of your CommunityCRM account, please ensure you're "
 "ready to complete two factor enrollment before clicking begin"
 msgstr ""
 
@@ -7309,7 +7309,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"When you sign in to ChurchCRM, you'll still enter your username and password "
+"When you sign in to CommunityCRM, you'll still enter your username and password "
 "like normal"
 msgstr ""
 

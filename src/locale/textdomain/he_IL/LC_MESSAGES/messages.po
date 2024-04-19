@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: he\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -64,8 +64,8 @@ msgid "Backup Database"
 msgstr "גבה מסד נתונים"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "כלי זה יסייע לך ביצירת גיבוי ידני של מסד הנתונים של ChurchCRM"
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "כלי זה יסייע לך ביצירת גיבוי ידני של מסד הנתונים של CommunityCRM"
 
 #: 
 #, fuzzy
@@ -78,8 +78,8 @@ msgstr "לאחר הורדת קובץ הגיבוי, צור שני עותקים.\n
 "אחסן אחד מהם בכספת חסינת אש באתר, ועותק נוסף - באתר אחר."
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
-msgstr "אם אתה מודאג לגבי מידע רגיש, המאוחסן במערכת ChurchCRM, עליך לבצע הצפנה לקובץ הגיבוי, במידה שהוא מאוחסן במקום הנגיש לאחרים"
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgstr "אם אתה מודאג לגבי מידע רגיש, המאוחסן במערכת CommunityCRM, עליך לבצע הצפנה לקובץ הגיבוי, במידה שהוא מאוחסן במקום הנגיש לאחרים"
 
 #: 
 msgid "Select archive type"
@@ -680,7 +680,7 @@ msgid "Use Title Page"
 msgstr "שימוש בדף כותרת"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "שם הכנסייה"
 
 #: 
@@ -732,7 +732,7 @@ msgid "Save Changes"
 msgstr "שמור שינויים"
 
 #: 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr "עורך אירועי כנסיה"
 
 #: 
@@ -915,8 +915,8 @@ msgid "Holiday"
 msgstr "חופשה"
 
 #: 
-msgid "ChurchCRM"
-msgstr "ChurchCRM"
+msgid "CommunityCRM"
+msgstr "CommunityCRM"
 
 #: 
 msgid "Thank you for registering your family"
@@ -933,4 +933,3 @@ msgstr "זהו, הצג את דף הבית"
 #: 
 msgid "Unpinned Events"
 msgstr "אירועים שלא סומנו"
-

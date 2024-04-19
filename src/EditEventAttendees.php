@@ -4,9 +4,9 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\Utils\InputUtils;
 
-$sPageTitle = gettext('Church Event Editor');
+$sPageTitle = gettext('Community Event Editor');
 require 'Include/Header.php';
 
 $sAction = $_POST['Action'];

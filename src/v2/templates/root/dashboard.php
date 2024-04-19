@@ -1,6 +1,6 @@
 <?php
 
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemURLs;
 
 //Set the page title
 include SystemURLs::getDocumentRoot() . '/Include/Header.php';
@@ -72,17 +72,17 @@ include SystemURLs::getDocumentRoot() . '/Include/Header.php';
             <!-- small box -->
             <div class="small-box bg-orange">
                 <div class="inner">
-                    <h3 id="groupStatsSundaySchool">
-                        <?= $dashboardCounts["SundaySchool"] ?>
+                    <h3 id="groupStatsEducationInitiative">
+                        <?= $dashboardCounts["EducationInitiative"] ?>
                     </h3>
                     <p>
-                        <?= gettext('Sunday School Classes') ?>
+                        <?= gettext('Education Initiative Classes') ?>
                     </p>
                 </div>
                 <div class="icon">
                     <i class="fa fa-child"></i>
                 </div>
-                <a href="<?= SystemURLs::getRootPath() ?>/sundayschool/SundaySchoolDashboard.php" class="small-box-footer">
+                <a href="<?= SystemURLs::getRootPath() ?>/educationinitiative/EducationInitiativeDashboard.php" class="small-box-footer">
                     <?= gettext('More info') ?> <i class="fa fa-arrow-circle-right"></i>
                 </a>
             </div>

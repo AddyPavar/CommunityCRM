@@ -6,5 +6,5 @@
 $eGiveApiKey = '6ebef5c8c0848a7091ba23f68d06770c1476ccc169f2ade3be2952fc03de4cd7';
 $eGiveURL = 'https://www.egive-usa.com';
 
-// specific number for your church
+// specific number for your community
 $eGiveOrgID = 13821;

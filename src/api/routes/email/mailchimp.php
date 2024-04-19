@@ -1,11 +1,11 @@
 <?php
 
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Slim\Middleware\MailChimpMiddleware;
-use ChurchCRM\Slim\Middleware\Request\FamilyAPIMiddleware;
-use ChurchCRM\Slim\Middleware\Request\PersonAPIMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
-use ChurchCRM\Utils\LoggerUtils;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Slim\Middleware\MailChimpMiddleware;
+use CommunityCRM\Slim\Middleware\Request\FamilyAPIMiddleware;
+use CommunityCRM\Slim\Middleware\Request\PersonAPIMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Utils\LoggerUtils;
 use Propel\Runtime\ActiveQuery\Criteria;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;

@@ -9,7 +9,7 @@ use Rector\Set\ValueObject\SetList;
 
 return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->paths([
-        __DIR__ . '/ChurchCRM',
+        __DIR__ . '/CommunityCRM',
         __DIR__ . '/Include',
         __DIR__ . '/Reports',
         __DIR__ . '/api',
@@ -20,12 +20,12 @@ return static function (RectorConfig $rectorConfig): void {
         __DIR__ . '/mysql',
         __DIR__ . '/session',
         __DIR__ . '/setup',
-        __DIR__ . '/sundayschool',
+        __DIR__ . '/educationinitiative',
         __DIR__ . '/v2',
     ]);
     $rectorConfig->skip([
-        __DIR__ . '/ChurchCRM/model/ChurchCRM/Base',
-        __DIR__ . '/ChurchCRM/model/ChurchCRM/Map',
+        __DIR__ . '/CommunityCRM/model/CommunityCRM/Base',
+        __DIR__ . '/CommunityCRM/model/CommunityCRM/Map',
     ]);
 
     // register a single rule

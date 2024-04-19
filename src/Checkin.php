@@ -6,7 +6,7 @@
  *  last change : 2007-xx-x
  *  description : Quickly add attendees to an event
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2001-2003 Phillip Hullquist, Deane Barker, Chris Gebhardt
  *  Copyright 2005 Todd Pillars
  *  Copyright 2012 Michael Wilt
@@ -20,13 +20,13 @@ require 'Include/Config.php';
 require 'Include/Functions.php';
 require 'Include/Header.php';
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\EventAttend;
-use ChurchCRM\model\ChurchCRM\EventAttendQuery;
-use ChurchCRM\model\ChurchCRM\EventQuery;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\EventAttend;
+use CommunityCRM\model\CommunityCRM\EventAttendQuery;
+use CommunityCRM\model\CommunityCRM\EventQuery;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Utils\InputUtils;
 use Propel\Runtime\ActiveQuery\Criteria;
 
 $EventID = 0;

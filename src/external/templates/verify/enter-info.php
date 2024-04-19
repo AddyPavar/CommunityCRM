@@ -1,17 +1,17 @@
 <?php
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
 
 // Set the page title and include HTML header
-$sPageTitle = "ChurchCRM - Family Verification";
+$sPageTitle = "CommunityCRM - Family Verification";
 require(SystemURLs::getDocumentRoot() . "/Include/HeaderNotLoggedIn.php");
 ?>
 
     <div class="register-box">
         <div class="register-logo">
-            <a href="<?= SystemURLs::getRootPath() ?>/"><b>Church</b>CRM</a><br/>
-            <span><?= SystemConfig::getValue("sChurchName") .  $token ?></span>
+            <a href="<?= SystemURLs::getRootPath() ?>/"><b>Community</b>CRM</a><br/>
+            <span><?= SystemConfig::getValue("sCommunityName") .  $token ?></span>
         </div>
 
         <div class="register-box-body">

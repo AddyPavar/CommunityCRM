@@ -4,7 +4,7 @@
  *
  *  filename    : PropertyTypeList.php
  *  last change : 2003-03-27
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2001, 2002 Deane Barker
   *
  ******************************************************************************/
@@ -13,8 +13,8 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Utils\RedirectUtils;
 
 if (!AuthenticationManager::getCurrentUser()->isAdmin()) {
     RedirectUtils::securityRedirect("Admin");

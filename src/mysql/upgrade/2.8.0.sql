@@ -51,8 +51,8 @@ update config_cfg set cfg_name = 'iMinPasswordLength' where cfg_name = 'sMinPass
 update config_cfg set cfg_name = 'iMinPasswordChange' where cfg_name = 'sMinPasswordChange';
 update config_cfg set cfg_name = 'iSessionTimeout' where cfg_name = 'sSessionTimeout';
 update config_cfg set cfg_name = 'iIntegrityCheckInterval' where cfg_name = 'sIntegrityCheckInterval';
-update config_cfg set cfg_name = 'iChurchLatitude' where cfg_name = 'nChurchLatitude';
-update config_cfg set cfg_name = 'iChurchLongitude' where cfg_name = 'nChurchLongitude';
+update config_cfg set cfg_name = 'iCommunityLatitude' where cfg_name = 'nCommunityLatitude';
+update config_cfg set cfg_name = 'iCommunityLongitude' where cfg_name = 'nCommunityLongitude';
 
 /** array **/
 update config_cfg set cfg_name = 'aDisallowedPasswords' where cfg_name = 'sDisallowedPasswords';

@@ -6,15 +6,15 @@
  *  last change : 2002-04-22
  *  description : footer that appear on the bottom of all pages
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2001-2002 Phillip Hullquist, Deane Barker, Philippe Logel
   *
  ******************************************************************************/
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Bootstrapper;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Service\SystemService;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Bootstrapper;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Service\SystemService;
 
 $isAdmin = AuthenticationManager::getCurrentUser()->isAdmin();
 ?>
@@ -27,8 +27,8 @@ $isAdmin = AuthenticationManager::getCurrentUser()->isAdmin();
     <div class="float-right d-none d-sm-block">
         <b><?= gettext('Version') ?></b> <?= $_SESSION['sSoftwareInstalledVersion'] ?>
     </div>
-    <strong><?= gettext('Copyright') ?> &copy; <?= SystemService::getCopyrightDate() ?> <a href="https://churchcrm.io" target="_blank"><b>Church</b>CRM</a>.</strong> <?= gettext('All rights reserved') ?>.
-    | <a href="https://twitter.com/church_crm" target="_blank"><?= gettext("Follow us on") ?> <i class="fa-brands fa-x-twitter"></i> </a>
+    <strong><?= gettext('Copyright') ?> &copy; <?= SystemService::getCopyrightDate() ?> <a href="https://communitycrm.io" target="_blank"><b>Community</b>CRM</a>.</strong> <?= gettext('All rights reserved') ?>.
+    | <a href="https://twitter.com/community_crm" target="_blank"><?= gettext("Follow us on") ?> <i class="fa-brands fa-x-twitter"></i> </a>
     | <span class="fi fi-squared"></span>
 </footer>
 

@@ -1,12 +1,12 @@
 <?php
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Authentication\AuthenticationProviders\LocalAuthentication;
-use ChurchCRM\dto\Cart;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Service\TaskService;
-use ChurchCRM\view\MenuRenderer;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Authentication\AuthenticationProviders\LocalAuthentication;
+use CommunityCRM\dto\Cart;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Service\TaskService;
+use CommunityCRM\view\MenuRenderer;
 
 $taskService = new TaskService();
 
@@ -69,7 +69,7 @@ $MenuFirst = 1;
                         <i class="fa-solid fa-champagne-glasses"></i> <?= gettext('New Release') ?> <span id="upgradeToVersion"></span>
                     </a>
                     <?php } ?>
-                    <a href="https://github.com/ChurchCRM/CRM/releases/latest" target="_blank" class="dropdown-item" title="<?= gettext('Release Notes') ?>">
+                    <a href="https://github.com/CommunityCRM/CRM/releases/latest" target="_blank" class="dropdown-item" title="<?= gettext('Release Notes') ?>">
                         <i class="fa-solid fa-book-open-reader"></i> <?= gettext('Release Notes') ?>
                     </a>
                 </div>
@@ -120,11 +120,11 @@ $MenuFirst = 1;
                     <a href="#" id="reportIssue" class="dropdown-item" data-toggle="modal" data-target="#IssueReportModal"  title="<?= gettext('Report an issue') ?>">
                         <i class="fas fa-bug"></i> <?= gettext('Report an issue') ?>
                     </a>
-                    <a href="https://gitter.im/ChurchCRM/CRM" target="_blank" class="dropdown-item" title="<?= gettext('Developer Chat') ?>">
+                    <a href="https://gitter.im/CommunityCRM/CRM" target="_blank" class="dropdown-item" title="<?= gettext('Developer Chat') ?>">
                         <i class="far fa-comment-dots"></i> <?= gettext('Developer Chat') ?>
                     </a>
                     <div class="dropdown-divider"></div>
-                    <a href="https://github.com/ChurchCRM/CRM/wiki/Contributing" target="_blank" class="dropdown-item" title="<?= gettext('Contributing') ?>">
+                    <a href="https://github.com/CommunityCRM/CRM/wiki/Contributing" target="_blank" class="dropdown-item" title="<?= gettext('Contributing') ?>">
                         <i class="fab fa-github"></i> <?= gettext('Contributing') ?>
                     </a>
                 </div>
@@ -181,10 +181,10 @@ $MenuFirst = 1;
     <!-- Logo -->
       <a href="<?= SystemURLs::getRootPath() ?>/v2/dashboard" class="brand-link">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <img src="<?= SystemURLs::getRootPath() ?>/Images/CRM_50x50.png" alt="ChurchCRM Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+          <img src="<?= SystemURLs::getRootPath() ?>/Images/CRM_50x50.png" alt="CommunityCRM Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
           <!-- logo for regular state and mobile devices -->
           <?php
-            $headerHTML = '<b>Church</b>CRM';
+            $headerHTML = '<b>Community</b>CRM';
             $sHeader = SystemConfig::getValue("sHeader");
             if (!empty($sHeader)) {
                 $headerHTML = html_entity_decode($sHeader, ENT_QUOTES);

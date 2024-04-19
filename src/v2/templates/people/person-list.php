@@ -3,18 +3,18 @@
 /*******************************************************************************
 *
 *  filename    : person-list.php
-*  website     : https://churchcrm.io
+*  website     : https://communitycrm.io
 *  copyright   : Copyright 2019 Troy Smith
 *
 ******************************************************************************/
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\GroupQuery;
-use ChurchCRM\model\ChurchCRM\ListOptionQuery;
-use ChurchCRM\model\ChurchCRM\PersonCustomMasterQuery;
-use ChurchCRM\model\ChurchCRM\PropertyQuery;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\GroupQuery;
+use CommunityCRM\model\CommunityCRM\ListOptionQuery;
+use CommunityCRM\model\CommunityCRM\PersonCustomMasterQuery;
+use CommunityCRM\model\CommunityCRM\PropertyQuery;
 
 /**
  * This will avoid to call the db twice one to check if empty the other one to return the value
@@ -143,7 +143,7 @@ foreach ($ListItem as $element) {
             <tbody>
             <!--Populate the table with person details -->
             <?php foreach ($members as $person) {
-              /* @var $members ChurchCRM\people */
+              /* @var $members CommunityCRM\people */
 
                 ?>
             <tr>

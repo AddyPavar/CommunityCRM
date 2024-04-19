@@ -1,9 +1,9 @@
 <?php
 
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\ListOptionQuery;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\ListOptionQuery;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Utils\InputUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Routing\RouteCollectorProxy;

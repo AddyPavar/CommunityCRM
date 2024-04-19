@@ -9,12 +9,12 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\ListOptionQuery;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Service\DashboardService;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\ListOptionQuery;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Service\DashboardService;
 
 // Set the page title
 $sPageTitle = gettext('People Dashboard');
@@ -180,7 +180,7 @@ if (SystemConfig::getBooleanValue("bEnableSelfRegistration")) {
       </a>
     </div>
   </div>
-  <?php if (SystemConfig::getValue('bEnabledSundaySchool')) {
+  <?php if (SystemConfig::getValue('bEnabledEducationInitiative')) {
         ?>
   <!-- ./col -->
   <div class="col-lg-3 col-md-6 col-sm-6">
@@ -192,13 +192,13 @@ if (SystemConfig::getBooleanValue("bEnableSelfRegistration")) {
         </h3>
 
         <p>
-          <?= gettext('Sunday School Kids') ?>
+          <?= gettext('Education Initiative Kids') ?>
         </p>
       </div>
       <div class="icon">
         <i class="fa fa-child"></i>
       </div>
-      <a href="<?= SystemURLs::getRootPath() ?>/sundayschool/SundaySchoolDashboard.php" class="small-box-footer">
+      <a href="<?= SystemURLs::getRootPath() ?>/educationinitiative/EducationInitiativeDashboard.php" class="small-box-footer">
         <?= gettext('More info') ?> <i class="fa fa-arrow-circle-right"></i>
       </a>
     </div>

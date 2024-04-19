@@ -1,9 +1,9 @@
 <?php
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Service\SystemService;
-use ChurchCRM\Slim\Middleware\Request\Auth\AdminRoleAuthMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Service\SystemService;
+use CommunityCRM\Slim\Middleware\Request\Auth\AdminRoleAuthMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Routing\RouteCollectorProxy;
@@ -13,18 +13,18 @@ $app->group('/register', function (RouteCollectorProxy $group): void {
         $input = $request->getParsedBody();
 
         $registrationData = new \stdClass();
-        $registrationData->sName = SystemConfig::getValue('sChurchName');
-        $registrationData->sAddress = SystemConfig::getValue('sChurchAddress');
-        $registrationData->sCity = SystemConfig::getValue('sChurchCity');
-        $registrationData->sState = SystemConfig::getValue('sChurchState');
-        $registrationData->sZip = SystemConfig::getValue('sChurchZip');
-        $registrationData->sCountry = SystemConfig::getValue('sChurchCountry');
-        $registrationData->sEmail = SystemConfig::getValue('sChurchEmail');
-        $registrationData->ChurchCRMURL = $input['ChurchCRMURL'];
+        $registrationData->sName = SystemConfig::getValue('sCommunityName');
+        $registrationData->sAddress = SystemConfig::getValue('sCommunityAddress');
+        $registrationData->sCity = SystemConfig::getValue('sCommunityCity');
+        $registrationData->sState = SystemConfig::getValue('sCommunityState');
+        $registrationData->sZip = SystemConfig::getValue('sCommunityZip');
+        $registrationData->sCountry = SystemConfig::getValue('sCommunityCountry');
+        $registrationData->sEmail = SystemConfig::getValue('sCommunityEmail');
+        $registrationData->CommunityCRMURL = $input['CommunityCRMURL'];
         $registrationData->Version = SystemService::getInstalledVersion();
 
         $registrationData->sComments = $input['emailmessage'];
-        $curlService = curl_init('https://demo.churchcrm.io/register.php');
+        $curlService = curl_init('https://demo.communitycrm.io/register.php');
 
         curl_setopt($curlService, CURLOPT_POST, true);
         curl_setopt($curlService, CURLOPT_POSTFIELDS, json_encode($registrationData, JSON_THROW_ON_ERROR));

@@ -2,7 +2,7 @@
 /* * *****************************************************************************
  *
  *  filename    : GroupView.php
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2001-2003 Deane Barker, Chris Gebhardt
  *
  *  Additional Contributors:
@@ -19,13 +19,13 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\Base\GroupQuery;
-use ChurchCRM\model\ChurchCRM\ListOptionQuery;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\Base\GroupQuery;
+use CommunityCRM\model\CommunityCRM\ListOptionQuery;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 //Get the GroupID out of the querystring
 $iGroupID = InputUtils::legacyFilterInput($_GET['GroupID'], 'int');

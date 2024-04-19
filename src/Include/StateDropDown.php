@@ -2,10 +2,10 @@
 
 // Country Code $sCountry is already set when this is invoked
 //
-use ChurchCRM\data\States;
-use ChurchCRM\data\Country;
-use ChurchCRM\data\Countries;
-use ChurchCRM\Utils\LoggerUtils;
+use CommunityCRM\data\States;
+use CommunityCRM\data\Country;
+use CommunityCRM\data\Countries;
+use CommunityCRM\Utils\LoggerUtils;
 
 $optionTags = [
     '<option value="">' . gettext('Unassigned') . '</option>',

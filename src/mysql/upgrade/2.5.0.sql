@@ -9,7 +9,7 @@ CREATE TABLE `tokens` (
 ) ENGINE=MyISAM CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 INSERT IGNORE INTO`config_cfg` (`cfg_id`, `cfg_name`, `cfg_value`, `cfg_type`, `cfg_default`, `cfg_tooltip`, `cfg_section`) VALUES
-(1048, 'sConfirmSincerely', 'Sincerely', 'Text', 'Sincerely', 'Used to end a letter before Signer', 'ChurchInfoReport'),
+(1048, 'sConfirmSincerely', 'Sincerely', 'Text', 'Sincerely', 'Used to end a letter before Signer', 'CommunityInfoReport'),
 (1050, 'googleTrackingID', '', 'Text', '', 'Google Analytics Tracking Code', 'General');
 
 update config_cfg set cfg_data = '{"Choices":["English - United States:en_US", "English - Canada:en_CA", "English - Australia:en_AU", "English - Great Britain:en_GB", "German - Germany:de_DE", "Spanish - Spain:es_ES", "French - France:fr_FR", "Hungarian:hu_HU", "Italian - Italy:it_IT", "Norwegian:nb_NO", "Dutch - Netherlands:nl_NL", "Polish:pl_PL", "Portuguese - Brazil:pt_BR", "Romanian - Romania:ro_RO", "Russian:ru_RU", "Sami (Northern) (Sweden):se_SE", "Albanian:sq_AL", "Swedish - Sweden:sv_SE", "Vietnamese:vi_VN", "Chinese - China:zh_CN", "Chinese - Taiwan:zh_TW"]}' where cfg_id = 39;
@@ -41,4 +41,3 @@ UPDATE `config_cfg` SET `cfg_type`='textarea' WHERE `cfg_id`='1029';
 UPDATE `config_cfg` SET `cfg_type`='textarea' WHERE `cfg_id`='1031';
 UPDATE `config_cfg` SET `cfg_type`='textarea' WHERE `cfg_id`='1032';
 UPDATE `config_cfg` SET `cfg_type`='textarea' WHERE `cfg_id`='1033';
-

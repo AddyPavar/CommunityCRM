@@ -120,7 +120,7 @@ $(document).ready(function () {
                                 className: "btn-info",
                                 callback: function () {
                                     window.location.href =
-                                        window.CRM.churchWebSite;
+                                        window.CRM.communityWebSite;
                                 },
                             },
                         },

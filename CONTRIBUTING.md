@@ -10,9 +10,9 @@ The project welcomes, and depends on, contributions from developers and users in
 ## First Steps
 1. Read this whole page "top to bottom."
 2. Make sure you have a [GitHub account](https://github.com/signup/free)
-3. Introduce yourself in the developer chat at [https://gitter.im/ChurchCRM/CRM](https://gitter.im/ChurchCRM/CRM)
-4. Take a look at the [Open Issues](https://github.com/ChurchCRM/CRM/issues) page.
-  We've made it easy for beginners with the [Good First Bug](https://github.com/ChurchCRM/CRM/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+first+bug%22) Label - these are issues that should be relatively easy to fix.
+3. Introduce yourself in the developer chat at [https://gitter.im/CommunityCRM/CRM](https://gitter.im/CommunityCRM/CRM)
+4. Take a look at the [Open Issues](https://github.com/CommunityCRM/CRM/issues) page.
+  We've made it easy for beginners with the [Good First Bug](https://github.com/CommunityCRM/CRM/issues?q=is%3Aopen+is%3Aissue+label%3A%22Good+first+bug%22) Label - these are issues that should be relatively easy to fix.
 6. Have fun!
 
 
@@ -38,7 +38,7 @@ Certainly! Below is the CONTRIBUTING.md file with an added section mentioning th
 4. **Clone the repository:**
 
    ```markdown
-   git clone https://github.com/your-username/ChurchCRM.git
+   git clone https://github.com/your-username/CommunityCRM.git
    ```
 
 5. **Install dependencies:**
@@ -57,10 +57,10 @@ Certainly! Below is the CONTRIBUTING.md file with an added section mentioning th
 
 ## User Interface using AdminLTE
 
-ChurchCRM utilizes the AdminLTE framework for its user interface. Follow these guidelines when working on the UI:
+CommunityCRM utilizes the AdminLTE framework for its user interface. Follow these guidelines when working on the UI:
 
 1. **Understanding AdminLTE:**
-   - Familiarize yourself with [AdminLTE](https://adminlte.io/), the framework used for the ChurchCRM user interface.
+   - Familiarize yourself with [AdminLTE](https://adminlte.io/), the framework used for the CommunityCRM user interface.
 
 2. **Making UI Changes:**
    - UI components are located in the `src` directory.
@@ -74,7 +74,7 @@ ChurchCRM utilizes the AdminLTE framework for its user interface. Follow these g
 
 ## Slim MVC for New APIs and Pages
 
-For new APIs and pages, ChurchCRM follows the Slim MVC (Model-View-Controller) architecture. Follow these guidelines when working on new functionalities:
+For new APIs and pages, CommunityCRM follows the Slim MVC (Model-View-Controller) architecture. Follow these guidelines when working on new functionalities:
 
 ## Adding Tests with Cypress
 

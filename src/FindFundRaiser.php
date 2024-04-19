@@ -4,7 +4,7 @@
  *
  *  filename    : FindFundRaiser.php
  *  last change : 2009-04-16
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2009 Michael Wilt
   *
  ******************************************************************************/
@@ -13,8 +13,8 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Utils\InputUtils;
 
 //Set the page title
 $sPageTitle = gettext('Fundraiser Listing');

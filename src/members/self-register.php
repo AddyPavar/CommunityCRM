@@ -2,7 +2,7 @@
 
 /*******************************************************************************
  *
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2017
  *
  ******************************************************************************/
@@ -14,7 +14,7 @@ require '../Include/Functions.php';
 $sPageTitle = gettext('Self Registrations');
 require '../Include/Header.php';
 
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemURLs;
 
 ?>
 

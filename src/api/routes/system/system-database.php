@@ -1,24 +1,24 @@
 <?php
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Backup\BackupDownloader;
-use ChurchCRM\Backup\BackupJob;
-use ChurchCRM\Backup\RestoreJob;
-use ChurchCRM\dto\Photo;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\FileSystemUtils;
-use ChurchCRM\model\ChurchCRM\FamilyCustomQuery;
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\model\ChurchCRM\NoteQuery;
-use ChurchCRM\model\ChurchCRM\Person2group2roleP2g2rQuery;
-use ChurchCRM\model\ChurchCRM\PersonCustomQuery;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\model\ChurchCRM\PersonVolunteerOpportunityQuery;
-use ChurchCRM\model\ChurchCRM\UserQuery;
-use ChurchCRM\Slim\Middleware\Request\Auth\AdminRoleAuthMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
-use ChurchCRM\Utils\LoggerUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Backup\BackupDownloader;
+use CommunityCRM\Backup\BackupJob;
+use CommunityCRM\Backup\RestoreJob;
+use CommunityCRM\dto\Photo;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\FileSystemUtils;
+use CommunityCRM\model\CommunityCRM\FamilyCustomQuery;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\model\CommunityCRM\NoteQuery;
+use CommunityCRM\model\CommunityCRM\Person2group2roleP2g2rQuery;
+use CommunityCRM\model\CommunityCRM\PersonCustomQuery;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\model\CommunityCRM\PersonVolunteerOpportunityQuery;
+use CommunityCRM\model\CommunityCRM\UserQuery;
+use CommunityCRM\Slim\Middleware\Request\Auth\AdminRoleAuthMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Utils\LoggerUtils;
 use Propel\Runtime\ActiveQuery\Criteria;
 use Propel\Runtime\Propel;
 use Psr\Http\Message\ResponseInterface as Response;
@@ -33,7 +33,7 @@ $app->group('/database', function (RouteCollectorProxy $group): void {
 
     $group->post('/backup', function (Request $request, Response $response, array $args): Response {
         $input = $request->getParsedBody();
-        $BaseName = preg_replace('/[^a-zA-Z0-9\-_]/', '', SystemConfig::getValue('sChurchName')) . '-' . date(SystemConfig::getValue('sDateFilenameFormat'));
+        $BaseName = preg_replace('/[^a-zA-Z0-9\-_]/', '', SystemConfig::getValue('sCommunityName')) . '-' . date(SystemConfig::getValue('sDateFilenameFormat'));
         $BackupType = $input['BackupType'];
         $Backup = new BackupJob(
             $BaseName,
@@ -64,7 +64,7 @@ $app->group('/database', function (RouteCollectorProxy $group): void {
             $BaseName = preg_replace(
                 '/[^a-zA-Z0-9\-_]/',
                 '',
-                SystemConfig::getValue('sChurchName')
+                SystemConfig::getValue('sCommunityName')
             ) . '-' . date(SystemConfig::getValue('sDateFilenameFormat'));
             $BackupType = $input['BackupType'];
             $Backup = new BackupJob(

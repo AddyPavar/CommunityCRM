@@ -4,17 +4,17 @@
  *
  *  filename    : Attendance.php
  *  last change : 2005-09-18
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2005 Todd Pillars
  *
- *  function    : List all Church Events
+ *  function    : List all Community Events
   *
  ******************************************************************************/
 
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemURLs;
 
 if (array_key_exists('Action', $_POST) && $_POST['Action'] == 'Retrieve' && !empty($_POST['Event'])) {
     if ($_POST['Choice'] == 'Attendees') {

@@ -9,19 +9,19 @@
  *
  ******************************************************************************/
 
-namespace ChurchCRM\Reports;
+namespace CommunityCRM\Reports;
 
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Emails\FamilyVerificationEmail;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\LoggerUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Emails\FamilyVerificationEmail;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\LoggerUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
-class EmailPdfConfirmReport extends ChurchInfoReport
+class EmailPdfConfirmReport extends CommunityInfoReport
 {
     // Constructor
     public function __construct()

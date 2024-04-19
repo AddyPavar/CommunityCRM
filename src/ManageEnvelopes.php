@@ -4,7 +4,7 @@
  *
  *  filename    : ManageEnvelopes.php
  *  last change : 2005-02-21
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2006 Michael Wilt
   *
  ******************************************************************************/
@@ -15,10 +15,10 @@ require 'Include/Functions.php';
 
 require 'Include/EnvelopeFunctions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\Utils\RedirectUtils;
 
 //Set the page title
 $sPageTitle = gettext('Envelope Manager');

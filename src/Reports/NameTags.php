@@ -11,9 +11,9 @@
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Reports\PdfLabel;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Reports\PdfLabel;
+use CommunityCRM\Utils\InputUtils;
 
 $sLabelFormat = InputUtils::legacyFilterInput($_GET['labeltype']);
 setcookie('labeltype', $sLabelFormat, ['expires' => time() + 60 * 60 * 24 * 90, 'path' => '/']);

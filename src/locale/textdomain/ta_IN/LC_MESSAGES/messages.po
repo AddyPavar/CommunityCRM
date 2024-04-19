@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: ta\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -61,7 +61,7 @@ msgid "Backup Database"
 msgstr "காப்பு தரவுத்தளம் or தகவல்கள் தளம்"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
 msgstr "சர்ச்சிஆர்எம் தரவுத்தளத்தை கைமுறையாக காப்புப் பிரதி எடுக்க இந்தக் கருவி உங்களுக்கு உதவும்"
 
 #: 
@@ -73,7 +73,7 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "காப்பு கோப்பைப் பதிவிறக்கிய பிறகு, நீங்கள் இரண்டு நகல்களை உருவாக்க வேண்டும். அவற்றில் ஒன்றைத் நெருப்பினால் பாதிக்கப்படாத பாதுகாப்பான இடத்திலும், மற்றொன்றை தளத்திற்கு வெளியே பாதுகாப்பான இடத்திலும் வைக்கவும்"
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
 msgstr "சர்ச்சிஆர்எம் தரவுத்தளத்தில் சேமிக்கப்பட்ட தரவின் ரகசியத்தன்மை குறித்து நீங்கள் கவலைப்படுகிறீர்கள் என்றால், பிறருக்கு அணுகக்கூடிய வகையில் எங்காவது சேமிக்கப்பட்டால், காப்புப் பிரதித் தரவை என்க்ரிப்ட் அல்லது குறியாக்கம் அல்லது மறைக்குறியீடு செய்ய வேண்டும்"
 
 #: 
@@ -885,7 +885,7 @@ msgid "Use Title Page"
 msgstr "தலைப்புப் பக்கத்தைப் பயன்படுத்தவும்"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "சர்ச் பெயர்"
 
 #: 
@@ -978,7 +978,7 @@ msgid "Add New Fund"
 msgstr "புதிய நிதியைச் சேர்க்கவும்"
 
 #: 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr "சபை நிகழ்வு திருத்தும் ஆசிரியர்"
 
 #: 
@@ -1718,7 +1718,7 @@ msgid "Graphic"
 msgstr "கிராஃபிக்/கணினி வரைகலை"
 
 #: 
-msgid "Church Address"
+msgid "Community Address"
 msgstr "சபையின்/தேவாலய முகவரி"
 
 #: 
@@ -2218,7 +2218,7 @@ msgid "Listing Events of Type = "
 msgstr "வகை நிகழ்வுகளை பட்டியலிடுதல் =␣"
 
 #: 
-msgid "Listing All Church Events"
+msgid "Listing All Community Events"
 msgstr "அனைத்து சபை/தேவாலய நிகழ்வுகளையும் பட்டியலிடுதல்"
 
 #: 
@@ -2298,7 +2298,7 @@ msgid "Assign starting at #"
 msgstr "# இல் தொடங்கி ஒதுக்கவும்/நியமிக்கவும்"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
+msgid "Unable to display map due to missing Community Latitude or Longitude. Please update the community Address in the settings menu."
 msgstr "பை/தேவாலய அட்சரேகை அல்லது தீர்க்கரேகை இல்லாததால் வரைபடத்தைக் காட்ட முடியவில்லை. அமைப்புகள் பட்டியலில் தேவாலய முகவரியை புதுப்பிக்கவும்."
 
 #: 
@@ -2366,7 +2366,7 @@ msgid "See All People"
 msgstr "எல்லா மக்களையும் பார்க்கவும்"
 
 #: 
-msgid "Sunday School Kids"
+msgid "Education Initiative Kids"
 msgstr "ஞாயிறு பள்ளி குழந்தைகள்"
 
 #: 
@@ -2418,7 +2418,7 @@ msgid "Girls"
 msgstr "சிறுமிகள்"
 
 #: 
-msgid "Sunday School Classes"
+msgid "Education Initiative Classes"
 msgstr "ஞாயிறு பள்ளி வகுப்புகள்"
 
 #: 
@@ -3338,7 +3338,7 @@ msgid "\"Why Came\" notes for "
 msgstr "␣க்கான \"ஏன் வந்தது\" குறிப்புகள்"
 
 #: 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr "நீங்கள் ஏன் தேவாலயத்திற்கு வந்தீர்கள்?"
 
 #: 
@@ -3350,7 +3350,7 @@ msgid "Do you have any suggestions for us?"
 msgstr "எங்களுக்கு ஏதேனும் பரிந்துரைகள் உள்ளதா?"
 
 #: 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr "தேவாலயத்தைப் பற்றி நீங்கள் எவ்வாறு கற்றுக்கொண்டீர்கள்?"
 
 #: 
@@ -3458,7 +3458,7 @@ msgid "Custom Drop-Down List"
 msgstr "தனிப்பயன் கீழ்தோன்றும் பட்டியல்"
 
 #: 
-msgid "Thank you for registering your ChurchCRM installation."
+msgid "Thank you for registering your CommunityCRM installation."
 msgstr "உங்கள் சர்ச்சிஆர்எம் நிறுவலைப் பதிவு செய்ததற்கு நன்றி."
 
 #: 
@@ -3702,8 +3702,8 @@ msgid "Member/Friend"
 msgstr "உறுப்பினர்/நண்பர்"
 
 #: 
-msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
-msgstr "இந்த விருப்பத்திற்கு குறைந்தபட்சம் MySQL இன் பதிப்பு 3.22 தேவை! ChurchCRM மிற்குத் திரும்ப, பிரவுசர் பேக்/மீண்டும் உலாவி பட்டனை அழுத்தவும்."
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM."
+msgstr "இந்த விருப்பத்திற்கு குறைந்தபட்சம் MySQL இன் பதிப்பு 3.22 தேவை! CommunityCRM மிற்குத் திரும்ப, பிரவுசர் பேக்/மீண்டும் உலாவி பட்டனை அழுத்தவும்."
 
 #: 
 msgid "Work"
@@ -3822,11 +3822,11 @@ msgid "Gift Designation:"
 msgstr "பரிசு பதவி:"
 
 #: 
-msgid "Sunday School"
+msgid "Education Initiative"
 msgstr "ஞாயிறு பள்ளி"
 
 #: 
-msgid "Sunday School Class Functions"
+msgid "Education Initiative Class Functions"
 msgstr "ஞாயிறு பள்ளி வகுப்பு செயல்பாடுகள்"
 
 #: 
@@ -3918,7 +3918,7 @@ msgid "Discard"
 msgstr "நிராகரி"
 
 #: 
-msgid "Sunday School Dashboard"
+msgid "Education Initiative Dashboard"
 msgstr "ஞாயிறு பள்ளி டாஷ்போர்டு/தகவல்கள் நிர்வகிக்கும் பலகை"
 
 #: 
@@ -3926,7 +3926,7 @@ msgid "Classes"
 msgstr "வகுப்புகள்"
 
 #: 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr "ஞாயிறு பள்ளி அறிக்கைகள்"
 
 #: 
@@ -3938,7 +3938,7 @@ msgid "Export All Classes, Kids, and Parent to CSV file"
 msgstr "அனைத்து வகுப்புகள், குழந்தைகள் மற்றும் பெற்றோரை CSV கோப்பிற்கு ஏற்றுமதி செய்யவும்"
 
 #: 
-msgid "Students not in a Sunday School Class"
+msgid "Students not in a Education Initiative Class"
 msgstr "ஞாயிறு பள்ளி வகுப்பில் மாணவர்கள் இல்லை"
 
 #: 
@@ -3970,7 +3970,7 @@ msgid "Last Sunday"
 msgstr "கடந்த ஞாயிறு"
 
 #: 
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr "ஞாயிறு பள்ளி இல்லை"
 
 #: 
@@ -4110,7 +4110,7 @@ msgid "CAUTION: This will completely erase the existing database, and replace it
 msgstr "எச்சரிக்கை: இது ஏற்கனவே உள்ள தரவுத்தளத்தை முற்றிலும் அழித்து, அதை காப்புப்பிரதியுடன் மாற்றும்"
 
 #: 
-msgid "If you upload a backup from ChurchInfo, or a previous version of ChurchCRM, it will be automatically upgraded to the current database schema"
+msgid "If you upload a backup from CommunityInfo, or a previous version of CommunityCRM, it will be automatically upgraded to the current database schema"
 msgstr "சர்ச்இன்ஃபோவிலிருந்து காப்புப்பிரதியை அல்லது சர்ச்சிஆர்எம்மின் முந்தைய பதிப்பைப் பதிவேற்றினால், அது தானாகவே தற்போதைய தரவுத்தள திட்டத்திற்கு மேம்படுத்தப்படும்."
 
 #: 
@@ -4134,7 +4134,7 @@ msgid "Restore Error."
 msgstr "மீட்டமை பிழை."
 
 #: 
-msgid "Church Information"
+msgid "Community Information"
 msgstr "தேவாலய தகவல்"
 
 #: 
@@ -4182,7 +4182,7 @@ msgid "Edit Settings"
 msgstr "அமைப்புகளைத் திருத்து"
 
 #: 
-msgid "Upgrade ChurchCRM"
+msgid "Upgrade CommunityCRM"
 msgstr "சர்ச்சிஆர்எம்மை மேம்படுத்தவும்"
 
 #: 
@@ -4202,8 +4202,8 @@ msgid "Step 2: Fetch Update Package on Server"
 msgstr "படி 2: சர்வரில் புதுப்பிப்பு தொகுப்பைப் பெறவும்"
 
 #: 
-msgid "Fetch the latest files from the ChurchCRM GitHub release page"
-msgstr "ChurchCRM GitHub வெளியீட்டுப் பக்கத்திலிருந்து சமீபத்திய கோப்புகளைப் பெறவும்"
+msgid "Fetch the latest files from the CommunityCRM GitHub release page"
+msgstr "CommunityCRM GitHub வெளியீட்டுப் பக்கத்திலிருந்து சமீபத்திய கோப்புகளைப் பெறவும்"
 
 #: 
 msgid "Fetch Update Files"
@@ -4290,11 +4290,11 @@ msgid "Enter Name"
 msgstr "பெயரை உள்ளிடுக"
 
 #: 
-msgid "Update Church Info"
+msgid "Update Community Info"
 msgstr "சர்ச் தகவலைப் புதுப்பிக்கவும்"
 
 #: 
-msgid "Set Church Address"
+msgid "Set Community Address"
 msgstr "தேவாலய முகவரியை அமைக்கவும்"
 
 #: 
@@ -4773,4 +4773,3 @@ msgstr "2022/2023"
 #: 
 msgid "invalid group request"
 msgstr "தவறான குழு கோரிக்கை"
-

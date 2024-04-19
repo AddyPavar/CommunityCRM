@@ -1,14 +1,14 @@
 <?php
 
-use ChurchCRM\Search\AddressSearchResultProvider;
-use ChurchCRM\Search\BaseSearchResultProvider;
-use ChurchCRM\Search\CalendarEventSearchResultProvider;
-use ChurchCRM\Search\FamilySearchResultProvider;
-use ChurchCRM\Search\FinanceDepositSearchResultProvider;
-use ChurchCRM\Search\FinancePaymentSearchResultProvider;
-use ChurchCRM\Search\GroupSearchResultProvider;
-use ChurchCRM\Search\PersonSearchResultProvider;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Search\AddressSearchResultProvider;
+use CommunityCRM\Search\BaseSearchResultProvider;
+use CommunityCRM\Search\CalendarEventSearchResultProvider;
+use CommunityCRM\Search\FamilySearchResultProvider;
+use CommunityCRM\Search\FinanceDepositSearchResultProvider;
+use CommunityCRM\Search\FinancePaymentSearchResultProvider;
+use CommunityCRM\Search\GroupSearchResultProvider;
+use CommunityCRM\Search\PersonSearchResultProvider;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 

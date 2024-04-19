@@ -1,10 +1,10 @@
 <?php
 
-use ChurchCRM\Bootstrapper;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Service\AppIntegrityService;
-use ChurchCRM\Service\SystemService;
+use CommunityCRM\Bootstrapper;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Service\AppIntegrityService;
+use CommunityCRM\Service\SystemService;
 
 //Set the page title
 include SystemURLs::getDocumentRoot() . '/Include/Header.php';
@@ -13,12 +13,12 @@ include SystemURLs::getDocumentRoot() . '/Include/Header.php';
     <div class="col-lg-4">
         <div class="card">
             <div class="card-header">
-                <h4><?= gettext("ChurchCRM Installation Information") ?></h4>
+                <h4><?= gettext("CommunityCRM Installation Information") ?></h4>
             </div>
             <div class="card-body overflow-auto">
                 <table class="table table-striped">
                     <tr>
-                        <td>ChurchCRM <?= gettext("Software Version") ?></td>
+                        <td>CommunityCRM <?= gettext("Software Version") ?></td>
                         <td><?= SystemService::getInstalledVersion() ?></td>
                     </tr>
                     <tr>
@@ -72,7 +72,7 @@ include SystemURLs::getDocumentRoot() . '/Include/Header.php';
             <div class="card-body overflow-auto">
                 <table class="table table-striped">
                     <tr>
-                        <td>ChurchCRM <?= gettext("Database Version") ?></td>
+                        <td>CommunityCRM <?= gettext("Database Version") ?></td>
                         <td><?= SystemService::getDBVersion() ?></td>
                     </tr>
                     <tr>

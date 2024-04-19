@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: am\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
@@ -61,8 +61,8 @@ msgid "Backup Database"
 msgstr "የመረጃ ቋቱን አስቀምጥ"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "ይሄ መሳሪያ የChurchCRM  መረጃ ቋት ለማስቀመጥ ይረዳል"
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "ይሄ መሳሪያ የCommunityCRM  መረጃ ቋት ለማስቀመጥ ይረዳል"
 
 #: 
 #, fuzzy
@@ -75,7 +75,7 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "የምትኬ ሰነዱን ካወረዱ በኋላ በሁለት ቅጂዎች መዘጋጀት አለበት። አንደኛውን እሳት በማይደርስበት ድህረ ገፅ ላይ ይቀመጥ፥ ሁለተኛውን ምትኬ በሌላ ስፍራ ያስቀምጡት።"
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
 msgstr "በዚህ ሶፍትዌር የሚቀመጠው መረጃ ደህንነት ካሳሰብዎት፤ አባክዎ ሰዎች ሊያገኙት በሚችሉት ቦታ የተቀመጠን የውሂብ ጎታ አመስጥረው ያስቀምጡ።"
 
 #: 
@@ -888,7 +888,7 @@ msgid "Use Title Page"
 msgstr "የርዕስ ገጽን ተጠቀም"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "የቤተክርስቲያን ስም"
 
 #: 
@@ -980,7 +980,7 @@ msgid "Add New Fund"
 msgstr "አዲስ ፈንድ አክል"
 
 #: 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr "የቤተ ክርስቲያን ዝግጅት አዘጋጅ"
 
 #: 
@@ -1721,7 +1721,7 @@ msgid "Graphic"
 msgstr "ግራፊክ"
 
 #: 
-msgid "Church Address"
+msgid "Community Address"
 msgstr "የቤተ ክርስቲያን አድራሻ"
 
 #: 
@@ -2221,7 +2221,7 @@ msgid "Listing Events of Type = "
 msgstr "የ. ዓይነት ክስተቶች ዝርዝር "
 
 #: 
-msgid "Listing All Church Events"
+msgid "Listing All Community Events"
 msgstr "ሁሉንም የቤተ ክርስቲያን ክስተቶች መዘርዘር"
 
 #: 
@@ -2301,7 +2301,7 @@ msgid "Assign starting at #"
 msgstr "ከ# ጀምሮ መድብ"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
+msgid "Unable to display map due to missing Community Latitude or Longitude. Please update the community Address in the settings menu."
 msgstr "በቤተክርስትያን ኬክሮስ ወይም ኬንትሮስ አለመገኘት ምክንያት ካርታ ማሳየት አልተቻለም። እባክዎ በቅንብሮች ምናሌ ውስጥ የቤተክርስቲያኑን አድራሻ ያዘምኑ።"
 
 #: 
@@ -2369,7 +2369,7 @@ msgid "See All People"
 msgstr "ሁሉንም ሰዎች ይመልከቱ"
 
 #: 
-msgid "Sunday School Kids"
+msgid "Education Initiative Kids"
 msgstr "የእሁድ ትምህርት ልጆች"
 
 #: 
@@ -2421,7 +2421,7 @@ msgid "Girls"
 msgstr "Meisies"
 
 #: 
-msgid "Sunday School Classes"
+msgid "Education Initiative Classes"
 msgstr "የሰንበት ትምህርት ቤቶች ክፍሎች"
 
 #: 
@@ -3343,7 +3343,7 @@ msgid "\"Why Came\" notes for "
 msgstr "\"ለምን እንደመጣ\" ማስታወሻ ጻፍ"
 
 #: 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr "ለምን ወደ ቤተ ክርስቲያን መጣህ? "
 
 #: 
@@ -3355,7 +3355,7 @@ msgid "Do you have any suggestions for us?"
 msgstr "ለእኛ የምሰጡት አስተያየት አሉዎት?"
 
 #: 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr "ስለ ቤተ ክርስቲያን እንዴት ተማራችሁ? "
 
 #: 
@@ -3463,8 +3463,8 @@ msgid "Custom Drop-Down List"
 msgstr "ብጁ ተቆልቋይ ዝርዝር"
 
 #: 
-msgid "Thank you for registering your ChurchCRM installation."
-msgstr "የChurchCRM ጭነትዎን ስላስመዘገቡ እናመሰግናለን"
+msgid "Thank you for registering your CommunityCRM installation."
+msgstr "የCommunityCRM ጭነትዎን ስላስመዘገቡ እናመሰግናለን"
 
 #: 
 msgid "PDFs successfully emailed "
@@ -3707,7 +3707,7 @@ msgid "Member/Friend"
 msgstr "አባል/ጓደኛ"
 
 #: 
-msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM."
 msgstr "ይህ አማራጭ ቢያንስ የ MySQL ስሪት 3.22 ያስፈልገዋል! ወደ ቤተክርስትያን CRM ለመመለስ የአሳሽ ተመለስ ቁልፍን ተጫን።"
 
 #: 
@@ -3827,11 +3827,11 @@ msgid "Gift Designation:"
 msgstr "የስጦታ ስያሜ፡"
 
 #: 
-msgid "Sunday School"
+msgid "Education Initiative"
 msgstr "ሰንበት ትምህርት ቤት"
 
 #: 
-msgid "Sunday School Class Functions"
+msgid "Education Initiative Class Functions"
 msgstr "የሰንበት ትምህርት ክፍል ተግባራት"
 
 #: 
@@ -3923,7 +3923,7 @@ msgid "Discard"
 msgstr "አስወግድ"
 
 #: 
-msgid "Sunday School Dashboard"
+msgid "Education Initiative Dashboard"
 msgstr "የሰንበት ትምህርት ቤት መለጠፊያ"
 
 #: 
@@ -3931,7 +3931,7 @@ msgid "Classes"
 msgstr "ክፍሎች"
 
 #: 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr "የሰንበት ትምህርት ቤቶች ዘገባዎች"
 
 #: 
@@ -3943,7 +3943,7 @@ msgid "Export All Classes, Kids, and Parent to CSV file"
 msgstr "ሁሉንም ክፍሎች፣ ልጆች እና ወላጆች ወደ CSV ፋይል ይላኩ"
 
 #: 
-msgid "Students not in a Sunday School Class"
+msgid "Students not in a Education Initiative Class"
 msgstr "ተማሪዎች በሰንበት ትምህርት ቤት ውስጥ አይደሉም"
 
 #: 
@@ -3975,7 +3975,7 @@ msgid "Last Sunday"
 msgstr "ባለፈው እሁድ"
 
 #: 
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr "ሰንበት ትምህርት ቤት የለም"
 
 #: 
@@ -4115,8 +4115,8 @@ msgid "CAUTION: This will completely erase the existing database, and replace it
 msgstr "ይጠንቀቁ: ይህ አሁን ያለውን ዳታ ቤዝ ሙሉ በሙሉ ያጠፋል እና በመጠባበቂያው ይተካዋል"
 
 #: 
-msgid "If you upload a backup from ChurchInfo, or a previous version of ChurchCRM, it will be automatically upgraded to the current database schema"
-msgstr "ምትኬን ከChurchInfo ወይም የቀድሞ የChurchCRM ስሪት ከሰቀሉ፣ በራስ ሰር ወደ የአሁኑ ዳታቤዝ ንድፍ ይሻሻላል"
+msgid "If you upload a backup from CommunityInfo, or a previous version of CommunityCRM, it will be automatically upgraded to the current database schema"
+msgstr "ምትኬን ከCommunityInfo ወይም የቀድሞ የCommunityCRM ስሪት ከሰቀሉ፣ በራስ ሰር ወደ የአሁኑ ዳታቤዝ ንድፍ ይሻሻላል"
 
 #: 
 msgid "Upload Files"
@@ -4139,7 +4139,7 @@ msgid "Restore Error."
 msgstr "ስህተቱን ወደነበረበት መልስ"
 
 #: 
-msgid "Church Information"
+msgid "Community Information"
 msgstr "የቤተክርስቲያን መረጃ"
 
 #: 
@@ -4187,8 +4187,8 @@ msgid "Edit Settings"
 msgstr "ቅንብሮችን ያርትዑ"
 
 #: 
-msgid "Upgrade ChurchCRM"
-msgstr "ChurchCRMን አሻሽል"
+msgid "Upgrade CommunityCRM"
+msgstr "CommunityCRMን አሻሽል"
 
 #: 
 msgid "Step 1: Backup Database"
@@ -4207,8 +4207,8 @@ msgid "Step 2: Fetch Update Package on Server"
 msgstr "ደረጃ 2: ማሻሻያ ጥቅል በአገልጋይ ላይ"
 
 #: 
-msgid "Fetch the latest files from the ChurchCRM GitHub release page"
-msgstr "የቅርብ ጊዜዎቹን ፋይሎች ከChurchCRM GitHub መልቀቂያ ገጽ ያውጡ"
+msgid "Fetch the latest files from the CommunityCRM GitHub release page"
+msgstr "የቅርብ ጊዜዎቹን ፋይሎች ከCommunityCRM GitHub መልቀቂያ ገጽ ያውጡ"
 
 #: 
 msgid "Fetch Update Files"
@@ -4295,11 +4295,11 @@ msgid "Enter Name"
 msgstr "ስም አስገባ"
 
 #: 
-msgid "Update Church Info"
+msgid "Update Community Info"
 msgstr "የቤተ ክርስቲያን መረጃን አዘምን"
 
 #: 
-msgid "Set Church Address"
+msgid "Set Community Address"
 msgstr "የቤተ ክርስቲያን አድራሻ አዘጋጅ"
 
 #: 
@@ -4639,7 +4639,7 @@ msgid "with this Property..."
 msgstr "ከዚህ ንብረት ጋር…"
 
 #: 
-msgid "Church Email"
+msgid "Community Email"
 msgstr "የቤተክርስቲያን ኢሜይል"
 
 #: 
@@ -4713,11 +4713,11 @@ msgid "First month of the fiscal year"
 msgstr "የበጀት ዓመቱ የመጀመሪያ ወር"
 
 #: 
-msgid "Latitude of the church, used to center the Google map"
+msgid "Latitude of the community, used to center the Google map"
 msgstr "የቤተክርስቲያን ኬክሮስ፣ ጎግል ካርታውን ማዕከል ለማድረግ ያገለግል ነበር"
 
 #: 
-msgid "Longitude of the church, used to center the Google map"
+msgid "Longitude of the community, used to center the Google map"
 msgstr "የቤተክርስቲያን ኬንትሮስ፣ ጎግል ካርታን ማዕከል ለማድረግ ያገለግል ነበር"
 
 #: 
@@ -4773,8 +4773,8 @@ msgid "Set true to enable family self registration."
 msgstr "የቤተሰብ ራስን መመዝገብ ለማንቃት እውነት ያዘጋጁ"
 
 #: 
-msgid "ChurchCRM has been registered.  The ChurchCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
-msgstr "ChurchCRM ተመዝግቧል። የChurchCRM ቡድን አጠቃቀምን ለመከታተል የምዝገባ መረጃ ይጠቀማል። ይህ መረጃ በሚስጥር የተጠበቀ ነው እና በጭራሽ አይለቀቅም ወይም አይሸጥም። ይህ መስክ እውነት ከሆነ በአስተዳዳሪው ምናሌ ውስጥ ያለው የመመዝገቢያ ምርጫ ምዝገባን ለማዘመን ይለወጣል"
+msgid "CommunityCRM has been registered.  The CommunityCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
+msgstr "CommunityCRM ተመዝግቧል። የCommunityCRM ቡድን አጠቃቀምን ለመከታተል የምዝገባ መረጃ ይጠቀማል። ይህ መረጃ በሚስጥር የተጠበቀ ነው እና በጭራሽ አይለቀቅም ወይም አይሸጥም። ይህ መስክ እውነት ከሆነ በአስተዳዳሪው ምናሌ ውስጥ ያለው የመመዝገቢያ ምርጫ ምዝገባን ለማዘመን ይለወጣል"
 
 #: 
 msgid "Left Margin (1 = 1/100th inch)"
@@ -4785,23 +4785,23 @@ msgid "Line Thickness (1 = 1/100th inch"
 msgstr "የመስመር ውፍረት (1 = 1/100ኛ ኢንች)"
 
 #: 
-msgid "Church City"
+msgid "Community City"
 msgstr "የቤተክርስቲያኒቱ የምትገኝበት ከተማ"
 
 #: 
-msgid "Church State"
+msgid "Community State"
 msgstr "የቤተ ክርስቲያኒቱ የምትገኝበት ግዛት"
 
 #: 
-msgid "Church Zip"
+msgid "Community Zip"
 msgstr "የቤተ ክርስቲያን Zip"
 
 #: 
-msgid "Church Phone"
+msgid "Community Phone"
 msgstr "የቤተ ክርስቲያን ስልክ"
 
 #: 
-msgid "Home area code of the church"
+msgid "Home area code of the community"
 msgstr "የቤተክርስቲያኑ የቤት አካባቢ ኮድ"
 
 #: 
@@ -4849,7 +4849,7 @@ msgid "Verbage for the directory report"
 msgstr "ለማውጫ ሪፖርቱ ቃል"
 
 #: 
-msgid "Church Letterhead path and file"
+msgid "Community Letterhead path and file"
 msgstr "የቤተ ክርስቲያን ደብዳቤ ዱካ እና ፋይል"
 
 #: 
@@ -4901,11 +4901,11 @@ msgid "List Groups"
 msgstr "የዝርዝር ቡድኖች"
 
 #: 
-msgid "List Church Events"
+msgid "List Community Events"
 msgstr "የቤተ ክርስቲያን ዝግጅቶችን ይዘርዝሩ"
 
 #: 
-msgid "Add Church Event"
+msgid "Add Community Event"
 msgstr "የቤተክርስቲያን ክስተት ጨምር"
 
 #: 
@@ -5111,7 +5111,7 @@ msgid "The birthday month for which you would like records returned."
 msgstr "መዝገቦች እንዲመለሱ የሚፈልጉት የልደት ወር"
 
 #: 
-msgid "The sunday school class for which you would like records returned."
+msgid "The education initiative class for which you would like records returned."
 msgstr "መዝገቦች እንዲመለሱ የሚፈልጉት የሰንበት ትምህርት ቤት ክፍል።"
 
 #: 
@@ -6592,11 +6592,11 @@ msgid "Please verify your family's information"
 msgstr "እባክዎ የቤተሰብዎን መረጃ ያረጋግጡ"
 
 #: 
-msgid "Church Address is not Set."
+msgid "Community Address is not Set."
 msgstr "የቤተ ክርስቲያን አድራሻ አልተሞላም"
 
 #: 
-msgid "Church Name is set to default value"
+msgid "Community Name is set to default value"
 msgstr "የቤተ ክርስቲያን ስም ወደ ነባሪ እሴት ተቀናብሯል"
 
 #: 
@@ -6820,7 +6820,7 @@ msgid "The previous integrity check passed.  All system file hashes match the ex
 msgstr "ያለፈው የታማኝነት ማረጋገጫ አልፏል። ሁሉም የስርዓት ፋይል hashes ከተጠበቁት እሴቶች ጋር ይዛመዳሉ።"
 
 #: 
-msgid "Church Checking Account Number"
+msgid "Community Checking Account Number"
 msgstr "የቤተ ክርስቲያን ማረጋገጫ መለያ ቁጥር"
 
 #: 
@@ -7000,16 +7000,16 @@ msgid "Display bill counts on deposit slip"
 msgstr "የማሳያ ሂሳቡ በተቀማጭ ወረቀት ላይ ይቆጠራል"
 
 #: 
-msgid "ChurchCRM Cloud Access URL"
-msgstr "ChurchCRM የደመና መዳረሻ URL"
+msgid "CommunityCRM Cloud Access URL"
+msgstr "CommunityCRM የደመና መዳረሻ URL"
 
 #: 
 msgid "Your Account was Deleted"
 msgstr "መለያህ ተሰርዟል።"
 
 #: 
-msgid "Your ChurchCRM Account was Deleted."
-msgstr "የChurchCRM መለያህ ተሰርዟል።"
+msgid "Your CommunityCRM Account was Deleted."
+msgstr "የCommunityCRM መለያህ ተሰርዟል።"
 
 #: 
 msgid "Account Locked"
@@ -7156,24 +7156,24 @@ msgid "Select GeoCoder Provider"
 msgstr "የጂኦኮደር አቅራቢን ይምረጡ"
 
 #: 
-msgid "Your ChurchCRM account was locked."
-msgstr "የChurchCRM መለያህ ተቆልፏል"
+msgid "Your CommunityCRM account was locked."
+msgstr "የCommunityCRM መለያህ ተቆልፏል"
 
 #: 
-msgid "A ChurchCRM account was created for you"
-msgstr "የChurchCRM መለያ ለእርስዎ ተፈጥሯል"
+msgid "A CommunityCRM account was created for you"
+msgstr "የCommunityCRM መለያ ለእርስዎ ተፈጥሯል"
 
 #: 
-msgid "Your ChurchCRM password was changed"
-msgstr "የእርስዎ ChurchCRM ይለፍ ቃል ተቀይሯል"
+msgid "Your CommunityCRM password was changed"
+msgstr "የእርስዎ CommunityCRM ይለፍ ቃል ተቀይሯል"
 
 #: 
-msgid "You can reset your ChurchCRM password by clicking this link"
-msgstr "ይህንን ሊንክ ጠቅ በማድረግ የChurchCRM ይለፍ ቃልዎን ዳግም ማስጀመር ይችላሉ"
+msgid "You can reset your CommunityCRM password by clicking this link"
+msgstr "ይህንን ሊንክ ጠቅ በማድረግ የCommunityCRM ይለፍ ቃልዎን ዳግም ማስጀመር ይችላሉ"
 
 #: 
-msgid "Your ChurchCRM account was unlocked."
-msgstr "የChurchCRM መለያህ ተከፍቷል"
+msgid "Your CommunityCRM account was unlocked."
+msgstr "የCommunityCRM መለያህ ተከፍቷል"
 
 #: 
 msgid "system user created"
@@ -7340,8 +7340,8 @@ msgid "Please go to this location"
 msgstr "እባክዎ ወደ ሚከተለው ቦታ ይሂዱ"
 
 #: 
-msgid "You ChurchCRM updated password has been changed"
-msgstr "የአንተ ChurchCRM የዘመነ የይለፍ ቃል ተለውጧል"
+msgid "You CommunityCRM updated password has been changed"
+msgstr "የአንተ CommunityCRM የዘመነ የይለፍ ቃል ተለውጧል"
 
 #: 
 msgid "Password Reset Link"
@@ -7404,7 +7404,7 @@ msgid "Text Cart"
 msgstr "የጽሑፍ መዝገብ"
 
 #: 
-msgid "Your Church's Website"
+msgid "Your Community's Website"
 msgstr "የቤተክርስቲያንህ ድህረ ገጽ"
 
 #: 
@@ -7512,12 +7512,12 @@ msgid "Thai"
 msgstr "ታይ"
 
 #: 
-msgid "Your Church's Facebook Page"
+msgid "Your Community's Facebook Page"
 msgstr "የቤተክርስቲያንህ የፌስቡክ ገጽ"
 
 #: 
 #, fuzzy
-msgid "Your Church's X Page"
+msgid "Your Community's X Page"
 msgstr "የቤተክርስቲያንህ ትዊተር ገጽ"
 
 #: 
@@ -7585,7 +7585,7 @@ msgid "New Family Added"
 msgstr "አዲስ ቤተሰብ ታክሏል"
 
 #: 
-msgid "Church Greeter"
+msgid "Community Greeter"
 msgstr "የቤተክርስቲያን ሰላምታ ሰጪ"
 
 #: 
@@ -7593,15 +7593,15 @@ msgid "External Calendar API is disabled"
 msgstr "ውጫዊ የቀን መቁጠሪያ API ተሰናክሏል"
 
 #: 
-msgid "Special Group Settings : Sunday School Type"
+msgid "Special Group Settings : Education Initiative Type"
 msgstr "የልዩ ቡድን መቼቶች: የሰንበት ትምህርት ቤት አይነት"
 
 #: 
-msgid "Sunday School group can't be modified, only in this two cases :"
+msgid "Education Initiative group can't be modified, only in this two cases :"
 msgstr "የሰንበት ትምህርት ቤት ቡድን ሊሻሻል አይችልም፣ በእነዚህ ሁለት ጉዳዮች ብቻ:"
 
 #: 
-msgid "You can create/delete sunday school group. "
+msgid "You can create/delete education initiative group. "
 msgstr "የሰንበት ትምህርት ቤት ቡድን መፍጠር/መሰረዝ ትችላለህ. "
 
 #: 
@@ -7901,15 +7901,15 @@ msgid "Field where last Confession is stored, must be a date type"
 msgstr "የመጨረሻው ኑዛዜ የተከማቸበት መስክ፣ የቀን አይነት መሆን አለበት"
 
 #: 
-msgid "Require that this ChurchCRM Database is accessed over HTTPS"
-msgstr "ይህ የChurchCRM መረጃ ቋት በHTTPS ላይ እንዲደርስ ጠይቅ"
+msgid "Require that this CommunityCRM Database is accessed over HTTPS"
+msgstr "ይህ የCommunityCRM መረጃ ቋት በHTTPS ላይ እንዲደርስ ጠይቅ"
 
 #: 
 msgid "People Setup"
 msgstr "የሰዎች ማዋቀር"
 
 #: 
-msgid "Church Services"
+msgid "Community Services"
 msgstr "የቤተ ክርስቲያን አገልግሎት"
 
 #: 
@@ -8211,7 +8211,7 @@ msgid "Show custom links on the left menu."
 msgstr "በግራ ምናሌው ላይ ብጁ አገናኞችን አሳይ"
 
 #: 
-msgid "Enable Sunday School left menu."
+msgid "Enable Education Initiative left menu."
 msgstr "የሰንበት ትምህርት ቤት የግራ ምናሌን አንቃ"
 
 #: 
@@ -8283,8 +8283,8 @@ msgid "User must have Delete Records permission"
 msgstr "ተጠቃሚው መዝገቦችን የማጥፋት ፈቃድ ሊኖረው ይገባል"
 
 #: 
-msgid "ChurchCRM Central Notifications URL"
-msgstr "ChurchCRM ማዕከላዊ ማሳወቂያዎች URL"
+msgid "CommunityCRM Central Notifications URL"
+msgstr "CommunityCRM ማዕከላዊ ማሳወቂያዎች URL"
 
 #: 
 #, fuzzy
@@ -8432,11 +8432,11 @@ msgid "Person Name"
 msgstr "የግለሰቡ ስም "
 
 #: 
-msgid "Custom message for church greeter email 1, max 255 characters"
+msgid "Custom message for community greeter email 1, max 255 characters"
 msgstr "ለቤተክርስቲያን ሰላምታ ሰጪ ኢሜል የተዘጋጁ መልዕክት 1:ከ 255 ፊደል  ያልበለጠ "
 
 #: 
-msgid "Custom message for church greeter email 2, max 255 characters"
+msgid "Custom message for community greeter email 2, max 255 characters"
 msgstr "ለቤተክርስቲያን ሰላምታ ሰጪ ኢሜል የተዘጋጁ መልዕክት 2:ከ 255 ፊደል  ያልበለጠ "
 
 #: 
@@ -8504,7 +8504,7 @@ msgid "Warning: Signature mismatch"
 msgstr "ማስጠንቀቂያ፡ የፊርማ አለመዛመድ"
 
 #: 
-msgid "Some ChurchCRM system files may have been modified since the last installation."
+msgid "Some CommunityCRM system files may have been modified since the last installation."
 msgstr "አንዳንድ የቤት ክርስቲያን CRM ስርዓት ፋይሎች ከመጨረሻው ጭነት በኋላ ተስተካክለው ሊሆን ይችላል "
 
 #: 
@@ -8798,7 +8798,7 @@ msgid "Requires users to self-enroll in 2 factor authentication"
 msgstr "ተጠቃሚዎች በ2  የማረጋገጫ  መንገድ ራሳቸው እንዲመዘገቡ ይፈልጋል"
 
 #: 
-msgid "ChurchCRM"
+msgid "CommunityCRM"
 msgstr "የቤተክርስቲያን CRM"
 
 #: 
@@ -8875,8 +8875,8 @@ msgid "Unable To Begin Two Factor Authentication Enrollment"
 msgstr "የሁለት ደረጃ ማረጋገጫ ምዝገባን መጀመር አልተቻለም"
 
 #: 
-msgid "Two factor authentication requires ChurchCRM administrators to configure a few parameters"
-msgstr "የሁለት ደረጃ ማረጋገጫ የChurchCRM አስተዳዳሪዎች ጥቂት መለኪያዎችን እንዲያዋቅሩ ይጠይቃል"
+msgid "Two factor authentication requires CommunityCRM administrators to configure a few parameters"
+msgstr "የሁለት ደረጃ ማረጋገጫ የCommunityCRM አስተዳዳሪዎች ጥቂት መለኪያዎችን እንዲያዋቅሩ ይጠይቃል"
 
 #: 
 msgid "System configuration "
@@ -8970,12 +8970,12 @@ msgid "Invalid List id"
 msgstr "ልክ ያልሆነ የዝርዝር መታወቂያ"
 
 #: 
-msgid "Audience not in the ChurchCRM"
+msgid "Audience not in the CommunityCRM"
 msgstr "ታዳሚዎች በቤተክርስቲያን CRM ውስጥ አይደሉም"
 
 #: 
-msgid "ChurchCRM Installation Information"
-msgstr "ChurchCRM ጭነት መረጃ"
+msgid "CommunityCRM Installation Information"
+msgstr "CommunityCRM ጭነት መረጃ"
 
 #: 
 msgid "Database Server Version"
@@ -9136,16 +9136,16 @@ msgid "Event Description"
 msgstr "የክስተት መግለጫ"
 
 #: 
-msgid "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
-msgstr "የChurchCRM ተጠቃሚ መለያዎን በሁለት ፋክተር ማረጋገጫ መመዝገብ መለያዎን ለመክፈት ከሚሞክሩ ያልተገቡ ሰዎች ተጨማሪ የመከላከል አቅም ይሰጣል።"
+msgid "Enrolling your CommunityCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
+msgstr "የCommunityCRM ተጠቃሚ መለያዎን በሁለት ፋክተር ማረጋገጫ መመዝገብ መለያዎን ለመክፈት ከሚሞክሩ ያልተገቡ ሰዎች ተጨማሪ የመከላከል አቅም ይሰጣል።"
 
 #: 
-msgid "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
-msgstr "ChurchCRM Two factor ማንኛውንም የTOTP አረጋጋጭ መተግበሪያን ይደግፋል፣ ስለዚህ በማይክሮሶፍት አረጋጋጭ፣ Google አረጋጋጭ፣ Authy፣ LastPass እና ሌሎች መካከል መምረጥ ይችላሉ፡፡"
+msgid "CommunityCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
+msgstr "CommunityCRM Two factor ማንኛውንም የTOTP አረጋጋጭ መተግበሪያን ይደግፋል፣ ስለዚህ በማይክሮሶፍት አረጋጋጭ፣ Google አረጋጋጭ፣ Authy፣ LastPass እና ሌሎች መካከል መምረጥ ይችላሉ፡፡"
 
 #: 
-msgid "When you sign in to ChurchCRM, you'll still enter your username and password like normal"
-msgstr "ወደ ChurchCRM ሲገቡ ሁልጊዜ የእርስዎን የተጠቃሚ ስም እና የይለፍ ቃል እንደተለመደው ያስገባሉ።"
+msgid "When you sign in to CommunityCRM, you'll still enter your username and password like normal"
+msgstr "ወደ CommunityCRM ሲገቡ ሁልጊዜ የእርስዎን የተጠቃሚ ስም እና የይለፍ ቃል እንደተለመደው ያስገባሉ።"
 
 #: 
 msgid "However, you'll also need to supply a one-time code from your authenticator device to complete your login"
@@ -9156,8 +9156,8 @@ msgid "After successfully entering both your credentials, and the one-time code,
 msgstr "ሁለቱንም ምስክርነቶችዎን እና የአንድ ጊዜ ኮድ በተሳካ ሁኔታ ካስገቡ በኋላ፣ መደበኛው ሆነው መግባት ይችላሉ፡፡"
 
 #: 
-msgid "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
-msgstr "ከChurchCRM መለያዎ መቆለፍንና መዉጣትን ለመከላከል፣ እባክዎን ጀምርን ከመጫኖ በፊት የሁለት ደረጃ ምዝገባን ለማጠናቀቅ ዝግጁ መሆንዎን ያረጋግጡ።"
+msgid "To prevent being locked out of your CommunityCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
+msgstr "ከCommunityCRM መለያዎ መቆለፍንና መዉጣትን ለመከላከል፣ እባክዎን ጀምርን ከመጫኖ በፊት የሁለት ደረጃ ምዝገባን ለማጠናቀቅ ዝግጁ መሆንዎን ያረጋግጡ።"
 
 #: 
 msgid "Beginning enrollment will invalidate any previously enrolled 2 factor devices and recovery codes."
@@ -9350,4 +9350,3 @@ msgstr "ልክ ያልሆነ የልደት ቀን፡ የጠፋ የልደት ወር
 #: 
 msgid "Invalid Birth Date: Missing birth month and day."
 msgstr "ልክ ያልሆነ የልደት ቀን፡ የጠፋ የልደት ወር እና ቀን"
-

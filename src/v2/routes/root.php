@@ -1,13 +1,13 @@
 <?php
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\ChurchMetaData;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\EventAttendQuery;
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\model\ChurchCRM\GroupQuery;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\CommunityMetaData;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\EventAttendQuery;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\model\CommunityCRM\GroupQuery;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
 use Propel\Runtime\ActiveQuery\Criteria;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
@@ -30,7 +30,7 @@ function viewDashboard(Request $request, Response $response, array $args): Respo
         ->where('Family.DateDeactivated is null')
         ->count();
 
-    $dashboardCounts['SundaySchool'] = GroupQuery::create()
+    $dashboardCounts['EducationInitiative'] = GroupQuery::create()
         ->filterByType(4)
         ->count();
 
@@ -46,9 +46,9 @@ function viewDashboard(Request $request, Response $response, array $args): Respo
 
     $pageArgs = [
         'sRootPath'           => SystemURLs::getRootPath(),
-        'sPageTitle'          => gettext('Welcome to') . ' ' . ChurchMetaData::getChurchName(),
+        'sPageTitle'          => gettext('Welcome to') . ' ' . CommunityMetaData::getCommunityName(),
         'dashboardCounts'     => $dashboardCounts,
-        'sundaySchoolEnabled' => SystemConfig::getBooleanValue('bEnabledSundaySchool'),
+        'sundaySchoolEnabled' => SystemConfig::getBooleanValue('bEnabledEducationInitiative'),
         'depositEnabled'      => AuthenticationManager::getCurrentUser()->isFinanceEnabled(),
     ];
 

@@ -6,7 +6,7 @@
 *  last change : 2003-09-09
 *  description : Creates a group-member directory
 *
-*  https://churchcrm.io/
+*  https://communitycrm.io/
 *  Copyright 2003  Chris Gebhardt, Jason York
 
 ******************************************************************************/
@@ -14,9 +14,9 @@
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Reports\PdfGroupDirectory;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Reports\PdfGroupDirectory;
+use CommunityCRM\Utils\InputUtils;
 
 $bOnlyCartMembers = $_POST['OnlyCart'];
 $iGroupID = InputUtils::legacyFilterInput($_POST['GroupID'], 'int');

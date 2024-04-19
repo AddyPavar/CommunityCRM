@@ -9,7 +9,7 @@ The main difference between the Dev and Test dockers is that the Dev has NPM, No
 Development
 -------------
 
-These are the steps needed to develop ChurchCRM with Docker
+These are the steps needed to develop CommunityCRM with Docker
 
 ## Requirements
 
@@ -20,13 +20,13 @@ These are the steps needed to develop ChurchCRM with Docker
 
 ## Steps
 
-1. Clone ChurchCRM Repo: `git clone git@github.com:ChurchCRM/CRM.git`
+1. Clone CommunityCRM Repo: `git clone git@github.com:CommunityCRM/CRM.git`
 2. `cd` into the project directory: `cd CRM`
 3. start the containers: `npm run docker-dev-start` .
     * **Note:** Containers are started in the background
 4. launch a terminal into the web container: `npm run docker-dev-login-web`
-5. `cd` into project directory within the container: `cd /home/ChurchCRM`
-6. build ChurchCRM web and php code: `npm run deploy`
+5. `cd` into project directory within the container: `cd /home/CommunityCRM`
+6. build CommunityCRM web and php code: `npm run deploy`
 7. make the application log folder writable: `chmod a+rwx src/logs`
 8. stop docker: `npm run docker-dev-stop`.
     * **Note:** Run this command from your host system
@@ -47,9 +47,9 @@ These are the steps needed to develop ChurchCRM with Docker
 
          Internally, the port is always **8080**
       - default credentials
-         - username: `churchcrm`
+         - username: `communitycrm`
          - password: `changeme`
-         - default database: `churchcrm`
+         - default database: `communitycrm`
          - root user password: `changeme`
 
    - mailserver : SMTP testing server. A *fake* email inbox
@@ -69,7 +69,7 @@ if you are developing on your local dev system and testing via docker, use the f
 * GIT
 * node / npm
 
-1. Clone ChurchCRM Repo: `git clone git@github.com:ChurchCRM/CRM.git`
+1. Clone CommunityCRM Repo: `git clone git@github.com:CommunityCRM/CRM.git`
 2. build code: `npm run deploy`
 3. run docker: `npm run docker-test-start`
 4. test code: `npm run test`

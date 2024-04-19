@@ -18,8 +18,8 @@ src/Images/Person
 #skins
 src/skin/external
 src/skin/adminlte
-src/skin/churchcrm.min.css.map
-src/skin/churchcrm.min.css
+src/skin/communitycrm.min.css.map
+src/skin/communitycrm.min.css
 
 #locale files
 src/locale/datatables
@@ -30,8 +30,8 @@ src/Include/Config.php
 
 target
 temp_attach
-src/ChurchCRM/model/ChurchCRM/Base
-src/ChurchCRM/model/ChurchCRM/Map
+src/CommunityCRM/model/CommunityCRM/Base
+src/CommunityCRM/model/CommunityCRM/Map
 src/signatures.json
 src/integrityCheck.json
 src/tmp_attach

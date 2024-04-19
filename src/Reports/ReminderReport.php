@@ -8,15 +8,15 @@
 *  Copyright 2004-2005  Michael Wilt, Timothy Dearborn
 ******************************************************************************/
 
-namespace ChurchCRM\Reports;
+namespace CommunityCRM\Reports;
 
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isFinanceEnabled());
@@ -178,7 +178,7 @@ $rsFunds = RunQuery($sSQL);
 
 // Create PDF Report
 // *****************
-class PdfReminderReport extends ChurchInfoReport
+class PdfReminderReport extends CommunityInfoReport
 {
     // Constructor
     public function __construct()

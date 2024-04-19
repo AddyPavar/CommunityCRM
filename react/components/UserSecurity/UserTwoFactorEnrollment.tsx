@@ -10,12 +10,12 @@ const TwoFAEnrollmentWelcome: React.FunctionComponent<{
           <div className="box-body">
             <p>
               {window.i18next.t(
-                "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account.",
+                "Enrolling your CommunityCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account.",
               )}
             </p>
             <p>
               {window.i18next.t(
-                "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others",
+                "CommunityCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others",
               )}
             </p>
             <hr />
@@ -23,7 +23,7 @@ const TwoFAEnrollmentWelcome: React.FunctionComponent<{
               <i className="fa fa-id-card"></i>
               <p>
                 {window.i18next.t(
-                  "When you sign in to ChurchCRM, you'll still enter your username and password like normal",
+                  "When you sign in to CommunityCRM, you'll still enter your username and password like normal",
                 )}
               </p>
             </div>
@@ -47,7 +47,7 @@ const TwoFAEnrollmentWelcome: React.FunctionComponent<{
             <div className="callout callout-warning">
               <p>
                 {window.i18next.t(
-                  "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin",
+                  "To prevent being locked out of your CommunityCRM account, please ensure you're ready to complete two factor enrollment before clicking begin",
                 )}
               </p>
             </div>

@@ -6,7 +6,7 @@
  *  last change : 2016-01-04
  *  description : Creates a backup file of the database.
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2003 Chris Gebhardt
   *
  ******************************************************************************/
@@ -15,9 +15,9 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security: User must be an Admin to access this page.
 // Otherwise, re-direct them to the main menu.
@@ -31,13 +31,13 @@ require 'Include/Header.php';
 ?>
 <div class="card">
     <div class="card-header">
-        <h3 class="card-title"><?= gettext('This tool will assist you in manually backing up the ChurchCRM database.') ?></h3>
+        <h3 class="card-title"><?= gettext('This tool will assist you in manually backing up the CommunityCRM database.') ?></h3>
     </div>
     <div class="card-body">
         <ul>
         <li><?= gettext('You should make a manual backup at least once a week unless you already have a regular backup procedure for your systems.') ?></li><br>
         <li><?= gettext('After you download the backup file, you should make two copies. Put one of them in a fire-proof safe on-site and the other in a safe location off-site.') ?></li><br>
-        <li><?= gettext('If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others') ?></li><br>
+        <li><?= gettext('If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others') ?></li><br>
         </ul>
         <BR><BR>
         <form method="post" action="<?= $sRootPath ?>/api/database/backup" id="BackupDatabase">

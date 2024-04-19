@@ -4,11 +4,11 @@
  *
  *  filename    : UpdateAllLatLon.php
  *  last change : 2013-02-02
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *
  ******************************************************************************/
 
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
 use Propel\Runtime\ActiveQuery\Criteria;
 
 require 'Include/Config.php';

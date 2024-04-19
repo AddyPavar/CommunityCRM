@@ -4,7 +4,7 @@
  *
  *  filename    : Dashboard.php
  *  last change : 2014-11-29
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2014
   *
  ******************************************************************************/
@@ -12,7 +12,7 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemURLs;
 
 //Set the page title
 $sPageTitle = gettext('Kiosk Manager');

@@ -16,9 +16,9 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security: User must have Manage Groups permission
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isAdmin());
@@ -34,7 +34,7 @@ require 'Include/Header.php';
   <div class="card-body">
     <p><?= gettext('Select a backup file to restore') ?></p>
     <p><?= gettext('CAUTION: This will completely erase the existing database, and replace it with the backup') ?></p>
-    <p><?= gettext('If you upload a backup from ChurchInfo, or a previous version of ChurchCRM, it will be automatically upgraded to the current database schema') ?></p>
+    <p><?= gettext('If you upload a backup from CommunityInfo, or a previous version of CommunityCRM, it will be automatically upgraded to the current database schema') ?></p>
     <p><?= gettext("Maximum upload size")?>: <span class="maxUploadSize"></span></p>
     <form id="restoredatabase" action="<?= $sRootPath ?>/api/database/restore" method="POST"
           enctype="multipart/form-data">

@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -61,8 +61,8 @@ msgid "Backup Database"
 msgstr "Backup Database"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "Fungsi ini akan menolongmu dalam backup manual database ChurchCRM."
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "Fungsi ini akan menolongmu dalam backup manual database CommunityCRM."
 
 #: 
 #, fuzzy
@@ -74,8 +74,8 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "Setelah unduh file backup, buatlah dua salinan. Letakkan salah satunya ke dalam lokasi yang sangat aman dan yang satu lagi di tempat aman diluar itu."
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
-msgstr "Jika peduli dengan kerahasiaan data dalam database ChurchCRM, Anda harus enkripsi data backup-nya jika hendak disimpan di tempat yang berpotensi diakses orang lain."
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgstr "Jika peduli dengan kerahasiaan data dalam database CommunityCRM, Anda harus enkripsi data backup-nya jika hendak disimpan di tempat yang berpotensi diakses orang lain."
 
 #: 
 msgid "Select archive type"
@@ -887,7 +887,7 @@ msgid "Use Title Page"
 msgstr "Gunakan halaman judul"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "Nama Gereja"
 
 #: 
@@ -979,7 +979,7 @@ msgid "Add New Fund"
 msgstr "Tambahkan dana baru"
 
 #: 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr "Sunting Daftar kegiatan gereja"
 
 #: 
@@ -1723,7 +1723,7 @@ msgid "Graphic"
 msgstr "Grafik"
 
 #: 
-msgid "Church Address"
+msgid "Community Address"
 msgstr "Alamat gereja"
 
 #: 
@@ -2223,7 +2223,7 @@ msgid "Listing Events of Type = "
 msgstr "Cantumkan Acara Tipe = "
 
 #: 
-msgid "Listing All Church Events"
+msgid "Listing All Community Events"
 msgstr "Daftar Semua Acara Gereja"
 
 #: 
@@ -2303,7 +2303,7 @@ msgid "Assign starting at #"
 msgstr "Tetapkan mulai dari #"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
+msgid "Unable to display map due to missing Community Latitude or Longitude. Please update the community Address in the settings menu."
 msgstr "Tidak dapat menampilkan peta karena Gereja Latitude atau Longitude yang hilang. Harap perbarui Alamat gereja di menu pengaturan."
 
 #: 
@@ -2371,7 +2371,7 @@ msgid "See All People"
 msgstr "Lihat Semua Orang"
 
 #: 
-msgid "Sunday School Kids"
+msgid "Education Initiative Kids"
 msgstr "Anak Sekolah Minggu"
 
 #: 
@@ -2423,7 +2423,7 @@ msgid "Girls"
 msgstr "Anak perempuan"
 
 #: 
-msgid "Sunday School Classes"
+msgid "Education Initiative Classes"
 msgstr "Kelas Sekolah Minggu"
 
 #: 
@@ -3345,7 +3345,7 @@ msgid "\"Why Came\" notes for "
 msgstr "Catatan \"Mengapa Datang\" untuk "
 
 #: 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr "Mengapa Anda datang ke gereja?"
 
 #: 
@@ -3357,7 +3357,7 @@ msgid "Do you have any suggestions for us?"
 msgstr "Apakah Anda punya saran untuk kami?"
 
 #: 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr "Bagaimana Anda belajar tentang gereja?"
 
 #: 
@@ -3465,8 +3465,8 @@ msgid "Custom Drop-Down List"
 msgstr "Daftar Drop-Down Kustom"
 
 #: 
-msgid "Thank you for registering your ChurchCRM installation."
-msgstr "Terima kasih telah mendaftarkan instalasi ChurchCRM Anda."
+msgid "Thank you for registering your CommunityCRM installation."
+msgstr "Terima kasih telah mendaftarkan instalasi CommunityCRM Anda."
 
 #: 
 msgid "PDFs successfully emailed "
@@ -3709,8 +3709,8 @@ msgid "Member/Friend"
 msgstr "Anggota / Teman"
 
 #: 
-msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
-msgstr "Opsi ini membutuhkan setidaknya versi 3.22 dari MySQL! Tekan tombol kembali browser untuk kembali ke ChurchCRM."
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM."
+msgstr "Opsi ini membutuhkan setidaknya versi 3.22 dari MySQL! Tekan tombol kembali browser untuk kembali ke CommunityCRM."
 
 #: 
 msgid "Work"
@@ -3829,11 +3829,11 @@ msgid "Gift Designation:"
 msgstr "Penunjukan Hadiah:"
 
 #: 
-msgid "Sunday School"
+msgid "Education Initiative"
 msgstr "Sekolah Minggu"
 
 #: 
-msgid "Sunday School Class Functions"
+msgid "Education Initiative Class Functions"
 msgstr "Fungsi Kelas Sekolah Minggu"
 
 #: 
@@ -3925,7 +3925,7 @@ msgid "Discard"
 msgstr "Membuang"
 
 #: 
-msgid "Sunday School Dashboard"
+msgid "Education Initiative Dashboard"
 msgstr "Dashboard Sekolah Minggu"
 
 #: 
@@ -3933,7 +3933,7 @@ msgid "Classes"
 msgstr "Kelas"
 
 #: 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr "Laporan Sekolah Minggu"
 
 #: 
@@ -3945,7 +3945,7 @@ msgid "Export All Classes, Kids, and Parent to CSV file"
 msgstr "Ekspor Semua Kelas, Anak-anak, dan Induk ke file CSV"
 
 #: 
-msgid "Students not in a Sunday School Class"
+msgid "Students not in a Education Initiative Class"
 msgstr "Siswa tidak mengikuti Kelas Sekolah Minggu"
 
 #: 
@@ -3977,7 +3977,7 @@ msgid "Last Sunday"
 msgstr "Minggu terakhir"
 
 #: 
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr "Tidak ada Sekolah Minggu"
 
 #: 
@@ -4118,8 +4118,8 @@ msgid "CAUTION: This will completely erase the existing database, and replace it
 msgstr "PERHATIAN: Ini benar-benar akan menghapus basis data yang ada, dan menggantinya dengan cadangan"
 
 #: 
-msgid "If you upload a backup from ChurchInfo, or a previous version of ChurchCRM, it will be automatically upgraded to the current database schema"
-msgstr "Jika Anda mengunggah cadangan dari ChurchInfo, atau versi ChurchCRM sebelumnya, itu akan secara otomatis ditingkatkan ke skema database saat ini"
+msgid "If you upload a backup from CommunityInfo, or a previous version of CommunityCRM, it will be automatically upgraded to the current database schema"
+msgstr "Jika Anda mengunggah cadangan dari CommunityInfo, atau versi CommunityCRM sebelumnya, itu akan secara otomatis ditingkatkan ke skema database saat ini"
 
 #: 
 msgid "Upload Files"
@@ -4142,7 +4142,7 @@ msgid "Restore Error."
 msgstr "Pulihkan Kesalahan."
 
 #: 
-msgid "Church Information"
+msgid "Community Information"
 msgstr "Informasi Gereja"
 
 #: 
@@ -4191,8 +4191,8 @@ msgid "Edit Settings"
 msgstr "Edit Pengaturan"
 
 #: 
-msgid "Upgrade ChurchCRM"
-msgstr "Tingkatkan ChurchCRM"
+msgid "Upgrade CommunityCRM"
+msgstr "Tingkatkan CommunityCRM"
 
 #: 
 msgid "Step 1: Backup Database"
@@ -4211,8 +4211,8 @@ msgid "Step 2: Fetch Update Package on Server"
 msgstr "Langkah 2: Ambil Paket Pembaruan di Server"
 
 #: 
-msgid "Fetch the latest files from the ChurchCRM GitHub release page"
-msgstr "Ambil file terbaru dari halaman rilis ChurchCRM GitHub"
+msgid "Fetch the latest files from the CommunityCRM GitHub release page"
+msgstr "Ambil file terbaru dari halaman rilis CommunityCRM GitHub"
 
 #: 
 msgid "Fetch Update Files"
@@ -4299,11 +4299,11 @@ msgid "Enter Name"
 msgstr "Masukkan nama"
 
 #: 
-msgid "Update Church Info"
+msgid "Update Community Info"
 msgstr "Perbarui Info Gereja"
 
 #: 
-msgid "Set Church Address"
+msgid "Set Community Address"
 msgstr "Tetapkan Alamat Gereja"
 
 #: 
@@ -4643,7 +4643,7 @@ msgid "with this Property..."
 msgstr "dengan Properti ini ..."
 
 #: 
-msgid "Church Email"
+msgid "Community Email"
 msgstr "Email Gereja"
 
 #: 
@@ -4717,11 +4717,11 @@ msgid "First month of the fiscal year"
 msgstr "Bulan pertama tahun fiskal"
 
 #: 
-msgid "Latitude of the church, used to center the Google map"
+msgid "Latitude of the community, used to center the Google map"
 msgstr "Lintang gereja, digunakan untuk memusatkan peta Google"
 
 #: 
-msgid "Longitude of the church, used to center the Google map"
+msgid "Longitude of the community, used to center the Google map"
 msgstr "Bujur gereja, digunakan untuk memusatkan peta Google"
 
 #: 
@@ -4777,8 +4777,8 @@ msgid "Set true to enable family self registration."
 msgstr "Set true untuk mengaktifkan pendaftaran mandiri keluarga."
 
 #: 
-msgid "ChurchCRM has been registered.  The ChurchCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
-msgstr "ChurchCRM telah terdaftar. Tim ChurchCRM menggunakan informasi pendaftaran untuk melacak penggunaan. Informasi ini dirahasiakan dan tidak pernah dirilis atau dijual. Jika bidang ini benar, opsi pendaftaran di menu admin berubah untuk memperbarui pendaftaran."
+msgid "CommunityCRM has been registered.  The CommunityCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
+msgstr "CommunityCRM telah terdaftar. Tim CommunityCRM menggunakan informasi pendaftaran untuk melacak penggunaan. Informasi ini dirahasiakan dan tidak pernah dirilis atau dijual. Jika bidang ini benar, opsi pendaftaran di menu admin berubah untuk memperbarui pendaftaran."
 
 #: 
 msgid "Left Margin (1 = 1/100th inch)"
@@ -4789,23 +4789,23 @@ msgid "Line Thickness (1 = 1/100th inch"
 msgstr "Ketebalan Garis (1 = 1/100 inci)"
 
 #: 
-msgid "Church City"
+msgid "Community City"
 msgstr "Kota /Kabupaten Gereja"
 
 #: 
-msgid "Church State"
+msgid "Community State"
 msgstr "Provinsi Gereja"
 
 #: 
-msgid "Church Zip"
+msgid "Community Zip"
 msgstr "Kodepos Gereja"
 
 #: 
-msgid "Church Phone"
+msgid "Community Phone"
 msgstr "Telepon Gereja"
 
 #: 
-msgid "Home area code of the church"
+msgid "Home area code of the community"
 msgstr "Kode area  gereja"
 
 #: 
@@ -4853,7 +4853,7 @@ msgid "Verbage for the directory report"
 msgstr "Verbage untuk laporan direktori"
 
 #: 
-msgid "Church Letterhead path and file"
+msgid "Community Letterhead path and file"
 msgstr "Jalur dan file Kop Surat Gereja"
 
 #: 
@@ -4905,11 +4905,11 @@ msgid "List Groups"
 msgstr "Daftar Grup"
 
 #: 
-msgid "List Church Events"
+msgid "List Community Events"
 msgstr "Daftar Acara Gereja"
 
 #: 
-msgid "Add Church Event"
+msgid "Add Community Event"
 msgstr "Tambahkan Acara Gereja"
 
 #: 
@@ -5114,7 +5114,7 @@ msgid "The birthday month for which you would like records returned."
 msgstr "Bulan ulang tahun yang Anda inginkan catatan dikembalikan."
 
 #: 
-msgid "The sunday school class for which you would like records returned."
+msgid "The education initiative class for which you would like records returned."
 msgstr "Kelas sekolah minggu dimana Anda ingin catatan dikembalikan."
 
 #: 
@@ -6594,11 +6594,11 @@ msgid "Please verify your family's information"
 msgstr "Harap verifikasi informasi keluarga Anda"
 
 #: 
-msgid "Church Address is not Set."
+msgid "Community Address is not Set."
 msgstr "Alamat Gereja tidak Ditetapkan."
 
 #: 
-msgid "Church Name is set to default value"
+msgid "Community Name is set to default value"
 msgstr "Nama Gereja diatur ke nilai default"
 
 #: 
@@ -6822,7 +6822,7 @@ msgid "The previous integrity check passed.  All system file hashes match the ex
 msgstr "Pemeriksaan integritas sebelumnya berlalu. Semua hash file sistem cocok dengan nilai yang diharapkan."
 
 #: 
-msgid "Church Checking Account Number"
+msgid "Community Checking Account Number"
 msgstr "Nomor Rekening Pengecekan Gereja"
 
 #: 
@@ -7002,16 +7002,16 @@ msgid "Display bill counts on deposit slip"
 msgstr "Menampilkan jumlah tagihan pada slip setoran"
 
 #: 
-msgid "ChurchCRM Cloud Access URL"
-msgstr "URL Akses Cloud ChurchCRM"
+msgid "CommunityCRM Cloud Access URL"
+msgstr "URL Akses Cloud CommunityCRM"
 
 #: 
 msgid "Your Account was Deleted"
 msgstr "Akun Anda Dihapus"
 
 #: 
-msgid "Your ChurchCRM Account was Deleted."
-msgstr "Akun ChurchCRM Anda Dihapus."
+msgid "Your CommunityCRM Account was Deleted."
+msgstr "Akun CommunityCRM Anda Dihapus."
 
 #: 
 msgid "Account Locked"
@@ -7158,24 +7158,24 @@ msgid "Select GeoCoder Provider"
 msgstr "Pilih Penyedia GeoCoder"
 
 #: 
-msgid "Your ChurchCRM account was locked."
-msgstr "Akun ChurchCRM Anda dikunci."
+msgid "Your CommunityCRM account was locked."
+msgstr "Akun CommunityCRM Anda dikunci."
 
 #: 
-msgid "A ChurchCRM account was created for you"
-msgstr "Akun ChurchCRM dibuat untuk Anda"
+msgid "A CommunityCRM account was created for you"
+msgstr "Akun CommunityCRM dibuat untuk Anda"
 
 #: 
-msgid "Your ChurchCRM password was changed"
-msgstr "Kata sandi ChurchCRM Anda telah diubah"
+msgid "Your CommunityCRM password was changed"
+msgstr "Kata sandi CommunityCRM Anda telah diubah"
 
 #: 
-msgid "You can reset your ChurchCRM password by clicking this link"
-msgstr "Anda dapat mereset kata sandi ChurchCRM Anda dengan mengklik tautan ini"
+msgid "You can reset your CommunityCRM password by clicking this link"
+msgstr "Anda dapat mereset kata sandi CommunityCRM Anda dengan mengklik tautan ini"
 
 #: 
-msgid "Your ChurchCRM account was unlocked."
-msgstr "Akun ChurchCRM Anda tidak dikunci."
+msgid "Your CommunityCRM account was unlocked."
+msgstr "Akun CommunityCRM Anda tidak dikunci."
 
 #: 
 msgid "system user created"
@@ -7342,8 +7342,8 @@ msgid "Please go to this location"
 msgstr "Silakan pergi ke lokasi ini"
 
 #: 
-msgid "You ChurchCRM updated password has been changed"
-msgstr "Kata sandi Anda yang diperbarui ChurchCRM telah diubah"
+msgid "You CommunityCRM updated password has been changed"
+msgstr "Kata sandi Anda yang diperbarui CommunityCRM telah diubah"
 
 #: 
 msgid "Password Reset Link"
@@ -7406,7 +7406,7 @@ msgid "Text Cart"
 msgstr "Troli Teks"
 
 #: 
-msgid "Your Church's Website"
+msgid "Your Community's Website"
 msgstr "Situs web Gereja Anda"
 
 #: 
@@ -7514,12 +7514,12 @@ msgid "Thai"
 msgstr "Thai"
 
 #: 
-msgid "Your Church's Facebook Page"
+msgid "Your Community's Facebook Page"
 msgstr "Halaman Facebook Gereja Anda"
 
 #: 
 #, fuzzy
-msgid "Your Church's X Page"
+msgid "Your Community's X Page"
 msgstr "Halaman X Gereja Anda"
 
 #: 
@@ -7587,7 +7587,7 @@ msgid "New Family Added"
 msgstr "Keluarga Baru Ditambahkan"
 
 #: 
-msgid "Church Greeter"
+msgid "Community Greeter"
 msgstr "Penyapa Gereja"
 
 #: 
@@ -7595,15 +7595,15 @@ msgid "External Calendar API is disabled"
 msgstr "API Kalender Eksternal dinonaktifkan"
 
 #: 
-msgid "Special Group Settings : Sunday School Type"
+msgid "Special Group Settings : Education Initiative Type"
 msgstr "Pengaturan Grup Khusus: Jenis Sekolah Minggu"
 
 #: 
-msgid "Sunday School group can't be modified, only in this two cases :"
+msgid "Education Initiative group can't be modified, only in this two cases :"
 msgstr "Grup Sekolah Minggu tidak dapat dimodifikasi, hanya dalam dua kasus ini:"
 
 #: 
-msgid "You can create/delete sunday school group. "
+msgid "You can create/delete education initiative group. "
 msgstr "Anda dapat membuat / menghapus grup sekolah minggu. "
 
 #: 
@@ -7903,15 +7903,15 @@ msgid "Field where last Confession is stored, must be a date type"
 msgstr "Bidang tempat Pengakuan terakhir disimpan, harus berupa tipe tanggal"
 
 #: 
-msgid "Require that this ChurchCRM Database is accessed over HTTPS"
-msgstr "Mengharuskan Database ChurchCRM ini diakses melalui HTTPS"
+msgid "Require that this CommunityCRM Database is accessed over HTTPS"
+msgstr "Mengharuskan Database CommunityCRM ini diakses melalui HTTPS"
 
 #: 
 msgid "People Setup"
 msgstr "Pengaturan Orang"
 
 #: 
-msgid "Church Services"
+msgid "Community Services"
 msgstr "Layanan Gereja"
 
 #: 
@@ -8212,7 +8212,7 @@ msgid "Show custom links on the left menu."
 msgstr "Tampilkan tautan khusus di menu sebelah kiri."
 
 #: 
-msgid "Enable Sunday School left menu."
+msgid "Enable Education Initiative left menu."
 msgstr "Aktifkan menu kiri Sekolah Minggu."
 
 #: 
@@ -8284,8 +8284,8 @@ msgid "User must have Delete Records permission"
 msgstr "Pengguna harus memiliki izin Hapus Catatan"
 
 #: 
-msgid "ChurchCRM Central Notifications URL"
-msgstr "URL Pemberitahuan Pusat ChurchCRM"
+msgid "CommunityCRM Central Notifications URL"
+msgstr "URL Pemberitahuan Pusat CommunityCRM"
 
 #: 
 #, fuzzy
@@ -8433,11 +8433,11 @@ msgid "Person Name"
 msgstr "Nama Orang"
 
 #: 
-msgid "Custom message for church greeter email 1, max 255 characters"
+msgid "Custom message for community greeter email 1, max 255 characters"
 msgstr "Pesan khusus untuk email penyambut gereja, maks. 255 karakter"
 
 #: 
-msgid "Custom message for church greeter email 2, max 255 characters"
+msgid "Custom message for community greeter email 2, max 255 characters"
 msgstr "Pesan khusus untuk email penyambut gereja, maks. 255 karakter"
 
 #: 
@@ -8505,8 +8505,8 @@ msgid "Warning: Signature mismatch"
 msgstr "Peringatan: Ketidakcocokan tanda tangan"
 
 #: 
-msgid "Some ChurchCRM system files may have been modified since the last installation."
-msgstr "Beberapa file sistem ChurchCRM mungkin telah dimodifikasi sejak instalasi terakhir."
+msgid "Some CommunityCRM system files may have been modified since the last installation."
+msgstr "Beberapa file sistem CommunityCRM mungkin telah dimodifikasi sejak instalasi terakhir."
 
 #: 
 msgid "This upgrade will completely destroy any customizations made to the following files by reverting the files to the official version."
@@ -8781,8 +8781,8 @@ msgid "Requires users to self-enroll in 2 factor authentication"
 msgstr "Mengharuskan pengguna untuk mendaftar sendiri dalam otentikasi 2 faktor"
 
 #: 
-msgid "ChurchCRM"
-msgstr "ChurchCRM"
+msgid "CommunityCRM"
+msgstr "CommunityCRM"
 
 #: 
 msgid "Specify the application name to be displayed in authenticator app"
@@ -8857,8 +8857,8 @@ msgid "Unable To Begin Two Factor Authentication Enrollment"
 msgstr "Tidak Dapat Memulai Pendaftaran Dua Faktor Otentikasi"
 
 #: 
-msgid "Two factor authentication requires ChurchCRM administrators to configure a few parameters"
-msgstr "Otentikasi dua faktor memerlukan administrator ChurchCRM untuk mengonfigurasi beberapa parameter"
+msgid "Two factor authentication requires CommunityCRM administrators to configure a few parameters"
+msgstr "Otentikasi dua faktor memerlukan administrator CommunityCRM untuk mengonfigurasi beberapa parameter"
 
 #: 
 msgid "System configuration "
@@ -8946,12 +8946,12 @@ msgid "Invalid List id"
 msgstr "Daftar id Tidak Valid"
 
 #: 
-msgid "Audience not in the ChurchCRM"
-msgstr "Peserta tidak ada di ChurchCRM"
+msgid "Audience not in the CommunityCRM"
+msgstr "Peserta tidak ada di CommunityCRM"
 
 #: 
-msgid "ChurchCRM Installation Information"
-msgstr "Informasi Instalasi ChurchCRM"
+msgid "CommunityCRM Installation Information"
+msgstr "Informasi Instalasi CommunityCRM"
 
 #: 
 msgid "Database Server Version"
@@ -9110,16 +9110,16 @@ msgid "Event Description"
 msgstr "Deskripsi Acara"
 
 #: 
-msgid "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
-msgstr "Mendaftarkan Autentikasi Dua Faktor pada akun ChurchCRM Anda akan menambah perlindungan dari pelaku kejahatan yang mencoba mengakses akun Anda"
+msgid "Enrolling your CommunityCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
+msgstr "Mendaftarkan Autentikasi Dua Faktor pada akun CommunityCRM Anda akan menambah perlindungan dari pelaku kejahatan yang mencoba mengakses akun Anda"
 
 #: 
-msgid "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
-msgstr "Autentikasi Dua Faktor ChurchCRM mendukung semua aplikasi autentikasi TOTP jadi Anda bebas memilih antara Microsoft Authenticator, Google Authenticator, Authy, LastPass atau lainnya"
+msgid "CommunityCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
+msgstr "Autentikasi Dua Faktor CommunityCRM mendukung semua aplikasi autentikasi TOTP jadi Anda bebas memilih antara Microsoft Authenticator, Google Authenticator, Authy, LastPass atau lainnya"
 
 #: 
-msgid "When you sign in to ChurchCRM, you'll still enter your username and password like normal"
-msgstr "Saat Anda masuk ke ChurchCRM, Anda akan tetap diminta memasukkan nama pengguna dan sandi seperti biasa"
+msgid "When you sign in to CommunityCRM, you'll still enter your username and password like normal"
+msgstr "Saat Anda masuk ke CommunityCRM, Anda akan tetap diminta memasukkan nama pengguna dan sandi seperti biasa"
 
 #: 
 msgid "However, you'll also need to supply a one-time code from your authenticator device to complete your login"
@@ -9130,8 +9130,8 @@ msgid "After successfully entering both your credentials, and the one-time code,
 msgstr "Setelah berhasil memasukkan kredensial dan kode sekali pakai, Anda akan diizinkan masuk seperti biasa"
 
 #: 
-msgid "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
-msgstr "Untuk mencegah akun ChurchCRM Anda terkunci, mohon pastikan Anda siap menyelesaikan pendaftaran autentikasi dua faktor sebelum mengklik mulai"
+msgid "To prevent being locked out of your CommunityCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
+msgstr "Untuk mencegah akun CommunityCRM Anda terkunci, mohon pastikan Anda siap menyelesaikan pendaftaran autentikasi dua faktor sebelum mengklik mulai"
 
 #: 
 msgid "Beginning enrollment will invalidate any previously enrolled 2 factor devices and recovery codes."
@@ -9380,4 +9380,3 @@ msgstr "Total Deposit"
 #: 
 msgid "Group Cart Status"
 msgstr "Status Keranjang Kelompok"
-

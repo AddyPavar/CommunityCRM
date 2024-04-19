@@ -3,7 +3,7 @@
 /*******************************************************************************
 *
 *  filename    : SettingsUser.php
-*  website     : https://churchcrm.io
+*  website     : https://communitycrm.io
 *  description : Default User Settings
 *                   File copied from SettingsGeneral.php with minor edits.
 *                   Controls default settings for new users.
@@ -17,9 +17,9 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Security
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isAdmin());

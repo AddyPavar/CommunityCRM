@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: zh-CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -61,8 +61,8 @@ msgid "Backup Database"
 msgstr "备份数据库"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "这工具将会协助您手动备份ChurchCRM数据库"
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "这工具将会协助您手动备份CommunityCRM数据库"
 
 #: 
 #, fuzzy
@@ -74,8 +74,8 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "在您下载的备份文件，你应该一式两份。其中一人在一个防火安全的网站和其他异地在一个安全的位置。"
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
-msgstr "如果您担心ChurchCRM数据库存储的数据的机密性，那当它被存储在他人可能访问的位置时，您应该加密备份数据"
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgstr "如果您担心CommunityCRM数据库存储的数据的机密性，那当它被存储在他人可能访问的位置时，您应该加密备份数据"
 
 #: 
 #, fuzzy
@@ -915,7 +915,7 @@ msgid "Use Title Page"
 msgstr "使用标题页"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "教会名称"
 
 #: 
@@ -1011,7 +1011,7 @@ msgid "Add New Fund"
 msgstr "添加新基金"
 
 #: 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr "教会事件编辑器"
 
 #: 
@@ -1763,7 +1763,7 @@ msgid "Graphic"
 msgstr "图形"
 
 #: 
-msgid "Church Address"
+msgid "Community Address"
 msgstr "教会地址"
 
 #: 
@@ -2282,7 +2282,7 @@ msgid "Listing Events of Type = "
 msgstr "列出活动类型="
 
 #: 
-msgid "Listing All Church Events"
+msgid "Listing All Community Events"
 msgstr "列出所有教会活动"
 
 #: 
@@ -2363,7 +2363,7 @@ msgid "Assign starting at #"
 msgstr "指定在＃"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
+msgid "Unable to display map due to missing Community Latitude or Longitude. Please update the community Address in the settings menu."
 msgstr "由于缺少教堂纬度或经度，无法显示地图。 请在设置菜单中更新教堂地址。"
 
 #: 
@@ -2433,7 +2433,7 @@ msgid "See All People"
 msgstr "查看所有人员"
 
 #: 
-msgid "Sunday School Kids"
+msgid "Education Initiative Kids"
 msgstr "主日学校的孩子"
 
 #: 
@@ -2485,7 +2485,7 @@ msgid "Girls"
 msgstr "女孩"
 
 #: 
-msgid "Sunday School Classes"
+msgid "Education Initiative Classes"
 msgstr "主日学校的课程"
 
 #: 
@@ -3436,7 +3436,7 @@ msgid "\"Why Came\" notes for "
 msgstr "“为什么来了”的注意事项"
 
 #: 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr "你为什么要来教会？"
 
 #: 
@@ -3448,7 +3448,7 @@ msgid "Do you have any suggestions for us?"
 msgstr "你对我们有什么建议吗？"
 
 #: 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr "你是怎么学习的教会吗？"
 
 #: 
@@ -3556,8 +3556,8 @@ msgid "Custom Drop-Down List"
 msgstr "自定义下拉列表"
 
 #: 
-msgid "Thank you for registering your ChurchCRM installation."
-msgstr "谢谢您登记安装ChurchRam"
+msgid "Thank you for registering your CommunityCRM installation."
+msgstr "谢谢您登记安装CommunityRam"
 
 #: 
 msgid "PDFs successfully emailed "
@@ -3809,8 +3809,8 @@ msgid "Member/Friend"
 msgstr "会员/朋友"
 
 #: 
-msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
-msgstr "此选项需要至少3.22版本的MySQL！命中浏览器的“后退”按钮返回到ChurchCRM的。"
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM."
+msgstr "此选项需要至少3.22版本的MySQL！命中浏览器的“后退”按钮返回到CommunityCRM的。"
 
 #: 
 msgid "Work"
@@ -3929,11 +3929,11 @@ msgid "Gift Designation:"
 msgstr "商品名称："
 
 #: 
-msgid "Sunday School"
+msgid "Education Initiative"
 msgstr "主日学校"
 
 #: 
-msgid "Sunday School Class Functions"
+msgid "Education Initiative Class Functions"
 msgstr "主日学校课程功能"
 
 #: 
@@ -4025,7 +4025,7 @@ msgid "Discard"
 msgstr "放弃"
 
 #: 
-msgid "Sunday School Dashboard"
+msgid "Education Initiative Dashboard"
 msgstr "主日学校仪表板"
 
 #: 
@@ -4033,7 +4033,7 @@ msgid "Classes"
 msgstr "科室"
 
 #: 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr "主日学报告"
 
 #: 
@@ -4045,7 +4045,7 @@ msgid "Export All Classes, Kids, and Parent to CSV file"
 msgstr "将所有课室，子项和父项导出到CSV文件"
 
 #: 
-msgid "Students not in a Sunday School Class"
+msgid "Students not in a Education Initiative Class"
 msgstr "学生不在主日课程"
 
 #: 
@@ -4081,7 +4081,7 @@ msgstr "上周日"
 
 #: 
 #, fuzzy
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr "无主日学​​"
 
 #: 
@@ -4224,8 +4224,8 @@ msgid "CAUTION: This will completely erase the existing database, and replace it
 msgstr "注意：这将完全删除现有数据库，并将其替换为备份"
 
 #: 
-msgid "If you upload a backup from ChurchInfo, or a previous version of ChurchCRM, it will be automatically upgraded to the current database schema"
-msgstr "如果您从ChurchInfo或以前版本的ChurchCRM上载备份，它将自动升级到当前数据库架构"
+msgid "If you upload a backup from CommunityInfo, or a previous version of CommunityCRM, it will be automatically upgraded to the current database schema"
+msgstr "如果您从CommunityInfo或以前版本的CommunityCRM上载备份，它将自动升级到当前数据库架构"
 
 #: 
 msgid "Upload Files"
@@ -4248,7 +4248,7 @@ msgid "Restore Error."
 msgstr "恢复错误。"
 
 #: 
-msgid "Church Information"
+msgid "Community Information"
 msgstr "教会信息"
 
 #: 
@@ -4297,8 +4297,8 @@ msgid "Edit Settings"
 msgstr "编辑设置"
 
 #: 
-msgid "Upgrade ChurchCRM"
-msgstr "升级ChurchCRM"
+msgid "Upgrade CommunityCRM"
+msgstr "升级CommunityCRM"
 
 #: 
 msgid "Step 1: Backup Database"
@@ -4317,8 +4317,8 @@ msgid "Step 2: Fetch Update Package on Server"
 msgstr "第2步：在服务器上获取更新包"
 
 #: 
-msgid "Fetch the latest files from the ChurchCRM GitHub release page"
-msgstr "从ChurchCRM GitHub发布页面获取最新文件"
+msgid "Fetch the latest files from the CommunityCRM GitHub release page"
+msgstr "从CommunityCRM GitHub发布页面获取最新文件"
 
 #: 
 msgid "Fetch Update Files"
@@ -4405,11 +4405,11 @@ msgid "Enter Name"
 msgstr "输入名称"
 
 #: 
-msgid "Update Church Info"
+msgid "Update Community Info"
 msgstr "更新教堂信息"
 
 #: 
-msgid "Set Church Address"
+msgid "Set Community Address"
 msgstr "设置教堂地址"
 
 #: 
@@ -4749,7 +4749,7 @@ msgid "with this Property..."
 msgstr "有这个属性.."
 
 #: 
-msgid "Church Email"
+msgid "Community Email"
 msgstr "教会电邮"
 
 #: 
@@ -4823,11 +4823,11 @@ msgid "First month of the fiscal year"
 msgstr "财政年度的第一个月"
 
 #: 
-msgid "Latitude of the church, used to center the Google map"
+msgid "Latitude of the community, used to center the Google map"
 msgstr "教堂的纬度，用于居中谷歌地图"
 
 #: 
-msgid "Longitude of the church, used to center the Google map"
+msgid "Longitude of the community, used to center the Google map"
 msgstr "教堂的经度，用于居中谷歌地图"
 
 #: 
@@ -4883,8 +4883,8 @@ msgid "Set true to enable family self registration."
 msgstr "设置为true(是)以启用家庭自助注册。"
 
 #: 
-msgid "ChurchCRM has been registered.  The ChurchCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
-msgstr "ChurchCRM已经注册。 ChurchCRM团队使用注册信息来跟踪使用情况。信息将得到保密处理，绝不发布或出售。如果此字段为true(是)，则管理菜单中的注册选项将更改为更新注册。"
+msgid "CommunityCRM has been registered.  The CommunityCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
+msgstr "CommunityCRM已经注册。 CommunityCRM团队使用注册信息来跟踪使用情况。信息将得到保密处理，绝不发布或出售。如果此字段为true(是)，则管理菜单中的注册选项将更改为更新注册。"
 
 #: 
 msgid "Left Margin (1 = 1/100th inch)"
@@ -4895,23 +4895,23 @@ msgid "Line Thickness (1 = 1/100th inch"
 msgstr "线厚度（1 = 1/100英寸"
 
 #: 
-msgid "Church City"
+msgid "Community City"
 msgstr "教会城市"
 
 #: 
-msgid "Church State"
+msgid "Community State"
 msgstr "教会州"
 
 #: 
-msgid "Church Zip"
+msgid "Community Zip"
 msgstr "教会邮编"
 
 #: 
-msgid "Church Phone"
+msgid "Community Phone"
 msgstr "教会电话"
 
 #: 
-msgid "Home area code of the church"
+msgid "Home area code of the community"
 msgstr "教会的区号"
 
 #: 
@@ -4959,7 +4959,7 @@ msgid "Verbage for the directory report"
 msgstr "目录报告的动词"
 
 #: 
-msgid "Church Letterhead path and file"
+msgid "Community Letterhead path and file"
 msgstr "教会信头路径和文件"
 
 #: 
@@ -5011,11 +5011,11 @@ msgid "List Groups"
 msgstr "清单组"
 
 #: 
-msgid "List Church Events"
+msgid "List Community Events"
 msgstr "列出教会活动"
 
 #: 
-msgid "Add Church Event"
+msgid "Add Community Event"
 msgstr "增加教会活动"
 
 #: 
@@ -5220,7 +5220,7 @@ msgid "The birthday month for which you would like records returned."
 msgstr "返回您想要记录的生日月份。"
 
 #: 
-msgid "The sunday school class for which you would like records returned."
+msgid "The education initiative class for which you would like records returned."
 msgstr "返回您想要记录的主日学校课程。"
 
 #: 
@@ -6700,11 +6700,11 @@ msgid "Please verify your family's information"
 msgstr "请验证您的家人的信息"
 
 #: 
-msgid "Church Address is not Set."
+msgid "Community Address is not Set."
 msgstr "未设置教堂地址。"
 
 #: 
-msgid "Church Name is set to default value"
+msgid "Community Name is set to default value"
 msgstr "教会名称设置为默认值"
 
 #: 
@@ -6928,7 +6928,7 @@ msgid "The previous integrity check passed.  All system file hashes match the ex
 msgstr "已通过完整性检查。所有系统文件都与预期值哈希匹配。"
 
 #: 
-msgid "Church Checking Account Number"
+msgid "Community Checking Account Number"
 msgstr "教堂检查账号"
 
 #: 
@@ -7108,16 +7108,16 @@ msgid "Display bill counts on deposit slip"
 msgstr "在存款单上显示账单计数"
 
 #: 
-msgid "ChurchCRM Cloud Access URL"
-msgstr "ChurchCRM云访问网址"
+msgid "CommunityCRM Cloud Access URL"
+msgstr "CommunityCRM云访问网址"
 
 #: 
 msgid "Your Account was Deleted"
 msgstr "您的账户已被删除"
 
 #: 
-msgid "Your ChurchCRM Account was Deleted."
-msgstr "您的ChurchCRM账户已被删除"
+msgid "Your CommunityCRM Account was Deleted."
+msgstr "您的CommunityCRM账户已被删除"
 
 #: 
 msgid "Account Locked"
@@ -7264,24 +7264,24 @@ msgid "Select GeoCoder Provider"
 msgstr "选择GeoCoder Provider"
 
 #: 
-msgid "Your ChurchCRM account was locked."
-msgstr "您的ChurchCRM账户已被锁定。"
+msgid "Your CommunityCRM account was locked."
+msgstr "您的CommunityCRM账户已被锁定。"
 
 #: 
-msgid "A ChurchCRM account was created for you"
-msgstr "为您创建了一个ChurchCRM账户"
+msgid "A CommunityCRM account was created for you"
+msgstr "为您创建了一个CommunityCRM账户"
 
 #: 
-msgid "Your ChurchCRM password was changed"
-msgstr "您的ChurchCRM密码已更改"
+msgid "Your CommunityCRM password was changed"
+msgstr "您的CommunityCRM密码已更改"
 
 #: 
-msgid "You can reset your ChurchCRM password by clicking this link"
-msgstr "您可以通过单击此链接重置您的ChurchCRM密码"
+msgid "You can reset your CommunityCRM password by clicking this link"
+msgstr "您可以通过单击此链接重置您的CommunityCRM密码"
 
 #: 
-msgid "Your ChurchCRM account was unlocked."
-msgstr "您的ChurchCRM账户已解锁。"
+msgid "Your CommunityCRM account was unlocked."
+msgstr "您的CommunityCRM账户已解锁。"
 
 #: 
 msgid "system user created"
@@ -7448,8 +7448,8 @@ msgid "Please go to this location"
 msgstr "请到这个位置"
 
 #: 
-msgid "You ChurchCRM updated password has been changed"
-msgstr "您的ChurchCRM密码更新已成功"
+msgid "You CommunityCRM updated password has been changed"
+msgstr "您的CommunityCRM密码更新已成功"
 
 #: 
 msgid "Password Reset Link"
@@ -7512,7 +7512,7 @@ msgid "Text Cart"
 msgstr "Text Cart"
 
 #: 
-msgid "Your Church's Website"
+msgid "Your Community's Website"
 msgstr "您教会的网站"
 
 #: 
@@ -7620,7 +7620,7 @@ msgid "Thai"
 msgstr "泰语"
 
 #: 
-msgid "Your Church's Facebook Page"
+msgid "Your Community's Facebook Page"
 msgstr "您的教会的Facebook页面"
 
 #: 
@@ -7688,7 +7688,7 @@ msgid "New Family Added"
 msgstr "新增家庭"
 
 #: 
-msgid "Church Greeter"
+msgid "Community Greeter"
 msgstr "教会迎宾员"
 
 #: 
@@ -7696,16 +7696,16 @@ msgid "External Calendar API is disabled"
 msgstr "外部日历API已禁用"
 
 #: 
-msgid "Special Group Settings : Sunday School Type"
+msgid "Special Group Settings : Education Initiative Type"
 msgstr "\n"
 "特定组设置：主日学校类型"
 
 #: 
-msgid "Sunday School group can't be modified, only in this two cases :"
+msgid "Education Initiative group can't be modified, only in this two cases :"
 msgstr "主日学校小组不能修改，仅在这两种情况下："
 
 #: 
-msgid "You can create/delete sunday school group. "
+msgid "You can create/delete education initiative group. "
 msgstr "你可以创建/删除主日学校组。"
 
 #: 
@@ -8007,15 +8007,15 @@ msgid "Field where last Confession is stored, must be a date type"
 msgstr "Confession最后字段的存储，必须是一个数据类型"
 
 #: 
-msgid "Require that this ChurchCRM Database is accessed over HTTPS"
-msgstr "要求通过HTTPS访问此ChurchCRM数据库"
+msgid "Require that this CommunityCRM Database is accessed over HTTPS"
+msgstr "要求通过HTTPS访问此CommunityCRM数据库"
 
 #: 
 msgid "People Setup"
 msgstr "人员设置"
 
 #: 
-msgid "Church Services"
+msgid "Community Services"
 msgstr "教堂服务"
 
 #: 
@@ -8316,7 +8316,7 @@ msgid "Show custom links on the left menu."
 msgstr "在左侧菜单中显示自定义链接。"
 
 #: 
-msgid "Enable Sunday School left menu."
+msgid "Enable Education Initiative left menu."
 msgstr "启用主日学校左侧菜单。"
 
 #: 
@@ -8388,8 +8388,8 @@ msgid "User must have Delete Records permission"
 msgstr "用户必须具有删除记录权限"
 
 #: 
-msgid "ChurchCRM Central Notifications URL"
-msgstr "ChurchCRM中央通知URL"
+msgid "CommunityCRM Central Notifications URL"
+msgstr "CommunityCRM中央通知URL"
 
 #: 
 #, fuzzy
@@ -8537,11 +8537,11 @@ msgid "Person Name"
 msgstr "人名"
 
 #: 
-msgid "Custom message for church greeter email 1, max 255 characters"
+msgid "Custom message for community greeter email 1, max 255 characters"
 msgstr "教堂迎宾者电子邮件的自定义消息，最多255个字符"
 
 #: 
-msgid "Custom message for church greeter email 2, max 255 characters"
+msgid "Custom message for community greeter email 2, max 255 characters"
 msgstr "教堂迎宾者电子邮件的自定义消息2，最多255个字符"
 
 #: 
@@ -8609,8 +8609,8 @@ msgid "Warning: Signature mismatch"
 msgstr "警告：签名不匹配"
 
 #: 
-msgid "Some ChurchCRM system files may have been modified since the last installation."
-msgstr "自上次安装以来，某些ChurchCRM系统文件可能已被修改。"
+msgid "Some CommunityCRM system files may have been modified since the last installation."
+msgstr "自上次安装以来，某些CommunityCRM系统文件可能已被修改。"
 
 #: 
 msgid "This upgrade will completely destroy any customizations made to the following files by reverting the files to the official version."
@@ -8894,7 +8894,7 @@ msgid "Requires users to self-enroll in 2 factor authentication"
 msgstr "要求用户自行注册2要素身份验证"
 
 #: 
-msgid "ChurchCRM"
+msgid "CommunityCRM"
 msgstr "教会客户关系管理"
 
 #: 
@@ -8970,8 +8970,8 @@ msgid "Unable To Begin Two Factor Authentication Enrollment"
 msgstr "无法开始两因素身份验证注册"
 
 #: 
-msgid "Two factor authentication requires ChurchCRM administrators to configure a few parameters"
-msgstr "两因素身份验证要求ChurchCRM管理员配置一些参数"
+msgid "Two factor authentication requires CommunityCRM administrators to configure a few parameters"
+msgstr "两因素身份验证要求CommunityCRM管理员配置一些参数"
 
 #: 
 msgid "System configuration "
@@ -9059,12 +9059,12 @@ msgid "Invalid List id"
 msgstr "无效的清单编号"
 
 #: 
-msgid "Audience not in the ChurchCRM"
+msgid "Audience not in the CommunityCRM"
 msgstr "观众不在教堂里"
 
 #: 
-msgid "ChurchCRM Installation Information"
-msgstr "ChurchCRM安装信息"
+msgid "CommunityCRM Installation Information"
+msgstr "CommunityCRM安装信息"
 
 #: 
 msgid "Database Server Version"
@@ -9223,16 +9223,16 @@ msgid "Event Description"
 msgstr "活动说明"
 
 #: 
-msgid "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
-msgstr "将您的ChurchCRM用户帐户注册为“两因素身份验证”可为试图访问您的帐户的不良行为者提供额外的防御。"
+msgid "Enrolling your CommunityCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
+msgstr "将您的CommunityCRM用户帐户注册为“两因素身份验证”可为试图访问您的帐户的不良行为者提供额外的防御。"
 
 #: 
-msgid "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
-msgstr "ChurchCRM Two Factor支持任何TOTP身份验证器应用程序，因此您可以在Microsoft身份验证器，Google身份验证器，Authy，LastPass和其他之间自由选择"
+msgid "CommunityCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
+msgstr "CommunityCRM Two Factor支持任何TOTP身份验证器应用程序，因此您可以在Microsoft身份验证器，Google身份验证器，Authy，LastPass和其他之间自由选择"
 
 #: 
-msgid "When you sign in to ChurchCRM, you'll still enter your username and password like normal"
-msgstr "登录ChurchCRM时，您仍然会像平常一样输入用户名和密码"
+msgid "When you sign in to CommunityCRM, you'll still enter your username and password like normal"
+msgstr "登录CommunityCRM时，您仍然会像平常一样输入用户名和密码"
 
 #: 
 msgid "However, you'll also need to supply a one-time code from your authenticator device to complete your login"
@@ -9243,8 +9243,8 @@ msgid "After successfully entering both your credentials, and the one-time code,
 msgstr "成功输入凭据和一次性代码后，您将照常登录"
 
 #: 
-msgid "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
-msgstr "为防止您的ChurchCRM帐户被锁定，请确保您已准备好完成两个要素的注册，然后再单击“开始”。"
+msgid "To prevent being locked out of your CommunityCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
+msgstr "为防止您的CommunityCRM帐户被锁定，请确保您已准备好完成两个要素的注册，然后再单击“开始”。"
 
 #: 
 msgid "Beginning enrollment will invalidate any previously enrolled 2 factor devices and recovery codes."
@@ -9421,4 +9421,3 @@ msgstr "区域设置"
 #: 
 msgid "Override system locale"
 msgstr "覆盖系统区域设置"
-

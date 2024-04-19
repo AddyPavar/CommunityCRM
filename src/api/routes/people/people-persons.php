@@ -1,12 +1,12 @@
 <?php
 
-use ChurchCRM\dto\MenuEventsCount;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\model\ChurchCRM\ListOptionQuery;
-use ChurchCRM\model\ChurchCRM\Person;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\dto\MenuEventsCount;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\model\CommunityCRM\ListOptionQuery;
+use CommunityCRM\model\CommunityCRM\Person;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Propel\Runtime\ActiveQuery\Criteria;
 use Propel\Runtime\Collection\Collection;
 use Propel\Runtime\Propel;

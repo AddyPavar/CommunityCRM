@@ -3,19 +3,19 @@
 /*******************************************************************************
  *
  *  filename    : /Include/Functions.php
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2001-2003 Deane Barker, Chris Gebhardt
  *                Copyright 2004-1012 Michael Wilt
 
  ******************************************************************************/
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\Cart;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Service\PersonService;
-use ChurchCRM\Service\SystemService;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\LoggerUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\Cart;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Service\PersonService;
+use CommunityCRM\Service\SystemService;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\LoggerUtils;
 
 $personService = new PersonService();
 $systemService = new SystemService();
@@ -67,7 +67,7 @@ $aPropTypes = [
 $sGlobalMessageClass = 'success';
 
 if (isset($_GET['Registered'])) {
-    $sGlobalMessage = gettext('Thank you for registering your ChurchCRM installation.');
+    $sGlobalMessage = gettext('Thank you for registering your CommunityCRM installation.');
 }
 
 if (isset($_GET['PDFEmailed'])) {

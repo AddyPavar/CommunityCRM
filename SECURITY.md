@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-At ChurchCRM, we take the security of our software seriously. If you discover any security issues, we appreciate your cooperation in responsibly disclosing the information to us.
+At CommunityCRM, we take the security of our software seriously. If you discover any security issues, we appreciate your cooperation in responsibly disclosing the information to us.
 
 To report a security vulnerability, file a github issue include the following details:
 
@@ -19,11 +19,11 @@ Please note that the following activities are considered within the scope of our
 
 ## No Security Testing on Demo Sites
 
-For security and stability reasons, we kindly request that you do not perform any security testing on the demo sites provided by ChurchCRM. The demo sites are for showcasing purposes only, and any attempts to identify or exploit security vulnerabilities on these sites may lead to unintended disruptions.
+For security and stability reasons, we kindly request that you do not perform any security testing on the demo sites provided by CommunityCRM. The demo sites are for showcasing purposes only, and any attempts to identify or exploit security vulnerabilities on these sites may lead to unintended disruptions.
 
 If you are interested in security testing or assessments, please focus your efforts on your local development environments or any instances you have set up for testing purposes.
 
-Thank you for your understanding and cooperation in making ChurchCRM a more secure platform.
+Thank you for your understanding and cooperation in making CommunityCRM a more secure platform.
 
 ## Supported Versions
 

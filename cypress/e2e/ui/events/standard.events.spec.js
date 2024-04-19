@@ -3,12 +3,12 @@
 context("Standard User Session", () => {
     it("Visit Event Attendance", () => {
         cy.loginStandard("EventAttendance.php");
-        cy.contains("Church Service");
+        cy.contains("Community Service");
     });
 
-    it("Visit Church Servers", () => {
+    it("Visit Community Servers", () => {
         cy.loginStandard(
-            "EventAttendance.php?Action=List&Event=1&Type=Church%20Service",
+            "EventAttendance.php?Action=List&Event=1&Type=Community%20Service",
         );
         cy.contains("Christmas Service");
         cy.get("#Non-Attending-1").click();

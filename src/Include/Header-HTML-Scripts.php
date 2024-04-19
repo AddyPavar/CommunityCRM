@@ -1,12 +1,12 @@
 <?php
 
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemURLs;
 
 ?>
-<title>ChurchCRM: <?= $sPageTitle ?></title>
+<title>CommunityCRM: <?= $sPageTitle ?></title>
 
-<!-- Custom ChurchCRM styles -->
-<link rel="stylesheet" href="<?= SystemURLs::getRootPath() ?>/skin/churchcrm.min.css">
+<!-- Custom CommunityCRM styles -->
+<link rel="stylesheet" href="<?= SystemURLs::getRootPath() ?>/skin/communitycrm.min.css">
 
 <script src="<?= SystemURLs::getRootPath() ?>/skin/external/jquery/jquery.min.js"></script>
 <!-- jQuery UI -->

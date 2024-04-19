@@ -1,4 +1,4 @@
-# This is the developer docker-compose.yml file. You can build and Run ChurchCRM
+# This is the developer docker-compose.yml file. You can build and Run CommunityCRM
 # from this file by first filling in your password and db info in the .env
 # file and then running "docker-compose -f docker-compose.develop.yaml build", and
 # "docker-compose -f docker-compose.develop.yaml up" in your terminal.
@@ -31,13 +31,13 @@ services:
     ## Look into: https://hub.docker.com/r/nimmis/apache-php8
     build:
       context: .
-      dockerfile: Dockerfile.churchcrm-apache-php8-test-debian
-    image: churchcrm/crm:php8-debian
+      dockerfile: Dockerfile.communitycrm-apache-php8-test-debian
+    image: communitycrm/crm:php8-debian
     ports:
       - "80:80"
     volumes:
       - ../src:/var/www/html
-      - ..:/home/ChurchCRM
+      - ..:/home/CommunityCRM
     links:
       - database
       - mailserver

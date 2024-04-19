@@ -3,7 +3,7 @@
 /*******************************************************************************
  *
  *  filename    : AddDonors.php
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2009 Michael Wilt
  *
  * This script adds people who have donated but not registered as buyers to the
@@ -15,8 +15,8 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 $linkBack = '';
 if (array_key_exists('linkBack', $_GET)) {

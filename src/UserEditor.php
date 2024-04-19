@@ -5,7 +5,7 @@
  *  filename    : UserEditor.php
  *  description : form for adding and editing users
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2001-2002 Phillip Hullquist, Deane Barker
  *
  *  Updated 2005-03-19 by Everette L Mills: Updated to remove error that could be created
@@ -22,15 +22,15 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Emails\NewAccountEmail;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\model\ChurchCRM\User;
-use ChurchCRM\model\ChurchCRM\UserConfig;
-use ChurchCRM\model\ChurchCRM\UserQuery;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Emails\NewAccountEmail;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\model\CommunityCRM\User;
+use CommunityCRM\model\CommunityCRM\UserConfig;
+use CommunityCRM\model\CommunityCRM\UserQuery;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 use Propel\Runtime\ActiveQuery\Criteria;
 
 // Security: User must be an Admin to access this page.

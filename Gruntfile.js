@@ -296,14 +296,14 @@ module.exports = function (grunt) {
             },
             dist: {
               files: {
-                  'src/skin/churchcrm.min.css': 'src/skin/churchcrm.scss'
+                  'src/skin/communitycrm.min.css': 'src/skin/communitycrm.scss'
               }
             },
         },
         compress: {
             'zip': {
                 options: {
-                    archive: 'target/ChurchCRM-<%= package.version %>.zip',
+                    archive: 'target/CommunityCRM-<%= package.version %>.zip',
                     mode: "zip",
                     pretty: true
                 },
@@ -312,13 +312,13 @@ module.exports = function (grunt) {
                         expand: true,
                         cwd: 'src/',
                         src: '<%= projectFiles %>',
-                        dest: 'churchcrm/'
+                        dest: 'communitycrm/'
                     }
                 ]
             },
             'tar': {
                 options: {
-                    archive: 'target/ChurchCRM-<%= package.version %>.tar.gz',
+                    archive: 'target/CommunityCRM-<%= package.version %>.tar.gz',
                     mode: "tgz",
                     pretty: true
                 },
@@ -327,13 +327,13 @@ module.exports = function (grunt) {
                         expand: true,
                         cwd: 'src/',
                         src: '<%= projectFiles %>',
-                        dest: 'churchcrm/'
+                        dest: 'communitycrm/'
                     }
                 ]
             },
             'demo': {
                 options: {
-                    archive: 'target/Demo-ChurchCRM-<%= package.version %>.tar.gz',
+                    archive: 'target/Demo-CommunityCRM-<%= package.version %>.tar.gz',
                     mode: "tar",
                     pretty: true
                 },
@@ -367,7 +367,7 @@ module.exports = function (grunt) {
                         '!Include/Config.php',
                         '!integrityCheck.json'
                     ],
-                    dest: 'churchcrm/'
+                    dest: 'communitycrm/'
                 }]
             }
         },

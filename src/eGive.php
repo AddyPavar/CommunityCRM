@@ -12,9 +12,9 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isFinanceEnabled());
 
@@ -395,7 +395,7 @@ require 'Include/Footer.php';
 
 function yearFirstDate($date)
 {
-    $dateArray = explode('/', $date); // this date is in mm/dd/yy format.  churchCRM needs it in yyyy-mm-dd format
+    $dateArray = explode('/', $date); // this date is in mm/dd/yy format.  communityCRM needs it in yyyy-mm-dd format
     if (strlen($dateArray[2]) == 2) {
         $dateArray[2] += 2000;
     }

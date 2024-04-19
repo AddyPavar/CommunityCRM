@@ -1,10 +1,10 @@
 <?php
 
-use ChurchCRM\dto\ChurchMetaData;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Service\MailChimpService;
-use ChurchCRM\Slim\Middleware\Request\Auth\AdminRoleAuthMiddleware;
+use CommunityCRM\dto\CommunityMetaData;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Service\MailChimpService;
+use CommunityCRM\Slim\Middleware\Request\Auth\AdminRoleAuthMiddleware;
 use PHPMailer\PHPMailer\PHPMailer;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
@@ -45,7 +45,7 @@ function testEmailConnectionMVC(Request $request, Response $response, array $arg
     $mailer = new PHPMailer();
     $message = '';
 
-    if (!empty(SystemConfig::getValue('sSMTPHost')) && !empty(ChurchMetaData::getChurchEmail())) {
+    if (!empty(SystemConfig::getValue('sSMTPHost')) && !empty(CommunityMetaData::getCommunityEmail())) {
         $mailer->IsSMTP();
         $mailer->CharSet = 'UTF-8';
         $mailer->Timeout = intval(SystemConfig::getValue('iSMTPTimeout'));
@@ -59,8 +59,8 @@ function testEmailConnectionMVC(Request $request, Response $response, array $arg
 
         $mailer->SMTPDebug = 3;
         $mailer->Subject = 'Test SMTP Email';
-        $mailer->setFrom(ChurchMetaData::getChurchEmail());
-        $mailer->addAddress(ChurchMetaData::getChurchEmail());
+        $mailer->setFrom(CommunityMetaData::getCommunityEmail());
+        $mailer->addAddress(CommunityMetaData::getCommunityEmail());
         $mailer->Body = 'test email';
         $mailer->Debugoutput = 'html';
     } else {
@@ -116,7 +116,7 @@ function getMailListMissingMVC(Request $request, Response $response, array $args
     $renderer = new PhpRenderer('templates/email/');
     $pageArgs = [
         'sRootPath'  => SystemURLs::getRootPath(),
-        'sPageTitle' => $list['name'] . ' ' . _('Audience not in the ChurchCRM'),
+        'sPageTitle' => $list['name'] . ' ' . _('Audience not in the CommunityCRM'),
         'listId'     => $list['id'],
     ];
 

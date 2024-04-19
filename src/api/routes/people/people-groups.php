@@ -1,14 +1,14 @@
 <?php
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\model\ChurchCRM\Base\ListOptionQuery;
-use ChurchCRM\model\ChurchCRM\Group;
-use ChurchCRM\model\ChurchCRM\GroupQuery;
-use ChurchCRM\model\ChurchCRM\Note;
-use ChurchCRM\model\ChurchCRM\Person2group2roleP2g2rQuery;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Slim\Middleware\Request\Auth\ManageGroupRoleAuthMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\model\CommunityCRM\Base\ListOptionQuery;
+use CommunityCRM\model\CommunityCRM\Group;
+use CommunityCRM\model\CommunityCRM\GroupQuery;
+use CommunityCRM\model\CommunityCRM\Note;
+use CommunityCRM\model\CommunityCRM\Person2group2roleP2g2rQuery;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Slim\Middleware\Request\Auth\ManageGroupRoleAuthMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Routing\RouteCollectorProxy;
@@ -112,8 +112,8 @@ $app->group('/groups', function (RouteCollectorProxy $group): void {
     $group->post('/', function (Request $request, Response $response, array $args): Response {
         $groupSettings = $request->getParsedBody();
         $group = new Group();
-        if ($groupSettings['isSundaySchool']) {
-            $group->makeSundaySchool();
+        if ($groupSettings['isEducationInitiative']) {
+            $group->makeEducationInitiative();
         }
         $group->setName($groupSettings['groupName']);
         $group->save();

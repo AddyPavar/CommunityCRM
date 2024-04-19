@@ -12,8 +12,8 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 $iDonatedItemID = InputUtils::legacyFilterInput($_GET['DonatedItemID'], 'int');
 $linkBack = InputUtils::legacyFilterInput($_GET['linkBack'], 'string');

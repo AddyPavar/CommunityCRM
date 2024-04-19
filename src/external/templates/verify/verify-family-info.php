@@ -1,10 +1,10 @@
 <?php
 
-use ChurchCRM\dto\ChurchMetaData;
-use ChurchCRM\dto\Classification;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\ListOptionQuery;
+use CommunityCRM\dto\CommunityMetaData;
+use CommunityCRM\dto\Classification;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\ListOptionQuery;
 
 // Set the page title and include HTML header
 $sPageTitle = gettext("Family Verification");
@@ -159,7 +159,7 @@ $doShowMap = !(empty($family->getLatitude()) && empty($family->getLongitude()));
         <div class="modal-footer">
           <button id="onlineVerifyCancelBtn" type="button" class="btn btn-default" data-dismiss="modal"><?= gettext("Cancel") ?></button>
           <button id="onlineVerifyBtn" class="btn btn-success"><?= gettext("Send") ?></button>
-          <a href="<?= ChurchMetaData::getChurchWebSite() ?>" id="onlineVerifySiteBtn" class="btn btn-success"><?= gettext("Visit our Site") ?></a>
+          <a href="<?= CommunityMetaData::getCommunityWebSite() ?>" id="onlineVerifySiteBtn" class="btn btn-success"><?= gettext("Visit our Site") ?></a>
         </div>
       </div>
     </div>

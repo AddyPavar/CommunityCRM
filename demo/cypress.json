@@ -1,5 +1,5 @@
 {
-    "baseUrl": "https://demo.churchcrm.io/master/",
+    "baseUrl": "https://demo.communitycrm.io/master/",
     "chromeWebSecurity": false,
     "video": false,
     "pageLoadTimeout": 120000,

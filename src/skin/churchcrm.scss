@@ -1,8 +1,8 @@
-/*! DO NOT MANUALLY EDIT skin/churchcrm.min.css
+/*! DO NOT MANUALLY EDIT skin/communitycrm.min.css
 
     Please make changes to skin/scss/*.scss and recompile with SASS. http://sass-lang.com/
 
-    sass --watch src/skin/churchcrm.scss:src/skin/churchcrm.min.css --style compressed
+    sass --watch src/skin/communitycrm.scss:src/skin/communitycrm.min.css --style compressed
 
 */
 
@@ -28,7 +28,7 @@
 @import 'external/react-datepicker/react-datepicker.min.css';
 @import 'external/flag-icons/css/flag-icons.min.css';
 
-// Import ChurchCRM custom styles
+// Import CommunityCRM custom styles
 
 @import 'scss/dropdowns';
 @import 'scss/forms';

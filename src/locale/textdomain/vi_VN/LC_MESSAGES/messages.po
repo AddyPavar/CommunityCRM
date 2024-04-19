@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -61,7 +61,7 @@ msgid "Backup Database"
 msgstr "Sao lưu dữ liệu"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
 msgstr "Công cụ này sẽ giúp bạn tự sao lưu cơ sở dữ liệu của Hệ Thống Quản Lý Hội Thánh"
 
 #: 
@@ -74,7 +74,7 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "Sau khi bạn tải về các tập tin sao lưu, bạn nên làm cho hai bản sao. Đặt một trong số tập tin này vào nơi an toàn trong máy chủ và ngoài máy chủ."
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
 msgstr "Nếu bạn lo lắng về tính bảo mật của dữ liệu được lưu trữ trong cơ sở dữ liệu của Hệ Thống Quản Lý Hội Thánh, bạn nên mã hóa dữ liệu sao lưu nếu nó sẽ được lưu trữ ở đâu đó có khả năng tiếp cận với những người khác"
 
 #: 
@@ -904,7 +904,7 @@ msgid "Use Title Page"
 msgstr "Sử dụng tiêu đề trang"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "Tên Hội Thánh"
 
 #: 
@@ -996,7 +996,7 @@ msgid "Add New Fund"
 msgstr "Thêm quỹ mới"
 
 #: 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr "Chỉnh sửa sự kiện Hội Thánh"
 
 #: 
@@ -1737,7 +1737,7 @@ msgid "Graphic"
 msgstr "Đồ họa"
 
 #: 
-msgid "Church Address"
+msgid "Community Address"
 msgstr "Địa chỉ Hội Thánh"
 
 #: 
@@ -2237,7 +2237,7 @@ msgid "Listing Events of Type = "
 msgstr "Sự kiện danh sách thuộc loại ="
 
 #: 
-msgid "Listing All Church Events"
+msgid "Listing All Community Events"
 msgstr "Danh sách tất cả các sự kiện Hội Thánh"
 
 #: 
@@ -2317,7 +2317,7 @@ msgid "Assign starting at #"
 msgstr "Chỉ định bắt đầu từ #"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
+msgid "Unable to display map due to missing Community Latitude or Longitude. Please update the community Address in the settings menu."
 msgstr "Không thể hiển thị bản đồ do thiếu Kinh độ hoặc Vĩ độ của Nhà thờ. Vui lòng cập nhật Địa chỉ nhà thờ trong menu cài đặt."
 
 #: 
@@ -2385,7 +2385,7 @@ msgid "See All People"
 msgstr "Danh sách thành viên"
 
 #: 
-msgid "Sunday School Kids"
+msgid "Education Initiative Kids"
 msgstr "Trường Chúa Nhật thiếu nhi"
 
 #: 
@@ -2437,7 +2437,7 @@ msgid "Girls"
 msgstr "Con gái"
 
 #: 
-msgid "Sunday School Classes"
+msgid "Education Initiative Classes"
 msgstr "Lớp học Trường Chúa Nhật"
 
 #: 
@@ -3359,7 +3359,7 @@ msgid "\"Why Came\" notes for "
 msgstr "Ghi chú \"Lý do đến với Hội Thánh\" "
 
 #: 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr "Tại sao bạn đến với Hội Thánh ?"
 
 #: 
@@ -3371,7 +3371,7 @@ msgid "Do you have any suggestions for us?"
 msgstr "Bạn có ý kiến đóng góp nào cho chúng tôi không ?"
 
 #: 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr "Làm thế nào mà bạn học hỏi được tại Hội Thánh ?"
 
 #: 
@@ -3479,8 +3479,8 @@ msgid "Custom Drop-Down List"
 msgstr "Danh sách thả xuống tùy chỉnh"
 
 #: 
-msgid "Thank you for registering your ChurchCRM installation."
-msgstr "Cảm ơn bạn đã đăng ký cài đặt ChurchCRM của mình."
+msgid "Thank you for registering your CommunityCRM installation."
+msgstr "Cảm ơn bạn đã đăng ký cài đặt CommunityCRM của mình."
 
 #: 
 msgid "PDFs successfully emailed "
@@ -3723,8 +3723,8 @@ msgid "Member/Friend"
 msgstr "Thành viên / Bạn bè"
 
 #: 
-msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
-msgstr "Tùy chọn này yêu cầu ít nhất phiên bản 3.22 của MySQL! Nhấn nút quay lại của trình duyệt để quay lại ChurchCRM."
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM."
+msgstr "Tùy chọn này yêu cầu ít nhất phiên bản 3.22 của MySQL! Nhấn nút quay lại của trình duyệt để quay lại CommunityCRM."
 
 #: 
 msgid "Work"
@@ -3843,11 +3843,11 @@ msgid "Gift Designation:"
 msgstr "Chỉ định quà tặng:"
 
 #: 
-msgid "Sunday School"
+msgid "Education Initiative"
 msgstr "Trường Chúa Nhật"
 
 #: 
-msgid "Sunday School Class Functions"
+msgid "Education Initiative Class Functions"
 msgstr "Tính năng lớp học Trường Chúa Nhật"
 
 #: 
@@ -3939,7 +3939,7 @@ msgid "Discard"
 msgstr "Bỏ đi"
 
 #: 
-msgid "Sunday School Dashboard"
+msgid "Education Initiative Dashboard"
 msgstr "Bảng điều khiển"
 
 #: 
@@ -3947,7 +3947,7 @@ msgid "Classes"
 msgstr "Lớp học"
 
 #: 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr "Báo cáo Trường Chúa Nhật"
 
 #: 
@@ -3959,7 +3959,7 @@ msgid "Export All Classes, Kids, and Parent to CSV file"
 msgstr "Xuất Tất cả Lớp học, Trẻ em và Phụ huynh sang tệp CSV"
 
 #: 
-msgid "Students not in a Sunday School Class"
+msgid "Students not in a Education Initiative Class"
 msgstr "Những học viên không có trong lớp Trường Chúa Nhật"
 
 #: 
@@ -3991,7 +3991,7 @@ msgid "Last Sunday"
 msgstr "Chủ Nhật trước"
 
 #: 
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr "Không có lớp trường Chúa Nhật"
 
 #: 
@@ -4132,8 +4132,8 @@ msgid "CAUTION: This will completely erase the existing database, and replace it
 msgstr "THẬN TRỌNG: Thao tác này sẽ xóa hoàn toàn cơ sở dữ liệu hiện có và thay thế bằng bản sao lưu"
 
 #: 
-msgid "If you upload a backup from ChurchInfo, or a previous version of ChurchCRM, it will be automatically upgraded to the current database schema"
-msgstr "Nếu bạn tải lên bản sao lưu từ ChurchInfo hoặc phiên bản trước của ChurchCRM, nó sẽ được tự động nâng cấp lên cơ sở dữ liệu hiện tại"
+msgid "If you upload a backup from CommunityInfo, or a previous version of CommunityCRM, it will be automatically upgraded to the current database schema"
+msgstr "Nếu bạn tải lên bản sao lưu từ CommunityInfo hoặc phiên bản trước của CommunityCRM, nó sẽ được tự động nâng cấp lên cơ sở dữ liệu hiện tại"
 
 #: 
 msgid "Upload Files"
@@ -4156,7 +4156,7 @@ msgid "Restore Error."
 msgstr "Khôi phục bị lỗi"
 
 #: 
-msgid "Church Information"
+msgid "Community Information"
 msgstr "Hội Thánh"
 
 #: 
@@ -4205,8 +4205,8 @@ msgid "Edit Settings"
 msgstr "Chỉnh sửa cài đặt"
 
 #: 
-msgid "Upgrade ChurchCRM"
-msgstr "Nâng cấp ChurchCRM"
+msgid "Upgrade CommunityCRM"
+msgstr "Nâng cấp CommunityCRM"
 
 #: 
 msgid "Step 1: Backup Database"
@@ -4225,8 +4225,8 @@ msgid "Step 2: Fetch Update Package on Server"
 msgstr "Bước 2: Tìm nạp gói cập nhật trên máy chủ"
 
 #: 
-msgid "Fetch the latest files from the ChurchCRM GitHub release page"
-msgstr "Tìm nạp các tệp mới nhất từ ​​trang phát hành ChurchCRM GitHub"
+msgid "Fetch the latest files from the CommunityCRM GitHub release page"
+msgstr "Tìm nạp các tệp mới nhất từ ​​trang phát hành CommunityCRM GitHub"
 
 #: 
 msgid "Fetch Update Files"
@@ -4313,11 +4313,11 @@ msgid "Enter Name"
 msgstr "Nhập tên"
 
 #: 
-msgid "Update Church Info"
+msgid "Update Community Info"
 msgstr "Cập nhật thông tin Hội Thánh"
 
 #: 
-msgid "Set Church Address"
+msgid "Set Community Address"
 msgstr "Thiết lập địa chỉ"
 
 #: 
@@ -4657,7 +4657,7 @@ msgid "with this Property..."
 msgstr "với thuộc tính này..."
 
 #: 
-msgid "Church Email"
+msgid "Community Email"
 msgstr "Email Nhà thờ"
 
 #: 
@@ -4731,11 +4731,11 @@ msgid "First month of the fiscal year"
 msgstr "Tháng đầu tiên của năm tài chính"
 
 #: 
-msgid "Latitude of the church, used to center the Google map"
+msgid "Latitude of the community, used to center the Google map"
 msgstr "Vĩ độ của nhà thờ, được sử dụng để căn giữa bản đồ Google"
 
 #: 
-msgid "Longitude of the church, used to center the Google map"
+msgid "Longitude of the community, used to center the Google map"
 msgstr "Kinh độ của nhà thờ, được sử dụng để căn giữa bản đồ Google"
 
 #: 
@@ -4791,8 +4791,8 @@ msgid "Set true to enable family self registration."
 msgstr "Đặt true để cho phép tự đăng ký gia đình."
 
 #: 
-msgid "ChurchCRM has been registered.  The ChurchCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
-msgstr "ChurchCRM đã được đăng ký. Nhóm ChurchCRM sử dụng thông tin đăng ký để theo dõi việc sử dụng. Thông tin này được giữ bí mật và không bao giờ tiết lộ hoặc bán. Nếu trường này đúng, tùy chọn đăng ký trong menu quản trị sẽ thay đổi để cập nhật đăng ký."
+msgid "CommunityCRM has been registered.  The CommunityCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
+msgstr "CommunityCRM đã được đăng ký. Nhóm CommunityCRM sử dụng thông tin đăng ký để theo dõi việc sử dụng. Thông tin này được giữ bí mật và không bao giờ tiết lộ hoặc bán. Nếu trường này đúng, tùy chọn đăng ký trong menu quản trị sẽ thay đổi để cập nhật đăng ký."
 
 #: 
 msgid "Left Margin (1 = 1/100th inch)"
@@ -4803,23 +4803,23 @@ msgid "Line Thickness (1 = 1/100th inch"
 msgstr "Độ dày dòng (1 = 1/100 inch"
 
 #: 
-msgid "Church City"
+msgid "Community City"
 msgstr "Thành phố nhà thờ"
 
 #: 
-msgid "Church State"
+msgid "Community State"
 msgstr "Nhà nước Giáo hội"
 
 #: 
-msgid "Church Zip"
+msgid "Community Zip"
 msgstr "Nhà thờ Zip"
 
 #: 
-msgid "Church Phone"
+msgid "Community Phone"
 msgstr "Điện thoại nhà thờ"
 
 #: 
-msgid "Home area code of the church"
+msgid "Home area code of the community"
 msgstr "Mã vùng nhà của nhà thờ"
 
 #: 
@@ -4867,7 +4867,7 @@ msgid "Verbage for the directory report"
 msgstr "Rác cho báo cáo thư mục"
 
 #: 
-msgid "Church Letterhead path and file"
+msgid "Community Letterhead path and file"
 msgstr "Đường dẫn và tệp của Giấy tiêu đề Nhà thờ"
 
 #: 
@@ -4919,11 +4919,11 @@ msgid "List Groups"
 msgstr "Danh sách Ban/Mục vụ"
 
 #: 
-msgid "List Church Events"
+msgid "List Community Events"
 msgstr "Danh sách sự kiện"
 
 #: 
-msgid "Add Church Event"
+msgid "Add Community Event"
 msgstr "Thêm sự kiện mới"
 
 #: 
@@ -5128,7 +5128,7 @@ msgid "The birthday month for which you would like records returned."
 msgstr "Tháng sinh nhật mà bạn muốn trả lại hồ sơ."
 
 #: 
-msgid "The sunday school class for which you would like records returned."
+msgid "The education initiative class for which you would like records returned."
 msgstr "Lớp học chủ nhật mà bạn muốn trả lại hồ sơ."
 
 #: 
@@ -6608,11 +6608,11 @@ msgid "Please verify your family's information"
 msgstr "Vui lòng xác minh thông tin của gia đình bạn"
 
 #: 
-msgid "Church Address is not Set."
+msgid "Community Address is not Set."
 msgstr "Địa chỉ Hội thánh chưa được thiết lập"
 
 #: 
-msgid "Church Name is set to default value"
+msgid "Community Name is set to default value"
 msgstr "Tên Hội thánh là giá trị được thiết lập mặc định"
 
 #: 
@@ -6836,7 +6836,7 @@ msgid "The previous integrity check passed.  All system file hashes match the ex
 msgstr "Kiểm tra tính toàn vẹn trước đó đã thông qua. Tất cả các hàm băm của tệp hệ thống đều khớp với các giá trị mong đợi."
 
 #: 
-msgid "Church Checking Account Number"
+msgid "Community Checking Account Number"
 msgstr "Số tài khoản kiểm tra nhà thờ"
 
 #: 
@@ -7016,16 +7016,16 @@ msgid "Display bill counts on deposit slip"
 msgstr "Hiển thị số lượng hóa đơn trên phiếu gửi tiền"
 
 #: 
-msgid "ChurchCRM Cloud Access URL"
-msgstr "URL truy cập đám mây ChurchCRM"
+msgid "CommunityCRM Cloud Access URL"
+msgstr "URL truy cập đám mây CommunityCRM"
 
 #: 
 msgid "Your Account was Deleted"
 msgstr "Tài khoản của bạn đã bị xóa"
 
 #: 
-msgid "Your ChurchCRM Account was Deleted."
-msgstr "Tài khoản ChurchCRM của bạn đã bị xóa."
+msgid "Your CommunityCRM Account was Deleted."
+msgstr "Tài khoản CommunityCRM của bạn đã bị xóa."
 
 #: 
 msgid "Account Locked"
@@ -7172,24 +7172,24 @@ msgid "Select GeoCoder Provider"
 msgstr "Chọn nhà cung cấp bộ mã hóa địa lý"
 
 #: 
-msgid "Your ChurchCRM account was locked."
-msgstr "Tài khoản ChurchCRM của bạn đã bị khóa."
+msgid "Your CommunityCRM account was locked."
+msgstr "Tài khoản CommunityCRM của bạn đã bị khóa."
 
 #: 
-msgid "A ChurchCRM account was created for you"
-msgstr "Một tài khoản ChurchCRM đã được tạo cho bạn"
+msgid "A CommunityCRM account was created for you"
+msgstr "Một tài khoản CommunityCRM đã được tạo cho bạn"
 
 #: 
-msgid "Your ChurchCRM password was changed"
-msgstr "Mật khẩu ChurchCRM của bạn đã được thay đổi"
+msgid "Your CommunityCRM password was changed"
+msgstr "Mật khẩu CommunityCRM của bạn đã được thay đổi"
 
 #: 
-msgid "You can reset your ChurchCRM password by clicking this link"
-msgstr "Bạn có thể đặt lại mật khẩu ChurchCRM của mình bằng cách nhấp vào liên kết này"
+msgid "You can reset your CommunityCRM password by clicking this link"
+msgstr "Bạn có thể đặt lại mật khẩu CommunityCRM của mình bằng cách nhấp vào liên kết này"
 
 #: 
-msgid "Your ChurchCRM account was unlocked."
-msgstr "Tài khoản ChurchCRM của bạn đã được mở khóa."
+msgid "Your CommunityCRM account was unlocked."
+msgstr "Tài khoản CommunityCRM của bạn đã được mở khóa."
 
 #: 
 msgid "system user created"
@@ -7356,7 +7356,7 @@ msgid "Please go to this location"
 msgstr "Vui lòng đến địa điểm này"
 
 #: 
-msgid "You ChurchCRM updated password has been changed"
+msgid "You CommunityCRM updated password has been changed"
 msgstr "Mật khẩu của bạn đã được thay đổi"
 
 #: 
@@ -7420,7 +7420,7 @@ msgid "Text Cart"
 msgstr "Giỏ nội dung"
 
 #: 
-msgid "Your Church's Website"
+msgid "Your Community's Website"
 msgstr "Trang web của Giáo hội của bạn"
 
 #: 
@@ -7528,12 +7528,12 @@ msgid "Thai"
 msgstr "Thái"
 
 #: 
-msgid "Your Church's Facebook Page"
+msgid "Your Community's Facebook Page"
 msgstr "Trang Facebook của Giáo hội của bạn"
 
 #: 
 #, fuzzy
-msgid "Your Church's X Page"
+msgid "Your Community's X Page"
 msgstr "Trang X của Giáo hội của bạn"
 
 #: 
@@ -7601,23 +7601,23 @@ msgid "New Family Added"
 msgstr "Gia đình mới đã được thêm"
 
 #: 
-msgid "Church Greeter"
-msgstr "Church Greeter"
+msgid "Community Greeter"
+msgstr "Community Greeter"
 
 #: 
 msgid "External Calendar API is disabled"
 msgstr "API lịch bên ngoài bị tắt"
 
 #: 
-msgid "Special Group Settings : Sunday School Type"
+msgid "Special Group Settings : Education Initiative Type"
 msgstr "Cài đặt Nhóm Đặc biệt: Loại Trường Chủ nhật"
 
 #: 
-msgid "Sunday School group can't be modified, only in this two cases :"
+msgid "Education Initiative group can't be modified, only in this two cases :"
 msgstr "Không thể sửa đổi nhóm Trường Chúa Nhật, chỉ trong hai trường hợp sau:"
 
 #: 
-msgid "You can create/delete sunday school group. "
+msgid "You can create/delete education initiative group. "
 msgstr "Bạn có thể tạo / xóa nhóm học chủ nhật."
 
 #: 
@@ -7917,15 +7917,15 @@ msgid "Field where last Confession is stored, must be a date type"
 msgstr "Trường nơi lưu trữ Lời thú tội cuối cùng, phải là một loại ngày tháng"
 
 #: 
-msgid "Require that this ChurchCRM Database is accessed over HTTPS"
-msgstr "Yêu cầu Cơ sở dữ liệu ChurchCRM này được truy cập qua HTTPS"
+msgid "Require that this CommunityCRM Database is accessed over HTTPS"
+msgstr "Yêu cầu Cơ sở dữ liệu CommunityCRM này được truy cập qua HTTPS"
 
 #: 
 msgid "People Setup"
 msgstr "Nhân khẩu"
 
 #: 
-msgid "Church Services"
+msgid "Community Services"
 msgstr "Lễ nhóm"
 
 #: 
@@ -8226,7 +8226,7 @@ msgid "Show custom links on the left menu."
 msgstr "Hiển thị các liên kết tùy chỉnh trên menu bên trái."
 
 #: 
-msgid "Enable Sunday School left menu."
+msgid "Enable Education Initiative left menu."
 msgstr "Bật menu bên trái của Trường học Chủ nhật."
 
 #: 
@@ -8298,8 +8298,8 @@ msgid "User must have Delete Records permission"
 msgstr "Người dùng phải có quyền Xóa Bản ghi"
 
 #: 
-msgid "ChurchCRM Central Notifications URL"
-msgstr "URL thông báo trung tâm của ChurchCRM"
+msgid "CommunityCRM Central Notifications URL"
+msgstr "URL thông báo trung tâm của CommunityCRM"
 
 #: 
 #, fuzzy
@@ -8447,11 +8447,11 @@ msgid "Person Name"
 msgstr "Tên người"
 
 #: 
-msgid "Custom message for church greeter email 1, max 255 characters"
+msgid "Custom message for community greeter email 1, max 255 characters"
 msgstr "Thông báo tùy chỉnh cho email 1 người chào nhà thờ, tối đa 255 ký tự"
 
 #: 
-msgid "Custom message for church greeter email 2, max 255 characters"
+msgid "Custom message for community greeter email 2, max 255 characters"
 msgstr "Thông điệp tùy chỉnh cho email chào nhà thờ 2, tối đa 255 ký tự"
 
 #: 
@@ -8519,8 +8519,8 @@ msgid "Warning: Signature mismatch"
 msgstr "Cảnh báo: Chữ ký không khớp"
 
 #: 
-msgid "Some ChurchCRM system files may have been modified since the last installation."
-msgstr "Một số tệp hệ thống ChurchCRM có thể đã được sửa đổi kể từ lần cài đặt cuối cùng."
+msgid "Some CommunityCRM system files may have been modified since the last installation."
+msgstr "Một số tệp hệ thống CommunityCRM có thể đã được sửa đổi kể từ lần cài đặt cuối cùng."
 
 #: 
 msgid "This upgrade will completely destroy any customizations made to the following files by reverting the files to the official version."
@@ -8795,8 +8795,8 @@ msgid "Requires users to self-enroll in 2 factor authentication"
 msgstr "Yêu cầu người dùng tự đăng ký xác thực 2 yếu tố"
 
 #: 
-msgid "ChurchCRM"
-msgstr "ChurchCRM"
+msgid "CommunityCRM"
+msgstr "CommunityCRM"
 
 #: 
 msgid "Specify the application name to be displayed in authenticator app"
@@ -8871,8 +8871,8 @@ msgid "Unable To Begin Two Factor Authentication Enrollment"
 msgstr "Không thể bắt đầu đăng ký xác thực hai yếu tố"
 
 #: 
-msgid "Two factor authentication requires ChurchCRM administrators to configure a few parameters"
-msgstr "Xác thực hai yếu tố yêu cầu quản trị viên ChurchCRM định cấu hình một vài tham số"
+msgid "Two factor authentication requires CommunityCRM administrators to configure a few parameters"
+msgstr "Xác thực hai yếu tố yêu cầu quản trị viên CommunityCRM định cấu hình một vài tham số"
 
 #: 
 msgid "System configuration "
@@ -8960,12 +8960,12 @@ msgid "Invalid List id"
 msgstr "Id danh sách không hợp lệ"
 
 #: 
-msgid "Audience not in the ChurchCRM"
+msgid "Audience not in the CommunityCRM"
 msgstr "Khán giả không ở trong Nhà thờCRM"
 
 #: 
-msgid "ChurchCRM Installation Information"
-msgstr "Thông tin cài đặt ChurchCRM"
+msgid "CommunityCRM Installation Information"
+msgstr "Thông tin cài đặt CommunityCRM"
 
 #: 
 msgid "Database Server Version"
@@ -9124,16 +9124,16 @@ msgid "Event Description"
 msgstr "Mô tả sự kiện"
 
 #: 
-msgid "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
-msgstr "Việc đăng ký tài khoản người dùng ChurchCRM của bạn trong Xác thực hai yếu tố cung cấp một lớp bảo vệ bổ sung chống lại những kẻ xấu cố gắng truy cập vào tài khoản của bạn."
+msgid "Enrolling your CommunityCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
+msgstr "Việc đăng ký tài khoản người dùng CommunityCRM của bạn trong Xác thực hai yếu tố cung cấp một lớp bảo vệ bổ sung chống lại những kẻ xấu cố gắng truy cập vào tài khoản của bạn."
 
 #: 
-msgid "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
-msgstr "ChurchCRM Two factor hỗ trợ bất kỳ ứng dụng xác thực TOTP nào, vì vậy bạn có thể thoải mái lựa chọn giữa Microsoft Authenticator, Google Authenticator, Authy, LastPass và các ứng dụng khác"
+msgid "CommunityCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
+msgstr "CommunityCRM Two factor hỗ trợ bất kỳ ứng dụng xác thực TOTP nào, vì vậy bạn có thể thoải mái lựa chọn giữa Microsoft Authenticator, Google Authenticator, Authy, LastPass và các ứng dụng khác"
 
 #: 
-msgid "When you sign in to ChurchCRM, you'll still enter your username and password like normal"
-msgstr "Khi bạn đăng nhập vào ChurchCRM, bạn sẽ vẫn nhập tên người dùng và mật khẩu của mình như bình thường"
+msgid "When you sign in to CommunityCRM, you'll still enter your username and password like normal"
+msgstr "Khi bạn đăng nhập vào CommunityCRM, bạn sẽ vẫn nhập tên người dùng và mật khẩu của mình như bình thường"
 
 #: 
 msgid "However, you'll also need to supply a one-time code from your authenticator device to complete your login"
@@ -9144,8 +9144,8 @@ msgid "After successfully entering both your credentials, and the one-time code,
 msgstr "Sau khi nhập thành công cả thông tin đăng nhập và mã một lần, bạn sẽ đăng nhập như bình thường"
 
 #: 
-msgid "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
-msgstr "Để tránh bị khóa tài khoản ChurchCRM của bạn, hãy đảm bảo rằng bạn đã sẵn sàng hoàn tất đăng ký hai yếu tố trước khi nhấp vào bắt đầu"
+msgid "To prevent being locked out of your CommunityCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
+msgstr "Để tránh bị khóa tài khoản CommunityCRM của bạn, hãy đảm bảo rằng bạn đã sẵn sàng hoàn tất đăng ký hai yếu tố trước khi nhấp vào bắt đầu"
 
 #: 
 msgid "Beginning enrollment will invalidate any previously enrolled 2 factor devices and recovery codes."
@@ -9322,4 +9322,3 @@ msgstr "Ngôn ngữ"
 #: 
 msgid "Override system locale"
 msgstr "Ghi đè ngôn ngữ hệ thống"
-

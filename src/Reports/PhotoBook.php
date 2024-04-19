@@ -4,28 +4,28 @@
 *
 *  filename    : Reports/PhotoBook.php
 *  last change : 2017-11-04 Philippe Logel
-*  description : Creates a PDF for a Sunday School Class List
+*  description : Creates a PDF for a Education Initiative Class List
 *
 ******************************************************************************/
 
-namespace ChurchCRM\Reports;
+namespace CommunityCRM\Reports;
 
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\model\ChurchCRM\GroupQuery;
-use ChurchCRM\model\ChurchCRM\ListOptionQuery;
-use ChurchCRM\model\ChurchCRM\Map\PersonTableMap;
-use ChurchCRM\model\ChurchCRM\Person2group2roleP2g2rQuery;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\model\CommunityCRM\GroupQuery;
+use CommunityCRM\model\CommunityCRM\ListOptionQuery;
+use CommunityCRM\model\CommunityCRM\Map\PersonTableMap;
+use CommunityCRM\model\CommunityCRM\Person2group2roleP2g2rQuery;
+use CommunityCRM\Utils\InputUtils;
 
 $iGroupID = InputUtils::legacyFilterInput($_GET['GroupID']);
 $aGrp = explode(',', $iGroupID);
 
 $iFYID = InputUtils::legacyFilterInput($_GET['FYID'], 'int');
 
-class PdfPhotoBook extends ChurchInfoReport
+class PdfPhotoBook extends CommunityInfoReport
 {
     private $group;
     private $FYIDString;

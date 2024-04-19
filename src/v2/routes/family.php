@@ -1,15 +1,15 @@
 <?php
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\PeopleCustomField;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\FamilyCustomMasterQuery;
-use ChurchCRM\model\ChurchCRM\FamilyCustomQuery;
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\model\ChurchCRM\PropertyQuery;
-use ChurchCRM\Service\TimelineService;
-use ChurchCRM\Slim\Request\SlimUtils;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\PeopleCustomField;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\FamilyCustomMasterQuery;
+use CommunityCRM\model\CommunityCRM\FamilyCustomQuery;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\model\CommunityCRM\PropertyQuery;
+use CommunityCRM\Service\TimelineService;
+use CommunityCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Utils\InputUtils;
 use Propel\Runtime\ActiveQuery\Criteria;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;

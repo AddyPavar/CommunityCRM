@@ -1,7 +1,7 @@
 <?php
 
-use ChurchCRM\Bootstrapper;
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\Bootstrapper;
+use CommunityCRM\dto\SystemURLs;
 
 //Set the page title
 $sPageTitle = gettext("User") . " - " . $user->getFullName();

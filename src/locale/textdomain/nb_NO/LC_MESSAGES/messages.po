@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: nb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -61,8 +61,8 @@ msgid "Backup Database"
 msgstr "Backup Database"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "Dette verktøyet vil hjelpe deg med å manuelt ta backup av ChurchCRM"
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "Dette verktøyet vil hjelpe deg med å manuelt ta backup av CommunityCRM"
 
 #: 
 #, fuzzy
@@ -74,8 +74,8 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "Når du har lastet sikkerhetskopifilen, bør du lage to kopier. Sette en av dem i en brannsikker safe på stedet, og den andre på et trygt sted utenfor området."
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
-msgstr "Hvis backup av ChurchCRM skal lages hvor andre kan komme til den, bør denne krypteres av sikkerhensmessige årsaker."
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgstr "Hvis backup av CommunityCRM skal lages hvor andre kan komme til den, bør denne krypteres av sikkerhensmessige årsaker."
 
 #: 
 #, fuzzy
@@ -876,7 +876,7 @@ msgid "Use Title Page"
 msgstr "Bruk Tittelside"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "Kirke Navn"
 
 #: 
@@ -969,7 +969,7 @@ msgid "Add New Fund"
 msgstr "Legg til ny Fund"
 
 #: 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr "Kirke begivenhet Editor"
 
 #: 
@@ -1702,8 +1702,8 @@ msgid "Graphic"
 msgstr "Grafisk"
 
 #: 
-msgid "Church Address"
-msgstr "Church Adresse"
+msgid "Community Address"
+msgstr "Community Adresse"
 
 #: 
 msgid "Blank"
@@ -2207,7 +2207,7 @@ msgid "Confirm data labels"
 msgstr "Bekreft dataetiketter"
 
 #: 
-msgid "Listing All Church Events"
+msgid "Listing All Community Events"
 msgstr "Notering Alle kirkelige handlinger"
 
 #: 
@@ -2343,7 +2343,7 @@ msgid "See All People"
 msgstr "Se alle Personer"
 
 #: 
-msgid "Sunday School Kids"
+msgid "Education Initiative Kids"
 msgstr "Søndagsskole bard"
 
 #: 
@@ -2391,7 +2391,7 @@ msgid "Girls"
 msgstr "Jenter"
 
 #: 
-msgid "Sunday School Classes"
+msgid "Education Initiative Classes"
 msgstr "Søndagsskoleklasse"
 
 #: 
@@ -3326,7 +3326,7 @@ msgid "\"Why Came\" notes for "
 msgstr "\"Hvorfor kom\" notater for"
 
 #: 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr "Hvorfor kom du til kirken?"
 
 #: 
@@ -3338,7 +3338,7 @@ msgid "Do you have any suggestions for us?"
 msgstr "Har du noen forslag til oss?"
 
 #: 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr "Hvordan fikk du vite av kirken?"
 
 #: 
@@ -3437,8 +3437,8 @@ msgid "Custom Drop-Down List"
 msgstr "Custom Rullegardinliste"
 
 #: 
-msgid "Thank you for registering your ChurchCRM installation."
-msgstr "Takk for at du registrerte ChurchCRM "
+msgid "Thank you for registering your CommunityCRM installation."
+msgstr "Takk for at du registrerte CommunityCRM "
 
 #: 
 msgid "PDFs successfully emailed "
@@ -3642,8 +3642,8 @@ msgid "Member/Friend"
 msgstr "Medlem / Friend"
 
 #: 
-msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
-msgstr "Dette alternativet krever minst versjon 3.22 av MySQL! Hit leseren tilbake-knappen for å gå tilbake til ChurchCRM."
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM."
+msgstr "Dette alternativet krever minst versjon 3.22 av MySQL! Hit leseren tilbake-knappen for å gå tilbake til CommunityCRM."
 
 #: 
 msgid "Work"
@@ -3764,7 +3764,7 @@ msgid "Gift Designation:"
 msgstr "Gave Betegnelse:"
 
 #: 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr "Søndagsskole rapporter"
 
 #: 
@@ -3793,7 +3793,7 @@ msgstr "Sist søndag"
 
 #: 
 #, fuzzy
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr "Ingen Søndagsskolen"
 
 #: 
@@ -3813,4 +3813,3 @@ msgstr "Lag Class List"
 #: 
 msgid "Create Attendance Sheet"
 msgstr "Lag Oppmøte Sheet"
-

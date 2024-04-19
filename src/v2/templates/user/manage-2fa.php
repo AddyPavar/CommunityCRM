@@ -1,6 +1,6 @@
 <?php
 
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemURLs;
 
 //Set the page title
 $sPageTitle = $user->getFullName() . gettext("2 Factor Authentication enrollment");

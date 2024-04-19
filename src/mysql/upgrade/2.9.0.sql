@@ -11,8 +11,8 @@ UPDATE menuconfig_mcf
   SET security_grp = 'bAddEvent'
   WHERE name = 'addevent';
 
-DROP TABLE IF EXISTS `church_location`;
-CREATE TABLE `church_location` (
+DROP TABLE IF EXISTS `community_location`;
+CREATE TABLE `community_location` (
   `location_id` INT NOT NULL,
   `location_typeId` INT NOT NULL,
   `location_name` VARCHAR(256) NOT NULL,
@@ -27,8 +27,8 @@ CREATE TABLE `church_location` (
   PRIMARY KEY (`location_id`)
 ) ENGINE=InnoDB CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-DROP TABLE IF EXISTS `church_location_person`;
-CREATE TABLE `church_location_person` (
+DROP TABLE IF EXISTS `community_location_person`;
+CREATE TABLE `community_location_person` (
   `location_id` INT NOT NULL,
   `person_id` INT NOT NULL,
   `order` INT NOT NULL,
@@ -36,8 +36,8 @@ CREATE TABLE `church_location_person` (
   PRIMARY KEY (`location_id`, `person_id`)
 ) ENGINE=InnoDB CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
-DROP TABLE IF EXISTS `church_location_role`;
-CREATE TABLE `church_location_role` (
+DROP TABLE IF EXISTS `community_location_role`;
+CREATE TABLE `community_location_role` (
   `location_id` INT NOT NULL,
   `role_id` INT NOT NULL,
   `role_order` INT NOT NULL,

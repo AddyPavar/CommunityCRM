@@ -4,7 +4,7 @@
  *
  *  filename    : PledgeEditor.php
  *  last change : 2012-06-29
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2001, 2002, 2003 Deane Barker, Chris Gebhardt
  *                Copyright 2004-2012Michael Wilt
   *
@@ -14,13 +14,13 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\MICRFunctions;
-use ChurchCRM\model\ChurchCRM\Pledge;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\MICRFunctions;
+use CommunityCRM\model\CommunityCRM\Pledge;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 if (SystemConfig::getValue('bUseScannedChecks')) { // Instantiate the MICR class
     $micrObj = new MICRFunctions();
@@ -438,7 +438,7 @@ if (isset($_POST['PledgeSubmit']) || isset($_POST['PledgeSubmitAndAdd'])) {
         $tScanString = InputUtils::legacyFilterInput($_POST['ScanInput']);
         $routeAndAccount = $micrObj->findRouteAndAccount($tScanString); // use routing and account number for matching
         $iFamily = InputUtils::legacyFilterInput($_POST['FamilyID'], 'int');
-        $family = \ChurchCRM\model\ChurchCRM\FamilyQuery::create()->findOneById($iFamily);
+        $family = \CommunityCRM\model\CommunityCRM\FamilyQuery::create()->findOneById($iFamily);
         $family->setScanCheck($routeAndAccount);
         $family->save();
     }

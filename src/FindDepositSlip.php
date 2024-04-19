@@ -4,8 +4,8 @@
  *
  *  filename    : FindDepositSlip.php
  *  last change : 2016-02-28
- *  website     : https://churchcrm.io
- *  copyright   : Copyright 2016 ChurchCRM
+ *  website     : https://communitycrm.io
+ *  copyright   : Copyright 2016 CommunityCRM
   *
  ******************************************************************************/
 
@@ -13,9 +13,9 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\Utils\RedirectUtils;
 
 $iDepositSlipID = $_SESSION['iCurrentDeposit'];
 

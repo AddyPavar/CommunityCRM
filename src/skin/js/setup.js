@@ -5,7 +5,7 @@ function skipCheck() {
 
 window.CRM.checkIntegrity = function () {
     window.CRM.renderPrerequisite({
-        Name: "ChurchCRM File Integrity Check",
+        Name: "CommunityCRM File Integrity Check",
         WikiLink: "",
         Satisfied: "pending",
     });
@@ -16,7 +16,7 @@ window.CRM.checkIntegrity = function () {
         .done(function (data) {
             if (data === "success") {
                 window.CRM.renderPrerequisite({
-                    Name: "ChurchCRM File Integrity Check",
+                    Name: "CommunityCRM File Integrity Check",
                     WikiLink: "",
                     Satisfied: true,
                 });
@@ -24,7 +24,7 @@ window.CRM.checkIntegrity = function () {
                 window.CRM.prerequisitesStatus = true;
             } else {
                 window.CRM.renderPrerequisite({
-                    Name: "ChurchCRM File Integrity Check",
+                    Name: "CommunityCRM File Integrity Check",
                     WikiLink: "",
                     Satisfied: false,
                 });
@@ -32,7 +32,7 @@ window.CRM.checkIntegrity = function () {
         })
         .fail(function () {
             window.CRM.renderPrerequisite({
-                Name: "ChurchCRM File Integrity Check",
+                Name: "CommunityCRM File Integrity Check",
                 WikiLink: "",
                 Satisfied: false,
             });

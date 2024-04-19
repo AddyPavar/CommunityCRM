@@ -1,6 +1,6 @@
 <?php
 
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemURLs;
 
 //Set the page title
 include SystemURLs::getDocumentRoot() . '/Include/Header.php';

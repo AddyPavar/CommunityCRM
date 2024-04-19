@@ -1,6 +1,6 @@
 <?php
 
-use ChurchCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemConfig;
 
 if (SystemConfig::debugEnabled()) {
     require_once 'Header-Security.php';

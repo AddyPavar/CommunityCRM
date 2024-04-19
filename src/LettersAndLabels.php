@@ -3,7 +3,7 @@
 /*******************************************************************************
  *
  *  filename    : LettersAndLabels.php
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *
  *  Contributors:
  *  2006 Ed Davis
@@ -20,8 +20,8 @@ require 'Include/Config.php';
 require 'Include/Functions.php';
 require 'Include/LabelFunctions.php';
 
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Set the page title and include HTML header
 $sPageTitle = gettext('Letters and Mailing Labels');

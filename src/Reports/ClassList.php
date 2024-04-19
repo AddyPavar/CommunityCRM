@@ -4,22 +4,22 @@
 *
 *  filename    : Reports/ClassList.php
 *  last change : 2017-11-04 Philippe Logel
-*  description : Creates a PDF for a Sunday School Class List
+*  description : Creates a PDF for a Education Initiative Class List
 *
 ******************************************************************************/
 
-namespace ChurchCRM\Reports;
+namespace CommunityCRM\Reports;
 
 require '../Include/Config.php';
 require '../Include/Functions.php';
 
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\model\ChurchCRM\Base\ListOptionQuery;
-use ChurchCRM\model\ChurchCRM\Base\Person2group2roleP2g2rQuery;
-use ChurchCRM\model\ChurchCRM\GroupQuery;
-use ChurchCRM\model\ChurchCRM\Map\PersonTableMap;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\model\CommunityCRM\Base\ListOptionQuery;
+use CommunityCRM\model\CommunityCRM\Base\Person2group2roleP2g2rQuery;
+use CommunityCRM\model\CommunityCRM\GroupQuery;
+use CommunityCRM\model\CommunityCRM\Map\PersonTableMap;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Utils\InputUtils;
 
 $iGroupID = InputUtils::legacyFilterInput($_GET['GroupID']);
 $aGrp = explode(',', $iGroupID);
@@ -30,7 +30,7 @@ $dFirstSunday = InputUtils::legacyFilterInput($_GET['FirstSunday']);
 $dLastSunday = InputUtils::legacyFilterInput($_GET['LastSunday']);
 $withPictures = InputUtils::legacyFilterInput($_GET['pictures']);
 
-class PdfClassList extends ChurchInfoReport
+class PdfClassList extends CommunityInfoReport
 {
     // Constructor
     public function __construct()

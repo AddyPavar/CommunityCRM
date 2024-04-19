@@ -1,14 +1,14 @@
 <?php
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\Cart;
-use ChurchCRM\dto\Photo;
-use ChurchCRM\model\ChurchCRM\ListOptionQuery;
-use ChurchCRM\Slim\Middleware\Request\Auth\DeleteRecordRoleAuthMiddleware;
-use ChurchCRM\Slim\Middleware\Request\Auth\EditRecordsRoleAuthMiddleware;
-use ChurchCRM\Slim\Middleware\Request\PersonAPIMiddleware;
-use ChurchCRM\Slim\Request\SlimUtils;
-use ChurchCRM\Utils\MiscUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\Cart;
+use CommunityCRM\dto\Photo;
+use CommunityCRM\model\CommunityCRM\ListOptionQuery;
+use CommunityCRM\Slim\Middleware\Request\Auth\DeleteRecordRoleAuthMiddleware;
+use CommunityCRM\Slim\Middleware\Request\Auth\EditRecordsRoleAuthMiddleware;
+use CommunityCRM\Slim\Middleware\Request\PersonAPIMiddleware;
+use CommunityCRM\Slim\Request\SlimUtils;
+use CommunityCRM\Utils\MiscUtils;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Exception\HttpForbiddenException;

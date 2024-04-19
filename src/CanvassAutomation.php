@@ -4,7 +4,7 @@
  *
  *  filename    : CanvassAutomation.php
  *  last change : 2005-02-21
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2001-2005 Deane Barker, Chris Gebhardt, Michael Wilt, Tim Dearborn
   *
  ******************************************************************************/
@@ -15,9 +15,9 @@ require 'Include/Functions.php';
 
 require 'Include/CanvassUtilities.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\Utils\InputUtils;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\Utils\InputUtils;
+use CommunityCRM\Utils\RedirectUtils;
 
 //Set the page title
 $sPageTitle = gettext('Canvass Automation');

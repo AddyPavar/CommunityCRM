@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: et\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -61,8 +61,8 @@ msgid "Backup Database"
 msgstr "Varunda andmebaas"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "See tööriist aitab sul kokku pakkida ChurchCRM andmebaasi."
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "See tööriist aitab sul kokku pakkida CommunityCRM andmebaasi."
 
 #: 
 #, fuzzy
@@ -74,8 +74,8 @@ msgid "After you download the backup file, you should make two copies. Put one o
 msgstr "Peale varu andmebaasi allalaadimist, peaksid tgeema veel 2 koopiat. Pane üks tulekindlasse seifi oma serveris ja teise kuskile väljaspoole oma lehte."
 
 #: 
-msgid "If you are concerned about confidentiality of data stored in the ChurchCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
-msgstr "Kui sa oled mures oma andmete konfidentsiaalsuses ChurchCRM andmebaasis, siis sa pekasid krüptima oma varukoopia ja asetama ta sinna kuhu keegi ligi ei saa"
+msgid "If you are concerned about confidentiality of data stored in the CommunityCRM database, you should encrypt the backup data if it will be stored somewhere potentially accessible to others"
+msgstr "Kui sa oled mures oma andmete konfidentsiaalsuses CommunityCRM andmebaasis, siis sa pekasid krüptima oma varukoopia ja asetama ta sinna kuhu keegi ligi ei saa"
 
 #: 
 msgid "Select archive type"
@@ -887,7 +887,7 @@ msgid "Use Title Page"
 msgstr "Kasutage tiitellehte"
 
 #: 
-msgid "Church Name"
+msgid "Community Name"
 msgstr "Koguduse nimi"
 
 #: 
@@ -979,7 +979,7 @@ msgid "Add New Fund"
 msgstr "Lisage uus fond"
 
 #: 
-msgid "Church Event Editor"
+msgid "Community Event Editor"
 msgstr "Koguduse/kiriku ürituse toimetaja"
 
 #: 
@@ -1720,7 +1720,7 @@ msgid "Graphic"
 msgstr "Graafika"
 
 #: 
-msgid "Church Address"
+msgid "Community Address"
 msgstr "Kiriku/Koguduse Aadress"
 
 #: 
@@ -2220,7 +2220,7 @@ msgid "Listing Events of Type = "
 msgstr "Loendisündmuste tüüp = "
 
 #: 
-msgid "Listing All Church Events"
+msgid "Listing All Community Events"
 msgstr "Kõik koguduse sündmuste nimekiri"
 
 #: 
@@ -2300,7 +2300,7 @@ msgid "Assign starting at #"
 msgstr "Määra alates #"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
+msgid "Unable to display map due to missing Community Latitude or Longitude. Please update the community Address in the settings menu."
 msgstr "Kaarti ei saa kuvada puuduva koguduse laius- või pikkuskraadi tõttu. Palun värskendage seadete menüüs koguduse aadressi."
 
 #: 
@@ -2368,7 +2368,7 @@ msgid "See All People"
 msgstr "Vaata kõiki inimesi"
 
 #: 
-msgid "Sunday School Kids"
+msgid "Education Initiative Kids"
 msgstr "Pühapäevakooli lapsed"
 
 #: 
@@ -2420,7 +2420,7 @@ msgid "Girls"
 msgstr "Tüdrukud"
 
 #: 
-msgid "Sunday School Classes"
+msgid "Education Initiative Classes"
 msgstr "Pühapäevakooli klassid"
 
 #: 
@@ -3342,7 +3342,7 @@ msgid "\"Why Came\" notes for "
 msgstr "\"Miks tuli\" märkmed "
 
 #: 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr "Miks sa kogudusse tulid?"
 
 #: 
@@ -3354,7 +3354,7 @@ msgid "Do you have any suggestions for us?"
 msgstr "Kas teil on meile ettepanekuid?"
 
 #: 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr "Kuidas sa kuulsid kogudusest?"
 
 #: 
@@ -3462,8 +3462,8 @@ msgid "Custom Drop-Down List"
 msgstr "Kohandatud ripploend"
 
 #: 
-msgid "Thank you for registering your ChurchCRM installation."
-msgstr "Täname, et registreerisite oma ChurchCRM-i installi."
+msgid "Thank you for registering your CommunityCRM installation."
+msgstr "Täname, et registreerisite oma CommunityCRM-i installi."
 
 #: 
 msgid "PDFs successfully emailed "
@@ -3706,8 +3706,8 @@ msgid "Member/Friend"
 msgstr "Liige / sõber"
 
 #: 
-msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
-msgstr "Selle valiku jaoks on vaja vähemalt MySQL versiooni 3.22! ChurchCRM-i naasmiseks klõpsake brauseri tagasi nuppu."
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM."
+msgstr "Selle valiku jaoks on vaja vähemalt MySQL versiooni 3.22! CommunityCRM-i naasmiseks klõpsake brauseri tagasi nuppu."
 
 #: 
 msgid "Work"
@@ -3826,11 +3826,11 @@ msgid "Gift Designation:"
 msgstr "Annetuse tähistamine:"
 
 #: 
-msgid "Sunday School"
+msgid "Education Initiative"
 msgstr "Pühapäevakool"
 
 #: 
-msgid "Sunday School Class Functions"
+msgid "Education Initiative Class Functions"
 msgstr "Pühapäevakooli klassi funktsioonid"
 
 #: 
@@ -3922,7 +3922,7 @@ msgid "Discard"
 msgstr "Loobuge"
 
 #: 
-msgid "Sunday School Dashboard"
+msgid "Education Initiative Dashboard"
 msgstr "Pühapäevakooli töölaud"
 
 #: 
@@ -3930,7 +3930,7 @@ msgid "Classes"
 msgstr "Klassid"
 
 #: 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr "Pühapäevakooli auanded"
 
 #: 
@@ -3942,7 +3942,7 @@ msgid "Export All Classes, Kids, and Parent to CSV file"
 msgstr "Ekspordi CSV-faili kõik klassid, lapsed ja lapsevanemad"
 
 #: 
-msgid "Students not in a Sunday School Class"
+msgid "Students not in a Education Initiative Class"
 msgstr "Õpilased, kes ei käi pühapäevakooli klassis"
 
 #: 
@@ -3974,7 +3974,7 @@ msgid "Last Sunday"
 msgstr "Eelmisel pühapäeval"
 
 #: 
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr "Pühapäevakooli pole"
 
 #: 
@@ -4115,8 +4115,8 @@ msgid "CAUTION: This will completely erase the existing database, and replace it
 msgstr "ETTEVAATUST. See kustutab olemasoleva andmebaasi täielikult ja asendab selle varukoopiaga"
 
 #: 
-msgid "If you upload a backup from ChurchInfo, or a previous version of ChurchCRM, it will be automatically upgraded to the current database schema"
-msgstr "Kui laadite varukoopia üles ChurchInfo või ChurchCRM-i eelmisest versioonist, uuendatakse see automaatselt praegusele andmebaasiskeemile"
+msgid "If you upload a backup from CommunityInfo, or a previous version of CommunityCRM, it will be automatically upgraded to the current database schema"
+msgstr "Kui laadite varukoopia üles CommunityInfo või CommunityCRM-i eelmisest versioonist, uuendatakse see automaatselt praegusele andmebaasiskeemile"
 
 #: 
 msgid "Upload Files"
@@ -4139,7 +4139,7 @@ msgid "Restore Error."
 msgstr "Taasta viga."
 
 #: 
-msgid "Church Information"
+msgid "Community Information"
 msgstr "Koguduse teave"
 
 #: 
@@ -4188,8 +4188,8 @@ msgid "Edit Settings"
 msgstr "Redigeeri seadeid"
 
 #: 
-msgid "Upgrade ChurchCRM"
-msgstr "Uuendage ChurchCRM"
+msgid "Upgrade CommunityCRM"
+msgstr "Uuendage CommunityCRM"
 
 #: 
 msgid "Step 1: Backup Database"
@@ -4208,8 +4208,8 @@ msgid "Step 2: Fetch Update Package on Server"
 msgstr "2. samm: hankige värskenduste pakett serverisse"
 
 #: 
-msgid "Fetch the latest files from the ChurchCRM GitHub release page"
-msgstr "Tooge uusimad failid ChurchCRM GitHubi väljalaske lehelt"
+msgid "Fetch the latest files from the CommunityCRM GitHub release page"
+msgstr "Tooge uusimad failid CommunityCRM GitHubi väljalaske lehelt"
 
 #: 
 msgid "Fetch Update Files"
@@ -4296,11 +4296,11 @@ msgid "Enter Name"
 msgstr "Sisestage nimi"
 
 #: 
-msgid "Update Church Info"
+msgid "Update Community Info"
 msgstr "Koguduse teabe värskendamine"
 
 #: 
-msgid "Set Church Address"
+msgid "Set Community Address"
 msgstr "Määra kiriku aadress"
 
 #: 
@@ -4640,7 +4640,7 @@ msgid "with this Property..."
 msgstr "selle omadusega ..."
 
 #: 
-msgid "Church Email"
+msgid "Community Email"
 msgstr "Kiriku e-post"
 
 #: 
@@ -4713,11 +4713,11 @@ msgid "First month of the fiscal year"
 msgstr "Majandusaasta esimene kuu"
 
 #: 
-msgid "Latitude of the church, used to center the Google map"
+msgid "Latitude of the community, used to center the Google map"
 msgstr "Koguduse laiuskraad, mida kasutatakse Google'i kaardi keskel"
 
 #: 
-msgid "Longitude of the church, used to center the Google map"
+msgid "Longitude of the community, used to center the Google map"
 msgstr "Kiriku pikkuskraad, mida kasutatakse Google'i kaardi keskel"
 
 #: 
@@ -4773,8 +4773,8 @@ msgid "Set true to enable family self registration."
 msgstr "Määrake tõeline, et võimaldada perekonna enese registreerimist."
 
 #: 
-msgid "ChurchCRM has been registered.  The ChurchCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
-msgstr "ChurchCRM on registreeritud. ChurchCRM-i meeskond kasutab registreerimise teavet kasutamise jälgimiseks. Seda teavet hoitakse konfidentsiaalsena ega avaldata ega müüda kunagi. Kui see väli vastab tõele, muutub administraatori menüüs registreerimise suvand registreerimise värskendamiseks."
+msgid "CommunityCRM has been registered.  The CommunityCRM team uses registration information to track usage.  This information is kept confidential and never released or sold.  If this field is true the registration option in the admin menu changes to update registration."
+msgstr "CommunityCRM on registreeritud. CommunityCRM-i meeskond kasutab registreerimise teavet kasutamise jälgimiseks. Seda teavet hoitakse konfidentsiaalsena ega avaldata ega müüda kunagi. Kui see väli vastab tõele, muutub administraatori menüüs registreerimise suvand registreerimise värskendamiseks."
 
 #: 
 msgid "Left Margin (1 = 1/100th inch)"
@@ -4785,23 +4785,23 @@ msgid "Line Thickness (1 = 1/100th inch"
 msgstr "Joone paksus (1 = 1/100 tolli"
 
 #: 
-msgid "Church City"
+msgid "Community City"
 msgstr "Koguduse linn"
 
 #: 
-msgid "Church State"
+msgid "Community State"
 msgstr "Koguduse maakond"
 
 #: 
-msgid "Church Zip"
+msgid "Community Zip"
 msgstr "Koguduse indeks"
 
 #: 
-msgid "Church Phone"
+msgid "Community Phone"
 msgstr "Koguduse telefon"
 
 #: 
-msgid "Home area code of the church"
+msgid "Home area code of the community"
 msgstr "Koguduse koduala kood"
 
 #: 
@@ -4849,7 +4849,7 @@ msgid "Verbage for the directory report"
 msgstr "Sõnastus kataloogiaruande jaoks"
 
 #: 
-msgid "Church Letterhead path and file"
+msgid "Community Letterhead path and file"
 msgstr "Koguduse peagablanketti asukoha rada ja fail"
 
 #: 
@@ -4901,11 +4901,11 @@ msgid "List Groups"
 msgstr "Gruppide nimekiri"
 
 #: 
-msgid "List Church Events"
+msgid "List Community Events"
 msgstr "Koguduse sündmuste nimekiri"
 
 #: 
-msgid "Add Church Event"
+msgid "Add Community Event"
 msgstr "Lisa koguduse sündmus"
 
 #: 
@@ -5110,7 +5110,7 @@ msgid "The birthday month for which you would like records returned."
 msgstr "Sünnipäevakuu, mille kohta soovite kirjed tagasi saata."
 
 #: 
-msgid "The sunday school class for which you would like records returned."
+msgid "The education initiative class for which you would like records returned."
 msgstr "Pühapäevakooli klass, mille kohta soovite teavet saada."
 
 #: 
@@ -6590,11 +6590,11 @@ msgid "Please verify your family's information"
 msgstr "Palun kontrollige oma pere andmeid"
 
 #: 
-msgid "Church Address is not Set."
+msgid "Community Address is not Set."
 msgstr "Koguduse aadress pole määratud."
 
 #: 
-msgid "Church Name is set to default value"
+msgid "Community Name is set to default value"
 msgstr "Kiriku nimi on seatud vaikeväärtusele"
 
 #: 
@@ -6818,7 +6818,7 @@ msgid "The previous integrity check passed.  All system file hashes match the ex
 msgstr "Eelmine terviklikkuse kontroll läbitud. Kõik süsteemifailide räsid vastavad eeldatavatele väärtustele."
 
 #: 
-msgid "Church Checking Account Number"
+msgid "Community Checking Account Number"
 msgstr "Koguduse arvelduskonto number"
 
 #: 
@@ -6998,16 +6998,16 @@ msgid "Display bill counts on deposit slip"
 msgstr "Kuva arvete arv sissemakse sedelil"
 
 #: 
-msgid "ChurchCRM Cloud Access URL"
-msgstr "ChurchCRM pilve juurdepääsu URL"
+msgid "CommunityCRM Cloud Access URL"
+msgstr "CommunityCRM pilve juurdepääsu URL"
 
 #: 
 msgid "Your Account was Deleted"
 msgstr "Teie konto kustutati"
 
 #: 
-msgid "Your ChurchCRM Account was Deleted."
-msgstr "Teie ChurchCRM-i konto kustutati."
+msgid "Your CommunityCRM Account was Deleted."
+msgstr "Teie CommunityCRM-i konto kustutati."
 
 #: 
 msgid "Account Locked"
@@ -7154,24 +7154,24 @@ msgid "Select GeoCoder Provider"
 msgstr "Valige GeoCoderi pakkuja"
 
 #: 
-msgid "Your ChurchCRM account was locked."
-msgstr "Teie ChurchCRM-i konto lukustati."
+msgid "Your CommunityCRM account was locked."
+msgstr "Teie CommunityCRM-i konto lukustati."
 
 #: 
-msgid "A ChurchCRM account was created for you"
-msgstr "Teie jaoks loodi ChurchCRM-i konto"
+msgid "A CommunityCRM account was created for you"
+msgstr "Teie jaoks loodi CommunityCRM-i konto"
 
 #: 
-msgid "Your ChurchCRM password was changed"
-msgstr "Teie ChurchCRM-i parool on muudetud"
+msgid "Your CommunityCRM password was changed"
+msgstr "Teie CommunityCRM-i parool on muudetud"
 
 #: 
-msgid "You can reset your ChurchCRM password by clicking this link"
-msgstr "Saate oma ChurchCRM-i parooli lähtestada, klõpsates sellel lingil"
+msgid "You can reset your CommunityCRM password by clicking this link"
+msgstr "Saate oma CommunityCRM-i parooli lähtestada, klõpsates sellel lingil"
 
 #: 
-msgid "Your ChurchCRM account was unlocked."
-msgstr "Teie ChurchCRM-i konto avati."
+msgid "Your CommunityCRM account was unlocked."
+msgstr "Teie CommunityCRM-i konto avati."
 
 #: 
 msgid "system user created"
@@ -7338,8 +7338,8 @@ msgid "Please go to this location"
 msgstr "Palun minge sellesse asukohta"
 
 #: 
-msgid "You ChurchCRM updated password has been changed"
-msgstr "Teie ChurchCRM-i värskendatud parool on muudetud"
+msgid "You CommunityCRM updated password has been changed"
+msgstr "Teie CommunityCRM-i värskendatud parool on muudetud"
 
 #: 
 msgid "Password Reset Link"
@@ -7402,7 +7402,7 @@ msgid "Text Cart"
 msgstr "Tekstikorv"
 
 #: 
-msgid "Your Church's Website"
+msgid "Your Community's Website"
 msgstr "Teie koguduse veebisait"
 
 #: 
@@ -7510,12 +7510,12 @@ msgid "Thai"
 msgstr "tai keel"
 
 #: 
-msgid "Your Church's Facebook Page"
+msgid "Your Community's Facebook Page"
 msgstr "Teie koguduse Facebooki leht"
 
 #: 
 #, fuzzy
-msgid "Your Church's X Page"
+msgid "Your Community's X Page"
 msgstr "Teie koguduse X leht"
 
 #: 
@@ -7583,7 +7583,7 @@ msgid "New Family Added"
 msgstr "Lisatud uus perekond"
 
 #: 
-msgid "Church Greeter"
+msgid "Community Greeter"
 msgstr "Koguduse tervitaja"
 
 #: 
@@ -7591,15 +7591,15 @@ msgid "External Calendar API is disabled"
 msgstr "Väline kalendri API on keelatud"
 
 #: 
-msgid "Special Group Settings : Sunday School Type"
+msgid "Special Group Settings : Education Initiative Type"
 msgstr "Grupi eriseaded: pühapäevakooli tüüp"
 
 #: 
-msgid "Sunday School group can't be modified, only in this two cases :"
+msgid "Education Initiative group can't be modified, only in this two cases :"
 msgstr "Pühapäevakooli rühma ei saa muuta, ainult kahel juhul:"
 
 #: 
-msgid "You can create/delete sunday school group. "
+msgid "You can create/delete education initiative group. "
 msgstr "Saate luua/kustutada pühapäevakooli rühma."
 
 #: 
@@ -7899,15 +7899,15 @@ msgid "Field where last Confession is stored, must be a date type"
 msgstr "Viimane tunnistus salvestatud väli peab olema kuupäeva tüüp"
 
 #: 
-msgid "Require that this ChurchCRM Database is accessed over HTTPS"
-msgstr "Nõuab, et sellele ChurchCRM-i andmebaasile avataks juurdepääs HTTPS-i kaudu"
+msgid "Require that this CommunityCRM Database is accessed over HTTPS"
+msgstr "Nõuab, et sellele CommunityCRM-i andmebaasile avataks juurdepääs HTTPS-i kaudu"
 
 #: 
 msgid "People Setup"
 msgstr "Inimeste seadistamine"
 
 #: 
-msgid "Church Services"
+msgid "Community Services"
 msgstr "Jumalateenistused"
 
 #: 
@@ -8208,7 +8208,7 @@ msgid "Show custom links on the left menu."
 msgstr "Kuva vasakpoolses menüüs kohandatud lingid."
 
 #: 
-msgid "Enable Sunday School left menu."
+msgid "Enable Education Initiative left menu."
 msgstr "Luba pühapäevakool vasak menüü."
 
 #: 
@@ -8280,8 +8280,8 @@ msgid "User must have Delete Records permission"
 msgstr "Kasutajal peab olema Kustutamise kirjete luba"
 
 #: 
-msgid "ChurchCRM Central Notifications URL"
-msgstr "ChurchCRM-i keskseadete URL"
+msgid "CommunityCRM Central Notifications URL"
+msgstr "CommunityCRM-i keskseadete URL"
 
 #: 
 #, fuzzy
@@ -8429,11 +8429,11 @@ msgid "Person Name"
 msgstr "Isiku nimi"
 
 #: 
-msgid "Custom message for church greeter email 1, max 255 characters"
+msgid "Custom message for community greeter email 1, max 255 characters"
 msgstr "Kohandatud koguduse tervitav e-post aadressile 1, maksimaalselt 255 tähemärki"
 
 #: 
-msgid "Custom message for church greeter email 2, max 255 characters"
+msgid "Custom message for community greeter email 2, max 255 characters"
 msgstr "Kohandatud koguduse tervitav e-post aadressile 2, maksimaalselt 255 tähemärki"
 
 #: 
@@ -8501,8 +8501,8 @@ msgid "Warning: Signature mismatch"
 msgstr "Hoiatus: allkirjade sobimatus"
 
 #: 
-msgid "Some ChurchCRM system files may have been modified since the last installation."
-msgstr "Mõnda ChurchCRM-i süsteemi faili võidi pärast viimast installimist muuta."
+msgid "Some CommunityCRM system files may have been modified since the last installation."
+msgstr "Mõnda CommunityCRM-i süsteemi faili võidi pärast viimast installimist muuta."
 
 #: 
 msgid "This upgrade will completely destroy any customizations made to the following files by reverting the files to the official version."
@@ -8789,8 +8789,8 @@ msgid "Requires users to self-enroll in 2 factor authentication"
 msgstr "Nõuab, et kasutajad registreeruksid ise kahefaktorilises autentimises"
 
 #: 
-msgid "ChurchCRM"
-msgstr "ChurchCRM"
+msgid "CommunityCRM"
+msgstr "CommunityCRM"
 
 #: 
 msgid "Specify the application name to be displayed in authenticator app"
@@ -8865,8 +8865,8 @@ msgid "Unable To Begin Two Factor Authentication Enrollment"
 msgstr "Kahe teguri autentimise registreerimist ei saa alustada"
 
 #: 
-msgid "Two factor authentication requires ChurchCRM administrators to configure a few parameters"
-msgstr "Kahefaktoriline autentimine nõuab ChurchCRM-i administraatoritelt mõne parameetri konfigureerimist"
+msgid "Two factor authentication requires CommunityCRM administrators to configure a few parameters"
+msgstr "Kahefaktoriline autentimine nõuab CommunityCRM-i administraatoritelt mõne parameetri konfigureerimist"
 
 #: 
 msgid "System configuration "
@@ -8954,12 +8954,12 @@ msgid "Invalid List id"
 msgstr "Vigane loendi ID"
 
 #: 
-msgid "Audience not in the ChurchCRM"
-msgstr "Publik pole ChurchCRM-is"
+msgid "Audience not in the CommunityCRM"
+msgstr "Publik pole CommunityCRM-is"
 
 #: 
-msgid "ChurchCRM Installation Information"
-msgstr "ChurchCRM-i installiteave"
+msgid "CommunityCRM Installation Information"
+msgstr "CommunityCRM-i installiteave"
 
 #: 
 msgid "Database Server Version"
@@ -9118,16 +9118,16 @@ msgid "Event Description"
 msgstr "Sündmuse kirjeldus"
 
 #: 
-msgid "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
-msgstr "Oma ChurchCRM-i kasutajakonto registreerimine kahefaktorilises autentimises pakub täiendavat kaitset halbade osalejate vastu, kes üritavad teie kontole juurde pääseda."
+msgid "Enrolling your CommunityCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
+msgstr "Oma CommunityCRM-i kasutajakonto registreerimine kahefaktorilises autentimises pakub täiendavat kaitset halbade osalejate vastu, kes üritavad teie kontole juurde pääseda."
 
 #: 
-msgid "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
-msgstr "ChurchCRM Two factor toetab kõiki TOTP autentimise rakendusi, nii et saate vabalt valida Microsoft Authenticatori, Google Authenticatori, Authy, LastPassi ja teiste vahel."
+msgid "CommunityCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
+msgstr "CommunityCRM Two factor toetab kõiki TOTP autentimise rakendusi, nii et saate vabalt valida Microsoft Authenticatori, Google Authenticatori, Authy, LastPassi ja teiste vahel."
 
 #: 
-msgid "When you sign in to ChurchCRM, you'll still enter your username and password like normal"
-msgstr "Kui logite sisse ChurchCRM-i, sisestate endiselt oma kasutajanime ja parooli nagu tavaliselt"
+msgid "When you sign in to CommunityCRM, you'll still enter your username and password like normal"
+msgstr "Kui logite sisse CommunityCRM-i, sisestate endiselt oma kasutajanime ja parooli nagu tavaliselt"
 
 #: 
 msgid "However, you'll also need to supply a one-time code from your authenticator device to complete your login"
@@ -9138,8 +9138,8 @@ msgid "After successfully entering both your credentials, and the one-time code,
 msgstr "Pärast nii oma mandaadi kui ka ühekordse koodi edukat sisestamist logitakse teid sisse nagu tavaliselt"
 
 #: 
-msgid "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
-msgstr "ChurchCRM-i kontole juurdepääsu vältimiseks veenduge, et olete enne alustamise klõpsamist valmis kahefaktoriliseks registreerimiseks."
+msgid "To prevent being locked out of your CommunityCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
+msgstr "CommunityCRM-i kontole juurdepääsu vältimiseks veenduge, et olete enne alustamise klõpsamist valmis kahefaktoriliseks registreerimiseks."
 
 #: 
 msgid "Beginning enrollment will invalidate any previously enrolled 2 factor devices and recovery codes."
@@ -9432,4 +9432,3 @@ msgstr "2022/2023"
 #: 
 msgid "invalid group request"
 msgstr "kehtetu rühmataotlus"
-

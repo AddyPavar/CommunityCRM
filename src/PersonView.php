@@ -6,7 +6,7 @@
  *  last change : 2003-04-14
  *  description : Displays all the information about a single person
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2001-2003 Phillip Hullquist, Deane Barker, Chris Gebhardt
  *
  ******************************************************************************/
@@ -15,13 +15,13 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\PersonQuery;
-use ChurchCRM\Service\MailChimpService;
-use ChurchCRM\Service\TimelineService;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\PersonQuery;
+use CommunityCRM\Service\MailChimpService;
+use CommunityCRM\Service\TimelineService;
+use CommunityCRM\Utils\InputUtils;
 
 ;
 

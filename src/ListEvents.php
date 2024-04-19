@@ -3,8 +3,8 @@
 /*******************************************************************************
 *
 *  filename    : ListEvents.php
-*  website     : https://churchcrm.io
-*  function    : List all Church Events
+*  website     : https://communitycrm.io
+*  function    : List all Community Events
 *
 *  copyright   : Copyright 2005 Todd Pillars
 *
@@ -21,10 +21,10 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\EventQuery;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\EventQuery;
+use CommunityCRM\Utils\InputUtils;
 
 $eType = 'All';
 $ThisYear = date('Y');
@@ -42,7 +42,7 @@ if ($eType != 'All') {
     extract($aRow);
     $sPageTitle = gettext('Listing Events of Type = ') . $type_name;
 } else {
-    $sPageTitle = gettext('Listing All Church Events');
+    $sPageTitle = gettext('Listing All Community Events');
 }
 
 // retrieve the year selector
@@ -115,7 +115,7 @@ if ($eType === 'All') {
 }
 $rsOpps = RunQuery($sSQL);
 $aRow = mysqli_fetch_array($rsOpps, MYSQLI_BOTH);
-@extract($aRow); // @ needed to suppress error messages when no church events
+@extract($aRow); // @ needed to suppress error messages when no community events
 $rsOpps = RunQuery($sSQL);
 $numRows = mysqli_num_rows($rsOpps);
 for ($r = 1; $r <= $numRows; $r++) {

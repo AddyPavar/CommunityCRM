@@ -1,7 +1,7 @@
 context("Admin User Password", () => {
     it("List System Users", () => {
         cy.loginAdmin("UserList.php");
-        cy.contains("Church Admin");
+        cy.contains("Community Admin");
     });
 
     it("Admin Change password", () => {

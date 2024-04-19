@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: ChurchCRM\n"
+"Project-Id-Version: CommunityCRM\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
@@ -61,8 +61,8 @@ msgid "Backup Database"
 msgstr "Backup Database"
 
 #: 
-msgid "This tool will assist you in manually backing up the ChurchCRM database."
-msgstr "Ez az eszköz segít neked mauális biztonsági mentést csinálni a ChurchCRM adatbázisról."
+msgid "This tool will assist you in manually backing up the CommunityCRM database."
+msgstr "Ez az eszköz segít neked mauális biztonsági mentést csinálni a CommunityCRM adatbázisról."
 
 #: 
 #, fuzzy
@@ -840,8 +840,8 @@ msgid "Use Title Page"
 msgstr "Használja Címoldal"
 
 #: 
-msgid "Church Name"
-msgstr "Church neve"
+msgid "Community Name"
+msgstr "Community neve"
 
 #: 
 msgid "Disclaimer"
@@ -928,8 +928,8 @@ msgid "Add New Fund"
 msgstr "Új alap"
 
 #: 
-msgid "Church Event Editor"
-msgstr "Church Esemény szerkesztő"
+msgid "Community Event Editor"
+msgstr "Community Esemény szerkesztő"
 
 #: 
 msgid "Edit Event Types"
@@ -1554,7 +1554,7 @@ msgid "Graphic"
 msgstr "Grafikus"
 
 #: 
-msgid "Church Address"
+msgid "Community Address"
 msgstr "Templom Cím"
 
 #: 
@@ -1968,8 +1968,8 @@ msgid "Confirm data labels"
 msgstr "Még adatfeliratokat"
 
 #: 
-msgid "Listing All Church Events"
-msgstr "Felsorolja az összes Church Events"
+msgid "Listing All Community Events"
+msgstr "Felsorolja az összes Community Events"
 
 #: 
 msgid "Select Event Types To Display"
@@ -2904,7 +2904,7 @@ msgid "\"Why Came\" notes for "
 msgstr "\"Miért jött\" megjegyzések"
 
 #: 
-msgid "Why did you come to the church?"
+msgid "Why did you come to the community?"
 msgstr "Miért jöttél a templomba?"
 
 #: 
@@ -2916,7 +2916,7 @@ msgid "Do you have any suggestions for us?"
 msgstr "Van valami javaslatod számunkra?"
 
 #: 
-msgid "How did you learn of the church?"
+msgid "How did you learn of the community?"
 msgstr "Hogyan tanultál az egyház?"
 
 #: 
@@ -3193,8 +3193,8 @@ msgid "Member/Friend"
 msgstr "Tagállamok / Friend"
 
 #: 
-msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to ChurchCRM."
-msgstr "Ez a lehetőség szerint legalább verziója 3,22 MySQL! Hit böngésző Vissza gombot, hogy visszatérjen ChurchCRM."
+msgid "This option requires at least version 3.22 of MySQL!  Hit browser back button to return to CommunityCRM."
+msgstr "Ez a lehetőség szerint legalább verziója 3,22 MySQL! Hit böngésző Vissza gombot, hogy visszatérjen CommunityCRM."
 
 #: 
 msgid "Work"
@@ -3313,7 +3313,7 @@ msgid "Gift Designation:"
 msgstr "Ajándék Megnevezés:"
 
 #: 
-msgid "Sunday School Reports"
+msgid "Education Initiative Reports"
 msgstr "Vasárnapi Iskola jelentések"
 
 #: 
@@ -3341,7 +3341,7 @@ msgstr "Múlt vasárnap"
 
 #: 
 #, fuzzy
-msgid "No Sunday School"
+msgid "No Education Initiative"
 msgstr "No Vasárnapi Iskola"
 
 #: 
@@ -3361,4 +3361,3 @@ msgstr "Create Class List"
 #: 
 msgid "Create Attendance Sheet"
 msgstr "Létrehozása jelenléti ív"
-

@@ -1,10 +1,10 @@
 <?php
 
-use ChurchCRM\dto\SystemURLs;
+use CommunityCRM\dto\SystemURLs;
 
 $URL = 'http' . (isset($_SERVER['HTTPS']) ? 's' : '') . '://' . $_SERVER['HTTP_HOST'] . '/';
 
-$sPageTitle = 'ChurchCRM – Setup';
+$sPageTitle = 'CommunityCRM – Setup';
 require '../Include/HeaderNotLoggedIn.php';
 ?>
 <script nonce="<?= SystemURLs::getCSPNonce() ?>">
@@ -23,7 +23,7 @@ require '../Include/HeaderNotLoggedIn.php';
     }
 
 </style>
-<h1 class="text-center">Welcome to ChurchCRM setup wizard</h1>
+<h1 class="text-center">Welcome to CommunityCRM setup wizard</h1>
 <p/><br/>
 <form id="setup-form">
     <div id="wizard">
@@ -32,7 +32,7 @@ require '../Include/HeaderNotLoggedIn.php';
             <table class="table table-condensed" id="prerequisites"></table>
             <p/>
             <div class="callout callout-warning" id="prerequisites-war">
-                This server isn't quite ready for ChurchCRM. If you know what you are doing.
+                This server isn't quite ready for CommunityCRM. If you know what you are doing.
                 <a href="#" onclick="skipCheck()"><b>Click here</b></a>.
             </div>
         </section>
@@ -63,12 +63,12 @@ require '../Include/HeaderNotLoggedIn.php';
                        value="<?= SystemURLs::getRootPath() ?>" class="form-control"
                        aria-describedby="ROOT_PATH_HELP">
                 <small id="ROOT_PATH_HELP" class="form-text text-muted">
-                    Root path of your ChurchCRM installation ( THIS MUST BE SET CORRECTLY! )
+                    Root path of your CommunityCRM installation ( THIS MUST BE SET CORRECTLY! )
                     <p/>
                     <i><b>Examples:</b></i>
                     <p/>
-                    If you will be accessing from <b>http://www.yourdomain.com/churchcrm</b> then you would
-                    enter <b>'/churchcrm'</b> here.
+                    If you will be accessing from <b>http://www.yourdomain.com/communitycrm</b> then you would
+                    enter <b>'/communitycrm'</b> here.
                     <br/>
                     If you will be accessing from <b>http://www.yourdomain.com</b> then you leave
                     this field blank.
@@ -107,13 +107,13 @@ require '../Include/HeaderNotLoggedIn.php';
             </div>
             <div class="form-group">
                 <label for="DB_NAME">Database Name</label>
-                <input type="text" name="DB_NAME" id="DB_NAME" placeholder="churchcrm" class="form-control"
+                <input type="text" name="DB_NAME" id="DB_NAME" placeholder="communitycrm" class="form-control"
                        aria-describedby="DB_NAME_HELP" required>
                 <small id="DB_NAME_HELP" class="form-text text-muted"></small>
             </div>
             <div class="form-group">
                 <label for="DB_USER">Database User</label>
-                <input type="text" name="DB_USER" id="DB_USER" placeholder="churchcrm" class="form-control"
+                <input type="text" name="DB_USER" id="DB_USER" placeholder="communitycrm" class="form-control"
                        aria-describedby="DB_USER_HELP" required>
                 <small id="DB_USER_HELP" class="form-text text-muted">Must have permissions to create tables and views</small>
             </div>
@@ -131,61 +131,61 @@ require '../Include/HeaderNotLoggedIn.php';
             </div>
         </section>
         <!--
-        <h2>Church Info</h2>
+        <h2>Community Info</h2>
         <section>
             <div class="form-group">
-                <label for="sChurchName">Church Name</label>
-                <input type="text" name="sChurchName" id="sChurchName" class="form-control"
-                       aria-describedby="sChurchNameHelp" required>
-                <small id="sChurchNameHelp" class="form-text text-muted"></small>
+                <label for="sCommunityName">Community Name</label>
+                <input type="text" name="sCommunityName" id="sCommunityName" class="form-control"
+                       aria-describedby="sCommunityNameHelp" required>
+                <small id="sCommunityNameHelp" class="form-text text-muted"></small>
             </div>
             <div class="form-group">
-                <label for="sChurchAddress">Church Address</label>
-                <input type="text" name="sChurchAddress" id="sChurchAddress" class="form-control"
-                       aria-describedby="sChurchAddressHelp" required>
-                <small id="sChurchAddressHelp" class="form-text text-muted"></small>
-            </div>
-
-            <div class="form-group">
-                <label for="sChurchCity">Church City</label>
-                <input type="text" name="sChurchCity" id="sChurchCity" class="form-control"
-                       aria-describedby="sChurchCityHelp" required>
-                <small id="sChurchCityHelp" class="form-text text-muted"></small>
+                <label for="sCommunityAddress">Community Address</label>
+                <input type="text" name="sCommunityAddress" id="sCommunityAddress" class="form-control"
+                       aria-describedby="sCommunityAddressHelp" required>
+                <small id="sCommunityAddressHelp" class="form-text text-muted"></small>
             </div>
 
             <div class="form-group">
-                <label for="sChurchState">Church State</label>
-                <input type="text" name="sChurchState" id="sChurchState" class="form-control"
-                       aria-describedby="sChurchStateHelp" required>
-                <small id="sChurchStateHelp" class="form-text text-muted"></small>
+                <label for="sCommunityCity">Community City</label>
+                <input type="text" name="sCommunityCity" id="sCommunityCity" class="form-control"
+                       aria-describedby="sCommunityCityHelp" required>
+                <small id="sCommunityCityHelp" class="form-text text-muted"></small>
             </div>
 
             <div class="form-group">
-                <label for="sChurchZip">Church Zip</label>
-                <input type="text" name="sChurchZip" id="sChurchZip" class="form-control"
-                       aria-describedby="sChurchZipHelp" required>
-                <small id="sChurchZipHelp" class="form-text text-muted"></small>
+                <label for="sCommunityState">Community State</label>
+                <input type="text" name="sCommunityState" id="sCommunityState" class="form-control"
+                       aria-describedby="sCommunityStateHelp" required>
+                <small id="sCommunityStateHelp" class="form-text text-muted"></small>
             </div>
 
             <div class="form-group">
-                <label for="sChurchCountry">Church Country</label>
-                <input type="text" name="sChurchCountry" id="sChurchCountry" class="form-control"
-                       aria-describedby="sChurchCountryHelp" required>
-                <small id="sChurchCountryHelp" class="form-text text-muted"></small>
+                <label for="sCommunityZip">Community Zip</label>
+                <input type="text" name="sCommunityZip" id="sCommunityZip" class="form-control"
+                       aria-describedby="sCommunityZipHelp" required>
+                <small id="sCommunityZipHelp" class="form-text text-muted"></small>
             </div>
 
             <div class="form-group">
-                <label for="sChurchPhone">Church Phone</label>
-                <input type="text" name="sChurchPhone" id="sChurchPhone" class="form-control"
-                       aria-describedby="sChurchPhoneHelp">
-                <small id="sChurchPhoneHelp" class="form-text text-muted"></small>
+                <label for="sCommunityCountry">Community Country</label>
+                <input type="text" name="sCommunityCountry" id="sCommunityCountry" class="form-control"
+                       aria-describedby="sCommunityCountryHelp" required>
+                <small id="sCommunityCountryHelp" class="form-text text-muted"></small>
             </div>
 
             <div class="form-group">
-                <label for="sChurchEmail">Church email</label>
-                <input type="email" name="sChurchEmail" id="sChurchEmail" class="form-control"
-                       aria-describedby="sChurchEmailHelp" required>
-                <small id="sChurchEmailHelp" class="form-text text-muted"></small>
+                <label for="sCommunityPhone">Community Phone</label>
+                <input type="text" name="sCommunityPhone" id="sCommunityPhone" class="form-control"
+                       aria-describedby="sCommunityPhoneHelp">
+                <small id="sCommunityPhoneHelp" class="form-text text-muted"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="sCommunityEmail">Community email</label>
+                <input type="email" name="sCommunityEmail" id="sCommunityEmail" class="form-control"
+                       aria-describedby="sCommunityEmailHelp" required>
+                <small id="sCommunityEmailHelp" class="form-text text-muted"></small>
             </div>
 
             <div class="callout callout-info" id="prerequisites-war">

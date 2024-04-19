@@ -6,7 +6,7 @@
  *  last change : 2003-09-03
  *  description : form to invoke directory report
  *
- *  https://churchcrm.io/
+ *  https://communitycrm.io/
  *  Copyright 2003 Chris Gebhardt
  *  Copyright 2004-2012 Michael Wilt
   *
@@ -16,9 +16,9 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\Authentication\AuthenticationManager;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\Utils\RedirectUtils;
+use CommunityCRM\Authentication\AuthenticationManager;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\Utils\RedirectUtils;
 
 // Check for Create Directory user permission.
 AuthenticationManager::redirectHomeIfFalse(AuthenticationManager::getCurrentUser()->isCreateDirectoryEnabled());
@@ -238,28 +238,28 @@ while ($aRow = mysqli_fetch_array($rsSecurityGrp)) {
                     <td><input type="checkbox" Name="bDirUseTitlePage" value="1"></td>
                 </tr>
                 <tr>
-                    <td><?= gettext('Church Name') ?></td>
-                    <td><input type="text" Name="sChurchName" value="<?= SystemConfig::getValue('sChurchName') ?>"></td>
+                    <td><?= gettext('Community Name') ?></td>
+                    <td><input type="text" Name="sCommunityName" value="<?= SystemConfig::getValue('sCommunityName') ?>"></td>
                 </tr>
                 <tr>
                     <td><?= gettext('Address') ?></td>
-                    <td><input type="text" Name="sChurchAddress" value="<?= SystemConfig::getValue('sChurchAddress') ?>"></td>
+                    <td><input type="text" Name="sCommunityAddress" value="<?= SystemConfig::getValue('sCommunityAddress') ?>"></td>
                 </tr>
                 <tr>
                     <td><?= gettext('City') ?></td>
-                    <td><input type="text" Name="sChurchCity" value="<?= SystemConfig::getValue('sChurchCity') ?>"></td>
+                    <td><input type="text" Name="sCommunityCity" value="<?= SystemConfig::getValue('sCommunityCity') ?>"></td>
                 </tr>
                 <tr>
                     <td><?= gettext('State') ?></td>
-                    <td><input type="text" Name="sChurchState" value="<?= SystemConfig::getValue('sChurchState') ?>"></td>
+                    <td><input type="text" Name="sCommunityState" value="<?= SystemConfig::getValue('sCommunityState') ?>"></td>
                 </tr>
                 <tr>
                     <td><?= gettext('Zip') ?></td>
-                    <td><input type="text" Name="sChurchZip" value="<?= SystemConfig::getValue('sChurchZip') ?>"></td>
+                    <td><input type="text" Name="sCommunityZip" value="<?= SystemConfig::getValue('sCommunityZip') ?>"></td>
                 </tr>
                 <tr>
                     <td><?= gettext('Phone') ?></td>
-                    <td><input type="text" Name="sChurchPhone" value="<?= SystemConfig::getValue('sChurchPhone') ?>"></td>
+                    <td><input type="text" Name="sCommunityPhone" value="<?= SystemConfig::getValue('sCommunityPhone') ?>"></td>
                 </tr>
                 <tr>
                     <td><?= gettext('Disclaimer') ?></td>

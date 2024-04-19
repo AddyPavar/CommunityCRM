@@ -3,7 +3,7 @@
 /*******************************************************************************
  *
  *  filename    : GeoPage.php
- *  website     : https://churchcrm.io
+ *  website     : https://communitycrm.io
  *  copyright   : Copyright 2004-2005 Michael Wilt
  *
  *  Additional Contributors:
@@ -20,13 +20,13 @@
 require 'Include/Config.php';
 require 'Include/Functions.php';
 
-use ChurchCRM\dto\Classification;
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\dto\SystemURLs;
-use ChurchCRM\model\ChurchCRM\FamilyQuery;
-use ChurchCRM\model\ChurchCRM\ListOptionQuery;
-use ChurchCRM\Utils\GeoUtils;
-use ChurchCRM\Utils\InputUtils;
+use CommunityCRM\dto\Classification;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\dto\SystemURLs;
+use CommunityCRM\model\CommunityCRM\FamilyQuery;
+use CommunityCRM\model\CommunityCRM\ListOptionQuery;
+use CommunityCRM\Utils\GeoUtils;
+use CommunityCRM\Utils\InputUtils;
 
 function CompareDistance($elem1, $elem2)
 {

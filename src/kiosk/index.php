@@ -6,13 +6,13 @@ require '../Include/Config.php';
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $rootPath = str_replace('/kiosk/index.php', '', $_SERVER['SCRIPT_NAME']);
-use ChurchCRM\dto\SystemConfig;
-use ChurchCRM\model\ChurchCRM\KioskDevice;
-use ChurchCRM\model\ChurchCRM\KioskDeviceQuery;
+use CommunityCRM\dto\SystemConfig;
+use CommunityCRM\model\CommunityCRM\KioskDevice;
+use CommunityCRM\model\CommunityCRM\KioskDeviceQuery;
 use Slim\Factory\AppFactory;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use ChurchCRM\Slim\Middleware\AuthMiddleware;
-use ChurchCRM\Slim\Middleware\VersionMiddleware;
+use CommunityCRM\Slim\Middleware\AuthMiddleware;
+use CommunityCRM\Slim\Middleware\VersionMiddleware;
 
 $container = new ContainerBuilder();
 AppFactory::setContainer($container);
